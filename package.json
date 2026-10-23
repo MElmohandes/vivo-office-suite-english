@@ -5,7 +5,7 @@
   "description": "Community English localization patch tested on vivo Office Suite 7.0.6 for Windows",
   "engines": {"node": ">=20"},
   "scripts": {
-    "test": "node --test test/*.test.cjs",
+    "test": "node --test",
     "build": "node src/patch.cjs",
     "verify:archive": "node tools/verify-archive.cjs"
   }
