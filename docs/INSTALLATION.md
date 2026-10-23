@@ -8,11 +8,11 @@ Open vivo Office Suite and check its About/version screen. This release was test
 
 ## 2. Download
 
-**[Download app.asar](https://github.com/MElmohandes/vivo-office-suite-english/releases/download/v1.0.0/app.asar)** from [release v1.0.0](https://github.com/MElmohandes/vivo-office-suite-english/releases/tag/v1.0.0).
+**[Download app.asar.zip](https://github.com/MElmohandes/vivo-office-suite-english/releases/download/v1.0.0/app.asar.zip)** from [release v1.0.0](https://github.com/MElmohandes/vivo-office-suite-english/releases/tag/v1.0.0).
 
-Under **Assets**, choose **app.asar** (about 395 MB). The automatically generated **Source code (zip)** and **Source code (tar.gz)** files are developer downloads, not the ready-made app file.
+Under **Assets**, choose **app.asar.zip** (about 122 MB). Right-click the downloaded ZIP, choose **Extract All**, then open the extracted folder to find `app.asar`. The automatically generated **Source code (zip)** and **Source code (tar.gz)** files are developer downloads, not the ready-made app file.
 
-Save the file; you do not need to extract or open it. If your browser adds `(1)` to its filename, rename the downloaded file to exactly `app.asar`.
+Extract the ZIP using File Explorer; do not try to open the `app.asar` inside. Copy the extracted `app.asar`, rather than the ZIP, into the application folder. If a filename was changed, make sure the replacement is exactly `app.asar`.
 
 ## 3. Fully close the app
 
@@ -38,7 +38,7 @@ Rename the existing **app.asar** to **app.asar.backup**. Approve Windows adminis
 
 ## 6. Copy the English file
 
-Copy the downloaded **app.asar** from Downloads into the `resources` folder. Approve administrator access if Windows asks. It should now contain:
+Copy the extracted **app.asar** from the extracted download folder into the `resources` folder. Approve administrator access if Windows asks. It should now contain:
 
 ```text
 resources\
@@ -66,13 +66,13 @@ This restores the file you backed up. No account/profile deletion is needed. Kee
 
 ## Optional download verification
 
-The file is **394,510,622 bytes**. SHA-256:
+The extracted **app.asar** is **394,510,622 bytes**. Its SHA-256 (not the ZIP hash) is:
 
 ```text
 c68629d20a5ef81eccdb5f46c37422f7d38d9b1a2518c73158ef5ae190a3e9cc
 ```
 
-The release's `SHA256SUMS.txt` contains the same value. You can compare it with a checksum utility. Advanced users can optionally run this PowerShell command, substituting the actual download path:
+The release's `SHA256SUMS.txt` contains the same value for the extracted file. The ZIP is 121,485,070 bytes with SHA-256 `65ec3a6136d4a1a3b59bbca62f90142c5de19a49a5c06b6ee806d6242ded48e4`. You can compare it with a checksum utility. Advanced users can optionally run this PowerShell command, substituting the actual download path:
 
 ```powershell
 Get-FileHash -LiteralPath "$env:USERPROFILE\Downloads\app.asar" -Algorithm SHA256

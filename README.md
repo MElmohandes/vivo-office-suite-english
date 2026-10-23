@@ -26,11 +26,11 @@ The domestic backend setting remains `IS_EXPORT: false`. Region checks, authenti
 
 You need vivo Office Suite **7.0.6 for Windows** already installed. No Node.js or developer tools are needed for the ready-made download.
 
-1. **[Download app.asar](https://github.com/MElmohandes/vivo-office-suite-english/releases/download/v1.0.0/app.asar)** (about 395 MB). Choose this asset, rather than Source code (zip).
+1. **[Download app.asar.zip](https://github.com/MElmohandes/vivo-office-suite-english/releases/download/v1.0.0/app.asar.zip)** (about 122 MB). Right-click the downloaded ZIP, choose **Extract All**, and use the `app.asar` inside. Choose this asset, rather than Source code (zip).
 2. Fully exit vivo Office Suite, including its icon beside the Windows clock.
 3. Open `C:\Program Files (x86)\pcsuite\resources` in File Explorer (or your actual installation folder).
 4. Rename the existing `app.asar` to `app.asar.backup`. If that backup name already exists, keep it and choose a new backup name.
-5. Copy the downloaded `app.asar` into that folder. Approve Windows administrator access if prompted.
+5. Copy the extracted `app.asar` into that folder. Approve Windows administrator access if prompted.
 6. Restart vivo Office Suite.
 
 **Keep `app.asar.unpacked` and every other installed file in place.** To undo the change, exit the app, move the English archive aside and rename your backup back to `app.asar`.
