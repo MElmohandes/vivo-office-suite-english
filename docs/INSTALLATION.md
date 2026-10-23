@@ -1,97 +1,92 @@
-# Installation and rollback
+# Easy installation — ready-made app.asar
 
-## Requirements
+**Tested on vivo Office Suite 7.0.6 for Windows.** No installer, Node.js, Git or commands are required. The official app must already be installed and working; this download is a replacement resource file, not a standalone app.
 
-- Windows with the official vivo Office Suite **7.0.6** installed and working.
-- The original unmodified archive whose SHA-256 matches the README. Obtain the application through vivo's official distribution. No vendor installer is redistributed here.
-- Node.js **20+**, a writable working folder, approximately 2 GB free disk space, and administrator access to replace a file under Program Files.
-- Your existing compatible phone/account and network connection for online features. The patch does not add support for unsupported devices or regions.
+## 1. Check the version
 
-The tested installation was `C:\Program Files (x86)\pcsuite`. If you installed elsewhere, substitute your actual folder. Do not assume the installation path is identical on every computer.
+Open vivo Office Suite and check its About/version screen. This release was tested on **7.0.6**, with a vivo X300 Pro over Wi-Fi. Other versions and vendor builds have not been validated. If your version differs, do not replace its files with this archive.
 
-## 1. Preserve the original
+## 2. Download
 
-Before the first installation, fully exit the app and its tray icon. In a normal PowerShell window, prepare a working copy:
+**[Download app.asar](https://github.com/MElmohandes/vivo-office-suite-english/releases/download/v1.0.0/app.asar)** from [release v1.0.0](https://github.com/MElmohandes/vivo-office-suite-english/releases/tag/v1.0.0).
 
-```powershell
-New-Item -ItemType Directory -Path 'C:\vivo-patch' -ErrorAction Stop
-Copy-Item -LiteralPath 'C:\Program Files (x86)\pcsuite\resources\app.asar' -Destination 'C:\vivo-patch\original-7.0.6.asar' -ErrorAction Stop
-Get-FileHash -LiteralPath 'C:\vivo-patch\original-7.0.6.asar' -Algorithm SHA256
-```
+Under **Assets**, choose **app.asar** (about 395 MB). The automatically generated **Source code (zip)** and **Source code (tar.gz)** files are developer downloads, not the ready-made app file.
 
-If the working folder already exists, use it or choose a new one; the first command deliberately reports an error rather than hiding that fact. Preserve this original archive outside the installation folder as well as the installation backup.
+Save the file; you do not need to extract or open it. If your browser adds `(1)` to its filename, rename the downloaded file to exactly `app.asar`.
 
-Expected original hash:
+## 3. Fully close the app
+
+Close every vivo Office Suite window. If its icon remains beside the Windows clock, right-click it and choose Exit/Quit. Closing the window alone may leave the app running.
+
+## 4. Open the resources folder
+
+Press **Windows + E** to open File Explorer. Paste this into its address bar and press Enter:
 
 ```text
-35ffb46ab7979ddc5250c66393dd6fb35210739dab4fd125a94462f72a7f96e0
+C:\Program Files (x86)\pcsuite\resources
 ```
 
-If it differs, stop. An already-patched archive, a different release or a vendor rebuild is not supported. The builder does not try a partial or best-effort patch. Do not rename a patched archive and call it an original. Use your genuine preserved original or an official clean installation matching this build; never delete your profile to address a hash mismatch.
+If you installed elsewhere, use that installation's `resources` folder. You should see `app.asar` and an `app.asar.unpacked` folder. If they are missing, check the folder before continuing.
 
-## 2. Build and verify
+Turn on **View → Show → File name extensions** in Windows 11, or **View → File name extensions** in Windows 10, so you see full filenames.
 
-From the extracted/cloned project directory:
+## 5. Back up the existing file
 
-```powershell
-node .\src\patch.cjs 'C:\vivo-patch\original-7.0.6.asar' 'C:\vivo-patch\english-7.0.6.asar'
-if ($LASTEXITCODE -ne 0) { throw 'Build failed; do not install.' }
-node .\tools\verify-archive.cjs 'C:\vivo-patch\english-7.0.6.asar'
-if ($LASTEXITCODE -ne 0) { throw 'Verification failed; do not install.' }
+Rename the existing **app.asar** to **app.asar.backup**. Approve Windows administrator access if asked.
+
+**If that backup already exists, keep it.** Use another name, such as `app.asar.backup-2`, for the current file. Never overwrite an older backup. You can also copy your original archive to a safe folder outside the installation.
+
+## 6. Copy the English file
+
+Copy the downloaded **app.asar** from Downloads into the `resources` folder. Approve administrator access if Windows asks. It should now contain:
+
+```text
+resources\
+  app.asar             ← downloaded English file
+  app.asar.backup      ← previous file (or your chosen backup name)
+  app.asar.unpacked\   ← existing folder, kept in place
 ```
 
-The output must be 394,510,622 bytes with SHA-256:
+**Change only app.asar.** Keep the unpacked folder and all other application files in place.
+
+## 7. Start the app
+
+Open vivo Office Suite normally. Check English navigation/settings and your phone connection. Open the cloud services you use; reopen a service if it kept an old page open.
+
+Contacts may retain the existing **Loading…** state. Translation does not fix that hosted data-loading issue. See [validation and known limits](VALIDATION.md).
+
+## Restore your previous version
+
+1. Fully close the app and its tray process.
+2. Rename the English `app.asar` to a spare name, such as `app.asar.english-disabled`. Choose another name if it already exists.
+3. Rename your actual backup, such as `app.asar.backup`, back to **app.asar**.
+4. Start the app again.
+
+This restores the file you backed up. No account/profile deletion is needed. Keep `app.asar.unpacked` in place.
+
+## Optional download verification
+
+The file is **394,510,622 bytes**. SHA-256:
 
 ```text
 c68629d20a5ef81eccdb5f46c37422f7d38d9b1a2518c73158ef5ae190a3e9cc
 ```
 
-Output files are created exclusively: choose a new name if the file already exists. The builder never writes to the source archive or the installation automatically. It checks the complete source hash, each changed file, the complete output hash, and all packed-file/block integrity values. Unpacked entries remain references to the application's existing `app.asar.unpacked` directory.
-
-## 3. Apply the archive
-
-Exit the app again, including its tray process. Open **PowerShell as Administrator** for these commands. They create a timestamped installation backup and then replace only the archive:
+The release's `SHA256SUMS.txt` contains the same value. You can compare it with a checksum utility. Advanced users can optionally run this PowerShell command, substituting the actual download path:
 
 ```powershell
-$resourceDir = 'C:\Program Files (x86)\pcsuite\resources'
-$installedArchive = Join-Path $resourceDir 'app.asar'
-$backupArchive = Join-Path $resourceDir ('app.asar.backup-' + (Get-Date -Format 'yyyyMMdd-HHmmss-fff'))
-$builtArchive = 'C:\vivo-patch\english-7.0.6.asar'
-$expectedHash = 'c68629d20a5ef81eccdb5f46c37422f7d38d9b1a2518c73158ef5ae190a3e9cc'
-if ((Get-FileHash -LiteralPath $builtArchive -Algorithm SHA256).Hash.ToLowerInvariant() -ne $expectedHash) { throw 'Incorrect patch archive.' }
-if (Test-Path -LiteralPath $backupArchive) { throw 'Backup already exists; choose a new backup name.' }
-Copy-Item -LiteralPath $installedArchive -Destination $backupArchive -ErrorAction Stop
-if ((Get-FileHash -LiteralPath $installedArchive).Hash -ne (Get-FileHash -LiteralPath $backupArchive).Hash) { throw 'Backup verification failed.' }
-Copy-Item -LiteralPath $builtArchive -Destination $installedArchive -Force -ErrorAction Stop
-if ((Get-FileHash -LiteralPath $installedArchive).Hash.ToLowerInvariant() -ne $expectedHash) { throw 'Installation verification failed; restore the backup.' }
-Write-Output "Backup retained at: $backupArchive"
+Get-FileHash -LiteralPath "$env:USERPROFILE\Downloads\app.asar" -Algorithm SHA256
 ```
 
-Keep the backup path. Leave all executables, DLLs, native addons, `app.asar.unpacked` and personal application data in place. Replacing the full application folder with this repository will not work.
+The original tested archive was 365,088,330 bytes with SHA-256 `35ffb46ab7979ddc5250c66393dd6fb35210739dab4fd125a94462f72a7f96e0`. A version label alone cannot detect vendor repackaging. The optional [source builder](BUILD-FROM-SOURCE.md) enforces the original hash; manual replacement cannot do that automatic compatibility check.
 
-## 4. Check the result
+## Common problems
 
-Start vivo Office Suite normally. Confirm English navigation and settings, reconnect your phone, then open Contacts, Browser, Spam blocking, Cloud Drive and Find Device. Reload a cloud screen if an old page was kept open. Verify your own normal workflow before relying on the modified installation.
-
-## Rollback
-
-Exit the app and tray process. In an administrator PowerShell window, restore the **actual backup path printed above**, substituting it in this example:
-
-```powershell
-Copy-Item -LiteralPath 'C:\Program Files (x86)\pcsuite\resources\app.asar.backup-YOUR-TIMESTAMP' -Destination 'C:\Program Files (x86)\pcsuite\resources\app.asar' -Force -ErrorAction Stop
-```
-
-Restart the app. This restores the archive backed up at that installation step, which may itself be a previous patch. For stock Chinese behavior, restore the verified original 7.0.6 archive. No account/profile deletion is needed.
-
-## Troubleshooting
-
-| Symptom | Action |
+| Problem | Action |
 | --- | --- |
-| Unsupported input archive | Compare the source hash; use the preserved original matching this release. A version label alone does not establish compatibility. |
-| Output already exists | Choose a new output filename. |
-| Access denied replacing the archive | Exit the app/tray and use administrator PowerShell; verify the installation path. |
-| App does not start | Restore the backup, then check the output hash and that the matching unpacked resources remain present. |
-| Some cloud UI is Chinese | Confirm the installed hash and reopen the service. Hosted page changes or unreviewed states may require a patch update; submit a sanitized issue. |
-| Contacts stays on Loading… | This was observed before and after translation; investigate the service/account/network separately. |
-| App update removes English | The updater may replace the archive. Do not patch the new version with this 7.0.6 recipe. |
-| Another 7.0.6 package has a different hash | Treat it as unsupported and report the hash/version without uploading the proprietary archive. |
+| Access denied/file in use | Exit the app/tray; approve administrator access when copying. |
+| App does not start | Restore the backup; check version, download hash and resources folder. |
+| Filename is app (1).asar or app.asar.asar | Show filename extensions and rename to exactly app.asar. |
+| Some Chinese remains | Reopen the service, verify the installed file hash and report a sanitized screenshot. Hidden states or hosted changes may need another patch. |
+| An app update removes English | Updates can replace app.asar. Do not reuse this file on a different app version. |
+| Prefer to build/verify it yourself | Use [Build from source](BUILD-FROM-SOURCE.md) to reproduce the exact archive. |

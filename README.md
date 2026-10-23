@@ -4,7 +4,7 @@ Community English localization for **vivo Office Suite 7.0.6 on Windows**, inclu
 
 **Patch release:** 1.0.0 · **Tested application:** 7.0.6 · **Test phone:** vivo X300 Pro over Wi-Fi
 
-This is an independent community project, unaffiliated with vivo. Install the official application separately. This repository provides patch recipes, localization helpers, dictionaries and tests; it does not contain the original installer, native binaries, account profiles or a complete copy of the application.
+This is an independent community project, unaffiliated with vivo. Install the official application separately. The source repository provides patch recipes, localization helpers, dictionaries and tests. GitHub Releases also provides a ready-made modified `app.asar`; the official installer, external native binaries and personal profiles are not bundled.
 
 ## What changes
 
@@ -22,34 +22,24 @@ Cloud localization uses **511 fixed labels**, reviewed selectors and a mutation 
 
 The domestic backend setting remains `IS_EXPORT: false`. Region checks, authentication and device compatibility rules remain in place.
 
-## Install
+## Easy installation — no installer or commands
 
-You need the official **Windows 7.0.6 installation**, its **original, unmodified `app.asar`**, Node.js 20 or later, and approximately 2 GB of free space for input, output and backup files. Node is required for building the patch; the installed app uses its bundled Electron runtime.
+You need vivo Office Suite **7.0.6 for Windows** already installed. No Node.js or developer tools are needed for the ready-made download.
 
-1. Download this repository using **Code → Download ZIP**, then extract it, or clone it:
+1. **[Download app.asar](https://github.com/MElmohandes/vivo-office-suite-english/releases/download/v1.0.0/app.asar)** (about 395 MB). Choose this asset, rather than Source code (zip).
+2. Fully exit vivo Office Suite, including its icon beside the Windows clock.
+3. Open `C:\Program Files (x86)\pcsuite\resources` in File Explorer (or your actual installation folder).
+4. Rename the existing `app.asar` to `app.asar.backup`. If that backup name already exists, keep it and choose a new backup name.
+5. Copy the downloaded `app.asar` into that folder. Approve Windows administrator access if prompted.
+6. Restart vivo Office Suite.
 
-   ```powershell
-   git clone https://github.com/MElmohandes/vivo-office-suite-english.git
-   cd vivo-office-suite-english
-   ```
+**Keep `app.asar.unpacked` and every other installed file in place.** To undo the change, exit the app, move the English archive aside and rename your backup back to `app.asar`.
 
-2. Copy your original `resources\app.asar` to a writable working folder. Build a new archive, choosing an output path that does not already exist:
-
-   ```powershell
-   node .\src\patch.cjs "C:\vivo-patch\original-7.0.6.asar" "C:\vivo-patch\english-7.0.6.asar"
-   node .\tools\verify-archive.cjs "C:\vivo-patch\english-7.0.6.asar"
-   ```
-
-3. Fully exit vivo Office Suite, including its notification-area/tray process. Back up the installed `app.asar`, then copy the built archive into the installation's `resources` directory as **`app.asar`**. Approve Windows administrator access if prompted.
-4. Restart the app and check the home page, settings, cloud services and phone connection.
-
-**Replace only `resources\app.asar`. Keep `app.asar.unpacked` and the rest of the installed application together.** Do not copy this repository into the application folder.
-
-The detailed [installation and rollback guide](docs/INSTALLATION.md) includes PowerShell commands, compatibility hashes, backup rules and troubleshooting. Building never changes your installed app and refuses to overwrite existing output files.
+The [beginner installation guide](docs/INSTALLATION.md) explains filename extensions, safe backups, optional checksum verification and troubleshooting. Advanced users can [build from source](docs/BUILD-FROM-SOURCE.md) to reproduce the exact same archive.
 
 ## Compatibility and checksums
 
-Only the exact original archive below is accepted. A matching displayed version alone is insufficient: vendor repackaging or earlier localization can change the bytes.
+The ready-made file was tested with the original archive below. The optional source builder accepts only that exact original. A matching displayed version alone cannot detect vendor repackaging; other builds have not been validated.
 
 | Archive | Size (bytes) | SHA-256 |
 | --- | ---: | --- |

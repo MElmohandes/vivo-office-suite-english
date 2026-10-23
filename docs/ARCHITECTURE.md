@@ -39,3 +39,5 @@ The cloud localization pass retained the previous startup/main-process helper be
 ## Public repository boundary
 
 The repository contains no complete vendor application, native dependencies, signed-in profiles, cookies, access tokens, precise-location captures or raw runtime dumps. Those are not needed to reproduce the archive from a user's own matching original installation. Public CI uses synthetic archive fixtures; full compatibility verification is local and requires the proprietary original.
+
+GitHub Releases separately provides the tested modified app.asar and its checksum for manual installation. The asset contains vendor code/assets and requires the matching official installation and external unpacked resources. Personal profiles are not included.
