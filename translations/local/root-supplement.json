@@ -1,0 +1,715 @@
+{
+  "files": [],
+  "translations": {},
+  "extraEdits": [
+    {
+      "file": "components-connection.js",
+      "start": 23985,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 23997,
+      "source": "连接",
+      "target": "Connect",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 45333,
+      "source": "您已主动断开连接",
+      "target": "You disconnected this device.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 45534,
+      "source": "您已主动断开连接",
+      "target": "You disconnected this device.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 45736,
+      "source": "您已主动断开连接",
+      "target": "You disconnected this device.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 98517,
+      "source": "前往手机/平板的“设置”>“关于手机/关于平板电脑”>“版本信息”",
+      "target": "On your phone/tablet, go to Settings > About phone/tablet > Version information.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 98558,
+      "source": "若手机/平板系统在 OriginOS 4 以下，则前往“设置”>“系统管理”>“关于手机/关于平板电脑”>“版本信息”",
+      "target": "On versions earlier than OriginOS 4, go to Settings > System management > About phone/tablet > Version information.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 98654,
+      "source": "连续点击“软件版本号”(通常为7次)，进入开发者模式",
+      "target": "Tap Software version repeatedly (usually 7 times) to enter Developer mode.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 98725,
+      "source": "前往手机/平板的“设置”>“系统管理与升级”>“开发者选项”",
+      "target": "Go to Settings > System management and update > Developer options.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 98800,
+      "source": "打开“开发者选项”及“USB调试”开关",
+      "target": "Enable Developer options and USB debugging.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 98827,
+      "source": "若手机/平板系统在 OriginOS 4 以下，则前往“设置”>“系统管理”>“关于手机/关于平板电脑”>“版本信息”",
+      "target": "On versions earlier than OriginOS 4, go to Settings > System management > About phone/tablet > Version information.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 98923,
+      "source": "如手机/平板弹出提示弹窗，请点击确定允许 USB 调试。打开 USB 调试后，手机/平板将直接与电脑进行连接",
+      "target": "If your phone/tablet prompts you, tap OK to allow USB debugging. The device will then connect to your PC.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 99218,
+      "source": "请用 USB 数据线连接手机/平板与电脑，并确保手机/平板已解锁亮屏",
+      "target": "Connect your phone/tablet to your PC with a USB data cable. Keep its screen unlocked and on.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 103099,
+      "source": "前往手机/平板的“设置”>“关于手机/关于平板电脑”>“版本信息”",
+      "target": "On your phone/tablet, go to Settings > About phone/tablet > Version information.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 103140,
+      "source": "若手机/平板系统在 OriginOS 4 以下，则前往“设置”>“系统管理”>“关于手机/关于平板电脑”>“版本信息”",
+      "target": "On versions earlier than OriginOS 4, go to Settings > System management > About phone/tablet > Version information.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 103236,
+      "source": "连续点击“软件版本号”(通常为7次)，进入开发者模式",
+      "target": "Tap Software version repeatedly (usually 7 times) to enter Developer mode.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 103307,
+      "source": "前往手机/平板的“设置”>“系统管理与升级”>“开发者选项”",
+      "target": "Go to Settings > System management and update > Developer options.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 103382,
+      "source": "打开“开发者选项”及“USB调试”开关",
+      "target": "Enable Developer options and USB debugging.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 103409,
+      "source": "若手机/平板系统在 OriginOS 4 以下，则前往“设置”>“系统管理”>“关于手机/关于平板电脑”>“版本信息”",
+      "target": "On versions earlier than OriginOS 4, go to Settings > System management > About phone/tablet > Version information.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 103505,
+      "source": "如手机/平板弹出提示弹窗，请点击确定允许 USB 调试。打开 USB 调试后，手机/平板将直接与电脑进行连接",
+      "target": "If your phone/tablet prompts you, tap OK to allow USB debugging. The device will then connect to your PC.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 103682,
+      "source": "请用 USB 数据线连接手机/平板与电脑，并确保手机/平板已解锁亮屏",
+      "target": "Connect your phone/tablet to your PC with a USB data cable. Keep its screen unlocked and on.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 103794,
+      "source": "1.部分手机或平板接入电脑时，电脑右下角会弹出询问弹窗，点击“连接”并在手机或平板上允许连接后，可开始连接。",
+      "target": "1. Some devices show a prompt in the lower-right corner of your PC. Click Connect, then allow the connection on your phone/tablet.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 103893,
+      "source": "2.部分手机或平板接入电脑时，手机或平板的弹窗会显示“连接办公套件”选项，点击后允许USB调试，可开始连接。",
+      "target": "2. Some devices show Connect to Office Suite on the phone/tablet. Tap it and allow USB debugging to connect.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 114912,
+      "source": "USB连接",
+      "target": "USB connection",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 115603,
+      "source": "前往手机/平板的“设置”>“关于手机/关于平板电脑”>“版本信息”",
+      "target": "On your phone/tablet, go to Settings > About phone/tablet > Version information.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 115644,
+      "source": "若手机/平板系统在 OriginOS 4 以下，则前往“设置”>“系统管理”>“关于手机/关于平板电脑”>“版本信息”",
+      "target": "On versions earlier than OriginOS 4, go to Settings > System management > About phone/tablet > Version information.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 115740,
+      "source": "连续点击“软件版本号”(通常为7次)，进入开发者模式",
+      "target": "Tap Software version repeatedly (usually 7 times) to enter Developer mode.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 115811,
+      "source": "前往手机/平板的“设置”>“系统管理与升级”>“开发者选项”",
+      "target": "Go to Settings > System management and update > Developer options.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 115886,
+      "source": "打开“开发者选项”及“USB调试”开关",
+      "target": "Enable Developer options and USB debugging.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 115913,
+      "source": "若手机/平板系统在 OriginOS 4 以下，则前往“设置”>“系统管理”>“关于手机/关于平板电脑”>“版本信息”",
+      "target": "On versions earlier than OriginOS 4, go to Settings > System management > About phone/tablet > Version information.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 116009,
+      "source": "如手机/平板弹出提示弹窗，请点击确定允许 USB 调试。打开 USB 调试后，手机/平板将直接与电脑进行连接",
+      "target": "If your phone/tablet prompts you, tap OK to allow USB debugging. The device will then connect to your PC.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 145190,
+      "source": "若手机系统版本为 OriginOS 5 以下，可前往“设置”> “更多连接” > “多设备互联”> “跨设备使用” > “键鼠协同”。",
+      "target": "On phone versions earlier than OriginOS 5, go to Settings > More connections > Multi-device connectivity > Cross-device use > Keyboard and mouse sharing.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 145260,
+      "source": "若平板电脑系统版本为 OriginOS 4 以下，可前往“设置”>“多设备互联”>“键鼠协同”。",
+      "target": "On tablet versions earlier than OriginOS 4, go to Settings > Multi-device connectivity > Keyboard and mouse sharing.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 145311,
+      "source": "若“多设备互联”或“连接中心”已关闭，需先开启。",
+      "target": "Enable Multi-device connectivity or Connection center first if it is off.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 146756,
+      "source": "开启手机、平板“键鼠协同”开关后，在电脑点击“键鼠协同”卡片即可协同（手机端路径：“设置”>“更多连接”>“连接中心”>“跨设备使用”>“键鼠协同”；平板端路径：“设置”>“连接中心”>“跨设备使用”>“键鼠协同”）。",
+      "target": "Enable Keyboard and mouse sharing on your phone/tablet, then click its card on your PC. On phones: Settings > More connections > Connection center > Cross-device use > Keyboard and mouse sharing. On tablets: Settings > Connection center > Cross-device use > Keyboard and mouse sharing.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 191826,
+      "source": "笔记日程，协同更流畅",
+      "target": "Keep your notes and schedules in sync.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 203032,
+      "source": "上的vivo办公套件（原量子套件）版本较低，升级后才能重新连接，是否升级？",
+      "target": " has an older version of vivo Office Suite (formerly Quantum Suite). Update it to reconnect?",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 203082,
+      "source": "“量子套件”已正式更名为“vivo办公套件”，新增了手机、平板与电脑间键鼠协同、远控控制与文件传输管理，为您提供更高效便捷的办公体验。",
+      "target": "Quantum Suite is now vivo Office Suite, with keyboard and mouse sharing, remote control, and file transfers across your phone, tablet, and PC.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 416859,
+      "source": "设备互联",
+      "target": "Device connectivity",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 473487,
+      "source": "在手机的“设置”>“更多连接”>“连接中心”>“数据接力”>“剪贴板”，开启“剪贴板”开关（若手机“连接中心”开关已关闭，请先开启）。",
+      "target": "On your phone, go to Settings > More connections > Connection center > Data handoff > Clipboard and enable Clipboard. Enable Connection center first if it is off.",
+      "reason": "Reviewed connection setup instruction, description or dialog label"
+    },
+    {
+      "file": "renderer.js",
+      "start": 779303,
+      "source": "小V Claw",
+      "target": "V Claw",
+      "reason": "Product display name; variable used only as UI text"
+    },
+    {
+      "file": "renderer.js",
+      "start": 391455,
+      "source": "无",
+      "target": "None",
+      "reason": "Alternate-calendar option label with numeric value 0"
+    },
+    {
+      "file": "child-window.js",
+      "start": 404652,
+      "source": "无",
+      "target": "None",
+      "reason": "Alternate-calendar option label with numeric value 0"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 336268,
+      "source": "无",
+      "target": "None",
+      "reason": "Alternate-calendar option label with numeric value 0"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1881294,
+      "source": "为确保您能收到通知，请检查并打开电脑系统设置中的“vivo办公套件”通知。",
+      "target": "To receive notifications, enable vivo Office Suite notifications in your computer’s system settings.",
+      "reason": "General settings notification description"
+    }
+  ],
+  "expressionEdits": [
+    {
+      "file": "components-connection.js",
+      "start": 13337,
+      "end": 13377,
+      "source": "`手机/平板接入同一网络“${this.wlanName}”，并保持解锁亮屏。`",
+      "target": "`Connect your phone/tablet to the same network \"${this.wlanName}\" and keep its screen unlocked and on.`",
+      "reason": "Translate connection dialog text; preserve interpolated device and network values"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 20798,
+      "end": 20925,
+      "source": "`办公套件仅支持连接一部${this.getDeviceTypeDesc(_)}，当前“${null===(v=this.phoneReadytoConnect)||void 0===v?void 0:v.mobileDeviceName}”正在连接。`",
+      "target": "`Office Suite can connect to one ${require(require('path').join(__dirname,'ui-display.cjs')).label(this.getDeviceTypeDesc(_))} at a time. \"${null===(v=this.phoneReadytoConnect)||void 0===v?void 0:v.mobileDeviceName}\" is connecting.`",
+      "reason": "Translate connection dialog text; preserve interpolated device and network values"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 20926,
+      "end": 21022,
+      "source": "`请等待“${null===(p=this.phoneReadytoConnect)||void 0===p?void 0:p.mobileDeviceName}”连接完成后，再连接该设备。`",
+      "target": "`Wait for \"${null===(p=this.phoneReadytoConnect)||void 0===p?void 0:p.mobileDeviceName}\" to finish connecting, then try this device.`",
+      "reason": "Translate connection dialog text; preserve interpolated device and network values"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 21058,
+      "end": 21072,
+      "source": "`“${f}”暂时无法连接`",
+      "target": "`Cannot connect to \"${f}\" right now`",
+      "reason": "Translate connection dialog text; preserve interpolated device and network values"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 23866,
+      "end": 23932,
+      "source": "`办公套件仅支持连接一部${this.getDeviceTypeDesc(t)}，连接“${e}”，将自动断开“${i}”的连接。`",
+      "target": "`Office Suite can connect to one ${require(require('path').join(__dirname,'ui-display.cjs')).label(this.getDeviceTypeDesc(t))} at a time. Connecting to \"${e}\" will disconnect \"${i}\".`",
+      "reason": "Translate connection dialog text; preserve interpolated device and network values"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 23956,
+      "end": 23969,
+      "source": "`是否连接“${e}”？`",
+      "target": "`Connect to \"${e}\"?`",
+      "reason": "Translate connection dialog text; preserve interpolated device and network values"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 31463,
+      "end": 31527,
+      "source": "`因为${this.wifiName}安全策略限制，暂时无法发现周围的${this.deviceDesc}，请您使用扫码连接。`",
+      "target": "`The security policy on ${this.wifiName} prevents discovery of nearby ${require(require('path').join(__dirname,'ui-display.cjs')).label(this.deviceDesc)} devices. Scan a QR code to connect instead.`",
+      "reason": "Translate connection dialog text; preserve interpolated device and network values"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 31549,
+      "end": 31599,
+      "source": "`请将${this.deviceDesc}接入 ${this.wifiName}，并保持解锁亮屏。`",
+      "target": "`Connect your ${require(require('path').join(__dirname,'ui-display.cjs')).label(this.deviceDesc)} to ${this.wifiName} and keep its screen unlocked and on.`",
+      "reason": "Translate connection dialog text; preserve interpolated device and network values"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 31600,
+      "end": 31655,
+      "source": "`请将${this.deviceDesc}接入同一网络，并保持${this.deviceDesc}解锁亮屏。`",
+      "target": "`Connect your ${require(require('path').join(__dirname,'ui-display.cjs')).label(this.deviceDesc)} to the same network and keep its screen unlocked and on.`",
+      "reason": "Translate connection dialog text; preserve interpolated device and network values"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 54169,
+      "end": 54210,
+      "source": "`请将${this.deviceDesc}与电脑接入同一 WLAN 网络后重试。`",
+      "target": "`Connect your ${require(require('path').join(__dirname,'ui-display.cjs')).label(this.deviceDesc)} and PC to the same WLAN and try again.`",
+      "reason": "Translate connection dialog text; preserve interpolated device and network values"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 254274,
+      "end": 254290,
+      "source": "e.deviceTypeDesc",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(e.deviceTypeDesc)",
+      "reason": "Translate rendered device type while retaining internal device descriptors"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 274048,
+      "end": 274060,
+      "source": "e.deviceDesc",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(e.deviceDesc)",
+      "reason": "Translate rendered device type while retaining internal device descriptors"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 275873,
+      "end": 275885,
+      "source": "e.deviceDesc",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(e.deviceDesc)",
+      "reason": "Translate rendered device type while retaining internal device descriptors"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 275905,
+      "end": 275917,
+      "source": "e.deviceDesc",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(e.deviceDesc)",
+      "reason": "Translate rendered device type while retaining internal device descriptors"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 276520,
+      "end": 276532,
+      "source": "e.deviceDesc",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(e.deviceDesc)",
+      "reason": "Translate rendered device type while retaining internal device descriptors"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 279333,
+      "end": 279345,
+      "source": "e.deviceDesc",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(e.deviceDesc)",
+      "reason": "Translate rendered device type while retaining internal device descriptors"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 285681,
+      "end": 285693,
+      "source": "e.deviceDesc",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(e.deviceDesc)",
+      "reason": "Translate rendered device type while retaining internal device descriptors"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 288290,
+      "end": 288302,
+      "source": "e.deviceDesc",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(e.deviceDesc)",
+      "reason": "Translate rendered device type while retaining internal device descriptors"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 289063,
+      "end": 289075,
+      "source": "e.deviceDesc",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(e.deviceDesc)",
+      "reason": "Translate rendered device type while retaining internal device descriptors"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 289286,
+      "end": 289298,
+      "source": "e.deviceDesc",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(e.deviceDesc)",
+      "reason": "Translate rendered device type while retaining internal device descriptors"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 290285,
+      "end": 290297,
+      "source": "e.deviceDesc",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(e.deviceDesc)",
+      "reason": "Translate rendered device type while retaining internal device descriptors"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 291443,
+      "end": 291455,
+      "source": "e.deviceDesc",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(e.deviceDesc)",
+      "reason": "Translate rendered device type while retaining internal device descriptors"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 292845,
+      "end": 292857,
+      "source": "e.deviceDesc",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(e.deviceDesc)",
+      "reason": "Translate rendered device type while retaining internal device descriptors"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 295744,
+      "end": 295756,
+      "source": "e.deviceDesc",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(e.deviceDesc)",
+      "reason": "Translate rendered device type while retaining internal device descriptors"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 308545,
+      "end": 308561,
+      "source": "e.deviceTypeDesc",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(e.deviceTypeDesc)",
+      "reason": "Translate rendered device type while retaining internal device descriptors"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 308838,
+      "end": 308854,
+      "source": "e.deviceTypeDesc",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(e.deviceTypeDesc)",
+      "reason": "Translate rendered device type while retaining internal device descriptors"
+    },
+    {
+      "file": "components-connection.js",
+      "start": 415152,
+      "end": 415220,
+      "source": "`当前处于云连接状态，如需${e==a.APP_NAME.BACKUP_FILE?\"备份图片视频\":s}，请使用 USB 连接该设备。`",
+      "target": "`You are connected through the cloud. To use ${e==a.APP_NAME.BACKUP_FILE?\"photo and video backup\":s}, connect this device by USB.`",
+      "reason": "Translate connection dialog text; preserve interpolated device and network values"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1733508,
+      "end": 1733520,
+      "source": "l.getTips(e)",
+      "target": "require(require(\"path\").join(__dirname,\"ui-display.cjs\")).label(l.getTips(e))",
+      "reason": "Runtime verified display-only localization gap"
+    },
+    {
+      "file": "128.js",
+      "start": 471982,
+      "end": 472030,
+      "source": "\"登录并开启同步，XX云端YY\".replace(\"YY\",i).replace(\"XX\",t)",
+      "target": "\"Sign in and enable sync to XX cloud YY\".replace(\"YY\",require(require(\"path\").join(__dirname,\"ui-display.cjs\")).label(i)).replace(\"XX\",require(require(\"path\").join(__dirname,\"ui-display.cjs\")).label(t))",
+      "reason": "Runtime verified display-only localization gap"
+    },
+    {
+      "file": "128.js",
+      "start": 472201,
+      "end": 472246,
+      "source": "\"开启同步，XX云端YY\".replace(\"YY\",i).replace(\"XX\",t)",
+      "target": "\"Enable sync to XX cloud YY\".replace(\"YY\",require(require(\"path\").join(__dirname,\"ui-display.cjs\")).label(i)).replace(\"XX\",require(require(\"path\").join(__dirname,\"ui-display.cjs\")).label(t))",
+      "reason": "Runtime verified display-only localization gap"
+    },
+    {
+      "file": "128.js",
+      "start": 472441,
+      "end": 472492,
+      "source": "(this.isTypeCalendar?\"无待办YY\":\"无YY\").replace(\"YY\",t)",
+      "target": "(this.isTypeCalendar?\"No to-dos YY\":\"No YY\").replace(\"YY\",require(require(\"path\").join(__dirname,\"ui-display.cjs\")).label(t))",
+      "reason": "Runtime verified display-only localization gap"
+    },
+    {
+      "file": "158.js",
+      "start": 18518,
+      "end": 18535,
+      "source": "e._s(t.labelText)",
+      "target": "e._s(require(require(\"path\").join(__dirname,\"ui-display.cjs\")).weekday(t.labelText))",
+      "reason": "Runtime verified calendar or built-in album display text"
+    },
+    {
+      "file": "158.js",
+      "start": 14466,
+      "end": 14501,
+      "source": "`<span class=\"filDay\"> ${n}</span>`",
+      "target": "`<span class=\"filDay\"> ${require(require(\"path\").join(__dirname,\"ui-display.cjs\")).calendarLabel(n)}</span>`",
+      "reason": "Runtime verified calendar or built-in album display text"
+    },
+    {
+      "file": "158.js",
+      "start": 14536,
+      "end": 14582,
+      "source": "`<span class=\"filDay line-color\"> ${n}</span>`",
+      "target": "`<span class=\"filDay line-color\"> ${require(require(\"path\").join(__dirname,\"ui-display.cjs\")).calendarLabel(n)}</span>`",
+      "reason": "Runtime verified calendar or built-in album display text"
+    },
+    {
+      "file": "158.js",
+      "start": 14733,
+      "end": 14790,
+      "source": "`<span class=\"workFreeColor workCircle ${r}\">${s}</span>`",
+      "target": "`<span class=\"workFreeColor workCircle ${r}\">${require(require(\"path\").join(__dirname,\"ui-display.cjs\")).calendarLabel(s)}</span>`",
+      "reason": "Runtime verified calendar or built-in album display text"
+    },
+    {
+      "file": "158.js",
+      "start": 14791,
+      "end": 14837,
+      "source": "`<span class=\"workFreeColor ${r}\">${s}</span>`",
+      "target": "`<span class=\"workFreeColor ${r}\">${require(require(\"path\").join(__dirname,\"ui-display.cjs\")).calendarLabel(s)}</span>`",
+      "reason": "Runtime verified calendar or built-in album display text"
+    },
+    {
+      "file": "158.js",
+      "start": 15039,
+      "end": 15064,
+      "source": "1===this.calendarType?o:d",
+      "target": "require(require(\"path\").join(__dirname,\"ui-display.cjs\")).calendarLabel(1===this.calendarType?o:d)",
+      "reason": "Runtime verified calendar or built-in album display text"
+    },
+    {
+      "file": "158.js",
+      "start": 12588,
+      "end": 12601,
+      "source": "\"还有\"+e+\"项...\"",
+      "target": "e+\" more...\"",
+      "reason": "Runtime verified calendar or built-in album display text"
+    },
+    {
+      "file": "130.js",
+      "start": 29498,
+      "end": 29511,
+      "source": "t._s(e.title)",
+      "target": "t._s(e.displayName===\"Holiday Event\"?require(require(\"path\").join(__dirname,\"ui-display.cjs\")).calendarLabel(e.title):e.title)",
+      "reason": "Runtime verified calendar or built-in album display text"
+    },
+    {
+      "file": "137.js",
+      "start": 6189,
+      "end": 6207,
+      "source": "e._s(t.folderName)",
+      "target": "e._s(require(require(\"path\").join(__dirname,\"ui-display.cjs\")).albumFolder(t))",
+      "reason": "Runtime verified calendar or built-in album display text"
+    },
+    {
+      "file": "137.js",
+      "start": 6417,
+      "end": 6487,
+      "source": "t.folderName.length>17?t.folderName.substring(0,17)+\"...\":t.folderName",
+      "target": "require(require(\"path\").join(__dirname,\"ui-display.cjs\")).albumFolder(t).length>17?require(require(\"path\").join(__dirname,\"ui-display.cjs\")).albumFolder(t).substring(0,17)+\"...\":require(require(\"path\").join(__dirname,\"ui-display.cjs\")).albumFolder(t)",
+      "reason": "Runtime verified calendar or built-in album display text"
+    },
+    {
+      "file": "32.js",
+      "start": 148741,
+      "end": 148754,
+      "source": "e.event.title",
+      "target": "e.event.extendedProps.displayName===\"Holiday Event\"?require(require(\"path\").join(__dirname,\"ui-display.cjs\")).calendarLabel(e.event.title):e.event.title",
+      "reason": "Translate only FullCalendar built-in holiday titles at rendering"
+    },
+    {
+      "file": "32.js",
+      "start": 148983,
+      "end": 148996,
+      "source": "e.event.title",
+      "target": "e.event.extendedProps.displayName===\"Holiday Event\"?require(require(\"path\").join(__dirname,\"ui-display.cjs\")).calendarLabel(e.event.title):e.event.title",
+      "reason": "Translate only FullCalendar built-in holiday titles at rendering"
+    },
+    {
+      "file": "32.js",
+      "start": 150002,
+      "end": 150015,
+      "source": "e.event.title",
+      "target": "e.event.extendedProps.displayName===\"Holiday Event\"?require(require(\"path\").join(__dirname,\"ui-display.cjs\")).calendarLabel(e.event.title):e.event.title",
+      "reason": "Translate only FullCalendar built-in holiday titles at rendering"
+    },
+    {
+      "file": "32.js",
+      "start": 150740,
+      "end": 150753,
+      "source": "e.event.title",
+      "target": "e.event.extendedProps.displayName===\"Holiday Event\"?require(require(\"path\").join(__dirname,\"ui-display.cjs\")).calendarLabel(e.event.title):e.event.title",
+      "reason": "Translate only FullCalendar built-in holiday titles at rendering"
+    },
+    {
+      "file": "32.js",
+      "start": 150818,
+      "end": 150831,
+      "source": "e.event.title",
+      "target": "e.event.extendedProps.displayName===\"Holiday Event\"?require(require(\"path\").join(__dirname,\"ui-display.cjs\")).calendarLabel(e.event.title):e.event.title",
+      "reason": "Translate only FullCalendar built-in holiday titles at rendering"
+    },
+    {
+      "file": "147.js",
+      "start": 15433,
+      "end": 15447,
+      "source": "e._s(t.ncWeek)",
+      "target": "e._s(require(require(\"path\").join(__dirname,\"ui-display.cjs\")).weekday(t.ncWeek))",
+      "reason": "Week view generated date headers at rendering boundary"
+    },
+    {
+      "file": "147.js",
+      "start": 16286,
+      "end": 16301,
+      "source": "e._s(t.nlTitle)",
+      "target": "e._s(require(require(\"path\").join(__dirname,\"ui-display.cjs\")).calendarLabel(t.nlTitle))",
+      "reason": "Week view generated date headers at rendering boundary"
+    },
+    {
+      "file": "147.js",
+      "start": 15785,
+      "end": 15809,
+      "source": "e._s(t.isWorkOrFreeDays)",
+      "target": "e._s(require(require(\"path\").join(__dirname,\"ui-display.cjs\")).calendarLabel(t.isWorkOrFreeDays))",
+      "reason": "Week view generated date headers at rendering boundary"
+    }
+  ]
+}

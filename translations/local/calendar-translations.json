@@ -1,0 +1,4551 @@
+{
+  "files": [
+    "128.js",
+    "129.js",
+    "130.js",
+    "132.js",
+    "133.js",
+    "134.js",
+    "135.js",
+    "136.js",
+    "137.js",
+    "8.js",
+    "22.js"
+  ],
+  "translations": {
+    "移动设备如何与电脑自动连接？": "How do mobile devices connect automatically to the computer?",
+    "说明：": "Instructions:",
+    "\n                        加入会议\n                    ": "\n                        Join meeting\n                    ",
+    " 全天": " All day",
+    "返回新版": "Return to new version",
+    "查看旧版数据": "View legacy data",
+    "全部": "All",
+    "\n      查看旧版数据\n    ": "\n      View legacy data\n    ",
+    "正在导入中，请稍后再试": "Import in progress. Try again later.",
+    "该相册不支持拖动导入": "Drag-and-drop import is unavailable for this album",
+    "文件无效，请上传有效的录音文件": "Invalid file. Select a valid recording.",
+    "录音文件加载失败": "Could not load recording",
+    "录音文件不存在": "Recording does not exist",
+    "录音文件下载失败": "Could not download recording",
+    "编辑日程": "Edit event",
+    "关闭": "Close",
+    "完成": "Done",
+    "全天": "All day",
+    "目标日": "Target date",
+    "开始": "Start",
+    "结束": "End",
+    "提醒": "Reminder",
+    "时区": "Time zone",
+    "输入地点": "Enter location",
+    "输入备注": "Enter notes",
+    "创建更多日程": "Create more events",
+    "通知提醒：": "Notifications:",
+    "重复: ": "Repeat: ",
+    "创建以上": "Create these",
+    "个日程": " events",
+    "编辑": "Edit",
+    "删除": "Delete",
+    "在原子笔记中查看 >": "View in Notes >",
+    "无提醒": "No reminder",
+    "加入会议": "Join meeting",
+    "备注": "Notes",
+    "类型": "Type",
+    "应用全部": "Apply to all",
+    "停止": "Stop",
+    "替换": "Replace",
+    "保留两者": "Keep both",
+    "取消": "Cancel",
+    "重试": "Retry",
+    "设置日程类型": "Set event type",
+    "待添加类型": "Select a type",
+    "最多查看到 1901 年的日程": "Events are available from 1901",
+    "最多查看到 2099 年的日程": "Events are available through 2099",
+    "加载中": "Loading",
+    "日历 - 待办": "Calendar - To-dos",
+    "项": " items",
+    "查看全部\n      ": "View all\n      ",
+    "相册": "Albums",
+    "日历": "Calendar",
+    "文档": "Documents",
+    "更多(+": "More (+",
+    "收起": "Collapse",
+    "AI识别": "AI recognition",
+    "录音文件": "Recordings",
+    "最近删除": "Recently deleted",
+    "已过期": "Expired",
+    "恢复失败": "Could not restore",
+    "查看失败，照片已不存在": "Cannot view: the photo no longer exists",
+    "日期跳转": "Go to date",
+    "农历": "Lunar calendar",
+    "年": "Year",
+    "月": "Month",
+    "日": "Day",
+    "确定": "OK",
+    "复制": "Copy",
+    "粘贴": "Paste",
+    "搜索日程或待办": "Search events or to-dos",
+    "今日无日程": "No events today",
+    "\n          开启以下设备的日程数据同步开关，实现多端日程自动同步：\n        ": "\n          Enable calendar sync on the following devices to sync events automatically:\n        ",
+    "查看帮助": "View help",
+    "待办": "To-dos",
+    "农历初一": "First lunar day",
+    "今天": "Today",
+    "新建": "New",
+    "排序": "Sort",
+    "日程与待办管理": "Manage events and to-dos",
+    "显示已完成待办": "Show completed to-dos",
+    "隐藏已完成待办": "Hide completed to-dos",
+    "日期": "Date",
+    "新建日程": "New event",
+    "选择日期": "Select date",
+    "日程": "Events",
+    "最多查看到1901年的日程": "Events are available from 1901",
+    "\n            查看": "\n            View",
+    "之前的日程\n          ": " earlier events\n          ",
+    "最多查看到2099年的日程": "Events are available through 2099",
+    "之后的日程\n          ": " later events\n          ",
+    "搜索日程": "Search events",
+    "AI搜索问答可通过日常交流语言搜索已连接设备的文件，为您匹配相关结果及AI问答。": "AI Search & Answers finds files on connected devices using everyday language and provides relevant results and AI answers.",
+    "去使用": "Try now",
+    "使用AI搜索问答需先解析": "To use AI Search & Answers, first analyze files on ",
+    "的文件内容。": ".",
+    "去解析": "Analyze now",
+    "正在解析数据，请稍后使用AI搜索问答": "Analyzing data. Try AI Search & Answers later.",
+    "数据解析异常，将在": "Analysis failed. It will resume on ",
+    "熄屏充电时尝试继续完成解析。": " when the screen is off and the device is charging.",
+    "知道了": "Got it",
+    "使用AI搜索问答需登录vivo账号。": "Sign in to your vivo account to use AI Search & Answers.",
+    "去登录": "Sign in",
+    "正在AI搜索": "Searching with AI",
+    "本地内容匹配中": "Matching local content",
+    "展开": "Expand",
+    "因内容规则限制，当前内容已停止生成。": "Generation stopped due to content restrictions.",
+    "内容由AI大模型生成，仅供参考。": "AI-generated content. For reference only.",
+    "复制全文": "Copy all text",
+    "保存为新原子笔记": "Save as new note",
+    "参考来源": "Sources",
+    "AI搜索为您找到以下结果：": "AI Search found the following results:",
+    "更多（": "More (",
+    "\"vivo办公套件\"新增AI搜索问答，可用于通过日常交流语言搜索已连接设备的文件，为您匹配相关结果及AI问答。为提供上述功能，本应用已更新相关协议。点击“同意”，即视为同意\n        ": "vivo Office Suite now offers AI Search & Answers to find files on connected devices using everyday language and provide relevant results and AI answers. The related agreements have been updated to support this feature. By clicking Agree, you accept the \n        ",
+    "vivo办公套件隐私政策": "vivo Office Suite Privacy Policy",
+    " 不同意 ": " Disagree ",
+    " 同意 ": " Agree ",
+    "结果生成中，请稍后再试": "Generating results. Try again later.",
+    "复制成功": "Copied",
+    "该篇笔记已被删除": "This note has been deleted",
+    "点击空白处添加待办": "Click an empty area to add a to-do",
+    "\n            已经获取全部的数据，无需继续获取\n          ": "\n            All items loaded\n          ",
+    "重新设为新待办": "Mark as incomplete",
+    "创建子待办": "Create subtask",
+    "新增子待办": "Add subtask",
+    "独立此待办项": "Make a separate to-do",
+    "成为上一条子待办": "Make a subtask of the previous to-do",
+    "云端及所有同步设备": "Cloud and all synced devices",
+    "蓝心小V": "BlueLM V",
+    "吸附办公套件窗口": "Dock to Office Suite window",
+    "开始新对话": "New chat",
+    "设置": "Settings",
+    "最小化": "Minimize",
+    "发送给蓝心小V": "Send to BlueLM V",
+    "支持的文件格式：PDF、doc、xlsx、 txt、pptx、jpg、png": "Supported formats: PDF, doc, xlsx, txt, pptx, jpg, png",
+    "已清除上下文，我们聊点新内容吧": "Chat context cleared. Let's start a new topic.",
+    "有问题尽管问我...": "Ask me anything...",
+    "开启后，小V将根据输入的指令，提供智能化深度思考、推理能力": "Enable advanced thinking and reasoning for your prompts.",
+    "深度思考(R1)": "Deep thinking (R1)",
+    "停止生成": "Stop generating",
+    "已停止": "Stopped",
+    "正在生成": "Generating",
+    "查看全部": "View all",
+    "「已停止」": "[Stopped]",
+    "\n      对话内容由AI大模型生成，仅供参考\n    ": "\n      AI-generated responses. For reference only.\n    ",
+    "重新生成": "Regenerate",
+    "已成功保存到原子笔记": "Saved to Notes",
+    "正在保存到原子笔记": "Saving to Notes",
+    "上传中...": "Uploading...",
+    "解析中...": "Analyzing...",
+    "找到": "Found ",
+    "篇资料作为参考": " sources",
+    "查看全部 ": "View all ",
+    "该内容由第三方提供。": "This content is provided by a third party.",
+    "解:": "Solution:",
+    "计算:": "Calculation:",
+    "验算:": "Verification:",
+    "打开图片位置": "Open image location",
+    "保存图片": "Save image",
+    "其他原因": "Other reason",
+    "请输入你不满的原因": "Tell us what went wrong",
+    "提交": "Submit",
+    "仅支持200MB以内的文件": "Only files up to 200 MB are supported",
+    "不支持处理该尺寸的图片": "This image size is unsupported",
+    "已开启新对话": "New chat started",
+    "仅支持处理单个文件": "Only one file can be processed at a time",
+    "该图片已失效": "This image is no longer available",
+    "不支持处理该类格式的文件": "This file format is unsupported",
+    "图片复制成功": "Image copied",
+    "保存成功": "Saved",
+    "文件不存在": "File does not exist",
+    "已超出字数上限": "Character limit exceeded",
+    "感谢你的反馈": "Thank you for your feedback",
+    "该文件已失效": "This file is no longer available",
+    "\n        保存已选\n      ": "\n        Save selected\n      ",
+    "保存全部": "Save all",
+    " GIF图片\n      ": " GIF image\n      ",
+    "\n          连拍照片\n        ": "\n          Burst photos\n        ",
+    "连拍照片": "Burst photos",
+    "\n        动态照片": "\n        Motion photo",
+    "暂不支持": "Currently unable to ",
+    "播放": "play ",
+    "显示": "display ",
+    "该格式的": "this format: ",
+    "视频": "video",
+    "图片": "image",
+    "提取图中的文本": "Extract text from image",
+    "复制全部文本": "Copy all text",
+    "\n      正在从云端下载原文件\n    ": "\n      Downloading original from cloud\n    ",
+    "已恢复至原处": "Restored to original location",
+    "已取消收藏": "Removed from favorites",
+    "取消收藏失败": "Could not remove from favorites",
+    "已收藏": "Added to favorites",
+    "收藏失败": "Could not add to favorites",
+    "连拍保存成功！": "Burst photos saved!",
+    "动态播放失败": "Could not play motion photo",
+    "已复制至剪切板": "Copied to clipboard",
+    "恢复": "Restore",
+    "拖动失败": "Drag failed",
+    "展开全部": "Expand all",
+    "重命名相册": "Rename album",
+    "删除相册": "Delete album",
+    "新建相册": "New album",
+    "永久删除": "Delete permanently",
+    "播放该格式的视频": "play videos in this format",
+    "显示该格式的图片": "display images in this format",
+    "\n        确定\n      ": "\n        OK\n      ",
+    "已达最大字数": "Character limit reached"
+  },
+  "extraEdits": [
+    {
+      "file": "128.js",
+      "start": 8092,
+      "source": "原子笔记",
+      "target": "Notes",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 8249,
+      "source": "最近的笔记",
+      "target": "Recent notes",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 10596,
+      "source": "字母",
+      "target": "Letters",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 10737,
+      "source": "数字",
+      "target": "Numbers",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 11012,
+      "source": "符号",
+      "target": "Symbols",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 11936,
+      "source": "相册",
+      "target": "Albums",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 11950,
+      "source": "最近的图片和视频",
+      "target": "Recent photos and videos",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 12041,
+      "source": "导入图片视频",
+      "target": "Import photos and videos",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 12402,
+      "source": "您也可从电脑中导入图片和视频至相册",
+      "target": "You can also import photos and videos from your computer",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 12435,
+      "source": "登录并开启云相册，可查看云端图片和视频",
+      "target": "Sign in and enable Cloud Albums to view cloud photos and videos",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 12468,
+      "source": "开启云相册，可查看云端照片和视频",
+      "target": "Enable Cloud Albums to view cloud photos and videos",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 13315,
+      "source": "录音机",
+      "target": "Recorder",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 13431,
+      "source": "导入电脑音频",
+      "target": "Import audio from computer",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 14069,
+      "source": "更多云服务",
+      "target": "More cloud services",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 69502,
+      "source": "个人",
+      "target": "Personal",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 69530,
+      "source": "生日",
+      "target": "Birthdays",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 69562,
+      "source": "工作",
+      "target": "Work",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 69590,
+      "source": "笔记",
+      "target": "Notes",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 69626,
+      "source": "纪念日",
+      "target": "Anniversaries",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 69663,
+      "source": "倒数日",
+      "target": "Countdowns",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 77747,
+      "source": "已过期",
+      "target": "Expired",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 77844,
+      "source": " 小时后过期",
+      "target": " hours until expiry",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 95162,
+      "source": "原子笔记",
+      "target": "Notes",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 95310,
+      "source": "相册",
+      "target": "Albums",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 95380,
+      "source": "录音机",
+      "target": "Recorder",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 95456,
+      "source": "云盘",
+      "target": "Cloud Drive",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 95535,
+      "source": "浏览器",
+      "target": "Browser",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 95614,
+      "source": "联系人",
+      "target": "Contacts",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 95696,
+      "source": "骚扰拦截",
+      "target": "Spam blocking",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 95789,
+      "source": "查找设备",
+      "target": "Find device",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 95967,
+      "source": "信息",
+      "target": "Messages",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 96052,
+      "source": "应用列表",
+      "target": "Apps",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 96137,
+      "source": "便签",
+      "target": "Notes",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 96228,
+      "source": "浏览器",
+      "target": "Browser",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 96308,
+      "source": "骚扰拦截",
+      "target": "Spam blocking",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 122048,
+      "source": "文件名过长",
+      "target": "Filename is too long",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 145377,
+      "source": "编辑日程",
+      "target": "Edit event",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 145400,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 145412,
+      "source": "仅更改此日程",
+      "target": "This event only",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 145478,
+      "source": "更改所有日程",
+      "target": "All events",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 159376,
+      "source": "日",
+      "target": "Sun",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 159380,
+      "source": "一",
+      "target": "Mon",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 159384,
+      "source": "二",
+      "target": "Tue",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 159388,
+      "source": "三",
+      "target": "Wed",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 159392,
+      "source": "四",
+      "target": "Thu",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 159396,
+      "source": "五",
+      "target": "Fri",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 159400,
+      "source": "六",
+      "target": "Sat",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 166276,
+      "source": "日程",
+      "target": "Events",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 166361,
+      "source": "待办",
+      "target": "To-dos",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 171537,
+      "source": "试着输入“明晚7点聚餐”",
+      "target": "Enter an event title",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 172223,
+      "source": "日程",
+      "target": "Events",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 172313,
+      "source": "日程",
+      "target": "Events",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 178934,
+      "source": "纪念日只能选择今天之前的日期",
+      "target": "An anniversary must be before today",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 179013,
+      "source": "倒数日只能选择今天之后的日期",
+      "target": "A countdown must be after today",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 179480,
+      "source": "结束时间不能小于开始时间",
+      "target": "End time cannot be before start time",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 180416,
+      "source": "已达到最大字符限制",
+      "target": "Character limit reached",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 182714,
+      "source": "无标题",
+      "target": "Untitled",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 184142,
+      "source": "日历类型必填",
+      "target": "Calendar type is required",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 184415,
+      "source": "日历类型必填",
+      "target": "Calendar type is required",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 184548,
+      "source": "启用日程类型",
+      "target": "Enable event type",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 184557,
+      "source": "选定的日程类型已被隐藏，确定重新启用吗？",
+      "target": "This event type is hidden. Enable it again?",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 184593,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 184605,
+      "source": "启用",
+      "target": "Enable",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 185303,
+      "source": "日程",
+      "target": "Events",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 185367,
+      "source": "日程",
+      "target": "Events",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 185504,
+      "source": "日程",
+      "target": "Events",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 187262,
+      "source": "试着输入“明晚7点聚餐”",
+      "target": "Enter an event title",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 187277,
+      "source": "准备做什么？",
+      "target": "What are you planning?",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 187632,
+      "source": "寿星名字",
+      "target": "Name of birthday person",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 187774,
+      "source": "纪念内容",
+      "target": "What are you commemorating?",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 187904,
+      "source": "事件名称",
+      "target": "Event name",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 188977,
+      "source": "寿星名字",
+      "target": "Name of birthday person",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 189013,
+      "source": "纪念内容",
+      "target": "What are you commemorating?",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 189049,
+      "source": "事件名称",
+      "target": "Event name",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 189087,
+      "source": "试着输入“明晚7点聚餐”",
+      "target": "Enter an event title",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 189102,
+      "source": "准备做什么？",
+      "target": "What are you planning?",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 192291,
+      "source": "待办已创建",
+      "target": "To-do created",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 209849,
+      "source": "最多添加10个类型",
+      "target": "You can add up to 10 types",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 211463,
+      "source": "年",
+      "target": "Year",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 211563,
+      "source": "月",
+      "target": "Month",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 211665,
+      "source": "周",
+      "target": "Week",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 211773,
+      "source": "日程",
+      "target": "Events",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 214324,
+      "source": "MM月DD日",
+      "target": "MM-DD",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 214356,
+      "source": "每月底(公历每月最后一日)",
+      "target": "Monthly (last day of the Gregorian month)",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 214400,
+      "source": "工作日(周一至周五)",
+      "target": "Weekdays (Monday to Friday)",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 218469,
+      "source": "已达到最大字符限制",
+      "target": "Character limit reached",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 225864,
+      "source": "MM月DD日",
+      "target": "MM-DD",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 225896,
+      "source": "每月底(公历每月最后一日)",
+      "target": "Monthly (last day of the Gregorian month)",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 225940,
+      "source": "工作日(周一至周五)",
+      "target": "Weekdays (Monday to Friday)",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 226083,
+      "source": "课程表 — ",
+      "target": "Timetable — ",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 226199,
+      "source": "YYYY年MM月DD日",
+      "target": "YYYY-MM-DD",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 228578,
+      "source": "YYYY年MM月DD日",
+      "target": "YYYY-MM-DD",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 228604,
+      "source": "YYYY年MM月DD日",
+      "target": "YYYY-MM-DD",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 229544,
+      "source": "的出生日",
+      "target": "'s birth date",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 229827,
+      "source": "周年",
+      "target": " year anniversary",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 229961,
+      "source": "天后",
+      "target": " days remaining",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 233924,
+      "source": "编辑日程",
+      "target": "Edit event",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 233947,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 233959,
+      "source": "仅更改此日程",
+      "target": "This event only",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 234025,
+      "source": "更改所有日程",
+      "target": "All events",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 236560,
+      "source": "日程删除成功",
+      "target": "Event deleted",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 261954,
+      "source": "导入",
+      "target": "Import",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 262111,
+      "source": "移动",
+      "target": "Move",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 262131,
+      "source": "复制",
+      "target": "Copy",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 264801,
+      "source": "部分项目",
+      "target": "Some items",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 264809,
+      "source": "导入失败",
+      "target": "Import failed",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 286540,
+      "source": "确定",
+      "target": "OK",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 286612,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 291836,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 292738,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 292760,
+      "source": "确定",
+      "target": "OK",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 377638,
+      "source": "开启键鼠协同将会断开手机与其他设备的键鼠协同，是否继续？",
+      "target": "Enabling keyboard and mouse sharing will disconnect the phone from other sharing devices. Continue?",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 378224,
+      "source": "提示",
+      "target": "Notice",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 378234,
+      "source": "该手机已与平板建立键鼠协同，是否同步连接该平板进行三端键鼠协同？",
+      "target": "This phone shares a keyboard and mouse with a tablet. Connect the tablet for sharing across all three devices?",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 378291,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 378307,
+      "source": "仅与手机协同",
+      "target": "Connect phone only",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 378328,
+      "source": "连接平板",
+      "target": "Connect tablet",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 378802,
+      "source": "开启手机投屏将会断开手机与电脑的键鼠协同，是否继续？",
+      "target": "Starting phone mirroring will disconnect keyboard and mouse sharing between the phone and computer. Continue?",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 388591,
+      "source": "开启键鼠协同",
+      "target": "Enable keyboard and mouse sharing",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 388605,
+      "source": "开启键鼠协同将会关闭手机投屏、断开电脑“vivo远控PC”的远程控制连接，是否继续？",
+      "target": "Enabling keyboard and mouse sharing will stop phone mirroring and disconnect vivo Remote PC. Continue?",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 388672,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 388703,
+      "source": "开启键鼠协同",
+      "target": "Enable keyboard and mouse sharing",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 388860,
+      "source": "开启键鼠协同将会关闭手机投屏、断开电脑“vivo远控PC”的远程控制连接，是否继续？",
+      "target": "Enabling keyboard and mouse sharing will stop phone mirroring and disconnect vivo Remote PC. Continue?",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 391409,
+      "source": "当前手机的网络质量差，若想键鼠协同更流畅，建议手机切换质量较高的网络重新连接，或使用USB连接电脑。",
+      "target": "The phone's network connection is weak. For smoother keyboard and mouse sharing, reconnect on a stronger network or use USB.",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 391930,
+      "source": "知道了",
+      "target": "Got it",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 393170,
+      "source": "已暂停",
+      "target": "Paused",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 393215,
+      "source": "自动备份",
+      "target": "Automatic backup",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 393391,
+      "source": "未授权",
+      "target": "Unauthorized",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 405131,
+      "source": "移动设备与电脑登录相同的 vivo 账号；",
+      "target": "Sign in to the same vivo account on your mobile device and computer;",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 405316,
+      "source": "开启移动设备的蓝牙和 WLAN 开关，并保持解锁亮屏；",
+      "target": "Enable Bluetooth and Wi-Fi on the mobile device and keep its screen on and unlocked;",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 405414,
+      "source": "设备接入同一 WLAN 网络，并保持网络稳定。",
+      "target": "Connect both devices to the same stable Wi-Fi network.",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 411931,
+      "source": "设备互联",
+      "target": "Device connection",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 446699,
+      "source": "手机投屏",
+      "target": "Phone mirroring",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 446901,
+      "source": "屏幕扩展",
+      "target": "Screen extension",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 447112,
+      "source": "文件管理",
+      "target": "File manager",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 447508,
+      "source": "键鼠协同",
+      "target": "Keyboard and mouse sharing",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 447733,
+      "source": "图片视频备份",
+      "target": "Photo and video backup",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 447932,
+      "source": "电脑模式",
+      "target": "Desktop mode",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 462204,
+      "source": "日程暂不支持在移动设备网页查看",
+      "target": "Events cannot yet be viewed in a mobile browser",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 462222,
+      "source": "请前往电脑网页查看",
+      "target": "Open this page in a desktop browser",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 462267,
+      "source": "知道了",
+      "target": "Got it",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 462544,
+      "source": "超出日历显示范围",
+      "target": "Date is outside the calendar range",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 466877,
+      "source": "图片和视频",
+      "target": "Photos and videos",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 466902,
+      "source": "待办",
+      "target": "To-dos",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 466924,
+      "source": "笔记",
+      "target": "Notes",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 466950,
+      "source": "日程",
+      "target": "Events",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 466974,
+      "source": "录音文件",
+      "target": "Recordings",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 467573,
+      "source": "已隐藏",
+      "target": "Hidden",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 470876,
+      "source": "笔记",
+      "target": "Notes",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 470922,
+      "source": "待办",
+      "target": "To-dos",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 471076,
+      "source": "录音机",
+      "target": "Recorder",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 471864,
+      "source": "登录并开启同步，查看、编辑、管理云端日程",
+      "target": "Sign in and enable sync to view, edit, and manage cloud events",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 471915,
+      "source": "登录并开启同步，查看、编辑、管理云端待办",
+      "target": "Sign in and enable sync to view, edit, and manage cloud to-dos",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 471967,
+      "source": "录音文件",
+      "target": "Recordings",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 471982,
+      "source": "登录并开启同步，XX云端YY",
+      "target": "Sign in and enable sync to XX cloud YY",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 472086,
+      "source": "开启同步，查看、编辑、管理云端日程和待办",
+      "target": "Enable sync to view, edit, and manage cloud events and to-dos",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 472137,
+      "source": "开启同步，查看、编辑、管理云端待办",
+      "target": "Enable sync to view, edit, and manage cloud to-dos",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 472186,
+      "source": "录音文件",
+      "target": "Recordings",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 472201,
+      "source": "开启同步，XX云端YY",
+      "target": "Enable sync to XX cloud YY",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 472272,
+      "source": "立即开启",
+      "target": "Enable now",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 472301,
+      "source": "同步中",
+      "target": "Syncing",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 472355,
+      "source": "无日程内容",
+      "target": "No events",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 472391,
+      "source": "无待办内容",
+      "target": "No to-dos",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 472428,
+      "source": "录音",
+      "target": "Recordings",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 472462,
+      "source": "无待办YY",
+      "target": "No to-do YY",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 472470,
+      "source": "无YY",
+      "target": "No YY",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 474303,
+      "source": "日程",
+      "target": "Events",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 474406,
+      "source": "新建日程",
+      "target": "New event",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 474920,
+      "source": "上午",
+      "target": "AM",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 474927,
+      "source": "上午",
+      "target": "AM",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 476125,
+      "source": "YYYY年MM月DD日",
+      "target": "YYYY-MM-DD",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 476378,
+      "source": "的出生日",
+      "target": "'s birth date",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 491690,
+      "source": "待办暂不支持在移动设备网页查看",
+      "target": "To-dos cannot yet be viewed in a mobile browser",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 491708,
+      "source": "请前往电脑网页查看",
+      "target": "Open this page in a desktop browser",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 491753,
+      "source": "知道了",
+      "target": "Got it",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 515313,
+      "source": "全部笔记",
+      "target": "All notes",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 525559,
+      "source": "导入图片视频，便捷查看共享",
+      "target": "Import photos and videos to view and share easily",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 532292,
+      "source": " 项移动失败",
+      "target": " items could not be moved",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 532407,
+      "source": " 项复制失败",
+      "target": " items could not be copied",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 546207,
+      "source": "导入中...",
+      "target": "Importing...",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 553078,
+      "source": "当前录音文件过大不支持播放，可下载录音文件进行播放。",
+      "target": "This recording is too large to play here. Download it to play it locally.",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 553119,
+      "source": "下载",
+      "target": "Download",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 553135,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 554735,
+      "source": "当前录音文件格式不支持播放，可下载录音文件进行播放。",
+      "target": "This recording format cannot be played here. Download it to play it locally.",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 554776,
+      "source": "下载",
+      "target": "Download",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 554792,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 554970,
+      "source": "未命名音频",
+      "target": "Untitled audio",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 570336,
+      "source": "信息",
+      "target": "Messages",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 570411,
+      "source": "应用列表",
+      "target": "Apps",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 570489,
+      "source": "便签",
+      "target": "Notes",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 570565,
+      "source": "浏览器",
+      "target": "Browser",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 570641,
+      "source": "骚扰拦截",
+      "target": "Spam blocking",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 570721,
+      "source": "联系人",
+      "target": "Contacts",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 570852,
+      "source": "浏览器",
+      "target": "Browser",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 570982,
+      "source": "骚扰拦截",
+      "target": "Spam blocking",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 571121,
+      "source": "云盘",
+      "target": "Cloud Drive",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 571245,
+      "source": "查找设备",
+      "target": "Find device",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 576712,
+      "source": "笔记",
+      "target": "Notes",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 576793,
+      "source": "待办",
+      "target": "To-dos",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 576872,
+      "source": "文档",
+      "target": "Documents",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 594477,
+      "source": "后台传输",
+      "target": "Transfer in background",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 594495,
+      "source": "停止传输",
+      "target": "Stop transfer",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 609539,
+      "source": "MM月dd日 HH:mm",
+      "target": "MM-DD HH:mm",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 617510,
+      "source": "暂不支持在移动设备网页查看",
+      "target": "Not yet available in a mobile browser",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 617526,
+      "source": "请前往电脑网页查看",
+      "target": "Open this page in a desktop browser",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 617571,
+      "source": "知道了",
+      "target": "Got it",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 2499,
+      "source": "手写笔记",
+      "target": "Handwritten notes",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 2895,
+      "source": "涂鸦",
+      "target": "Doodles",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 3083,
+      "source": "表格",
+      "target": "Tables",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 57071,
+      "source": "包含智能识别",
+      "target": "Includes smart recognition",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 69337,
+      "source": "复制成功",
+      "target": "Copied",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 69360,
+      "source": "所选文档未在设备上未找到，无法复制",
+      "target": "The selected document was not found on the device and cannot be copied",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 70080,
+      "source": "剪切成功",
+      "target": "Cut",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 70103,
+      "source": "所选文档未在设备上未找到，无法剪切",
+      "target": "The selected document was not found on the device and cannot be cut",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 94216,
+      "source": "新建Word",
+      "target": "New Word document",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 94251,
+      "source": "输入Word名称",
+      "target": "Enter Word document name",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 108367,
+      "source": "新建Excel",
+      "target": "New Excel workbook",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 108403,
+      "source": "输入Excel名称",
+      "target": "Enter Excel workbook name",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 147250,
+      "source": "新建PPT",
+      "target": "New PowerPoint presentation",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 147270,
+      "source": "输入PPT名称",
+      "target": "Enter PowerPoint presentation name",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 183087,
+      "source": "查看失败, 日程已不存在",
+      "target": "Cannot view: the event no longer exists",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 186405,
+      "source": "原子笔记",
+      "target": "Notes",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 186467,
+      "source": "待办",
+      "target": "To-dos",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 186519,
+      "source": "相册",
+      "target": "Albums",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 186548,
+      "source": "录音机",
+      "target": "Recorder",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 208118,
+      "source": "无搜索结果",
+      "target": "No results",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 224460,
+      "source": "YYYY年MM月DD日",
+      "target": "YYYY-MM-DD",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 224474,
+      "source": "YYYY年MM月DD日 HH:mm",
+      "target": "YYYY-MM-DD HH:mm",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 232236,
+      "source": "查看失败，文档已不存在",
+      "target": "Cannot view: the document no longer exists",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 239167,
+      "source": "YYYY年MM月DD日",
+      "target": "YYYY-MM-DD",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 268786,
+      "source": "YYYY年MM月DD日",
+      "target": "YYYY-MM-DD",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 268817,
+      "source": "YYYY年MM月DD日",
+      "target": "YYYY-MM-DD",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 268928,
+      "source": "YYYY年MM月DD日",
+      "target": "YYYY-MM-DD",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 269578,
+      "source": "YYYY年MM月DD日",
+      "target": "YYYY-MM-DD",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 269651,
+      "source": "YYYY年MM月DD日",
+      "target": "YYYY-MM-DD",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 272566,
+      "source": "YYYY年MM月DD日",
+      "target": "YYYY-MM-DD",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 275235,
+      "source": "原子笔记-笔记",
+      "target": "Notes - Notes",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 275384,
+      "source": "原子笔记-待办",
+      "target": "Notes - To-dos",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 275537,
+      "source": "原子笔记-文档",
+      "target": "Notes - Documents",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 290918,
+      "source": "录音机",
+      "target": "Recorder",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 299296,
+      "source": "录音已不存在",
+      "target": "Recording no longer exists",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 302365,
+      "source": "录音已不存在",
+      "target": "Recording no longer exists",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 318863,
+      "source": "无搜索结果",
+      "target": "No results",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 331846,
+      "source": "YYYY年MM月DD日",
+      "target": "YYYY-MM-DD",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "129.js",
+      "start": 332090,
+      "source": "的生日",
+      "target": "'s birthday",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 41251,
+      "source": "无搜索结果",
+      "target": "No results",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 42351,
+      "source": "无搜索结果",
+      "target": "No results",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 45166,
+      "source": "个人",
+      "target": "Personal",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 45194,
+      "source": "生日",
+      "target": "Birthdays",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 45226,
+      "source": "工作",
+      "target": "Work",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 45290,
+      "source": "纪念日",
+      "target": "Anniversaries",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 45327,
+      "source": "倒数日",
+      "target": "Countdowns",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 50734,
+      "source": "日程",
+      "target": "Events",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 50819,
+      "source": "待办",
+      "target": "To-dos",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 55995,
+      "source": "试着输入“明晚7点聚餐”",
+      "target": "Enter an event title",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 56681,
+      "source": "日程",
+      "target": "Events",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 56771,
+      "source": "日程",
+      "target": "Events",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 63392,
+      "source": "纪念日只能选择今天之前的日期",
+      "target": "An anniversary must be before today",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 63471,
+      "source": "倒数日只能选择今天之后的日期",
+      "target": "A countdown must be after today",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 63938,
+      "source": "结束时间不能小于开始时间",
+      "target": "End time cannot be before start time",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 64874,
+      "source": "已达到最大字符限制",
+      "target": "Character limit reached",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 67172,
+      "source": "无标题",
+      "target": "Untitled",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 68600,
+      "source": "日历类型必填",
+      "target": "Calendar type is required",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 68873,
+      "source": "日历类型必填",
+      "target": "Calendar type is required",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 69006,
+      "source": "启用日程类型",
+      "target": "Enable event type",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 69015,
+      "source": "选定的日程类型已被隐藏，确定重新启用吗？",
+      "target": "This event type is hidden. Enable it again?",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 69051,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 69063,
+      "source": "启用",
+      "target": "Enable",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 69761,
+      "source": "日程",
+      "target": "Events",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 69825,
+      "source": "日程",
+      "target": "Events",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 69962,
+      "source": "日程",
+      "target": "Events",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 71720,
+      "source": "试着输入“明晚7点聚餐”",
+      "target": "Enter an event title",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 71735,
+      "source": "准备做什么？",
+      "target": "What are you planning?",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 72090,
+      "source": "寿星名字",
+      "target": "Name of birthday person",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 72232,
+      "source": "纪念内容",
+      "target": "What are you commemorating?",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 72362,
+      "source": "事件名称",
+      "target": "Event name",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 73435,
+      "source": "寿星名字",
+      "target": "Name of birthday person",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 73471,
+      "source": "纪念内容",
+      "target": "What are you commemorating?",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 73507,
+      "source": "事件名称",
+      "target": "Event name",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 73545,
+      "source": "试着输入“明晚7点聚餐”",
+      "target": "Enter an event title",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 73560,
+      "source": "准备做什么？",
+      "target": "What are you planning?",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 76749,
+      "source": "待办已创建",
+      "target": "To-do created",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 94307,
+      "source": "最多添加10个类型",
+      "target": "You can add up to 10 types",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 95921,
+      "source": "年",
+      "target": "Year",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 96021,
+      "source": "月",
+      "target": "Month",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 96123,
+      "source": "周",
+      "target": "Week",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 96231,
+      "source": "日程",
+      "target": "Events",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 98782,
+      "source": "MM月DD日",
+      "target": "MM-DD",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 98814,
+      "source": "每月底(公历每月最后一日)",
+      "target": "Monthly (last day of the Gregorian month)",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 98858,
+      "source": "工作日(周一至周五)",
+      "target": "Weekdays (Monday to Friday)",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 102927,
+      "source": "已达到最大字符限制",
+      "target": "Character limit reached",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 110322,
+      "source": "MM月DD日",
+      "target": "MM-DD",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 110354,
+      "source": "每月底(公历每月最后一日)",
+      "target": "Monthly (last day of the Gregorian month)",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 110398,
+      "source": "工作日(周一至周五)",
+      "target": "Weekdays (Monday to Friday)",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 110541,
+      "source": "课程表 — ",
+      "target": "Timetable — ",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 110657,
+      "source": "YYYY年MM月DD日",
+      "target": "YYYY-MM-DD",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 113036,
+      "source": "YYYY年MM月DD日",
+      "target": "YYYY-MM-DD",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 113062,
+      "source": "YYYY年MM月DD日",
+      "target": "YYYY-MM-DD",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 114002,
+      "source": "的出生日",
+      "target": "'s birth date",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 114285,
+      "source": "周年",
+      "target": " year anniversary",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 114419,
+      "source": "天后",
+      "target": " days remaining",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 118382,
+      "source": "编辑日程",
+      "target": "Edit event",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 118405,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 118417,
+      "source": "仅更改此日程",
+      "target": "This event only",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 118483,
+      "source": "更改所有日程",
+      "target": "All events",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 121018,
+      "source": "日程删除成功",
+      "target": "Event deleted",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 122996,
+      "source": "查看失败, 日程已不存在",
+      "target": "Cannot view: the event no longer exists",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 149601,
+      "source": "复制的日程是重复日程，此次操作将只复制所选择的这一个日程。",
+      "target": "This is a recurring event. Only the selected occurrence will be copied.",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 149649,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 149661,
+      "source": "复制",
+      "target": "Copy",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 156130,
+      "source": "YYYY年MM月DD日",
+      "target": "YYYY-MM-DD",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 156144,
+      "source": "YYYY年MM月DD日 HH:mm",
+      "target": "YYYY-MM-DD HH:mm",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 159861,
+      "source": "YYYY年MM月DD日",
+      "target": "YYYY-MM-DD",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 161219,
+      "source": "YYYY年MM月DD日",
+      "target": "YYYY-MM-DD",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 161506,
+      "source": "的生日",
+      "target": "'s birthday",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 164562,
+      "source": "结束:",
+      "target": "End:",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 170905,
+      "source": "待办",
+      "target": "To-dos",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 173719,
+      "source": "日程与待办管理",
+      "target": "Manage events and to-dos",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 181071,
+      "source": "日程与待办管理",
+      "target": "Manage events and to-dos",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 188908,
+      "source": "笔记",
+      "target": "Notes",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 188989,
+      "source": "待办",
+      "target": "To-dos",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 189068,
+      "source": "文档",
+      "target": "Documents",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "132.js",
+      "start": 14344,
+      "source": "知道了",
+      "target": "Got it",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "132.js",
+      "start": 78823,
+      "source": "当前输入的内容我无法处理，可尝试换个搜索词重新搜索。",
+      "target": "I cannot process this query. Try different search terms.",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "132.js",
+      "start": 78873,
+      "source": "[已停止]",
+      "target": "[Stopped]",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "132.js",
+      "start": 128708,
+      "source": "文件数量过多，复制失败",
+      "target": "Too many files to copy",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "132.js",
+      "start": 190874,
+      "source": "蓝心小V-",
+      "target": "BlueLM V-",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "132.js",
+      "start": 191165,
+      "source": "知道了",
+      "target": "Got it",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "132.js",
+      "start": 191178,
+      "source": "去查看",
+      "target": "View now",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "132.js",
+      "start": 192009,
+      "source": "确定要立即解析",
+      "target": "Analyze data now on ",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "132.js",
+      "start": 192039,
+      "source": "数据吗？",
+      "target": "?",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "132.js",
+      "start": 192280,
+      "source": "稍后闲时解析",
+      "target": "Analyze later when idle",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "132.js",
+      "start": 192326,
+      "source": "立即解析",
+      "target": "Analyze now",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "132.js",
+      "start": 222723,
+      "source": "全部笔记",
+      "target": "All notes",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "132.js",
+      "start": 231341,
+      "source": "复制",
+      "target": "Copy",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "132.js",
+      "start": 232284,
+      "source": "蓝心小V-",
+      "target": "BlueLM V-",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "132.js",
+      "start": 232471,
+      "source": "知道了",
+      "target": "Got it",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "132.js",
+      "start": 232484,
+      "source": "去查看",
+      "target": "View now",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "132.js",
+      "start": 232727,
+      "source": "全部笔记",
+      "target": "All notes",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "133.js",
+      "start": 50421,
+      "source": "MM月dd日 HH:mm",
+      "target": "MM-DD HH:mm",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "133.js",
+      "start": 78895,
+      "source": "日",
+      "target": "Sun",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "133.js",
+      "start": 78899,
+      "source": "一",
+      "target": "Mon",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "133.js",
+      "start": 78903,
+      "source": "二",
+      "target": "Tue",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "133.js",
+      "start": 78907,
+      "source": "三",
+      "target": "Wed",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "133.js",
+      "start": 78911,
+      "source": "四",
+      "target": "Thu",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "133.js",
+      "start": 78915,
+      "source": "五",
+      "target": "Fri",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "133.js",
+      "start": 78919,
+      "source": "六",
+      "target": "Sat",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "133.js",
+      "start": 138606,
+      "source": "无已完成待办",
+      "target": "No completed to-dos",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "133.js",
+      "start": 138615,
+      "source": "无未完成待办",
+      "target": "No incomplete to-dos",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "133.js",
+      "start": 173365,
+      "source": "待办新增失败",
+      "target": "Could not add to-do",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "133.js",
+      "start": 194760,
+      "source": "待办修改失败",
+      "target": "Could not update to-do",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "133.js",
+      "start": 195228,
+      "source": "待办修改失败",
+      "target": "Could not update to-do",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "133.js",
+      "start": 268966,
+      "source": "YYYY年MM月DD日",
+      "target": "YYYY-MM-DD",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "133.js",
+      "start": 268980,
+      "source": "YYYY年MM月DD日 HH:mm",
+      "target": "YYYY-MM-DD HH:mm",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "133.js",
+      "start": 278164,
+      "source": "待办已创建",
+      "target": "To-do created",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "133.js",
+      "start": 280051,
+      "source": "YYYY年MM月DD日",
+      "target": "YYYY-MM-DD",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "133.js",
+      "start": 281560,
+      "source": "日期",
+      "target": "Date",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "133.js",
+      "start": 281734,
+      "source": "无",
+      "target": "None",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "133.js",
+      "start": 281786,
+      "source": "今天",
+      "target": "Today",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "133.js",
+      "start": 281809,
+      "source": "日",
+      "target": "",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "133.js",
+      "start": 281861,
+      "source": "明天",
+      "target": "Tomorrow",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "133.js",
+      "start": 281884,
+      "source": "日",
+      "target": "",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "133.js",
+      "start": 281940,
+      "source": "一周后",
+      "target": "In one week",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "133.js",
+      "start": 281964,
+      "source": "日",
+      "target": "",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "133.js",
+      "start": 282021,
+      "source": "自定义",
+      "target": "Custom",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "133.js",
+      "start": 290938,
+      "source": "MM月dd日 HH:mm",
+      "target": "MM-DD HH:mm",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "134.js",
+      "start": 35756,
+      "source": "MM月dd日 HH:mm",
+      "target": "MM-DD HH:mm",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "134.js",
+      "start": 53769,
+      "source": "MM月dd日 HH:mm",
+      "target": "MM-DD HH:mm",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "134.js",
+      "start": 78605,
+      "source": "日",
+      "target": "Sun",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "134.js",
+      "start": 78609,
+      "source": "一",
+      "target": "Mon",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "134.js",
+      "start": 78613,
+      "source": "二",
+      "target": "Tue",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "134.js",
+      "start": 78617,
+      "source": "三",
+      "target": "Wed",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "134.js",
+      "start": 78621,
+      "source": "四",
+      "target": "Thu",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "134.js",
+      "start": 78625,
+      "source": "五",
+      "target": "Fri",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "134.js",
+      "start": 78629,
+      "source": "六",
+      "target": "Sat",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "134.js",
+      "start": 225151,
+      "source": "云端",
+      "target": "Cloud",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "135.js",
+      "start": 75938,
+      "source": "复制图片",
+      "target": "Copy image",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "135.js",
+      "start": 75945,
+      "source": "复制",
+      "target": "Copy",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "135.js",
+      "start": 76249,
+      "source": "更多",
+      "target": "More",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "135.js",
+      "start": 76824,
+      "source": "赞",
+      "target": "Like",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "135.js",
+      "start": 77349,
+      "source": "踩",
+      "target": "Dislike",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "135.js",
+      "start": 84917,
+      "source": "图片无法加载",
+      "target": "Could not load image",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "135.js",
+      "start": 84972,
+      "source": "文件读取失败",
+      "target": "Could not read file",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "135.js",
+      "start": 92014,
+      "source": "图片上传失败",
+      "target": "Could not upload image",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "135.js",
+      "start": 122887,
+      "source": "重新生成",
+      "target": "Regenerate",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "135.js",
+      "start": 137090,
+      "source": "点赞已取消",
+      "target": "Like removed",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "135.js",
+      "start": 137098,
+      "source": "点踩已取消",
+      "target": "Dislike removed",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "135.js",
+      "start": 137879,
+      "source": "与问题不相关",
+      "target": "Not relevant to the question",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "135.js",
+      "start": 137921,
+      "source": "与问题不相关",
+      "target": "Not relevant to the question",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "135.js",
+      "start": 137939,
+      "source": "回复内容有误",
+      "target": "The response is incorrect",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "135.js",
+      "start": 137981,
+      "source": "回复内容有误",
+      "target": "The response is incorrect",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "135.js",
+      "start": 143301,
+      "source": "复制",
+      "target": "Copy",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "135.js",
+      "start": 153009,
+      "source": "复制",
+      "target": "Copy",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "135.js",
+      "start": 153064,
+      "source": "剪切",
+      "target": "Cut",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "136.js",
+      "start": 124481,
+      "source": "移动",
+      "target": "Move",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "136.js",
+      "start": 124520,
+      "source": "复制",
+      "target": "Copy",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 30075,
+      "source": "导入",
+      "target": "Import",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 30232,
+      "source": "移动",
+      "target": "Move",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 30252,
+      "source": "复制",
+      "target": "Copy",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 32922,
+      "source": "部分项目",
+      "target": "Some items",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 32930,
+      "source": "导入失败",
+      "target": "Import failed",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 54661,
+      "source": "确定",
+      "target": "OK",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 54733,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 88704,
+      "source": " 项移动失败",
+      "target": " items could not be moved",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 88819,
+      "source": " 项复制失败",
+      "target": " items could not be copied",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 104459,
+      "source": "从套件、云端及其他同步设备中删除此相册及包含的照片？",
+      "target": "Delete this album and its photos from Office Suite, the cloud, and other synced devices?",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 104611,
+      "source": "删除此相册及包含的照片？",
+      "target": "Delete this album and its photos?",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 104732,
+      "source": "从套件、云端及其他同步设备中删除此相册及包含的照片？",
+      "target": "Delete this album and its photos from Office Suite, the cloud, and other synced devices?",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 106099,
+      "source": "相册名不能为相机、视频。",
+      "target": "This album name is reserved. Choose another name.",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 106201,
+      "source": "相册名已存在，请重新输入。",
+      "target": "An album with this name already exists. Enter another name.",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 107320,
+      "source": "相册名不能全为空格。",
+      "target": "Album name cannot contain only spaces.",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 112664,
+      "source": "确定从所有设备及云端删除此图片吗？",
+      "target": "Delete this photo from all devices and the cloud?",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 112684,
+      "source": "确定从所有设备及云端删除此视频吗？",
+      "target": "Delete this video from all devices and the cloud?",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 112985,
+      "source": "永久",
+      "target": "Permanently ",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 113064,
+      "source": "永久",
+      "target": "Permanently ",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 113133,
+      "source": "永久",
+      "target": "Permanently ",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 113142,
+      "source": "删除此图片？",
+      "target": "delete this photo?",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 113181,
+      "source": "永久",
+      "target": "Permanently ",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 113217,
+      "source": "永久",
+      "target": "Permanently ",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 113226,
+      "source": "删除此视频？",
+      "target": "delete this video?",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 113265,
+      "source": "永久",
+      "target": "Permanently ",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 113352,
+      "source": "永久",
+      "target": "Permanently ",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 113431,
+      "source": "永久",
+      "target": "Permanently ",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 113500,
+      "source": "永久",
+      "target": "Permanently ",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 113509,
+      "source": "删除此图片？",
+      "target": "delete this photo?",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 113548,
+      "source": "永久",
+      "target": "Permanently ",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 113584,
+      "source": "永久",
+      "target": "Permanently ",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 113593,
+      "source": "删除此视频？",
+      "target": "delete this video?",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 113632,
+      "source": "永久",
+      "target": "Permanently ",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 113668,
+      "source": "永久",
+      "target": "Permanently ",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 113736,
+      "source": "删除全部项目？",
+      "target": "delete all items?",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 113850,
+      "source": "永久",
+      "target": "Permanently ",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 113897,
+      "source": "永久",
+      "target": "Permanently ",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 114111,
+      "source": "此图片将从所有设备所有相册中同步删除。",
+      "target": "This photo will be deleted from all albums on all devices.",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 114133,
+      "source": "此视频将从所有设备所有相册中同步删除。",
+      "target": "This video will be deleted from all albums on all devices.",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 114178,
+      "source": "所选文件将从所有设备所有相册中同步删除。",
+      "target": "The selected files will be deleted from all albums on all devices.",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 114385,
+      "source": "所选图片将从所有相册中同步删除并在“最近删除”保留30天。",
+      "target": "The selected photos will be deleted from all albums and kept in Recently deleted for 30 days.",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 114417,
+      "source": "此图片将从所有相册中同步删除并在“最近删除”保留30天。",
+      "target": "This photo will be deleted from all albums and kept in Recently deleted for 30 days.",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 114448,
+      "source": "此视频将从所有相册中同步删除并在“最近删除”保留30天。",
+      "target": "This video will be deleted from all albums and kept in Recently deleted for 30 days.",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 114524,
+      "source": "所选图片将从所有相册中同步删除并在“最近删除”保留30天。",
+      "target": "The selected photos will be deleted from all albums and kept in Recently deleted for 30 days.",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 114556,
+      "source": "此图片将从所有相册中同步删除并在“最近删除”保留30天。",
+      "target": "This photo will be deleted from all albums and kept in Recently deleted for 30 days.",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 114587,
+      "source": "此视频将从所有相册中同步删除并在“最近删除”保留30天。",
+      "target": "This video will be deleted from all albums and kept in Recently deleted for 30 days.",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 114618,
+      "source": "所选项目将从所有相册中同步删除并在“最近删除”保留30天。",
+      "target": "The selected items will be deleted from all albums and kept in Recently deleted for 30 days.",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 123315,
+      "source": "相册名不能为相机、视频。",
+      "target": "This album name is reserved. Choose another name.",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 123388,
+      "source": "相册名已存在，请重新输入。",
+      "target": "An album with this name already exists. Enter another name.",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 123477,
+      "source": "相册名不能全为空格。",
+      "target": "Album name cannot contain only spaces.",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 137602,
+      "source": "后台传输",
+      "target": "Transfer in background",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "137.js",
+      "start": 137620,
+      "source": "停止传输",
+      "target": "Stop transfer",
+      "reason": "Reviewed display-only label, message, menu item, or date formatting"
+    },
+    {
+      "file": "8.js",
+      "start": 11159,
+      "source": "日历最大值为2099年",
+      "target": "The latest supported year is 2099",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 11173,
+      "source": "日历最小值为1901年",
+      "target": "The earliest supported year is 1901",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 27450,
+      "source": "无提醒",
+      "target": "No reminder",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 47371,
+      "source": "日程",
+      "target": "event",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 47376,
+      "source": "待办",
+      "target": "to-do",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 47583,
+      "source": "重复",
+      "target": "Recurring ",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 47604,
+      "source": "仅删除此",
+      "target": "Delete this ",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 47628,
+      "source": "删除所有",
+      "target": "Delete all ",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 47741,
+      "source": "重复",
+      "target": "Recurring ",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 47916,
+      "source": "删除",
+      "target": "Delete",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 51092,
+      "source": "天",
+      "target": "days",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 51329,
+      "source": "天",
+      "target": "days",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 51355,
+      "source": "周",
+      "target": "weeks",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 51382,
+      "source": "月",
+      "target": "months",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 51410,
+      "source": "年",
+      "target": "years",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 51918,
+      "source": "不重复",
+      "target": "Does not repeat",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 51941,
+      "source": "每月",
+      "target": "Monthly",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 51996,
+      "source": "每年",
+      "target": "Yearly",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 53383,
+      "source": "一次性待办",
+      "target": "One-time to-do",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 53391,
+      "source": "一次性日程",
+      "target": "One-time event",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 53693,
+      "source": "每天",
+      "target": "Daily",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 53763,
+      "source": "工作日(周一至周五)",
+      "target": "Weekdays (Monday to Friday)",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 53833,
+      "source": "每周",
+      "target": "Weekly",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 53904,
+      "source": "每月",
+      "target": "Monthly",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 54089,
+      "source": "每月底(公历每月最后一日)",
+      "target": "Monthly (last Gregorian day)",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 54238,
+      "source": "每年",
+      "target": "Yearly",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 54262,
+      "source": "MM月DD日",
+      "target": "MM-DD",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 54315,
+      "source": "农历每年",
+      "target": "Yearly (lunar)",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 54382,
+      "source": "自定义",
+      "target": "Custom",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 54596,
+      "source": "天",
+      "target": "days",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 54633,
+      "source": "周",
+      "target": "weeks",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 54703,
+      "source": "月",
+      "target": "months",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 54897,
+      "source": "年",
+      "target": "years",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 56296,
+      "source": "永不",
+      "target": "Never",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 56670,
+      "source": "永不",
+      "target": "Never",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 58011,
+      "source": "次",
+      "target": " times",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 58088,
+      "source": "结束重复时间必须大于开始时间",
+      "target": "Repeat end time must be after start time",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 60016,
+      "source": "日期",
+      "target": "Date",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 60048,
+      "source": "星期",
+      "target": "Weekday",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 60090,
+      "source": "第一个",
+      "target": "First",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 60112,
+      "source": "第二个",
+      "target": "Second",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 60134,
+      "source": "第三个",
+      "target": "Third",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 60156,
+      "source": "第四个",
+      "target": "Fourth",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 60178,
+      "source": "第五个",
+      "target": "Fifth",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 60200,
+      "source": "最后一个",
+      "target": "Last",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 61236,
+      "source": "周日",
+      "target": "Sunday",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 61260,
+      "source": "周一",
+      "target": "Monday",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 61284,
+      "source": "周二",
+      "target": "Tuesday",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 61308,
+      "source": "周三",
+      "target": "Wednesday",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 61332,
+      "source": "周四",
+      "target": "Thursday",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 61356,
+      "source": "周五",
+      "target": "Friday",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 61380,
+      "source": "周六",
+      "target": "Saturday",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 62353,
+      "source": "准时",
+      "target": "At event time",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 62374,
+      "source": "5分钟前",
+      "target": "5 minutes before",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 62397,
+      "source": "15分钟前",
+      "target": "15 minutes before",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 62422,
+      "source": "30分钟前",
+      "target": "30 minutes before",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 62447,
+      "source": "1小时前",
+      "target": "1 hour before",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 62471,
+      "source": "2小时前",
+      "target": "2 hours before",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 62496,
+      "source": "1天前",
+      "target": "1 day before",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 62521,
+      "source": "2天前",
+      "target": "2 days before",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 62546,
+      "source": "3天前",
+      "target": "3 days before",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 62571,
+      "source": "1周前",
+      "target": "1 week before",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 62616,
+      "source": "准时",
+      "target": "At event time",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 62637,
+      "source": "5分钟前",
+      "target": "5 minutes before",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 62660,
+      "source": "15分钟前",
+      "target": "15 minutes before",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 62685,
+      "source": "30分钟前",
+      "target": "30 minutes before",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 62710,
+      "source": "1小时前",
+      "target": "1 hour before",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 62734,
+      "source": "2小时前",
+      "target": "2 hours before",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 62759,
+      "source": "1天前",
+      "target": "1 day before",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 62784,
+      "source": "2天前",
+      "target": "2 days before",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 62809,
+      "source": "3天前",
+      "target": "3 days before",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 62834,
+      "source": "1周前",
+      "target": "1 week before",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 62879,
+      "source": "当天",
+      "target": "On the day",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 62900,
+      "source": "1天前",
+      "target": "1 day before",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 62925,
+      "source": "2天前",
+      "target": "2 days before",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 62950,
+      "source": "3天前",
+      "target": "3 days before",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 62975,
+      "source": "1周前",
+      "target": "1 week before",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 72223,
+      "source": "无",
+      "target": "None",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 72243,
+      "source": "高",
+      "target": "High",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 72263,
+      "source": "中",
+      "target": "Medium",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 72283,
+      "source": "低",
+      "target": "Low",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "8.js",
+      "start": 75546,
+      "source": "已达到最大字符限制",
+      "target": "Character limit reached",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "22.js",
+      "start": 22640,
+      "source": "YYYY年MM月DD日",
+      "target": "YYYY-MM-DD",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "22.js",
+      "start": 29525,
+      "source": "待办新增成功",
+      "target": "To-do added",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "22.js",
+      "start": 29674,
+      "source": "待办新增失败",
+      "target": "Could not add to-do",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "22.js",
+      "start": 29912,
+      "source": "待办已更新",
+      "target": "To-do updated",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "22.js",
+      "start": 30045,
+      "source": "待办更新失败",
+      "target": "Could not update to-do",
+      "reason": "Display-only recurrence, reminder, priority, action, or date label; data values untouched"
+    },
+    {
+      "file": "128.js",
+      "start": 121956,
+      "source": "文件名不能包含下列任何字符：回车符，,/,:,*.?,<,>,|",
+      "target": "Filenames cannot contain line breaks or these characters: /, :, *, ?, <, >, |",
+      "reason": "Reviewed display-only warning, tooltip, or analysis consent text"
+    },
+    {
+      "file": "130.js",
+      "start": 14464,
+      "source": "日历农历最大值为二〇九九年",
+      "target": "The latest supported lunar year is 2099",
+      "reason": "Reviewed display-only warning, tooltip, or analysis consent text"
+    },
+    {
+      "file": "130.js",
+      "start": 14480,
+      "source": "日历农历最小值为一九〇〇年",
+      "target": "The earliest supported lunar year is 1900",
+      "reason": "Reviewed display-only warning, tooltip, or analysis consent text"
+    },
+    {
+      "file": "130.js",
+      "start": 14561,
+      "source": "日历最大值为2099年",
+      "target": "The latest supported year is 2099",
+      "reason": "Reviewed display-only warning, tooltip, or analysis consent text"
+    },
+    {
+      "file": "130.js",
+      "start": 14575,
+      "source": "日历最小值为1901年",
+      "target": "The earliest supported year is 1901",
+      "reason": "Reviewed display-only warning, tooltip, or analysis consent text"
+    },
+    {
+      "file": "130.js",
+      "start": 15878,
+      "source": "日历农历最大值为二〇九九年冬月二十",
+      "target": "The latest lunar date is year 2099, month 11, day 20",
+      "reason": "Reviewed display-only warning, tooltip, or analysis consent text"
+    },
+    {
+      "file": "130.js",
+      "start": 15898,
+      "source": "日历农历最小值为一九〇〇年冬月十一",
+      "target": "The earliest lunar date is year 1900, month 11, day 11",
+      "reason": "Reviewed display-only warning, tooltip, or analysis consent text"
+    },
+    {
+      "file": "132.js",
+      "start": 192046,
+      "source": "<div class=\"parse-dialog-content\"><span class=\"first-level-main-text\">解析数据将耗费一定时间，同时",
+      "target": "<div class=\"parse-dialog-content\"><span class=\"first-level-main-text\">Data analysis takes time and may cause ",
+      "reason": "Reviewed display-only warning, tooltip, or analysis consent text"
+    },
+    {
+      "file": "132.js",
+      "start": 192153,
+      "source": "温度升高、耗电加速，解析完可恢复。</span><span class=\"secondary-text\">选择“稍后闲时解析”将在",
+      "target": " to get warmer and use more battery. This returns to normal after analysis.</span><span class=\"secondary-text\">Choose Analyze later when idle to analyze on ",
+      "reason": "Reviewed display-only warning, tooltip, or analysis consent text"
+    },
+    {
+      "file": "132.js",
+      "start": 192241,
+      "source": "熄屏充电时自动解析。</span></div>",
+      "target": " automatically when its screen is off and it is charging.</span></div>",
+      "reason": "Reviewed display-only warning, tooltip, or analysis consent text"
+    },
+    {
+      "file": "135.js",
+      "start": 59438,
+      "source": "支持的文件格式：\npdf、txt、docx、doc、pptx、ppt、png、jpeg、jpg、bmp、webp、gif、heic",
+      "target": "Supported file formats:\npdf, txt, docx, doc, pptx, ppt, png, jpeg, jpg, bmp, webp, gif, heic",
+      "reason": "Reviewed display-only warning, tooltip, or analysis consent text"
+    },
+    {
+      "file": "135.js",
+      "start": 59816,
+      "source": "支持的图片格式：\npng、jpeg、jpg、bmp、webp、gif、heic",
+      "target": "Supported image formats:\npng, jpeg, jpg, bmp, webp, gif, heic",
+      "reason": "Reviewed display-only warning, tooltip, or analysis consent text"
+    },
+    {
+      "file": "137.js",
+      "start": 106304,
+      "source": "相册名不能包含: \\，:，*，？，”，<，>，|，.",
+      "target": "Album names cannot contain: \\, :, *, ?, \", <, >, |, .",
+      "reason": "Reviewed display-only warning, tooltip, or analysis consent text"
+    },
+    {
+      "file": "137.js",
+      "start": 122440,
+      "source": "相册名不能包含: \\，:，*，？，”，<，>，|",
+      "target": "Album names cannot contain: \\, :, *, ?, \", <, >, |",
+      "reason": "Reviewed display-only warning, tooltip, or analysis consent text"
+    },
+    {
+      "file": "137.js",
+      "start": 123160,
+      "source": "相册名不能包含: \\，:，*，？，”，<，>，|",
+      "target": "Album names cannot contain: \\, :, *, ?, \", <, >, |",
+      "reason": "Reviewed display-only warning, tooltip, or analysis consent text"
+    }
+  ],
+  "expressionEdits": [
+    {
+      "file": "128.js",
+      "start": 24893,
+      "end": 24905,
+      "source": "t.masetrDate",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(t.masetrDate)",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "128.js",
+      "start": 25131,
+      "end": 25142,
+      "source": "t.dateTitle",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(t.dateTitle)",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "128.js",
+      "start": 25462,
+      "end": 25473,
+      "source": "t.dateTitle",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(t.dateTitle)",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "128.js",
+      "start": 44015,
+      "end": 44056,
+      "source": "e.formatRecentTime(e.source.reminderTime)",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.formatRecentTime(e.source.reminderTime))",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "128.js",
+      "start": 44063,
+      "end": 44079,
+      "source": "e.repeatRuleText",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.repeatRuleText)",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "128.js",
+      "start": 44265,
+      "end": 44306,
+      "source": "e.formatRecentTime(e.source.reminderTime)",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.formatRecentTime(e.source.reminderTime))",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "128.js",
+      "start": 44313,
+      "end": 44329,
+      "source": "e.repeatRuleText",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.repeatRuleText)",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "128.js",
+      "start": 44517,
+      "end": 44558,
+      "source": "e.formatRecentTime(e.source.reminderTime)",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.formatRecentTime(e.source.reminderTime))",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "128.js",
+      "start": 44565,
+      "end": 44581,
+      "source": "e.repeatRuleText",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.repeatRuleText)",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "128.js",
+      "start": 587119,
+      "end": 587148,
+      "source": "e.getDate(t.dtStart,t.allDay)",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.getDate(t.dtStart,t.allDay))",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "128.js",
+      "start": 587300,
+      "end": 587349,
+      "source": "e.getReminder(t.reminderList,t.hasAlarm,t.allDay)",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.getReminder(t.reminderList,t.hasAlarm,t.allDay))",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "128.js",
+      "start": 587421,
+      "end": 587442,
+      "source": "e.getEventListRule(t)",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.getEventListRule(t))",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "128.js",
+      "start": 589932,
+      "end": 589954,
+      "source": "e._s(e.detail.subhead)",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e._s(e.detail.subhead))",
+      "reason": "Translate rendered event detail dates and weekday labels only"
+    },
+    {
+      "file": "128.js",
+      "start": 590034,
+      "end": 590047,
+      "source": "e.detail.rule",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.detail.rule)",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "128.js",
+      "start": 591482,
+      "end": 591495,
+      "source": "e.detail.date",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.detail.date)",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "128.js",
+      "start": 599230,
+      "end": 599261,
+      "source": "e.getDate(t.beginTime,t.allDay)",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.getDate(t.beginTime,t.allDay))",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "130.js",
+      "start": 28327,
+      "end": 28375,
+      "source": "t.date.year+\"年\"+t.date.month+\"月\"+t.date.date+\"日\"",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(t.date.year+\"年\"+t.date.month+\"月\"+t.date.date+\"日\")",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "130.js",
+      "start": 28461,
+      "end": 28468,
+      "source": "t.lunar",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(t.lunar)",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "130.js",
+      "start": 34040,
+      "end": 34048,
+      "source": "t.nlYear",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(t.nlYear)",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "130.js",
+      "start": 38529,
+      "end": 38537,
+      "source": "t.nlYear",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(t.nlYear)",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "130.js",
+      "start": 43423,
+      "end": 43443,
+      "source": "t.reminderTimeStr(e)",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(t.reminderTimeStr(e))",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "130.js",
+      "start": 197976,
+      "end": 198005,
+      "source": "t.getDate(e.dtStart,e.allDay)",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(t.getDate(e.dtStart,e.allDay))",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "130.js",
+      "start": 198157,
+      "end": 198206,
+      "source": "t.getReminder(e.reminderList,e.hasAlarm,e.allDay)",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(t.getReminder(e.reminderList,e.hasAlarm,e.allDay))",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "130.js",
+      "start": 198278,
+      "end": 198299,
+      "source": "t.getEventListRule(e)",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(t.getEventListRule(e))",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "130.js",
+      "start": 200789,
+      "end": 200811,
+      "source": "t._s(t.detail.subhead)",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(t._s(t.detail.subhead))",
+      "reason": "Translate rendered event detail dates and weekday labels only"
+    },
+    {
+      "file": "130.js",
+      "start": 200891,
+      "end": 200904,
+      "source": "t.detail.rule",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(t.detail.rule)",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "130.js",
+      "start": 202339,
+      "end": 202352,
+      "source": "t.detail.date",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(t.detail.date)",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "130.js",
+      "start": 204421,
+      "end": 204452,
+      "source": "t.getDate(e.beginTime,e.allDay)",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(t.getDate(e.beginTime,e.allDay))",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "130.js",
+      "start": 212255,
+      "end": 212269,
+      "source": "t.source.lunar",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(t.source.lunar)",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "130.js",
+      "start": 212280,
+      "end": 212295,
+      "source": "t.source.weekly",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(t.source.weekly)",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "133.js",
+      "start": 45754,
+      "end": 45795,
+      "source": "e.formatRecentTime(e.source.reminderTime)",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.formatRecentTime(e.source.reminderTime))",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "133.js",
+      "start": 45802,
+      "end": 45818,
+      "source": "e.repeatRuleText",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.repeatRuleText)",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "133.js",
+      "start": 48729,
+      "end": 48770,
+      "source": "e.formatRecentTime(e.source.reminderTime)",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.formatRecentTime(e.source.reminderTime))",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "133.js",
+      "start": 48777,
+      "end": 48793,
+      "source": "e.repeatRuleText",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.repeatRuleText)",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "133.js",
+      "start": 53526,
+      "end": 53543,
+      "source": "e.reminderTimeStr",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.reminderTimeStr)",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "133.js",
+      "start": 53554,
+      "end": 53570,
+      "source": "e.repeatRuleText",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.repeatRuleText)",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "133.js",
+      "start": 57944,
+      "end": 57958,
+      "source": "e.timeDateText",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.timeDateText)",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "134.js",
+      "start": 48486,
+      "end": 48527,
+      "source": "e.formatRecentTime(e.source.reminderTime)",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.formatRecentTime(e.source.reminderTime))",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "134.js",
+      "start": 48534,
+      "end": 48550,
+      "source": "e.repeatRuleText",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.repeatRuleText)",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "134.js",
+      "start": 51501,
+      "end": 51542,
+      "source": "e.formatRecentTime(e.source.reminderTime)",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.formatRecentTime(e.source.reminderTime))",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "134.js",
+      "start": 51549,
+      "end": 51565,
+      "source": "e.repeatRuleText",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.repeatRuleText)",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "134.js",
+      "start": 59557,
+      "end": 59598,
+      "source": "e.formatRecentTime(e.source.reminderTime)",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.formatRecentTime(e.source.reminderTime))",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "134.js",
+      "start": 59605,
+      "end": 59621,
+      "source": "e.repeatRuleText",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.repeatRuleText)",
+      "reason": "Translate rendered date, weekday, lunar or recurrence label without changing calendar algorithms"
+    },
+    {
+      "file": "128.js",
+      "start": 203079,
+      "end": 203152,
+      "source": "`${i.year()===(new Date).getFullYear()?\"\":\"YYYY年\"}MM月DD日${t?\"\":\" HH:mm\"}`",
+      "target": "`${i.year()===(new Date).getFullYear()?\"\":\"YYYY-\"}MM-DD${t?\"\":\" HH:mm\"}`",
+      "reason": "English numeric date formatting"
+    },
+    {
+      "file": "128.js",
+      "start": 213323,
+      "end": 213396,
+      "source": "`${i.year()===(new Date).getFullYear()?\"\":\"YYYY年\"}MM月DD日${t?\"\":\" HH:mm\"}`",
+      "target": "`${i.year()===(new Date).getFullYear()?\"\":\"YYYY-\"}MM-DD${t?\"\":\" HH:mm\"}`",
+      "reason": "English numeric date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 87537,
+      "end": 87610,
+      "source": "`${a.year()===(new Date).getFullYear()?\"\":\"YYYY年\"}MM月DD日${e?\"\":\" HH:mm\"}`",
+      "target": "`${a.year()===(new Date).getFullYear()?\"\":\"YYYY-\"}MM-DD${e?\"\":\" HH:mm\"}`",
+      "reason": "English numeric date formatting"
+    },
+    {
+      "file": "130.js",
+      "start": 97781,
+      "end": 97854,
+      "source": "`${a.year()===(new Date).getFullYear()?\"\":\"YYYY年\"}MM月DD日${e?\"\":\" HH:mm\"}`",
+      "target": "`${a.year()===(new Date).getFullYear()?\"\":\"YYYY-\"}MM-DD${e?\"\":\" HH:mm\"}`",
+      "reason": "English numeric date formatting"
+    },
+    {
+      "file": "8.js",
+      "start": 19293,
+      "end": 19311,
+      "source": "e.formatObj.weekly",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.formatObj.weekly)",
+      "reason": "Translate rendered recurrence, weekday and lunar labels only"
+    },
+    {
+      "file": "8.js",
+      "start": 20292,
+      "end": 20307,
+      "source": "e.lunar?\" \":\"/\"",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.lunar?\" \":\"/\")",
+      "reason": "Translate rendered recurrence, weekday and lunar labels only"
+    },
+    {
+      "file": "8.js",
+      "start": 26348,
+      "end": 26358,
+      "source": "e.freqName",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.freqName)",
+      "reason": "Translate rendered recurrence, weekday and lunar labels only"
+    },
+    {
+      "file": "8.js",
+      "start": 27315,
+      "end": 27346,
+      "source": "e.value.hasAlarm&&e.name||\"无提醒\"",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.value.hasAlarm&&e.name||\"无提醒\")",
+      "reason": "Translate rendered recurrence, weekday and lunar labels only"
+    },
+    {
+      "file": "8.js",
+      "start": 28213,
+      "end": 28220,
+      "source": "t.label",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(t.label)",
+      "reason": "Translate rendered recurrence, weekday and lunar labels only"
+    },
+    {
+      "file": "8.js",
+      "start": 28859,
+      "end": 28866,
+      "source": "t.label",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(t.label)",
+      "reason": "Translate rendered recurrence, weekday and lunar labels only"
+    },
+    {
+      "file": "8.js",
+      "start": 29477,
+      "end": 29483,
+      "source": "t.name",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(t.name)",
+      "reason": "Translate rendered recurrence, weekday and lunar labels only"
+    },
+    {
+      "file": "8.js",
+      "start": 33064,
+      "end": 33076,
+      "source": "i?i.label:\"\"",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(i?i.label:\"\")",
+      "reason": "Translate rendered recurrence, weekday and lunar labels only"
+    },
+    {
+      "file": "8.js",
+      "start": 33269,
+      "end": 33276,
+      "source": "i.label",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(i.label)",
+      "reason": "Translate rendered recurrence, weekday and lunar labels only"
+    },
+    {
+      "file": "8.js",
+      "start": 35309,
+      "end": 35315,
+      "source": "e.name",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.name)",
+      "reason": "Translate rendered recurrence, weekday and lunar labels only"
+    },
+    {
+      "file": "8.js",
+      "start": 39095,
+      "end": 39107,
+      "source": "e.weeklyName",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.weeklyName)",
+      "reason": "Translate rendered recurrence, weekday and lunar labels only"
+    },
+    {
+      "file": "22.js",
+      "start": 4562,
+      "end": 4601,
+      "source": "e.reminderText||e.formattedReminderTime",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.reminderText||e.formattedReminderTime)",
+      "reason": "Translate rendered recurrence, weekday and lunar labels only"
+    }
+  ]
+}

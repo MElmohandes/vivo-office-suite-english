@@ -1,0 +1,33 @@
+name: Bug report
+description: Report localization, layout or supported-build problems
+body:
+  - type: markdown
+    attributes:
+      value: Do not include tokens, profiles, phone numbers, private files or precise locations. Sanitize screenshots.
+  - type: input
+    id: version
+    attributes:
+      label: Application and patch versions
+      placeholder: vivo Office Suite 7.0.6 / patch 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: hash
+    attributes:
+      label: Original app.asar SHA-256
+  - type: textarea
+    id: steps
+    attributes:
+      label: Affected screen and reproduction steps
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Sanitized screenshot or source label

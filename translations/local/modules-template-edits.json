@@ -1,0 +1,389 @@
+{
+  "files": [],
+  "translations": {},
+  "extraEdits": [
+    {
+      "file": "140.js",
+      "start": 11841,
+      "source": "的出生日",
+      "target": "'s birthday",
+      "reason": "Presentation-only weekday, year suffix, or birthday label"
+    },
+    {
+      "file": "140.js",
+      "start": 61454,
+      "source": "日",
+      "target": "Sun",
+      "reason": "Presentation-only weekday, year suffix, or birthday label"
+    },
+    {
+      "file": "140.js",
+      "start": 61458,
+      "source": "一",
+      "target": "Mon",
+      "reason": "Presentation-only weekday, year suffix, or birthday label"
+    },
+    {
+      "file": "140.js",
+      "start": 61462,
+      "source": "二",
+      "target": "Tue",
+      "reason": "Presentation-only weekday, year suffix, or birthday label"
+    },
+    {
+      "file": "140.js",
+      "start": 61466,
+      "source": "三",
+      "target": "Wed",
+      "reason": "Presentation-only weekday, year suffix, or birthday label"
+    },
+    {
+      "file": "140.js",
+      "start": 61470,
+      "source": "四",
+      "target": "Thu",
+      "reason": "Presentation-only weekday, year suffix, or birthday label"
+    },
+    {
+      "file": "140.js",
+      "start": 61474,
+      "source": "五",
+      "target": "Fri",
+      "reason": "Presentation-only weekday, year suffix, or birthday label"
+    },
+    {
+      "file": "140.js",
+      "start": 61478,
+      "source": "六",
+      "target": "Sat",
+      "reason": "Presentation-only weekday, year suffix, or birthday label"
+    },
+    {
+      "file": "140.js",
+      "start": 61916,
+      "source": "周",
+      "target": "",
+      "reason": "Presentation-only weekday, year suffix, or birthday label"
+    },
+    {
+      "file": "140.js",
+      "start": 61990,
+      "source": "年",
+      "target": "",
+      "reason": "Presentation-only weekday, year suffix, or birthday label"
+    }
+  ],
+  "expressionEdits": [
+    {
+      "file": "125.js",
+      "start": 1600984,
+      "end": 1601007,
+      "source": "`${n}\\n\\n${d}\\n\\n来自录音机`",
+      "target": "`${n}\\n\\n${d}\\n\\nFrom Recorder`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "125.js",
+      "start": 1650387,
+      "end": 1650408,
+      "source": "`，已存为“${e.markName}”`",
+      "target": "`, saved as \"${e.markName}\"`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "125.js",
+      "start": 1684091,
+      "end": 1684123,
+      "source": "`正在转文本 ${this.unifiedProgress}%`",
+      "target": "`Transcribing ${this.unifiedProgress}%`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "125.js",
+      "start": 1684124,
+      "end": 1684161,
+      "source": "`正在转文本、文本整理 ${this.unifiedProgress}%`",
+      "target": "`Transcribing and cleaning up ${this.unifiedProgress}%`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "125.js",
+      "start": 1684173,
+      "end": 1684186,
+      "source": "`正在转文本 ${e}%`",
+      "target": "`Transcribing ${e}%`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "125.js",
+      "start": 1684187,
+      "end": 1684205,
+      "source": "`正在转文本、文本整理 ${e}%`",
+      "target": "`Transcribing and cleaning up ${e}%`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "125.js",
+      "start": 1688704,
+      "end": 1688766,
+      "source": "`正在转文本，文本整理${`（${this.getTransferThenOrganizeProgress()}%）`}。`",
+      "target": "`Transcribing and cleaning up${` (${this.getTransferThenOrganizeProgress()}%)`}.`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "125.js",
+      "start": 1688773,
+      "end": 1688785,
+      "source": "`正在转文本${r}。`",
+      "target": "`Transcribing${r}.`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "125.js",
+      "start": 1688989,
+      "end": 1689051,
+      "source": "`正在转文本、文本整理${`（${this.getTransferThenOrganizeProgress()}%）`}。`",
+      "target": "`Transcribing and cleaning up${` (${this.getTransferThenOrganizeProgress()}%)`}.`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "125.js",
+      "start": 1689058,
+      "end": 1689071,
+      "source": "`正在文本整理${r}。`",
+      "target": "`Cleaning up transcript${r}.`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "125.js",
+      "start": 1827980,
+      "end": 1828049,
+      "source": "`正在生成文本整理 ${Math.max(0,Math.min(100,Math.round(this.progress||0)))}%`",
+      "target": "`Cleaning up transcript ${Math.max(0,Math.min(100,Math.round(this.progress||0)))}%`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "125.js",
+      "start": 1855106,
+      "end": 1855130,
+      "source": "`不能超过${this.maxlength}字`",
+      "target": "`Cannot exceed ${this.maxlength} characters`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "125.js",
+      "start": 2120406,
+      "end": 2120427,
+      "source": "`，已存为“${e.markName}”`",
+      "target": "`, saved as \"${e.markName}\"`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "126.js",
+      "start": 163738,
+      "end": 163765,
+      "source": "`通过链接进行分享，需要开启${o}同步开关后重试。`",
+      "target": "`To share using a link, enable ${o} sync and try again.`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "126.js",
+      "start": 487876,
+      "end": 487895,
+      "source": "`此${this.text}已被加密`",
+      "target": "`This ${require(require('path').join(__dirname,'ui-display.cjs')).label(this.text)} is encrypted`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "126.js",
+      "start": 697050,
+      "end": 697069,
+      "source": "`此${this.text}已被加密`",
+      "target": "`This ${require(require('path').join(__dirname,'ui-display.cjs')).label(this.text)} is encrypted`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "140.js",
+      "start": 10448,
+      "end": 10464,
+      "source": "`${c} ${a} - 开始`",
+      "target": "`${c} ${a} - Start`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "140.js",
+      "start": 10476,
+      "end": 10492,
+      "source": "`结束 - ${h} ${s}`",
+      "target": "`End - ${h} ${s}`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "140.js",
+      "start": 11481,
+      "end": 11500,
+      "source": "`${s}周年-${t.title}`",
+      "target": "`${s}-year anniversary - ${t.title}`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "140.js",
+      "start": 11848,
+      "end": 11862,
+      "source": "`${e}的${s}岁生日`",
+      "target": "`${e} turns ${s}`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "142.js",
+      "start": 12023,
+      "end": 12057,
+      "source": "`${e.monthFormat}月${e.dayFormat}日`",
+      "target": "`${e.monthFormat}/${e.dayFormat}`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "142.js",
+      "start": 12058,
+      "end": 12109,
+      "source": "`${e.yearFormat}年${e.monthFormat}月${e.dayFormat}日 `",
+      "target": "`${e.yearFormat}/${e.monthFormat}/${e.dayFormat} `",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "142.js",
+      "start": 12145,
+      "end": 12180,
+      "source": "`${e.yearFormat}年${e.monthFormat}月`",
+      "target": "`${e.yearFormat}/${e.monthFormat}`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "142.js",
+      "start": 12323,
+      "end": 12357,
+      "source": "`${e.monthFormat}月${e.dayFormat}日`",
+      "target": "`${e.monthFormat}/${e.dayFormat}`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "142.js",
+      "start": 12358,
+      "end": 12408,
+      "source": "`${e.yearFormat}年${e.monthFormat}月${e.dayFormat}日`",
+      "target": "`${e.yearFormat}/${e.monthFormat}/${e.dayFormat}`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "143.js",
+      "start": 23935,
+      "end": 23974,
+      "source": "`从套件、云端及其他同步设备中永久删除 ${s.length} 张连拍照片？`",
+      "target": "`Permanently delete ${s.length} burst photos from the suite, cloud, and other synced devices?`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "143.js",
+      "start": 23975,
+      "end": 24000,
+      "source": "`永久删除 ${s.length} 张连拍照片？`",
+      "target": "`Permanently delete ${s.length} burst photos?`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "143.js",
+      "start": 24178,
+      "end": 24208,
+      "source": "`从套件、云端及其他同步设备中永久删除 ${e} 个项目?`",
+      "target": "`Permanently delete ${e} items from the suite, cloud, and other synced devices?`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "143.js",
+      "start": 24209,
+      "end": 24225,
+      "source": "`永久删除 ${e} 个项目?`",
+      "target": "`Permanently delete ${e} items?`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 104812,
+      "end": 104824,
+      "source": "`${A}月${r}日`",
+      "target": "`${A}/${r}`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 105373,
+      "end": 105413,
+      "source": "`${n.getMonth()+1}月${n.getDate()}日 ${r}`",
+      "target": "`${n.getMonth()+1}/${n.getDate()} ${r}`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 334149,
+      "end": 334192,
+      "source": "`一次最多只可同时上传${u.onceUploadDocFileNum}个文件进入！`",
+      "target": "`You can upload up to ${u.onceUploadDocFileNum} files at a time`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 516009,
+      "end": 516125,
+      "source": "`<p><span style=\"font-size: 10px;\">${e.from}  ${l.getFullYear()}年${a(l.getMonth()+1)}月${a(l.getDate())}日</span></p>`",
+      "target": "`<p><span style=\"font-size: 10px;\">${e.from}  ${l.getFullYear()}/${a(l.getMonth()+1)}/${a(l.getDate())}</span></p>`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 1636386,
+      "end": 1636405,
+      "source": "`此${this.text}已被加密`",
+      "target": "`This ${require(require('path').join(__dirname,'ui-display.cjs')).label(this.text)} is encrypted`",
+      "reason": "Translate UI presentation text while retaining interpolated names, data, and counts"
+    },
+    {
+      "file": "140.js",
+      "start": 13011,
+      "end": 13153,
+      "source": "1===t?(\"before\"===e?\"明\":\"昨\")+\"天\":2===t?(\"before\"===e?\"后\":\"前\")+\"天\":t>2&&t<7?`${t}天${\"before\"===e?\"后\":\"前\"}`:7===t?\"1周\"+(\"before\"===e?\"后\":\"前\"):\"\"",
+      "target": "1===t?(\"before\"===e?\"Tomorrow\":\"Yesterday\"):2===t?(\"before\"===e?\"Day after tomorrow\":\"Day before yesterday\"):t>2&&t<7?`${t} days ${\"before\"===e?\"later\":\"ago\"}`:7===t?\"1 week \"+(\"before\"===e?\"later\":\"ago\"):\"\"",
+      "reason": "Translate composed relative birthday date without changing numeric conditions"
+    },
+    {
+      "file": "142.js",
+      "start": 12127,
+      "end": 12144,
+      "source": "e.monthFormat+\"月\"",
+      "target": "e.monthFormat+\"\"",
+      "reason": "Use numeric month display without a Chinese suffix"
+    },
+    {
+      "file": "125.js",
+      "start": 1688594,
+      "end": 1688611,
+      "source": "`（${e.percent}%）`",
+      "target": "` (${e.percent}%)`",
+      "reason": "Display transcription progress in English punctuation"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 516532,
+      "end": 516901,
+      "source": "`<p></p><vnote-share link=\"${(e=>{const t={articleNo:e.articleNo,audioUrl:e.audioUrl,authorId:e.authorId,channel:e.channel,classifyText:e.classifyText,from:e.from,fromIcon:e.fromIcon,originalUrl:e.originalUrl,pcUrl:e.pcUrl,postTime:e.postTime,source:e.source,title:e.articleTitle,token:\"\"};return r.encode(r.encode(JSON.stringify(t),!0),!0)})(e)}\">来自原子阅读</vnote-share>`",
+      "target": "`<p></p><vnote-share link=\"${(e=>{const t={articleNo:e.articleNo,audioUrl:e.audioUrl,authorId:e.authorId,channel:e.channel,classifyText:e.classifyText,from:e.from,fromIcon:e.fromIcon,originalUrl:e.originalUrl,pcUrl:e.pcUrl,postTime:e.postTime,source:e.source,title:e.articleTitle,token:\"\"};return r.encode(r.encode(JSON.stringify(t),!0),!0)})(e)}\">From Origin Reader</vnote-share>`",
+      "reason": "Translate the generated reader-source link label; retain encoded metadata and user content unchanged"
+    }
+  ],
+  "displayLabels": {
+    "笔记": "note",
+    "文件夹": "folder",
+    "文档": "document",
+    "图片": "photo",
+    "录音": "recording"
+  }
+}

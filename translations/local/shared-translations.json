@@ -1,0 +1,5505 @@
+{
+  "files": [
+    "renderer.js",
+    "child-window.js",
+    "module-share-preview.js",
+    "app-components.js",
+    "app-modules.js",
+    "7.js"
+  ],
+  "translations": {
+    "搜索办公套件、电脑和已连接设备的文件": "Search Office Suite, this computer, and connected-device files",
+    "已有文件正在传输到电脑，请稍后再试": "Files are already being transferred to this computer. Please try again later.",
+    "文件路径含有非法符号，请重新选择其他目录！": "The path contains invalid characters. Please select another folder.",
+    "更改失败，该路径无访问权限": "Cannot change location: access to this path is denied.",
+    "无可优化的图片或视频": "No photos or videos to optimize",
+    "优化空间失败": "Could not optimize storage",
+    "复制成功": "Copied",
+    "该设置将在投屏重启后生效": "This setting will take effect after restarting screen mirroring.",
+    "切换失败，请稍后再试": "Could not switch. Please try again later.",
+    "清除成功": "Cleared",
+    "清除失败": "Could not clear",
+    "返回新版": "Return to new version",
+    "\n      查看旧版数据\n    ": "\n      View old-version data\n    ",
+    "搜索指定原子笔记": "Search specific Notes",
+    "的笔记": " notes",
+    "\"vivo办公套件\"新增AI搜索问答，可用于通过日常交流语言搜索已连接设备的文件，为您匹配相关结果及AI问答。为提供上述功能，本应用已更新相关协议。点击“同意”，即视为同意\n        ": "vivo Office Suite now offers AI search and Q&A. Use everyday language to search files on connected devices and receive relevant results and AI answers. The related agreements have been updated for these features. By clicking Agree, you accept the\n        ",
+    "vivo办公套件隐私政策": "vivo Office Suite Privacy Policy",
+    " 不同意 ": "Disagree",
+    " 同意 ": "Agree",
+    "无搜索结果": "No search results",
+    "全不选": "Deselect all",
+    "全选": "Select all",
+    "取消": "Cancel",
+    "立即登录": "Sign in now",
+    "升级云空间": "Upgrade cloud storage",
+    "显示在：": "Show in:",
+    "欢迎使用新版本": "Welcome to the new version",
+    "更强大的跨端功能，可下载电脑客户端": "Download the desktop app for more cross-device features",
+    "镜像投屏": "Screen mirroring",
+    "任务接力": "Task handoff",
+    "跨端传文件": "Cross-device file transfer",
+    "照片自动备份": "Automatic photo backup",
+    "笔记连续互通": "Continuous Notes access",
+    "超级剪贴板": "Shared clipboard",
+    "下载客户端": "Download desktop app",
+    "知道了": "Got it",
+    "已使用": "Used ",
+    "暂不支持网页端升级云空间，请在手机端“云服务”应用中升级": "Cloud storage upgrades are unavailable on the web. Upgrade in the Cloud Services app on your phone.",
+    "1.打开“云服务”": "1. Open Cloud Services",
+    "2.点击“升级云空间”": "2. Tap Upgrade cloud storage",
+    "3.选择套餐完成购买": "3. Choose a plan and complete your purchase",
+    "1.打开云服务": "1. Open Cloud Services",
+    "2.点击升级云空间": "2. Tap Upgrade cloud storage",
+    "您的云存储空间不足，照片和资料将无法上传至云端、建议升级。": "Your cloud storage is low. Photos and files cannot be uploaded. Consider upgrading.",
+    "\n      星期": "\n      ",
+    "选择合适的 Mac 版本": "Choose the right Mac version",
+    "下载 Intel 芯片版": "Download for Intel",
+    "下载 Apple 芯片版（M 系列）": "Download for Apple silicon (M series)",
+    "如何确认 Mac 电脑的芯片类型": "How to identify your Mac chip",
+    "\n              1、在电脑左上角，点击": "\n              1. At the top left of your screen, click",
+    "“Apple 菜单”>“关于本机”": "Apple menu > About This Mac",
+    "\n              2、在": "\n              2. On the",
+    "“概览”": "Overview",
+    "页中查看": "tab, check",
+    "“芯片”": "Chip",
+    "或": "or",
+    "“处理器”": "Processor",
+    "，确认是“Intel”还是“Apple”\n            ": "to see whether it is Intel or Apple.\n            ",
+    "注：若无法判断电脑的芯片类型，建议点击“下载 Intel 芯片版”，确保\n            vivo 办公套件正常使用。": "If you cannot identify your chip, download the Intel version to ensure vivo Office Suite works correctly.",
+    "下载办公套件电脑客户端，体验更强大的跨设备协同体验": "Download vivo Office Suite for a better cross-device experience",
+    "立即下载": "Download now",
+    "手机投屏至电脑，畅享大屏体验": "Mirror your phone to your computer for a larger screen",
+    "多设备共享剪贴板，复制粘贴一键搞定": "Share your clipboard across devices for easy copying and pasting",
+    "拍照截屏即时同步，接力快人一步": "Sync photos and screenshots instantly with task handoff",
+    "电脑访问手机文件，管理传输轻松便捷": "Access phone files on your computer for easy management and transfer",
+    "自动增量备份，珍藏每一份记忆": "Automatic incremental backups preserve your memories",
+    "笔记连接互通": "Connected Notes",
+    "选取手机添加图片，记录从未如此顺滑": "Add images from your phone to your notes seamlessly",
+    "访问失败，点击重试": "Could not load. Click to retry.",
+    "点击刷新": "Click to refresh",
+    "日程导入": "Import events",
+    "可添加邮箱、钉钉等账号并同步账号中的日程": "Add email, DingTalk, or other accounts to sync their events",
+    "使用帮助": "Help",
+    "本地日程类型": "Local event categories",
+    "待办类型": "To-do categories",
+    "课程表": "Timetable",
+    "\n          取消\n        ": "\n          Cancel\n        ",
+    "\n          提交\n        ": "\n          Submit\n        ",
+    "最小化": "Minimize",
+    "最大化": "Maximize",
+    "关闭": "Close",
+    "蓝心小V": "BlueLM V",
+    "云端数据同步": "Cloud data sync",
+    "重新登录": "Sign in again",
+    "修改存储路径": "Change storage location",
+    "去开启": "Enable now",
+    "登录账号，同步云端数据。": "Sign in to sync cloud data.",
+    "退出账号": "Sign out",
+    "反馈记录": "Feedback history",
+    "清空记录": "Clear history",
+    "日程与待办管理": "Manage events and to-dos",
+    "日历视图": "Calendar view",
+    "一周开始日": "First day of week",
+    "其他历法": "Alternate calendar",
+    "时区优先": "Time zone override",
+    "显示周数": "Show week numbers",
+    "显示天气信息": "Show weather",
+    "在月视图、周视图中显示未来两周的天气信息": "Show weather for the next two weeks in month and week views",
+    "周视图显示范围": "Week view range",
+    "提醒": "Reminders",
+    "默认日程提醒时间": "Default event reminder",
+    "默认待办提醒时间": "Default to-do reminder",
+    "辅助功能": "Accessibility",
+    "智能解析日程": "Smart event parsing",
+    "新建日程时，智能解析日程并提供选择建议。": "Automatically parse new events and suggest details.",
+    "快捷入口": "Quick access",
+    "在工具栏显示日期和时间，点击可进入vivo办公套件日历模块。": "Show the date and time in the toolbar. Click to open the vivo Office Suite Calendar.",
+    "用户名": "Username",
+    "服务器地址": "Server address",
+    "从邮箱中导入": "Import from email",
+    "如何从Exchange邮箱账号中导入日程？": "How do I import events from an Exchange account?",
+    "从钉钉中导入": "Import from DingTalk",
+    "如何从钉钉中导入日程？": "How do I import events from DingTalk?",
+    "从CalDAV中导入": "Import from CalDAV",
+    "如何从CalDAV账号中导入飞书日程？": "How do I import Lark events from a CalDAV account?",
+    "如何从CalDAV账号中导入iCloud日程？": "How do I import iCloud events from a CalDAV account?",
+    "类型名称": "Category name",
+    "颜色": "Color",
+    "完成": "Done",
+    "添加待办类型": "Add to-do category",
+    "添加日程类型": "Add event category",
+    "账号信息": "Account information",
+    "同步的日程类型": "Event categories to sync",
+    "设置同步频率": "Sync frequency",
+    "立即同步": "Sync now",
+    "删除账号": "Delete account",
+    "账号": "Account",
+    "密码或授权码": "Password or authorization code",
+    "正在登录": "Signing in",
+    "登录": "Sign in",
+    "时区": "Time zone",
+    "\n    “时区优先”始终优先使用选定的时区来显示事件的日期和时间，如关闭，则根据当前所在时区来显示事件。\n  ": "\n    Time zone override always displays event dates and times in the selected time zone. When disabled, events use your current time zone.\n  ",
+    "请输入日程类型": "Enter an event category",
+    "删除": "Delete",
+    "日程": "Events",
+    "提醒时间": "Reminder time",
+    "云空间": "Cloud storage",
+    "空间说明": "Storage details",
+    "总空间:": "Total storage:",
+    "待生效": "Pending activation",
+    "\n            相同文件只占用一份空间，已使用空间可能会小于各类型数据占用空间大小的总和。\n          ": "\n            Identical files use storage only once, so used storage may be less than the total shown for all data types.\n          ",
+    "云空间已满": "Cloud storage full",
+    "云空间不足": "Cloud storage low",
+    "账号中心": "Account center",
+    "同步设置": "Sync settings",
+    "登录账号": "Sign in",
+    "后即可开启数据同步。\n        ": "to enable data sync.\n        ",
+    "开启后，云端和本地的数据将保持一致。若多个设备同时开启同步，则多设备间也将保持数据一致。": "When enabled, cloud and local data stay in sync. Devices with sync enabled also keep their data consistent.",
+    "同步数据缓存至：": "Cache synced data in:",
+    "\n                更改\n              ": "\n                Change\n              ",
+    "该路径存储了原子笔记、相册等数据，请勿随意删除，若删除可能会导致应用内容丢失。": "This location stores Notes, Albums, and other data. Do not delete it, as doing so may cause app content to be lost.",
+    ". 打开vivo办公套件的同步开关": ". Enable sync in vivo Office Suite",
+    "已开启": "Enabled",
+    "未开启": "Disabled",
+    "未登录": "Not signed in",
+    ". 打开手机/平板电脑各应用的同步开关，并升级到最新版本": ". Enable sync in each app on your phone/tablet and update the apps to the latest version",
+    "查看版本要求": "View version requirements",
+    "原子笔记": "Notes",
+    "一、笔记数据同步": "1. Sync notes",
+    "在手机/平板中打开原子笔记应用，进入“我的”页，开启“自动同步原子笔记”开关。": "On your phone/tablet, open Notes > Me and enable Automatically sync Notes.",
+    "注：若原子笔记应用的“我的”页中，“使用数据网络同步”开关为关，则仅支持WLAN下同步原子笔记数据。": "If Sync using mobile data is disabled under Me in Notes, notes sync only over WLAN.",
+    "二、选择文档数据的同步范围": "2. Choose which documents to sync",
+    "1.全部文档同步：": "1. Sync all documents:",
+    "开启“自动同步原子笔记”后，点击“自动同步的文档范围”设置项，选择“全部文档”，而后所有文档将自动同步至云端。": "After enabling Automatically sync Notes, tap Documents to sync automatically and select All documents. All documents will then sync to the cloud automatically.",
+    "2.仅部分文档同步：": "2. Sync selected documents:",
+    "开启“自动同步原子笔记”后，点击“自动同步的文档范围”设置项，选择“部分文档”后，在“文档”分页中长按勾选文档，之后点击“同步到云端”，即可将对应文档同步至云端。": "After enabling Automatically sync Notes, tap Documents to sync automatically and select Selected documents. On the Documents tab, press and hold to select documents, then tap Sync to cloud.",
+    "电脑的原子笔记数据未同步到手机/平板？": "Computer notes not syncing to your phone/tablet?",
+    "1. 完全退出手机/平板的原子笔记应用，并重新进入。": "1. Fully close and reopen Notes on your phone/tablet.",
+    "2. 进入手机/平板的“原子笔记”>“笔记”，下拉页面，尝试手动同步。": "2. On your phone/tablet, open Notes > Notes and pull down to sync manually.",
+    "3. 若仍未查看到笔记，请检查设备的网络状态是否满足“云同步时网络状态”设置项的要求。": "3. If notes still do not appear, check whether your network meets the Network conditions for cloud sync setting.",
+    "注：手机“便签”应用数据不支持同步到办公套件，请前往vivo云服务 (": "Data from the phone's Memo app cannot sync to Office Suite. Visit vivo Cloud Services (",
+    ") 查看便签数据。\n                  ": ") to view your memos.\n                  ",
+    "日历": "Calendar",
+    "在手机/平板上打开日历应用，点击右上角": "On your phone/tablet, open Calendar and tap the icon at the top right",
+    ">“设置”，开启“自动同步日程与待办”开关，即可将日程与待办同步至云端，在多个vivo设备或办公套件上同步查看。": "> Settings, then enable Automatically sync events and to-dos. You can then view them across vivo devices and Office Suite.",
+    "*需手机的日历应用版本≧V6.3.2.0，平板的日历应用版本≧V6.3.4.0；待办同步需手机和平板的日历应用版本≧V8.0.0.0。": "Requires Calendar V6.3.2.0 or later on phones and V6.3.4.0 or later on tablets. To-do sync requires Calendar V8.0.0.0 or later on both phones and tablets.",
+    "手机/平板的日历为其他版本或无法找到上述开关": "Using another Calendar version or cannot find this switch?",
+    "1.在手机/平板上打开日历应用，点击右上角的“": "1. On your phone/tablet, open Calendar and tap the top-right icon",
+    "，进入日程列表后，再点击": ", then in the event list tap",
+    ">“同步”，开启“日历”开关，即可同步日程。": "> Sync and enable Calendar to sync events.",
+    "\n                    2.在手机/平板中打开原子笔记应用，点击“我的”，开启“自动同步原子笔记”，即可同步待办。\n                  ": "\n                    2. On your phone/tablet, open Notes > Me and enable Automatically sync Notes to sync to-dos.\n                  ",
+    "手机/平板的日历数据未同步到电脑的办公套件？": "Phone/tablet calendar data not syncing to Office Suite?",
+    "1.完全退出手机/平板的日历应用，并重新进入。": "1. Fully close and reopen Calendar on your phone/tablet.",
+    "2.打开手机/平板的日历应用，点击右上角的": "2. Open Calendar on your phone/tablet and tap the top-right icon",
+    "> “设置”，重新开启“自动同步日程与待办”开关。": "> Settings and enable Automatically sync events and to-dos again.",
+    "相册": "Albums",
+    "在手机/平板中打开相册应用，点击右上角的": "On your phone/tablet, open Albums and tap the top-right icon",
+    ">“设置”，开启“自动同步照片”开关，之后可点击“需要同步的相册”设置项，选择相应的相册。": "> Settings, then enable Automatically sync photos. Tap Albums to sync to choose the albums.",
+    "手机/平板的相册数据未同步到电脑的办公套件？": "Phone/tablet albums not syncing to Office Suite?",
+    "1. 完全退出手机/平板电脑的相册应用，并重新进入。": "1. Fully close and reopen Albums on your phone/tablet.",
+    "2. 在手机/平板电脑中进入相册应用的“相册”分页，下拉页面，尝试手动同步。": "2. On your phone/tablet, open the Albums tab in Albums and pull down to sync manually.",
+    "录音机": "Recorder",
+    "在手机/平板中打开录音机应用，点击右上角的": "On your phone/tablet, open Recorder and tap the top-right icon",
+    ">“设置”，开启“自动同步录音文件”开关，即可在办公套件中浏览手机/平板的录音文件。": "> Settings, then enable Automatically sync recordings to browse phone/tablet recordings in Office Suite.",
+    "手机/平板的录音文件未同步到电脑的办公套件？": "Phone/tablet recordings not syncing to Office Suite?",
+    "1. 完全退出手机/平板的录音机应用，并重新进入。": "1. Fully close and reopen Recorder on your phone/tablet.",
+    "2. 点击录音机应用右上角的": "2. Tap the top-right icon in Recorder",
+    "”\n                  >“设置”，重新开启“自动同步录音文件”开关。": "> Settings and enable Automatically sync recordings again.",
+    ". 设置同步数据缓存路径\n        ": ". Set the synced-data cache location\n        ",
+    "vivo办公套件用户服务协议": "vivo Office Suite User Service Agreement",
+    "vivo办公套件用户隐私政策": "vivo Office Suite Privacy Policy",
+    "服务说明": "Service information",
+    "维沃移动通信有限公司版权所有，保留所有权利。": "Copyright vivo Mobile Communication Co., Ltd. All rights reserved.",
+    "个性化推荐服务": "Personalized recommendations",
+    "根据使用习惯，为您推荐相关服务": "Recommend services based on your usage",
+    "清除所有聊天记录": "Clear all chat history",
+    "\n                清除\n            ": "\n                Clear\n            ",
+    "问题分类": "Issue category",
+    "请选择问题分类": "Select an issue category",
+    "查看反馈记录": "View feedback history",
+    "显示近6个月内的反馈记录。": "Shows feedback from the last six months.",
+    "加载中": "Loading",
+    "无反馈记录": "No feedback history",
+    " 反馈码：": " Feedback code: ",
+    "问题已解决": "Issue resolved",
+    "查看回复 ": "View reply ",
+    "vivo办公套件客服": "vivo Office Suite Support",
+    "该问题已解决，感谢您的反馈与支持！": "This issue has been resolved. Thank you for your feedback and support!",
+    "您的问题是否已解决？": "Has your issue been resolved?",
+    "已解决": "Resolved",
+    "未解决": "Unresolved",
+    "\n                手动优化存储空间\n            ": "\n                Optimize storage manually\n            ",
+    "已优化": "Optimized ",
+    "空间": " storage",
+    "取消优化": "Cancel optimization",
+    "后台优化": "Optimize in background",
+    "图片视频备份至：": "Back up photos/videos to:",
+    "\n            浏览\n          ": "\n            Browse\n          ",
+    "\n            更改\n          ": "\n            Change\n          ",
+    "整机数据备份至：": "Back up device data to:",
+    "该路径已被删除，请更改。": "This path has been deleted. Please change it.",
+    "AI搜索问答": "AI search and Q&A",
+    "接收通知提醒": "Receive notifications",
+    "前往": "Go to ",
+    "加入": "Join ",
+    "待办": "To-dos",
+    "Exchange账号导入": "Import Exchange account",
+    "支持从Exchange账号导入日程。": "Import events from an Exchange account.",
+    "钉钉账号导入": "Import DingTalk account",
+    "支持从钉钉账号中导入日程。": "Import events from a DingTalk account.",
+    "CalDAV账号导入": "Import CalDAV account",
+    "支持从飞书、iCloud等CalDAV账号中导入日程。": "Import events from Lark, iCloud, or other CalDAV accounts.",
+    "剪贴板": "Clipboard",
+    "验证码接力": "Verification-code handoff",
+    "允许在电脑端查看、复制手机接收的短信验证码。": "View and copy SMS verification codes received on your phone from your computer.",
+    "浏览器链接接力": "Browser-link handoff",
+    "允许在电脑端打开手机的链接。": "Open links from your phone on your computer.",
+    "原子笔记接力": "Notes handoff",
+    "允许在电脑端快速打开手机/平板上浏览的笔记。": "Quickly open notes viewed on your phone/tablet on your computer.",
+    "智能录音服务": "Smart recording services",
+    "录音内容搜索": "Search recording contents",
+    "支持通过录音内容查找录音文件。": "Find recordings by their contents.",
+    "标记智能命名": "Smart marker names",
+    "点击标记后，会智能识别并生产契合时间点的标记名称。": "Automatically generate a relevant marker name for that point in the recording.",
+    "很抱歉未解决您的问题": "Sorry your issue is still unresolved",
+    "请填写您的联系方式，vivo办公套件客服将尽快与您联系。": "Enter your contact details. vivo Office Suite Support will contact you as soon as possible.",
+    "为了能及时沟通，建议提供手机号码。": "A phone number is recommended for prompt communication.",
+    "请填写您的手机号码或邮箱": "Enter your phone number or email",
+    "提交": "Submit",
+    "删除成功": "Deleted",
+    "删除失败": "Could not delete",
+    "提交成功": "Submitted",
+    "提交失败": "Could not submit",
+    "已导出为Xmind文件": "Exported as an Xmind file",
+    "Xmind文件导出失败": "Could not export Xmind file",
+    "正在生成其他任务，请稍等": "Another task is being generated. Please wait.",
+    "该图片已失效": "This image is no longer available",
+    "文件不存在": "File does not exist",
+    "保存成功": "Saved",
+    "图片复制成功": "Image copied",
+    "打开图片位置": "Open image location",
+    "保存图片": "Save image",
+    "无管理员权限，授权后方可更新": "Administrator authorization is required to update",
+    "下载失败": "Download failed",
+    "当前已经是最新版": "You already have the latest version",
+    "同步开关已开启": "Sync enabled",
+    "日历最大值为2099年": "The latest supported year is 2099",
+    "日历最小值为1901年": "The earliest supported year is 1901",
+    "年": "/",
+    "月": "/",
+    "日": "",
+    "请输入数字": "Enter a number",
+    "请输入正确的格式": "Enter the correct format",
+    "选择日期": "Select date",
+    "选择时间": "Select time",
+    "备份删除成功": "Backup deleted",
+    "备份删除失败": "Could not delete backup",
+    "云空间已满，复制失败！": "Cloud storage is full. Could not copy.",
+    "结束": "ended",
+    "成功": "succeeded",
+    "失败": "failed",
+    "图片视频备份": "Photo/video backup",
+    "仅备份手机本地的图片视频。如需备份存储在云端的原文件，请先在手机\"相册\"下载原文件，后续将自动备份。": "Only photos and videos stored locally on your phone are backed up. To back up originals stored in the cloud, download them in Albums on your phone first. They will then be backed up automatically.",
+    "重试": "Retry",
+    "更改存储位置": "Change storage location",
+    "自动备份": "Automatic backup",
+    "自动将本设备相册内的图片、视频备份至电脑。": "Automatically back up photos and videos in this device's Albums to your computer.",
+    "查看备份文件": "View backup files",
+    "整机备份与恢复": "Device backup and restore",
+    "支持选择": "Back up selected apps, personal data (such as photos and contacts), and system settings from your ",
+    "的应用、个人数据（如图片、联系人等）、系统设置等内容备份至电脑。": " to your computer.",
+    "管理备份数据": "Manage backups",
+    "无备份数据": "No backups",
+    "条备份": " backups",
+    "正在恢复": "Restoring",
+    "请勿将电脑锁屏或休眠，可能会导致备份失败。": "Do not lock or put your computer to sleep, as this may cause backup to fail.",
+    "请勿将电脑锁屏或休眠，可能会导致恢复失败。": "Do not lock or put your computer to sleep, as this may cause restore to fail.",
+    "备份的数据仅可恢复到当前或更高系统版本的": "Backup data can only be restored to a device running the same or a later system version: ",
+    "您当前的": "Your ",
+    "系统版本为": " system version is ",
+    "，备份仅可恢复到": ". Backups can only be restored to version ",
+    "及以上版本的": " or later on your ",
+    "如何备份": "How to back up ",
+    "数据？": " data?",
+    "第一步：确认": "Step 1: Confirm where your ",
+    "备份在电脑上的存储路径。": " backups are stored on the computer.",
+    "第二步：打开": "Step 2: Open ",
+    "的\"备份至电脑\"页面进行备份。": "'s Back up to computer page to create a backup.",
+    "立即打开": "Open now",
+    "如何恢复": "How to restore ",
+    "打开": "Open ",
+    "的\"备份至电脑\"页面，选择数据恢复。": "'s Back up to computer page and select Restore data.",
+    "和电脑使用 USB 连接才可使用该功能": " must connect to the computer via USB to use this feature",
+    "切换成USB连接": "Switch to USB",
+    "更改": "Change"
+  },
+  "extraEdits": [
+    {
+      "file": "renderer.js",
+      "start": 176768,
+      "source": "设备互联",
+      "target": "Device connectivity",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 288540,
+      "source": "知道了",
+      "target": "Got it",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 387870,
+      "source": "同步设置",
+      "target": "Sync settings",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 387921,
+      "source": "同步设置",
+      "target": "Sync settings",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 388202,
+      "source": "笔记",
+      "target": "Notes",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 388256,
+      "source": "日历",
+      "target": "Calendar",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 388314,
+      "source": "录音机",
+      "target": "Recorder",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 388373,
+      "source": "蓝心小V",
+      "target": "BlueLM V",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 388585,
+      "source": "同步设置",
+      "target": "Sync settings",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 388613,
+      "source": "同步设置",
+      "target": "Sync settings",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 388647,
+      "source": "相册",
+      "target": "Albums",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 388914,
+      "source": "笔记",
+      "target": "Notes",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 389044,
+      "source": "笔记默认字号",
+      "target": "Default note font size",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 389112,
+      "source": "笔记快捷键",
+      "target": "Notes shortcuts",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 389189,
+      "source": "日历",
+      "target": "Calendar",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 389225,
+      "source": "日程与待办管理",
+      "target": "Manage events and to-dos",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 389271,
+      "source": "日程导入",
+      "target": "Import events",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 389307,
+      "source": "添加类型",
+      "target": "Add category",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 389340,
+      "source": "编辑类型",
+      "target": "Edit category",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 389374,
+      "source": "账号详情",
+      "target": "Account details",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 389418,
+      "source": "账号信息",
+      "target": "Account information",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 389451,
+      "source": "同步的日程类型",
+      "target": "Event categories to sync",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 389496,
+      "source": "编辑类型",
+      "target": "Edit category",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 389533,
+      "source": "使用帮助",
+      "target": "Help",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 389570,
+      "source": "如何从Exchange邮箱账号中导入日程？",
+      "target": "How do I import events from an Exchange account?",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 389621,
+      "source": "邮箱账号导入",
+      "target": "Import email account",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 389657,
+      "source": "CalDav账号导入",
+      "target": "Import CalDAV account",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 389700,
+      "source": "时区优先",
+      "target": "Time zone override",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 389730,
+      "source": "默认提醒时间",
+      "target": "Default reminder",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 389766,
+      "source": "默认待办提醒时间",
+      "target": "Default to-do reminder",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 389809,
+      "source": "默认提醒时间",
+      "target": "Default reminder",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 389851,
+      "source": "录音机",
+      "target": "Recorder",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 389888,
+      "source": "扬声器",
+      "target": "Speaker",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 390112,
+      "source": "手机投屏",
+      "target": "Phone mirroring",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 390152,
+      "source": "蓝心小V",
+      "target": "BlueLM V",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 390307,
+      "source": "反馈记录",
+      "target": "Feedback history",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 390349,
+      "source": "反馈详情",
+      "target": "Feedback details",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 390402,
+      "source": "星期日",
+      "target": "Sunday",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 390438,
+      "source": "星期一",
+      "target": "Monday",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 390474,
+      "source": "星期二",
+      "target": "Tuesday",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 390510,
+      "source": "星期三",
+      "target": "Wednesday",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 390546,
+      "source": "星期四",
+      "target": "Thursday",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 390582,
+      "source": "星期五",
+      "target": "Friday",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 390618,
+      "source": "星期六",
+      "target": "Saturday",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 390671,
+      "source": "6小时",
+      "target": "6 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 390709,
+      "source": "7小时",
+      "target": "7 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 390747,
+      "source": "8小时",
+      "target": "8 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 390785,
+      "source": "9小时",
+      "target": "9 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 390823,
+      "source": "10小时",
+      "target": "10 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 390864,
+      "source": "11小时",
+      "target": "11 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 390905,
+      "source": "12小时",
+      "target": "12 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 390946,
+      "source": "13小时",
+      "target": "13 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 390987,
+      "source": "14小时",
+      "target": "14 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 391028,
+      "source": "15小时",
+      "target": "15 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 391069,
+      "source": "16小时",
+      "target": "16 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 391110,
+      "source": "17小时",
+      "target": "17 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 391151,
+      "source": "18小时",
+      "target": "18 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 391192,
+      "source": "19小时",
+      "target": "19 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 391233,
+      "source": "20小时",
+      "target": "20 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 391274,
+      "source": "21小时",
+      "target": "21 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 391315,
+      "source": "22小时",
+      "target": "22 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 391356,
+      "source": "23小时",
+      "target": "23 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 391397,
+      "source": "24小时",
+      "target": "24 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 391488,
+      "source": "中国农历",
+      "target": "Chinese lunar calendar",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 391524,
+      "source": "伊斯兰历",
+      "target": "Islamic calendar",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 391560,
+      "source": "泰国农历",
+      "target": "Thai lunar calendar",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 462073,
+      "source": "vivo办公套件",
+      "target": "vivo Office Suite",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 466248,
+      "source": "vivo办公套件",
+      "target": "vivo Office Suite",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 466267,
+      "source": "抱歉，vivo办公套件运行异常，请点击重新加载或退出应用.",
+      "target": "vivo Office Suite encountered an error. Reload or exit the app.",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 488811,
+      "source": "下载原文件",
+      "target": "Download originals",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 605365,
+      "source": "无法生成链接，请升级云空间后重试。",
+      "target": "Could not create a link. Upgrade cloud storage and try again.",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 669844,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 669856,
+      "source": "USB 连接",
+      "target": "USB connection",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 670388,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 670400,
+      "source": "USB 连接",
+      "target": "USB connection",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 679635,
+      "source": "该篇笔记已被删除",
+      "target": "This note has been deleted",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 835965,
+      "source": "蓝心小V",
+      "target": "BlueLM V",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 942406,
+      "source": "办公套件",
+      "target": "Office Suite",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 942456,
+      "source": "办公套件",
+      "target": "Office Suite",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 942545,
+      "source": "电脑本地",
+      "target": "This computer",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 980082,
+      "source": "暂不支持在移动设备网页查看",
+      "target": "Viewing on mobile browsers is not supported yet",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 980098,
+      "source": "请前往电脑网页查看",
+      "target": "Please view this page on a computer",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 980143,
+      "source": "知道了",
+      "target": "Got it",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1181766,
+      "source": "设备互联",
+      "target": "Device connectivity",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1224174,
+      "source": "账号与同步",
+      "target": "Account and sync",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1224275,
+      "source": "同步设置",
+      "target": "Sync settings",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1224468,
+      "source": "笔记",
+      "target": "Notes",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1224652,
+      "source": "笔记",
+      "target": "Notes",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1224855,
+      "source": "通用设置",
+      "target": "General settings",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1225183,
+      "source": "意见反馈",
+      "target": "Feedback",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1225413,
+      "source": "意见反馈",
+      "target": "Feedback",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1228032,
+      "source": "意见反馈",
+      "target": "Feedback",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1228066,
+      "source": "笔记",
+      "target": "Notes",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1228094,
+      "source": "同步设置",
+      "target": "Sync settings",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1228126,
+      "source": "通用设置",
+      "target": "General settings",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1228161,
+      "source": "账号与同步",
+      "target": "Account and sync",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1228196,
+      "source": "版本信息",
+      "target": "Version information",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1228231,
+      "source": "录音机",
+      "target": "Recorder",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1228275,
+      "source": "隐私保护",
+      "target": "Privacy",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1230565,
+      "source": "反馈详情",
+      "target": "Feedback details",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1231340,
+      "source": "默认提醒时间",
+      "target": "Default reminder",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1238615,
+      "source": "确认清空全部记录吗？",
+      "target": "Clear all history?",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1238644,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1238656,
+      "source": "清空",
+      "target": "Clear",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1245141,
+      "source": "文档",
+      "target": "Documents",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1251289,
+      "source": "原子笔记",
+      "target": "Notes",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1251323,
+      "source": "日历",
+      "target": "Calendar",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1251359,
+      "source": "相册",
+      "target": "Albums",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1251505,
+      "source": "录音机",
+      "target": "Recorder",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1253514,
+      "source": "相册",
+      "target": "Albums",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1258247,
+      "source": "相册同步说明",
+      "target": "Album sync information",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1258256,
+      "source": "开启手机端“云服务>数据同步>相册>自动同步照片”开关，并选择需要同步的相册，可将所选相册的照片同步至本套件中。",
+      "target": "On your phone, open Cloud Services > Data sync > Albums > Automatically sync photos and choose albums to sync their photos to Office Suite.",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1258328,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1258340,
+      "source": "开启相册云同步",
+      "target": "Enable Albums cloud sync",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1259396,
+      "source": "相册",
+      "target": "Albums",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1259539,
+      "source": "笔记",
+      "target": "Notes",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1259694,
+      "source": "日历",
+      "target": "Calendar",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1259850,
+      "source": "录音机",
+      "target": "Recorder",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1264635,
+      "source": "下载并保留原文件",
+      "target": "Download and keep originals",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1264651,
+      "source": "已同步至云端的照片，将以全分辨率存储在本地，可能占用较多空间。",
+      "target": "Cloud-synced photos are stored locally at full resolution and may take up more space.",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1264701,
+      "source": "优化设备存储空间",
+      "target": "Optimize device storage",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1264717,
+      "source": "当本地空间不足时，自动将已同步至云端的图片和视频优化为较小版本以节省空间。原文件可随时从云端下载。",
+      "target": "When local storage is low, automatically replace cloud-synced photos and videos with smaller versions. Originals can be downloaded from the cloud at any time.",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1266006,
+      "source": "确定优化设备存储空间吗？",
+      "target": "Optimize device storage?",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1266021,
+      "source": "立即压缩已同步至云端的图片和视频。图片将被压缩为较低分辨率版本，视频将被压缩为可在线播放的视频。原文件可随时从云端下载。",
+      "target": "Compress cloud-synced photos and videos now. Photos will use lower-resolution versions, and videos will stream online. Originals can be downloaded from the cloud at any time.",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1266097,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1266147,
+      "source": "立即优化",
+      "target": "Optimize now",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1267450,
+      "source": "相册",
+      "target": "Albums",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1283492,
+      "source": "确定关闭接收通知提醒吗？",
+      "target": "Disable notifications?",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1283507,
+      "source": "关闭后，将无法收到笔记待办、日历日程设置的提醒，以及无法使用通知接力功能。",
+      "target": "You will no longer receive Notes to-do or Calendar event reminders, and notification handoff will be unavailable.",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1283560,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1283572,
+      "source": "确定关闭",
+      "target": "Disable",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1314169,
+      "source": "手动",
+      "target": "Manually",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1314191,
+      "source": "每隔15分钟",
+      "target": "Every 15 minutes",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1314218,
+      "source": "每隔1小时",
+      "target": "Every hour",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1314245,
+      "source": "每隔4小时",
+      "target": "Every 4 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1314273,
+      "source": "每隔12小时",
+      "target": "Every 12 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1314970,
+      "source": "确定删除此账号吗？",
+      "target": "Delete this account?",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1314982,
+      "source": "删除账号后将同步移除该账号下的所有日程。",
+      "target": "All events from this account will also be removed.",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1315018,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1315030,
+      "source": "删除",
+      "target": "Delete",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1315442,
+      "source": "日程导入与管理",
+      "target": "Import and manage events",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1317555,
+      "source": "钉钉",
+      "target": "DingTalk",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1317677,
+      "source": "飞书",
+      "target": "Lark",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1319477,
+      "source": "已关闭",
+      "target": "Disabled",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1328089,
+      "source": "删除类型",
+      "target": "Delete category",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1328096,
+      "source": "确定删除该待办分类吗？",
+      "target": "Delete this to-do category?",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1328123,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1328135,
+      "source": "确定",
+      "target": "OK",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1328343,
+      "source": "删除类型",
+      "target": "Delete category",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1328350,
+      "source": "所有与此类型关联的日程都将被删除。",
+      "target": "All events associated with this category will be deleted.",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1328383,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1328395,
+      "source": "确定",
+      "target": "OK",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1340441,
+      "source": "更新时间",
+      "target": "Updated",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1340466,
+      "source": "创建时间",
+      "target": "Created",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1340521,
+      "source": "普通模式",
+      "target": "Normal mode",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1340634,
+      "source": "隐私模式",
+      "target": "Privacy mode",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1341092,
+      "source": "原子笔记",
+      "target": "Notes",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1365756,
+      "source": "服务说明",
+      "target": "Service information",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1365763,
+      "source": "vivo办公套件部分功能需要搭配第三方服务来实现，可能因第三方服务原因导致相关功能发生变化，请以实际使用情况为准。",
+      "target": "Some vivo Office Suite features use third-party services and may change as those services change. Availability depends on actual use.",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1365836,
+      "source": "知道了",
+      "target": "Got it",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1410024,
+      "source": "扬声器1",
+      "target": "Speaker 1",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1410047,
+      "source": "扬声器2",
+      "target": "Speaker 2",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1411326,
+      "source": "清除所有聊天记录",
+      "target": "Clear all chat history",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1413262,
+      "source": "设置",
+      "target": "Settings",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1413290,
+      "source": "意见反馈",
+      "target": "Feedback",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1413317,
+      "source": "笔记",
+      "target": "Notes",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1413562,
+      "source": "日历",
+      "target": "Calendar",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1413597,
+      "source": "日程导入与管理",
+      "target": "Import and manage events",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1413679,
+      "source": "Exchange日程",
+      "target": "Exchange events",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1413762,
+      "source": "Google日程",
+      "target": "Google events",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1413845,
+      "source": "钉钉日程",
+      "target": "DingTalk events",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1413922,
+      "source": "iCloud日程",
+      "target": "iCloud events",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1414003,
+      "source": "飞书日程",
+      "target": "Lark events",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1414080,
+      "source": "CalDAV日程",
+      "target": "CalDAV events",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1414125,
+      "source": "账号信息",
+      "target": "Account information",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1414166,
+      "source": "同步日程类型",
+      "target": "Event categories to sync",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1414209,
+      "source": "修改同步日程类型",
+      "target": "Edit synced event categories",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1414262,
+      "source": "本地日程类型",
+      "target": "Local event categories",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1414309,
+      "source": "添加类型",
+      "target": "Add category",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1414355,
+      "source": "编辑类型",
+      "target": "Edit category",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1414426,
+      "source": "CalDav账号导入",
+      "target": "Import CalDAV account",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1414473,
+      "source": "使用帮助",
+      "target": "Help",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1414551,
+      "source": "Exchange日程",
+      "target": "Exchange events",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1414629,
+      "source": "钉钉日程",
+      "target": "DingTalk events",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1414701,
+      "source": "飞书日程",
+      "target": "Lark events",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1414777,
+      "source": "iCload日程",
+      "target": "iCloud events",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1414819,
+      "source": "时区",
+      "target": "Time zone",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1414851,
+      "source": "默认提醒时间",
+      "target": "Default reminder",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1414912,
+      "source": "全天日程",
+      "target": "All-day events",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1416556,
+      "source": "笔记",
+      "target": "Notes",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1416651,
+      "source": "笔记",
+      "target": "Notes",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1419611,
+      "source": "意见反馈",
+      "target": "Feedback",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1419640,
+      "source": "笔记",
+      "target": "Notes",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1419668,
+      "source": "意见反馈",
+      "target": "Feedback",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1426597,
+      "source": "确定要退出账号吗？",
+      "target": "Sign out?",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1426625,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1426673,
+      "source": "确定",
+      "target": "OK",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1433783,
+      "source": "同步设置",
+      "target": "Sync settings",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1439828,
+      "source": "日历",
+      "target": "Calendar",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1439932,
+      "source": "CalDav账号登录",
+      "target": "Sign in to CalDAV",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1440141,
+      "source": "vivo办公套件",
+      "target": "vivo Office Suite",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1440167,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1440179,
+      "source": "重新登录",
+      "target": "Sign in again",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1454961,
+      "source": "文档",
+      "target": "Documents",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1456789,
+      "source": "待办",
+      "target": "To-dos",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1456890,
+      "source": "日历",
+      "target": "Calendar",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1457929,
+      "source": "日历",
+      "target": "Calendar",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1458032,
+      "source": "待办",
+      "target": "To-dos",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1466774,
+      "source": "蓝心小V",
+      "target": "BlueLM V",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1470882,
+      "source": "账号信息已过期，已暂停同步。",
+      "target": "Account session expired. Sync paused.",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1470931,
+      "source": "电脑存储空间不足，已暂停同步。",
+      "target": "Computer storage is low. Sync paused.",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1470985,
+      "source": "云空间不足，已暂停同步。",
+      "target": "Cloud storage is low. Sync paused.",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1472290,
+      "source": "网络未连接，已暂停同步。",
+      "target": "No network connection. Sync paused.",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1472623,
+      "source": "同步异常",
+      "target": "Sync error",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1472681,
+      "source": "同步失败",
+      "target": "Sync failed",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1472729,
+      "source": "同步异常",
+      "target": "Sync error",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1475396,
+      "source": "同步设置",
+      "target": "Sync settings",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1485792,
+      "source": "设置",
+      "target": "Settings",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1486129,
+      "source": "确定要退出账号吗？",
+      "target": "Sign out?",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1486157,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1486228,
+      "source": "确定",
+      "target": "OK",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1529163,
+      "source": "跨设备互联",
+      "target": "Cross-device connectivity",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1538087,
+      "source": "暂不登录",
+      "target": "Not now",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1538173,
+      "source": "立即登录",
+      "target": "Sign in now",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1547894,
+      "source": "左上",
+      "target": "Top left",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1547928,
+      "source": "右上",
+      "target": "Top right",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1547962,
+      "source": "右下",
+      "target": "Bottom right",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1547998,
+      "source": "左下",
+      "target": "Bottom left",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1717383,
+      "source": "返回",
+      "target": "Back",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1717647,
+      "source": "返回",
+      "target": "Back",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1718164,
+      "source": "关闭",
+      "target": "Close",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1718432,
+      "source": "关闭",
+      "target": "Close",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1734358,
+      "source": "下载客户端",
+      "target": "Download desktop app",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1781602,
+      "source": "详情",
+      "target": "Details",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1783208,
+      "source": "返回",
+      "target": "Back",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1811496,
+      "source": "无日程类型",
+      "target": "No event categories",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1880937,
+      "source": "登录vivo账号，可通过日常交流语言搜索已连接设备的文件，为您匹配相关结果及AI问答。",
+      "target": "Sign in to your vivo account to search connected-device files using everyday language and receive relevant results and AI answers.",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1883292,
+      "source": "用户体验改进计划",
+      "target": "User Experience Improvement Program",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1889239,
+      "source": "使用帮助",
+      "target": "Help",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1947361,
+      "source": "确认删除此记录吗？",
+      "target": "Delete this record?",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1947389,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1947401,
+      "source": "删除",
+      "target": "Delete",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 2166122,
+      "source": "原子笔记",
+      "target": "Notes",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 2166191,
+      "source": "日历",
+      "target": "Calendar",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 2166270,
+      "source": "相册",
+      "target": "Albums",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 2166340,
+      "source": "录音机",
+      "target": "Recorder",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 2166416,
+      "source": "云盘",
+      "target": "Cloud drive",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 2166495,
+      "source": "浏览器",
+      "target": "Browser",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 2166574,
+      "source": "联系人",
+      "target": "Contacts",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 2166656,
+      "source": "骚扰拦截",
+      "target": "Spam blocking",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 2166749,
+      "source": "查找设备",
+      "target": "Find device",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 2166927,
+      "source": "信息",
+      "target": "Messages",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 2167012,
+      "source": "应用列表",
+      "target": "App list",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 2167097,
+      "source": "便签",
+      "target": "Memos",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 2167188,
+      "source": "浏览器",
+      "target": "Browser",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 2167268,
+      "source": "骚扰拦截",
+      "target": "Spam blocking",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 6357096,
+      "source": "标题1",
+      "target": "Heading 1",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 6357155,
+      "source": "标题2",
+      "target": "Heading 2",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 6357214,
+      "source": "标题3",
+      "target": "Heading 3",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 6357273,
+      "source": "标题4",
+      "target": "Heading 4",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 201246,
+      "source": "知道了",
+      "target": "Got it",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 216369,
+      "source": "删除",
+      "target": "Delete",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 216621,
+      "source": "删除",
+      "target": "Delete",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 216832,
+      "source": "删除",
+      "target": "Delete",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 217072,
+      "source": "删除",
+      "target": "Delete",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 217288,
+      "source": "删除",
+      "target": "Delete",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 217395,
+      "source": "删除",
+      "target": "Delete",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 217753,
+      "source": "删除",
+      "target": "Delete",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 217934,
+      "source": "删除",
+      "target": "Delete",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 218128,
+      "source": "删除",
+      "target": "Delete",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 218367,
+      "source": "删除",
+      "target": "Delete",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 218612,
+      "source": "删除",
+      "target": "Delete",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 227000,
+      "source": "蓝心小V-",
+      "target": "BlueLM V-",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 227893,
+      "source": "蓝心小V-",
+      "target": "BlueLM V-",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 234252,
+      "source": "蓝心小V-",
+      "target": "BlueLM V-",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 235104,
+      "source": "蓝心小V-",
+      "target": "BlueLM V-",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 401067,
+      "source": "同步设置",
+      "target": "Sync settings",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 401118,
+      "source": "同步设置",
+      "target": "Sync settings",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 401399,
+      "source": "笔记",
+      "target": "Notes",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 401453,
+      "source": "日历",
+      "target": "Calendar",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 401511,
+      "source": "录音机",
+      "target": "Recorder",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 401570,
+      "source": "蓝心小V",
+      "target": "BlueLM V",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 401782,
+      "source": "同步设置",
+      "target": "Sync settings",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 401810,
+      "source": "同步设置",
+      "target": "Sync settings",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 401844,
+      "source": "相册",
+      "target": "Albums",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 402111,
+      "source": "笔记",
+      "target": "Notes",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 402241,
+      "source": "笔记默认字号",
+      "target": "Default note font size",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 402309,
+      "source": "笔记快捷键",
+      "target": "Notes shortcuts",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 402386,
+      "source": "日历",
+      "target": "Calendar",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 402422,
+      "source": "日程与待办管理",
+      "target": "Manage events and to-dos",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 402468,
+      "source": "日程导入",
+      "target": "Import events",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 402504,
+      "source": "添加类型",
+      "target": "Add category",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 402537,
+      "source": "编辑类型",
+      "target": "Edit category",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 402571,
+      "source": "账号详情",
+      "target": "Account details",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 402615,
+      "source": "账号信息",
+      "target": "Account information",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 402648,
+      "source": "同步的日程类型",
+      "target": "Event categories to sync",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 402693,
+      "source": "编辑类型",
+      "target": "Edit category",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 402730,
+      "source": "使用帮助",
+      "target": "Help",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 402767,
+      "source": "如何从Exchange邮箱账号中导入日程？",
+      "target": "How do I import events from an Exchange account?",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 402818,
+      "source": "邮箱账号导入",
+      "target": "Import email account",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 402854,
+      "source": "CalDav账号导入",
+      "target": "Import CalDAV account",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 402897,
+      "source": "时区优先",
+      "target": "Time zone override",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 402927,
+      "source": "默认提醒时间",
+      "target": "Default reminder",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 402963,
+      "source": "默认待办提醒时间",
+      "target": "Default to-do reminder",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 403006,
+      "source": "默认提醒时间",
+      "target": "Default reminder",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 403048,
+      "source": "录音机",
+      "target": "Recorder",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 403085,
+      "source": "扬声器",
+      "target": "Speaker",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 403309,
+      "source": "手机投屏",
+      "target": "Phone mirroring",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 403349,
+      "source": "蓝心小V",
+      "target": "BlueLM V",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 403504,
+      "source": "反馈记录",
+      "target": "Feedback history",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 403546,
+      "source": "反馈详情",
+      "target": "Feedback details",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 403599,
+      "source": "星期日",
+      "target": "Sunday",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 403635,
+      "source": "星期一",
+      "target": "Monday",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 403671,
+      "source": "星期二",
+      "target": "Tuesday",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 403707,
+      "source": "星期三",
+      "target": "Wednesday",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 403743,
+      "source": "星期四",
+      "target": "Thursday",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 403779,
+      "source": "星期五",
+      "target": "Friday",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 403815,
+      "source": "星期六",
+      "target": "Saturday",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 403868,
+      "source": "6小时",
+      "target": "6 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 403906,
+      "source": "7小时",
+      "target": "7 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 403944,
+      "source": "8小时",
+      "target": "8 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 403982,
+      "source": "9小时",
+      "target": "9 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 404020,
+      "source": "10小时",
+      "target": "10 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 404061,
+      "source": "11小时",
+      "target": "11 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 404102,
+      "source": "12小时",
+      "target": "12 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 404143,
+      "source": "13小时",
+      "target": "13 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 404184,
+      "source": "14小时",
+      "target": "14 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 404225,
+      "source": "15小时",
+      "target": "15 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 404266,
+      "source": "16小时",
+      "target": "16 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 404307,
+      "source": "17小时",
+      "target": "17 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 404348,
+      "source": "18小时",
+      "target": "18 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 404389,
+      "source": "19小时",
+      "target": "19 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 404430,
+      "source": "20小时",
+      "target": "20 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 404471,
+      "source": "21小时",
+      "target": "21 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 404512,
+      "source": "22小时",
+      "target": "22 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 404553,
+      "source": "23小时",
+      "target": "23 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 404594,
+      "source": "24小时",
+      "target": "24 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 404685,
+      "source": "中国农历",
+      "target": "Chinese lunar calendar",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 404721,
+      "source": "伊斯兰历",
+      "target": "Islamic calendar",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 404757,
+      "source": "泰国农历",
+      "target": "Thai lunar calendar",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 501586,
+      "source": "vivo办公套件",
+      "target": "vivo Office Suite",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 505761,
+      "source": "vivo办公套件",
+      "target": "vivo Office Suite",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 505780,
+      "source": "抱歉，vivo办公套件运行异常，请点击重新加载或退出应用.",
+      "target": "vivo Office Suite encountered an error. Reload or exit the app.",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 611262,
+      "source": "下载原文件",
+      "target": "Download originals",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 757846,
+      "source": "无法生成链接，请升级云空间后重试。",
+      "target": "Could not create a link. Upgrade cloud storage and try again.",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 853640,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 853652,
+      "source": "USB 连接",
+      "target": "USB connection",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 854184,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 854196,
+      "source": "USB 连接",
+      "target": "USB connection",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 863441,
+      "source": "该篇笔记已被删除",
+      "target": "This note has been deleted",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 1028204,
+      "source": "蓝心小V",
+      "target": "BlueLM V",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 181777,
+      "source": "知道了",
+      "target": "Got it",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 332683,
+      "source": "同步设置",
+      "target": "Sync settings",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 332734,
+      "source": "同步设置",
+      "target": "Sync settings",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 333015,
+      "source": "笔记",
+      "target": "Notes",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 333069,
+      "source": "日历",
+      "target": "Calendar",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 333127,
+      "source": "录音机",
+      "target": "Recorder",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 333186,
+      "source": "蓝心小V",
+      "target": "BlueLM V",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 333398,
+      "source": "同步设置",
+      "target": "Sync settings",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 333426,
+      "source": "同步设置",
+      "target": "Sync settings",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 333460,
+      "source": "相册",
+      "target": "Albums",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 333727,
+      "source": "笔记",
+      "target": "Notes",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 333857,
+      "source": "笔记默认字号",
+      "target": "Default note font size",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 333925,
+      "source": "笔记快捷键",
+      "target": "Notes shortcuts",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 334002,
+      "source": "日历",
+      "target": "Calendar",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 334038,
+      "source": "日程与待办管理",
+      "target": "Manage events and to-dos",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 334084,
+      "source": "日程导入",
+      "target": "Import events",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 334120,
+      "source": "添加类型",
+      "target": "Add category",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 334153,
+      "source": "编辑类型",
+      "target": "Edit category",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 334187,
+      "source": "账号详情",
+      "target": "Account details",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 334231,
+      "source": "账号信息",
+      "target": "Account information",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 334264,
+      "source": "同步的日程类型",
+      "target": "Event categories to sync",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 334309,
+      "source": "编辑类型",
+      "target": "Edit category",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 334346,
+      "source": "使用帮助",
+      "target": "Help",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 334383,
+      "source": "如何从Exchange邮箱账号中导入日程？",
+      "target": "How do I import events from an Exchange account?",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 334434,
+      "source": "邮箱账号导入",
+      "target": "Import email account",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 334470,
+      "source": "CalDav账号导入",
+      "target": "Import CalDAV account",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 334513,
+      "source": "时区优先",
+      "target": "Time zone override",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 334543,
+      "source": "默认提醒时间",
+      "target": "Default reminder",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 334579,
+      "source": "默认待办提醒时间",
+      "target": "Default to-do reminder",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 334622,
+      "source": "默认提醒时间",
+      "target": "Default reminder",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 334664,
+      "source": "录音机",
+      "target": "Recorder",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 334701,
+      "source": "扬声器",
+      "target": "Speaker",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 334925,
+      "source": "手机投屏",
+      "target": "Phone mirroring",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 334965,
+      "source": "蓝心小V",
+      "target": "BlueLM V",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 335120,
+      "source": "反馈记录",
+      "target": "Feedback history",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 335162,
+      "source": "反馈详情",
+      "target": "Feedback details",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 335215,
+      "source": "星期日",
+      "target": "Sunday",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 335251,
+      "source": "星期一",
+      "target": "Monday",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 335287,
+      "source": "星期二",
+      "target": "Tuesday",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 335323,
+      "source": "星期三",
+      "target": "Wednesday",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 335359,
+      "source": "星期四",
+      "target": "Thursday",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 335395,
+      "source": "星期五",
+      "target": "Friday",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 335431,
+      "source": "星期六",
+      "target": "Saturday",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 335484,
+      "source": "6小时",
+      "target": "6 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 335522,
+      "source": "7小时",
+      "target": "7 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 335560,
+      "source": "8小时",
+      "target": "8 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 335598,
+      "source": "9小时",
+      "target": "9 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 335636,
+      "source": "10小时",
+      "target": "10 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 335677,
+      "source": "11小时",
+      "target": "11 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 335718,
+      "source": "12小时",
+      "target": "12 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 335759,
+      "source": "13小时",
+      "target": "13 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 335800,
+      "source": "14小时",
+      "target": "14 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 335841,
+      "source": "15小时",
+      "target": "15 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 335882,
+      "source": "16小时",
+      "target": "16 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 335923,
+      "source": "17小时",
+      "target": "17 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 335964,
+      "source": "18小时",
+      "target": "18 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 336005,
+      "source": "19小时",
+      "target": "19 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 336046,
+      "source": "20小时",
+      "target": "20 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 336087,
+      "source": "21小时",
+      "target": "21 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 336128,
+      "source": "22小时",
+      "target": "22 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 336169,
+      "source": "23小时",
+      "target": "23 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 336210,
+      "source": "24小时",
+      "target": "24 hours",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 336301,
+      "source": "中国农历",
+      "target": "Chinese lunar calendar",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 336337,
+      "source": "伊斯兰历",
+      "target": "Islamic calendar",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 336373,
+      "source": "泰国农历",
+      "target": "Thai lunar calendar",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 433202,
+      "source": "vivo办公套件",
+      "target": "vivo Office Suite",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 437377,
+      "source": "vivo办公套件",
+      "target": "vivo Office Suite",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 437396,
+      "source": "抱歉，vivo办公套件运行异常，请点击重新加载或退出应用.",
+      "target": "vivo Office Suite encountered an error. Reload or exit the app.",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 539109,
+      "source": "下载原文件",
+      "target": "Download originals",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 676431,
+      "source": "无法生成链接，请升级云空间后重试。",
+      "target": "Could not create a link. Upgrade cloud storage and try again.",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 749192,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 749204,
+      "source": "USB 连接",
+      "target": "USB connection",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 749736,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 749748,
+      "source": "USB 连接",
+      "target": "USB connection",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 758993,
+      "source": "该篇笔记已被删除",
+      "target": "This note has been deleted",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 918658,
+      "source": "蓝心小V",
+      "target": "BlueLM V",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 1042426,
+      "source": "设备互联",
+      "target": "Device connectivity",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "app-components.js",
+      "start": 68887,
+      "source": "确定",
+      "target": "OK",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "app-components.js",
+      "start": 200460,
+      "source": "返回",
+      "target": "Back",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "app-components.js",
+      "start": 201904,
+      "source": "返回",
+      "target": "Back",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "app-components.js",
+      "start": 203333,
+      "source": "返回",
+      "target": "Back",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "app-components.js",
+      "start": 204804,
+      "source": "返回",
+      "target": "Back",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "app-components.js",
+      "start": 720099,
+      "source": "同步设置",
+      "target": "Sync settings",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "app-components.js",
+      "start": 732892,
+      "source": "相册",
+      "target": "Albums",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "app-components.js",
+      "start": 863172,
+      "source": "笔记",
+      "target": "Notes",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "app-components.js",
+      "start": 863253,
+      "source": "待办",
+      "target": "To-dos",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "app-components.js",
+      "start": 863332,
+      "source": "文档",
+      "target": "Documents",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 78883,
+      "source": "日程导入与管理",
+      "target": "Import and manage events",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 123108,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 123423,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 137116,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 137150,
+      "source": "删除",
+      "target": "Delete",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 145452,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 145477,
+      "source": "确定",
+      "target": "OK",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 145657,
+      "source": "暂不支持在移动设备网页查看",
+      "target": "Viewing on mobile browsers is not supported yet",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 145673,
+      "source": "请前往电脑网页查看",
+      "target": "Please view this page on a computer",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 145698,
+      "source": "知道了",
+      "target": "Got it",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 162206,
+      "source": "录音机",
+      "target": "Recorder",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "7.js",
+      "start": 34729,
+      "source": "办公套件",
+      "target": "Office Suite",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "7.js",
+      "start": 34779,
+      "source": "办公套件",
+      "target": "Office Suite",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "7.js",
+      "start": 34868,
+      "source": "电脑本地",
+      "target": "This computer",
+      "reason": "Reviewed display property or dialog text; machine key preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 298038,
+      "source": "本地和云端数据将进行合并",
+      "target": "Local and cloud data will be merged",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 298072,
+      "source": "1. 开启同步后，本设备数据将被上传至云端，云端数据将被下载至本地；",
+      "target": "1. After sync is enabled, local data uploads to the cloud and cloud data downloads to this device.",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 298109,
+      "source": "2. 后续编辑、删除等操作将同步至云端及其他同步设备中。",
+      "target": "2. Future edits and deletions sync to the cloud and other synced devices.",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 382017,
+      "source": "同步成功",
+      "target": "Synced",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 965390,
+      "source": "搜索办公套件、电脑和已连接设备的文件",
+      "target": "Search Office Suite, this computer, and connected-device files",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1114027,
+      "source": "选择项目",
+      "target": "Select items",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1264827,
+      "source": "手动优化存储空间",
+      "target": "Optimize storage manually",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1268951,
+      "source": "手动优化存储空间",
+      "target": "Optimize storage manually",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1273278,
+      "source": "系统设置",
+      "target": "System Settings",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1273285,
+      "source": "系统偏好设置",
+      "target": "System Preferences",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1304649,
+      "source": "已达到登录上限，请清除账号",
+      "target": "Account limit reached. Remove an account first.",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1311213,
+      "source": "最多可以添加30个类型",
+      "target": "You can add up to 30 categories.",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1315664,
+      "source": "网络未连接",
+      "target": "No network connection",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1315972,
+      "source": "正在同步",
+      "target": "Syncing",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1316281,
+      "source": "同步成功",
+      "target": "Synced",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1316376,
+      "source": "服务器异常，同步失败",
+      "target": "Server error. Sync failed.",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1323089,
+      "source": "创建成功",
+      "target": "Created",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1323865,
+      "source": "已达到最大字符限制",
+      "target": "Character limit reached",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1355562,
+      "source": "只读",
+      "target": "Read-only",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1355567,
+      "source": "读写",
+      "target": "Read and write",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1355693,
+      "source": "有效期至 ",
+      "target": "Valid until ",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1385743,
+      "source": "在投屏的QQ、微信的聊天界面中快速发送消息。",
+      "target": "Quickly send messages in mirrored QQ and WeChat chats.",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1423354,
+      "source": "网页版登录的设备暂不支持在手机/平板的“设置”>“vivo账号”>“设备管理”中管理。",
+      "target": "Devices signed in through the web cannot currently be managed in Settings > vivo account > Device management on your phone/tablet.",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1423592,
+      "source": "该账号登录的设备可在手机/平板的“设置”>“vivo账号”>“设备管理”中管理。",
+      "target": "Manage devices signed in to this account in Settings > vivo account > Device management on your phone/tablet.",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1424414,
+      "source": "正在删除本地数据",
+      "target": "Deleting local data",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1424425,
+      "source": "数据清理中,请耐心等待...",
+      "target": "Cleaning up data. Please wait...",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1437386,
+      "source": "连续包月",
+      "target": "Monthly subscription",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1437408,
+      "source": "连续包季",
+      "target": "Quarterly subscription",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1437415,
+      "source": "连续包年",
+      "target": "Annual subscription",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1440109,
+      "source": "账号登录失效",
+      "target": " account session has expired",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1462688,
+      "source": "失败了",
+      "target": "Failed",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1466018,
+      "source": "失败了",
+      "target": "Failed",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1472865,
+      "source": "正在同步",
+      "target": "Syncing",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1473951,
+      "source": "刚刚同步",
+      "target": "Synced just now",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1473994,
+      "source": "分钟前同步",
+      "target": " minutes ago",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1474036,
+      "source": "小时前同步",
+      "target": " hours ago",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1474067,
+      "source": "天前同步",
+      "target": " days ago",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1483240,
+      "source": "vivo云服务",
+      "target": "vivo Cloud Services",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1484402,
+      "source": "vivo云服务",
+      "target": "vivo Cloud Services",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1490408,
+      "source": "网页版登录的设备暂不支持在手机/平板的“设置”>“vivo账号”>“设备管理”中管理。",
+      "target": "Devices signed in through the web cannot currently be managed in Settings > vivo account > Device management on your phone/tablet.",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1537945,
+      "source": "登录提示",
+      "target": "Sign-in reminder",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1554958,
+      "source": "云服务加入办公套件体系，带来全新跨设备协同体验",
+      "target": "Cloud Services joins Office Suite for a new cross-device experience",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1554984,
+      "source": "轻松查看全部云服务数据",
+      "target": "Easily view all your Cloud Services data",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 268115,
+      "source": "本地和云端数据将进行合并",
+      "target": "Local and cloud data will be merged",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 268149,
+      "source": "1. 开启同步后，本设备数据将被上传至云端，云端数据将被下载至本地；",
+      "target": "1. After sync is enabled, local data uploads to the cloud and cloud data downloads to this device.",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 268186,
+      "source": "2. 后续编辑、删除等操作将同步至云端及其他同步设备中。",
+      "target": "2. Future edits and deletions sync to the cloud and other synced devices.",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "child-window.js",
+      "start": 396238,
+      "source": "同步成功",
+      "target": "Synced",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 201524,
+      "source": "本地和云端数据将进行合并",
+      "target": "Local and cloud data will be merged",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 201558,
+      "source": "1. 开启同步后，本设备数据将被上传至云端，云端数据将被下载至本地；",
+      "target": "1. After sync is enabled, local data uploads to the cloud and cloud data downloads to this device.",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 201595,
+      "source": "2. 后续编辑、删除等操作将同步至云端及其他同步设备中。",
+      "target": "2. Future edits and deletions sync to the cloud and other synced devices.",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 329697,
+      "source": "同步成功",
+      "target": "Synced",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "app-components.js",
+      "start": 375722,
+      "source": "立即开启",
+      "target": "Enable now",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "app-components.js",
+      "start": 706666,
+      "source": "立即开启",
+      "target": "Enable now",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 78381,
+      "source": "正在同步",
+      "target": "Syncing",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 78499,
+      "source": "同步成功",
+      "target": "Synced",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 165654,
+      "source": "已有文件正在传输到电脑，请稍后再试",
+      "target": "Files are already being transferred to this computer. Please try again later.",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "7.js",
+      "start": 57745,
+      "source": "搜索办公套件、电脑和已连接设备的文件",
+      "target": "Search Office Suite, this computer, and connected-device files",
+      "reason": "Reviewed UI text/default/dialog/status; stored identifiers preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 324808,
+      "source": "请选择",
+      "target": "Select",
+      "reason": "Reviewed sync banner text, display default, or notification"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1075367,
+      "source": "请选择",
+      "target": "Select",
+      "reason": "Reviewed sync banner text, display default, or notification"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1914574,
+      "source": "未知",
+      "target": "Unknown",
+      "reason": "Reviewed sync banner text, display default, or notification"
+    },
+    {
+      "file": "child-window.js",
+      "start": 320731,
+      "source": "请选择",
+      "target": "Select",
+      "reason": "Reviewed sync banner text, display default, or notification"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 254190,
+      "source": "请选择",
+      "target": "Select",
+      "reason": "Reviewed sync banner text, display default, or notification"
+    },
+    {
+      "file": "app-components.js",
+      "start": 15683,
+      "source": "请选择",
+      "target": "Select",
+      "reason": "Reviewed sync banner text, display default, or notification"
+    },
+    {
+      "file": "app-components.js",
+      "start": 16000,
+      "source": "输入时区",
+      "target": "Enter a time zone",
+      "reason": "Reviewed sync banner text, display default, or notification"
+    },
+    {
+      "file": "app-components.js",
+      "start": 34492,
+      "source": "未知",
+      "target": "Unknown",
+      "reason": "Reviewed sync banner text, display default, or notification"
+    },
+    {
+      "file": "app-components.js",
+      "start": 68849,
+      "source": "网络异常，无法获取数据，请您稍后再试。",
+      "target": "Network error. Could not load data. Please try again later.",
+      "reason": "Reviewed sync banner text, display default, or notification"
+    },
+    {
+      "file": "app-components.js",
+      "start": 356619,
+      "source": "正在更新，请您耐心等待。",
+      "target": "Updating. Please wait.",
+      "reason": "Reviewed sync banner text, display default, or notification"
+    },
+    {
+      "file": "app-components.js",
+      "start": 431628,
+      "source": "昨天 ",
+      "target": "Yesterday ",
+      "reason": "Reviewed sync banner text, display default, or notification"
+    },
+    {
+      "file": "app-components.js",
+      "start": 431924,
+      "source": "昨天 ",
+      "target": "Yesterday ",
+      "reason": "Reviewed sync banner text, display default, or notification"
+    },
+    {
+      "file": "app-components.js",
+      "start": 431940,
+      "source": "天前 ",
+      "target": " days ago ",
+      "reason": "Reviewed sync banner text, display default, or notification"
+    },
+    {
+      "file": "app-components.js",
+      "start": 707124,
+      "source": "开启原子笔记同步开关，查看云端笔记。",
+      "target": "Enable Notes sync to view cloud notes. ",
+      "reason": "Reviewed sync banner text, display default, or notification"
+    },
+    {
+      "file": "app-components.js",
+      "start": 707149,
+      "source": "开启原子笔记同步开关，将笔记自动同步至云端，方便您在所有设备上查看。",
+      "target": "Enable Notes sync to upload notes to the cloud and view them on all your devices. ",
+      "reason": "Reviewed sync banner text, display default, or notification"
+    },
+    {
+      "file": "app-components.js",
+      "start": 707499,
+      "source": "开启日历同步开关，查看、管理、编辑云端的日历日程以及待办。",
+      "target": "Enable Calendar sync to view, manage, and edit cloud events and to-dos. ",
+      "reason": "Reviewed sync banner text, display default, or notification"
+    },
+    {
+      "file": "app-components.js",
+      "start": 707535,
+      "source": "开启日历同步开关，将日程、待办自动同步至云端，方便您在所有设备上查看。",
+      "target": "Enable Calendar sync to upload events and to-dos to the cloud and view them on all your devices. ",
+      "reason": "Reviewed sync banner text, display default, or notification"
+    },
+    {
+      "file": "app-components.js",
+      "start": 707899,
+      "source": "登录账号并开启云相册，可查看云端图片和视频。",
+      "target": "Sign in and enable cloud Albums to view cloud photos and videos. ",
+      "reason": "Reviewed sync banner text, display default, or notification"
+    },
+    {
+      "file": "app-components.js",
+      "start": 707928,
+      "source": "开启相册云同步，可查看云端图片和视频。",
+      "target": "Enable Albums cloud sync to view cloud photos and videos. ",
+      "reason": "Reviewed sync banner text, display default, or notification"
+    },
+    {
+      "file": "app-components.js",
+      "start": 708286,
+      "source": "开启录音机同步开关，查看云端录音文件。",
+      "target": "Enable Recorder sync to view cloud recordings. ",
+      "reason": "Reviewed sync banner text, display default, or notification"
+    },
+    {
+      "file": "app-components.js",
+      "start": 708312,
+      "source": "开启录音机同步开关，将录音文件自动同步至云端，方便您在所有设备上查看。",
+      "target": "Enable Recorder sync to upload recordings to the cloud and view them on all your devices. ",
+      "reason": "Reviewed sync banner text, display default, or notification"
+    },
+    {
+      "file": "app-components.js",
+      "start": 715911,
+      "source": "数据",
+      "target": "data",
+      "reason": "Reviewed sync banner text, display default, or notification"
+    },
+    {
+      "file": "app-components.js",
+      "start": 716051,
+      "source": "数据",
+      "target": "data",
+      "reason": "Reviewed sync banner text, display default, or notification"
+    },
+    {
+      "file": "app-components.js",
+      "start": 716182,
+      "source": "数据",
+      "target": "data",
+      "reason": "Reviewed sync banner text, display default, or notification"
+    },
+    {
+      "file": "app-components.js",
+      "start": 716317,
+      "source": "录音文件",
+      "target": "recordings",
+      "reason": "Reviewed sync banner text, display default, or notification"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 77779,
+      "source": "账号添加成功",
+      "target": "Account added",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 77808,
+      "source": "账号更新成功",
+      "target": "Account updated",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 78229,
+      "source": "您已经添加该账号",
+      "target": "This account has already been added",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 80647,
+      "source": "未开启自动备份",
+      "target": "Automatic backup is disabled",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 80724,
+      "source": "未开启自动备份",
+      "target": "Automatic backup is disabled",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 80914,
+      "source": "正在识别待备份数据",
+      "target": "Identifying data to back up",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 80963,
+      "source": "正在识别待备份数据",
+      "target": "Identifying data to back up",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 81129,
+      "source": "正在识别待备份数据",
+      "target": "Identifying data to back up",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 81145,
+      "source": "<span class=\"warn-icon\"></span>本次备份包含已存储在云端的较小尺寸版本的图片/视频",
+      "target": "<span class=\"warn-icon\"></span>This backup includes smaller versions of photos/videos stored in the cloud",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 81244,
+      "source": "备份完成",
+      "target": "Backup complete",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 81347,
+      "source": "上次备份：",
+      "target": "Last backup: ",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 81413,
+      "source": "备份异常",
+      "target": "Backup error",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 81541,
+      "source": "备份未授权",
+      "target": "Backup not authorized",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 81733,
+      "source": "等待备份",
+      "target": "Waiting to back up",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 81742,
+      "source": "设备正在整机备份，为确保数据完整，图片视频备份自动暂停，整机备份完成后恢复。",
+      "target": "Photo/video backup is paused while the device performs a full backup to ensure data integrity. It resumes after the full backup finishes.",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 115847,
+      "source": "正在取消",
+      "target": "Canceling",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 116352,
+      "source": "正在取消",
+      "target": "Canceling",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 122003,
+      "source": "退出“超级省电”才可使用该功能",
+      "target": " must exit Super power saving mode to use this feature",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 122244,
+      "source": "备份路径已被删除，请更改。",
+      "target": "The backup path has been deleted. Please change it.",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 123071,
+      "source": "正在备份数据，是否确定停止？",
+      "target": "Backup is in progress. Stop the backup?",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 123135,
+      "source": "停止备份",
+      "target": "Stop backup",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 126352,
+      "source": "正在准备备份",
+      "target": "Preparing backup",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 126592,
+      "source": "备份失败",
+      "target": "Backup failed",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 126641,
+      "source": "备份成功",
+      "target": "Backup succeeded",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 126686,
+      "source": "备份结束",
+      "target": "Backup ended",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 127047,
+      "source": "正在将备份完成的数据写入至电脑，写入速度受数据大小、电脑性能等影响，请耐心等待。",
+      "target": "Writing backed-up data to the computer. Speed depends on data size and computer performance. Please wait.",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 129932,
+      "source": "正在识别重复数据",
+      "target": "Identifying duplicate data",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 130079,
+      "source": "恢复失败",
+      "target": "Restore failed",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 130129,
+      "source": "恢复成功",
+      "target": "Restore succeeded",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 130175,
+      "source": "恢复结束",
+      "target": "Restore ended",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 133018,
+      "source": "请先使用USB数据线连接该手机和电脑，并保持手机解锁亮屏",
+      "target": "Connect your phone to the computer via USB and keep the phone unlocked with its screen on.",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 133817,
+      "source": "请先使用USB数据线连接该手机和电脑，并保持手机解锁亮屏",
+      "target": "Connect your phone to the computer via USB and keep the phone unlocked with its screen on.",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 134041,
+      "source": "请先使用USB数据线连接该手机和电脑，并保持手机解锁亮屏",
+      "target": "Connect your phone to the computer via USB and keep the phone unlocked with its screen on.",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 134115,
+      "source": "请先使用USB数据线连接该手机和电脑，并保持手机解锁亮屏",
+      "target": "Connect your phone to the computer via USB and keep the phone unlocked with its screen on.",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 136214,
+      "source": "数据正在准备恢复，无法删除",
+      "target": "Preparing to restore data. Cannot delete this backup.",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 136230,
+      "source": "数据正在恢复，无法删除",
+      "target": "Restore is in progress. Cannot delete this backup.",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 137004,
+      "source": "确定删除此备份吗？",
+      "target": "Delete this backup?",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 137016,
+      "source": "确定永久删除此备份吗？",
+      "target": "Permanently delete this backup?",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 137040,
+      "source": "删除的文件将移至电脑的“废纸篓”。",
+      "target": "Deleted files will move to the computer Trash.",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 137060,
+      "source": "删除后备份数据将无法找回。",
+      "target": "Deleted backup data cannot be recovered.",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 137155,
+      "source": "永久删除",
+      "target": "Delete permanently",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 138080,
+      "source": "项失败",
+      "target": " items failed",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 237931,
+      "source": "正在识别待备份数据",
+      "target": "Identifying data to back up",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 237945,
+      "source": "正在识别待备份数据",
+      "target": "Identifying data to back up",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 238101,
+      "source": "正在备份",
+      "target": "Backing up",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 238110,
+      "source": "正在备份",
+      "target": "Backing up",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 238157,
+      "source": "备份异常",
+      "target": "Backup error",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 238166,
+      "source": "备份异常",
+      "target": "Backup error",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 238217,
+      "source": "“相册”未授权",
+      "target": " Albums is not authorized",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 238229,
+      "source": "未授权",
+      "target": "Not authorized",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 238284,
+      "source": "电脑空间不足",
+      "target": "Computer storage is low",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 238295,
+      "source": "空间不足",
+      "target": "Storage is low",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 238439,
+      "source": "上次备份：",
+      "target": "Last backup: ",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 238471,
+      "source": "备份完成",
+      "target": "Backup complete",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 238514,
+      "source": "等待备份",
+      "target": "Waiting to back up",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 238523,
+      "source": "等待备份",
+      "target": "Waiting to back up",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 242112,
+      "source": "正在备份",
+      "target": "Backing up",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 242247,
+      "source": "正在保存备份信息",
+      "target": "Saving backup information",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 242304,
+      "source": "正在取消",
+      "target": "Canceling",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 242354,
+      "source": "备份失败",
+      "target": "Backup failed",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 242405,
+      "source": "备份成功",
+      "target": "Backup succeeded",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 242452,
+      "source": "备份结束",
+      "target": "Backup ended",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 242795,
+      "source": "正在取消",
+      "target": "Canceling",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 242846,
+      "source": "恢复失败",
+      "target": "Restore failed",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 242898,
+      "source": "恢复成功",
+      "target": "Restore succeeded",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 242946,
+      "source": "恢复结束",
+      "target": "Restore ended",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 243449,
+      "source": "正在准备备份，无法更改路径",
+      "target": " is preparing a backup. The location cannot be changed.",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 243617,
+      "source": "正在备份，无法更改路径",
+      "target": " is backing up. The location cannot be changed.",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 483376,
+      "source": "部分备份数据获取失败",
+      "target": "Could not get some backup data",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 483473,
+      "source": "部分备份数据获取失败",
+      "target": "Could not get some backup data",
+      "reason": "Reviewed backup/restore UI status, notification or instruction"
+    },
+    {
+      "file": "renderer.js",
+      "start": 669732,
+      "source": "图片过大",
+      "target": "Image too large",
+      "reason": "Display-only cloud-limit title or device noun"
+    },
+    {
+      "file": "renderer.js",
+      "start": 670185,
+      "source": "超过传输限量",
+      "target": "Transfer limit exceeded",
+      "reason": "Display-only cloud-limit title or device noun"
+    },
+    {
+      "file": "child-window.js",
+      "start": 853528,
+      "source": "图片过大",
+      "target": "Image too large",
+      "reason": "Display-only cloud-limit title or device noun"
+    },
+    {
+      "file": "child-window.js",
+      "start": 853981,
+      "source": "超过传输限量",
+      "target": "Transfer limit exceeded",
+      "reason": "Display-only cloud-limit title or device noun"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 749080,
+      "source": "图片过大",
+      "target": "Image too large",
+      "reason": "Display-only cloud-limit title or device noun"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 749533,
+      "source": "超过传输限量",
+      "target": "Transfer limit exceeded",
+      "reason": "Display-only cloud-limit title or device noun"
+    },
+    {
+      "file": "app-components.js",
+      "start": 375548,
+      "source": "同步开关未开启",
+      "target": " sync is disabled",
+      "reason": "Display-only cloud-limit title or device noun"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 237841,
+      "source": "手机",
+      "target": "phone",
+      "reason": "Display-only cloud-limit title or device noun"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 237846,
+      "source": "平板",
+      "target": "tablet",
+      "reason": "Display-only cloud-limit title or device noun"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 483106,
+      "source": "手机",
+      "target": "phone",
+      "reason": "Display-only cloud-limit title or device noun"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 483111,
+      "source": "平板",
+      "target": "tablet",
+      "reason": "Display-only cloud-limit title or device noun"
+    }
+  ],
+  "exclusions": [
+    {
+      "file": "renderer.js",
+      "start": 1336841,
+      "reason": "Chinese comparison/state label retained; display translated at rendering boundary where applicable"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1470985,
+      "reason": "Chinese comparison/state label retained; display translated at rendering boundary where applicable"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1471072,
+      "reason": "Chinese comparison/state label retained; display translated at rendering boundary where applicable"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1471111,
+      "reason": "Chinese comparison/state label retained; display translated at rendering boundary where applicable"
+    },
+    {
+      "file": "7.js",
+      "start": 1694,
+      "reason": "Chinese comparison/state label retained; display translated at rendering boundary where applicable"
+    },
+    {
+      "file": "7.js",
+      "start": 1707,
+      "reason": "Chinese comparison/state label retained; display translated at rendering boundary where applicable"
+    },
+    {
+      "file": "7.js",
+      "start": 1722,
+      "reason": "Chinese comparison/state label retained; display translated at rendering boundary where applicable"
+    },
+    {
+      "file": "7.js",
+      "start": 1735,
+      "reason": "Chinese comparison/state label retained; display translated at rendering boundary where applicable"
+    },
+    {
+      "file": "7.js",
+      "start": 2774,
+      "reason": "Chinese comparison/state label retained; display translated at rendering boundary where applicable"
+    },
+    {
+      "file": "7.js",
+      "start": 2790,
+      "reason": "Chinese comparison/state label retained; display translated at rendering boundary where applicable"
+    },
+    {
+      "file": "7.js",
+      "start": 2806,
+      "reason": "Chinese comparison/state label retained; display translated at rendering boundary where applicable"
+    },
+    {
+      "file": "7.js",
+      "start": 2828,
+      "reason": "Chinese comparison/state label retained; display translated at rendering boundary where applicable"
+    },
+    {
+      "file": "7.js",
+      "start": 2850,
+      "reason": "Chinese comparison/state label retained; display translated at rendering boundary where applicable"
+    },
+    {
+      "file": "7.js",
+      "start": 2874,
+      "reason": "Chinese comparison/state label retained; display translated at rendering boundary where applicable"
+    }
+  ],
+  "expressionEdits": [
+    {
+      "file": "renderer.js",
+      "start": 1391882,
+      "end": 1391888,
+      "source": "l.name",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(l.name)",
+      "reason": "Translate feedback label only; server IDs and names retained for protocol/filtering"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1392362,
+      "end": 1392368,
+      "source": "l.name",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(l.name)",
+      "reason": "Translate feedback label only; server IDs and names retained for protocol/filtering"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1795171,
+      "end": 1795177,
+      "source": "e.name",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(e.name)",
+      "reason": "Translate sync module name only during rendering; Chinese state/comparisons preserved"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1827005,
+      "end": 1827017,
+      "source": "l.commonList",
+      "target": "l.commonList.map(e=>Object.assign({},e,{label:require(require('path').join(__dirname,'ui-display.cjs')).label(e.label)}))",
+      "reason": "Render reminder choices in English without changing serialized source labels"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1888500,
+      "end": 1888512,
+      "source": "l.commonList",
+      "target": "l.commonList.map(e=>Object.assign({},e,{label:require(require('path').join(__dirname,'ui-display.cjs')).label(e.label)}))",
+      "reason": "Render reminder choices in English without changing serialized source labels"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1827986,
+      "end": 1827993,
+      "source": "e.label",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(e.label)",
+      "reason": "Render reminder label without changing stored label or None comparison"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1753409,
+      "end": 1753430,
+      "source": "l.calendarIcon.weekly",
+      "target": "require(require(\"path\").join(__dirname,\"ui-display.cjs\")).weekday(l.calendarIcon.weekly)",
+      "reason": "Translate sidebar calendar icon weekday at rendering boundary"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1355703,
+      "end": 1355715,
+      "source": "`已于 ${e} 过期`",
+      "target": "`Expired on ${e}`",
+      "reason": "Translate token expiry display"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1355722,
+      "end": 1355740,
+      "source": "`权限：${e}  ·  ${a}`",
+      "target": "`Permissions: ${e}  ·  ${a}`",
+      "reason": "Translate token permission display"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1473554,
+      "end": 1473682,
+      "source": "`${String(a.getHours()).padStart(2,\"0\")}:${String(a.getMinutes()).padStart(2,\"0\")}:${String(a.getSeconds()).padStart(2,\"0\")} 同步`",
+      "target": "`${String(a.getHours()).padStart(2,\"0\")}:${String(a.getMinutes()).padStart(2,\"0\")}:${String(a.getSeconds()).padStart(2,\"0\")} synced`",
+      "reason": "Translate displayed last-sync timestamp suffix"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1473689,
+      "end": 1473793,
+      "source": "`${a.getFullYear()}/${String(a.getMonth()+1).padStart(2,\"0\")}/${String(a.getDate()).padStart(2,\"0\")} 同步`",
+      "target": "`${a.getFullYear()}/${String(a.getMonth()+1).padStart(2,\"0\")}/${String(a.getDate()).padStart(2,\"0\")} synced`",
+      "reason": "Translate displayed last-sync timestamp suffix"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1473831,
+      "end": 1473935,
+      "source": "`${e.getFullYear()}/${String(e.getMonth()+1).padStart(2,\"0\")}/${String(e.getDate()).padStart(2,\"0\")} 同步`",
+      "target": "`${e.getFullYear()}/${String(e.getMonth()+1).padStart(2,\"0\")}/${String(e.getDate()).padStart(2,\"0\")} synced`",
+      "reason": "Translate displayed last-sync timestamp suffix"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 244922,
+      "end": 244983,
+      "source": "`“${t.device.mobileDeviceName||\"\"}”数据恢复${r?\"结束\":i?\"成功\":\"失败\"}`",
+      "target": "`Restore for “${t.device.mobileDeviceName||\"\"}” ${r?\"ended\":i?\"succeeded\":\"failed\"}`",
+      "reason": "Translate complete restore status template"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1827262,
+      "end": 1827269,
+      "source": "e.label",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(e.label)",
+      "reason": "Localize reminder category/description at render boundary without changing stored reminder labels"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1827433,
+      "end": 1827439,
+      "source": "e.desc",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(e.desc)",
+      "reason": "Localize reminder category/description at render boundary without changing stored reminder labels"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1888769,
+      "end": 1888776,
+      "source": "e.label",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(e.label)",
+      "reason": "Localize reminder category/description at render boundary without changing stored reminder labels"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1888940,
+      "end": 1888946,
+      "source": "e.desc",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(e.desc)",
+      "reason": "Localize reminder category/description at render boundary without changing stored reminder labels"
+    },
+    {
+      "file": "renderer.js",
+      "start": 489591,
+      "end": 489606,
+      "source": "`关闭${v[l]}同步开关`",
+      "target": "`Disable ${require(require('path').join(__dirname,'ui-display.cjs')).label(v[l])} sync`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "renderer.js",
+      "start": 301530,
+      "end": 301569,
+      "source": "`此${this.name}将在“最近删除”保留${this.days}天。`",
+      "target": "`This ${require(require('path').join(__dirname,'ui-display.cjs')).label(this.name)} will remain in Recently deleted for ${this.days} days.`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "renderer.js",
+      "start": 301684,
+      "end": 301724,
+      "source": "`所选${this.name}将在“最近删除”保留${this.days}天。`",
+      "target": "`The selected ${require(require('path').join(__dirname,'ui-display.cjs')).label(this.name)} will remain in Recently deleted for ${this.days} days.`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "renderer.js",
+      "start": 969917,
+      "end": 969937,
+      "source": "`含有${a.value}的笔记、待办`",
+      "target": "`Notes and to-dos containing ${require(require('path').join(__dirname,'ui-display.cjs')).label(a.value)}`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "renderer.js",
+      "start": 970128,
+      "end": 970145,
+      "source": "`含有${a.value}的笔记`",
+      "target": "`Notes containing ${require(require('path').join(__dirname,'ui-display.cjs')).label(a.value)}`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "renderer.js",
+      "start": 971515,
+      "end": 971532,
+      "source": "`含有${l.value}的笔记`",
+      "target": "`Notes containing ${require(require('path').join(__dirname,'ui-display.cjs')).label(l.value)}`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1268351,
+      "end": 1268406,
+      "source": "`已优化 ${this.formatBytesToSize(this.optimizeNumber)} 空间`",
+      "target": "`Freed ${this.formatBytesToSize(this.optimizeNumber)} of storage`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1294412,
+      "end": 1294450,
+      "source": "`${l.cityTimeZone}标准(${l.summerTime})`",
+      "target": "`${l.cityTimeZone} standard (${l.summerTime})`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1320106,
+      "end": 1320148,
+      "source": "`${l.cityTimeZone||\"\"}标准(${l.summerTime})`",
+      "target": "`${l.cityTimeZone||\"\"} standard (${l.summerTime})`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1304008,
+      "end": 1304028,
+      "source": "`钉钉日程（${l.account}）`",
+      "target": "`DingTalk events (${l.account})`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1304090,
+      "end": 1304108,
+      "source": "`飞书（${l.account}）`",
+      "target": "`Lark (${l.account})`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1304123,
+      "end": 1304147,
+      "source": "`CalDAV账号（${l.account}）`",
+      "target": "`CalDAV account (${l.account})`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1395699,
+      "end": 1395721,
+      "source": "`${v.name}文件：${l.msg}`",
+      "target": "`${v.name} file: ${l.msg}`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1435952,
+      "end": 1435964,
+      "source": "`将于 ${a} 到期`",
+      "target": "`Expires on ${a}`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1437305,
+      "end": 1437347,
+      "source": "`${l.label.replace(/\\s+/g,\"\")} 将于 ${b} 到期`",
+      "target": "`${l.label.replace(/\\s+/g,\"\")} expires on ${b}`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1437576,
+      "end": 1437623,
+      "source": "`${l.label.replace(/\\s+/g,\"\")} ${i} 将于 ${u} 生效`",
+      "target": "`${l.label.replace(/\\s+/g,\"\")} ${i} starts on ${u}`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1437901,
+      "end": 1437926,
+      "source": "`${l.autoStr} 将于 ${u} 生效`",
+      "target": "`${l.autoStr} starts on ${u}`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1437927,
+      "end": 1437939,
+      "source": "`将于 ${u} 生效`",
+      "target": "`Starts on ${u}`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "renderer.js",
+      "start": 1437960,
+      "end": 1437972,
+      "source": "`将于 ${u} 到期`",
+      "target": "`Expires on ${u}`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "child-window.js",
+      "start": 612042,
+      "end": 612057,
+      "source": "`关闭${n[e]}同步开关`",
+      "target": "`Disable ${require(require('path').join(__dirname,'ui-display.cjs')).label(n[e])} sync`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "child-window.js",
+      "start": 278496,
+      "end": 278535,
+      "source": "`此${this.name}将在“最近删除”保留${this.days}天。`",
+      "target": "`This ${require(require('path').join(__dirname,'ui-display.cjs')).label(this.name)} will remain in Recently deleted for ${this.days} days.`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "child-window.js",
+      "start": 278650,
+      "end": 278690,
+      "source": "`所选${this.name}将在“最近删除”保留${this.days}天。`",
+      "target": "`The selected ${require(require('path').join(__dirname,'ui-display.cjs')).label(this.name)} will remain in Recently deleted for ${this.days} days.`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 539889,
+      "end": 539904,
+      "source": "`关闭${n[e]}同步开关`",
+      "target": "`Disable ${require(require('path').join(__dirname,'ui-display.cjs')).label(n[e])} sync`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 211955,
+      "end": 211994,
+      "source": "`此${this.name}将在“最近删除”保留${this.days}天。`",
+      "target": "`This ${require(require('path').join(__dirname,'ui-display.cjs')).label(this.name)} will remain in Recently deleted for ${this.days} days.`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 212109,
+      "end": 212149,
+      "source": "`所选${this.name}将在“最近删除”保留${this.days}天。`",
+      "target": "`The selected ${require(require('path').join(__dirname,'ui-display.cjs')).label(this.name)} will remain in Recently deleted for ${this.days} days.`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-components.js",
+      "start": 718901,
+      "end": 718958,
+      "source": "`开启以下设备的${t}同步开关，实现多端${a}自动同步：!@#${i.join(\", \")}。!@#${e}`",
+      "target": "`Enable ${require(require('path').join(__dirname,'ui-display.cjs')).label(t)} sync on these devices to sync ${require(require('path').join(__dirname,'ui-display.cjs')).label(a)} automatically across devices:!@#${i.join(\", \")}.!@#${e}`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-components.js",
+      "start": 375560,
+      "end": 375587,
+      "source": "`通过链接进行分享，需要开启${a}同步开关后重试。`",
+      "target": "`To share by link, enable ${require(require('path').join(__dirname,'ui-display.cjs')).label(a)} sync and try again.`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 80665,
+      "end": 80681,
+      "source": "`有${t}个图片/视频未备份`",
+      "target": "`${t} photos/videos not backed up`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 80782,
+      "end": 80798,
+      "source": "`有${t}个图片/视频未备份`",
+      "target": "`${t} photos/videos not backed up`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 80746,
+      "end": 80772,
+      "source": "`已备份${a}个图片/视频，还有${t}个未备份`",
+      "target": "`${a} photos/videos backed up; ${t} remaining`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 81098,
+      "end": 81115,
+      "source": "`正在备份(${e}/${a})`",
+      "target": "`Backing up (${e}/${a})`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 81260,
+      "end": 81315,
+      "source": "`已备份<span class=\"backup-success-txt\">${a}</span>个图片/视频`",
+      "target": "`Backed up <span class=\"backup-success-txt\">${a}</span> photos/videos`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 81323,
+      "end": 81335,
+      "source": "`，${t}个备份失败`",
+      "target": "`; ${t} failed`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 81599,
+      "end": 81695,
+      "source": "`本次备份<span class=\"backup-error-txt\">${s}</span>个，未备份<span class=\"backup-error-txt\">${t}</span>个`",
+      "target": "`Backed up <span class=\"backup-error-txt\">${s}</span>; <span class=\"backup-error-txt\">${t}</span> not backed up`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 83258,
+      "end": 83301,
+      "source": "`“${e.deviceName.split(\"+\")[0]}” 图片视频备份已暂停`",
+      "target": "`Photo/video backup paused for “${e.deviceName.split(\"+\")[0]}”`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 122138,
+      "end": 122202,
+      "source": "`${this.deviceTypeDesc}的“备份至电脑”页已打开，请前往${this.deviceTypeDesc}操作`",
+      "target": "`Back up to computer is open on your ${require(require('path').join(__dirname,'ui-display.cjs')).label(this.deviceTypeDesc)}. Continue on your device.`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 126401,
+      "end": 126454,
+      "source": "`正在备份 ${(this.status.backupProgress||0).toFixed(2)}%`",
+      "target": "`Backing up ${(this.status.backupProgress||0).toFixed(2)}%`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 126504,
+      "end": 126550,
+      "source": "`正在保存已备份信息 ${(100*this.progress).toFixed(2)}%`",
+      "target": "`Saving backup information ${(100*this.progress).toFixed(2)}%`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 126845,
+      "end": 126887,
+      "source": "`详细信息请前往${this.deviceTypeDesc}的“备份与恢复”查看。`",
+      "target": "`For details, open Backup and restore on your ${require(require('path').join(__dirname,'ui-display.cjs')).label(this.deviceTypeDesc)}.`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 130337,
+      "end": 130379,
+      "source": "`详细信息请前往${this.deviceTypeDesc}的“备份与恢复”查看。`",
+      "target": "`For details, open Backup and restore on your ${require(require('path').join(__dirname,'ui-display.cjs')).label(this.deviceTypeDesc)}.`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 126938,
+      "end": 126997,
+      "source": "`已备份完成 ${m.byteFormatter(t||0)}，预计还剩${u.timeFormat(a||0)}。`",
+      "target": "`Backed up ${m.byteFormatter(t||0)}. About ${u.timeFormat(a||0)} remaining.`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 127172,
+      "end": 127247,
+      "source": "`成功备份 ${m.byteFormatter(t||0)}，${n||0} 项失败，用时${u.timeFormat(i||0,!0)}，${r}`",
+      "target": "`Backed up ${m.byteFormatter(t||0)}; ${n||0} items failed. Time: ${u.timeFormat(i||0,!0)}. ${r}`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 129982,
+      "end": 130036,
+      "source": "`正在恢复 ${(this.status.restoreProgress||0).toFixed(2)}%`",
+      "target": "`Restoring ${(this.status.restoreProgress||0).toFixed(2)}%`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 130429,
+      "end": 130488,
+      "source": "`已恢复完成 ${u.byteFormatter(t||0)}，预计还剩${d.timeFormat(a||0)}。`",
+      "target": "`Restored ${u.byteFormatter(t||0)}. About ${d.timeFormat(a||0)} remaining.`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 130573,
+      "end": 130648,
+      "source": "`成功恢复 ${u.byteFormatter(t||0)}，${i||0} 项失败，用时${d.timeFormat(n||0,!0)}，${r}`",
+      "target": "`Restored ${u.byteFormatter(t||0)}; ${i||0} items failed. Time: ${d.timeFormat(n||0,!0)}. ${r}`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 237874,
+      "end": 237886,
+      "source": "`自动备份${d}照片`",
+      "target": "`Automatically back up ${require(require('path').join(__dirname,'ui-display.cjs')).label(d)} photos`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 238077,
+      "end": 238093,
+      "source": "`正在备份${t}/${a}个`",
+      "target": "`Backing up ${t}/${a} items`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 241851,
+      "end": 241965,
+      "source": "`备份与恢复${(null===(t=e.currentShowDeviceObj)||void 0===t?void 0:t.device.deviceType)==u.DeviceType.PAD?\"平板\":\"手机\"}数据`",
+      "target": "`Back up and restore ${(null===(t=e.currentShowDeviceObj)||void 0===t?void 0:t.device.deviceType)==u.DeviceType.PAD?\"tablet\":\"phone\"} data`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 244230,
+      "end": 244291,
+      "source": "`“${t.device.mobileDeviceName||\"\"}”数据备份${r?\"结束\":i?\"成功\":\"失败\"}`",
+      "target": "`Backup for “${t.device.mobileDeviceName||\"\"}” ${r?\"ended\":i?\"succeeded\":\"failed\"}`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 250516,
+      "end": 250526,
+      "source": "` ${a} 小时`",
+      "target": "` ${a} hours`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 250536,
+      "end": 250546,
+      "source": "` ${i} 分钟`",
+      "target": "` ${i} minutes`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 250556,
+      "end": 250565,
+      "source": "` ${n} 秒`",
+      "target": "` ${n} seconds`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 278193,
+      "end": 278331,
+      "source": "`当前处于云连接状态，每日传输数据限额为 ${y.byteFormatter(i.total||0,1024)}（当前剩余 ${y.byteFormatter(i.total-i.used||0,1024)}），不足以传输所选文件。如需继续传输，请使用 USB 连接该设备。`",
+      "target": "`Cloud connection has a daily transfer limit of ${y.byteFormatter(i.total||0,1024)} (${y.byteFormatter(i.total-i.used||0,1024)} remaining), which is insufficient for the selected files. Connect this device via USB to continue.`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 483178,
+      "end": 483262,
+      "source": "`电脑的存储空间不足，可清理空间后重试（需大于 ${c.byteFormatter(Number(a.split(\"/\")[0]))}），或在设置中更改备份的存储位置`",
+      "target": "`Computer storage is low. Free up more than ${c.byteFormatter(Number(a.split(\"/\")[0]))} and retry, or change the backup location in Settings.`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 483307,
+      "end": 483329,
+      "source": "`${i}信息获取失败，请重新连接${i}`",
+      "target": "`Could not get ${require(require('path').join(__dirname,'ui-display.cjs')).label(i)} information. Reconnect your device.`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "app-modules.js",
+      "start": 483436,
+      "end": 483458,
+      "source": "`请前往${i}“相册”同意隐私政策后重试`",
+      "target": "`Open Albums on your ${require(require('path').join(__dirname,'ui-display.cjs')).label(i)}, accept its privacy policy, and try again.`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "7.js",
+      "start": 62280,
+      "end": 62300,
+      "source": "`含有${i.value}的笔记、待办`",
+      "target": "`Notes and to-dos containing ${require(require('path').join(__dirname,'ui-display.cjs')).label(i.value)}`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "7.js",
+      "start": 62491,
+      "end": 62508,
+      "source": "`含有${i.value}的笔记`",
+      "target": "`Notes containing ${require(require('path').join(__dirname,'ui-display.cjs')).label(i.value)}`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "7.js",
+      "start": 63878,
+      "end": 63895,
+      "source": "`含有${e.value}的笔记`",
+      "target": "`Notes containing ${require(require('path').join(__dirname,'ui-display.cjs')).label(e.value)}`",
+      "reason": "Translate complete display-only template; preserve interpolation values and protocol data"
+    },
+    {
+      "file": "renderer.js",
+      "start": 489609,
+      "end": 489613,
+      "source": "b[l]",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(b[l])",
+      "reason": "Reviewed display-only template/phrase; preserve source names and machine values"
+    },
+    {
+      "file": "renderer.js",
+      "start": 669741,
+      "end": 669796,
+      "source": "`当前处于云连接状态，仅支持${c} ${f} 以下图片，如需${p}较大图片，请使用 USB 连接该设备。`",
+      "target": "`Over a cloud connection, you can only ${require(require('path').join(__dirname,'ui-display.cjs')).label(c)} images smaller than ${f}. To ${require(require('path').join(__dirname,'ui-display.cjs')).label(p)} larger images, connect this device via USB.`",
+      "reason": "Reviewed display-only template/phrase; preserve source names and machine values"
+    },
+    {
+      "file": "renderer.js",
+      "start": 670196,
+      "end": 670340,
+      "source": "`当前处于云连接状态，每日传输数据限额为 ${n.byteFormatter(s.total||0,1024)}（当前剩余 ${n.byteFormatter(s.total-s.used||0,1024)}），不足以${c}该图片。如需${c}较大图片，请使用 USB 连接该设备。。`",
+      "target": "`Cloud connection has a daily transfer limit of ${n.byteFormatter(s.total||0,1024)} (${n.byteFormatter(s.total-s.used||0,1024)} remaining), which is insufficient for this image. Connect this device via USB to continue.`",
+      "reason": "Reviewed display-only template/phrase; preserve source names and machine values"
+    },
+    {
+      "file": "renderer.js",
+      "start": 679751,
+      "end": 679769,
+      "source": "`已成功保存到原子笔记“${u}”`",
+      "target": "`Saved to Notes: “${u}”`",
+      "reason": "Reviewed display-only template/phrase; preserve source names and machine values"
+    },
+    {
+      "file": "renderer.js",
+      "start": 148820,
+      "end": 148860,
+      "source": "`${u.getMonth()+1}月${u.getDate()}日 ${o}`",
+      "target": "`${u.getMonth()+1}/${u.getDate()} ${o}`",
+      "reason": "Reviewed display-only template/phrase; preserve source names and machine values"
+    },
+    {
+      "file": "child-window.js",
+      "start": 612060,
+      "end": 612064,
+      "source": "a[e]",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(a[e])",
+      "reason": "Reviewed display-only template/phrase; preserve source names and machine values"
+    },
+    {
+      "file": "child-window.js",
+      "start": 853537,
+      "end": 853592,
+      "source": "`当前处于云连接状态，仅支持${u} ${m} 以下图片，如需${g}较大图片，请使用 USB 连接该设备。`",
+      "target": "`Over a cloud connection, you can only ${require(require('path').join(__dirname,'ui-display.cjs')).label(u)} images smaller than ${m}. To ${require(require('path').join(__dirname,'ui-display.cjs')).label(g)} larger images, connect this device via USB.`",
+      "reason": "Reviewed display-only template/phrase; preserve source names and machine values"
+    },
+    {
+      "file": "child-window.js",
+      "start": 853992,
+      "end": 854136,
+      "source": "`当前处于云连接状态，每日传输数据限额为 ${l.byteFormatter(_.total||0,1024)}（当前剩余 ${l.byteFormatter(_.total-_.used||0,1024)}），不足以${u}该图片。如需${u}较大图片，请使用 USB 连接该设备。。`",
+      "target": "`Cloud connection has a daily transfer limit of ${l.byteFormatter(_.total||0,1024)} (${l.byteFormatter(_.total-_.used||0,1024)} remaining), which is insufficient for this image. Connect this device via USB to continue.`",
+      "reason": "Reviewed display-only template/phrase; preserve source names and machine values"
+    },
+    {
+      "file": "child-window.js",
+      "start": 863557,
+      "end": 863575,
+      "source": "`已成功保存到原子笔记“${o}”`",
+      "target": "`Saved to Notes: “${o}”`",
+      "reason": "Reviewed display-only template/phrase; preserve source names and machine values"
+    },
+    {
+      "file": "child-window.js",
+      "start": 1247577,
+      "end": 1247617,
+      "source": "`${o.getMonth()+1}月${o.getDate()}日 ${c}`",
+      "target": "`${o.getMonth()+1}/${o.getDate()} ${c}`",
+      "reason": "Reviewed display-only template/phrase; preserve source names and machine values"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 539907,
+      "end": 539911,
+      "source": "s[e]",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(s[e])",
+      "reason": "Reviewed display-only template/phrase; preserve source names and machine values"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 749089,
+      "end": 749144,
+      "source": "`当前处于云连接状态，仅支持${u} ${p} 以下图片，如需${f}较大图片，请使用 USB 连接该设备。`",
+      "target": "`Over a cloud connection, you can only ${require(require('path').join(__dirname,'ui-display.cjs')).label(u)} images smaller than ${p}. To ${require(require('path').join(__dirname,'ui-display.cjs')).label(f)} larger images, connect this device via USB.`",
+      "reason": "Reviewed display-only template/phrase; preserve source names and machine values"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 749544,
+      "end": 749688,
+      "source": "`当前处于云连接状态，每日传输数据限额为 ${l.byteFormatter(d.total||0,1024)}（当前剩余 ${l.byteFormatter(d.total-d.used||0,1024)}），不足以${u}该图片。如需${u}较大图片，请使用 USB 连接该设备。。`",
+      "target": "`Cloud connection has a daily transfer limit of ${l.byteFormatter(d.total||0,1024)} (${l.byteFormatter(d.total-d.used||0,1024)} remaining), which is insufficient for this image. Connect this device via USB to continue.`",
+      "reason": "Reviewed display-only template/phrase; preserve source names and machine values"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 759109,
+      "end": 759127,
+      "source": "`已成功保存到原子笔记“${o}”`",
+      "target": "`Saved to Notes: “${o}”`",
+      "reason": "Reviewed display-only template/phrase; preserve source names and machine values"
+    },
+    {
+      "file": "module-share-preview.js",
+      "start": 1004653,
+      "end": 1004693,
+      "source": "`${o.getMonth()+1}月${o.getDate()}日 ${c}`",
+      "target": "`${o.getMonth()+1}/${o.getDate()} ${c}`",
+      "reason": "Reviewed display-only template/phrase; preserve source names and machine values"
+    }
+  ],
+  "displayTranslations": {
+    "无": "None",
+    "准时": "At time of event",
+    "当天": "On the day",
+    "5分钟前": "5 minutes before",
+    "15分钟前": "15 minutes before",
+    "30分钟前": "30 minutes before",
+    "1小时前": "1 hour before",
+    "2小时前": "2 hours before",
+    "1天前": "1 day before",
+    "2天前": "2 days before",
+    "3天前": "3 days before",
+    "1周前": "1 week before",
+    "原子笔记": "Notes",
+    "日历": "Calendar",
+    "相册": "Albums",
+    "录音机": "Recorder",
+    "连接相关": "Connection",
+    "手机投屏相关": "Phone mirroring",
+    "文件管理相关": "File management",
+    "文件管理/传输相关": "File management/transfer",
+    "文件传输相关": "File transfer",
+    "任务接力相关": "Task handoff",
+    "接力相关": "Handoff",
+    "原子笔记相关": "Notes",
+    "日历相关": "Calendar",
+    "相册相关": "Albums",
+    "录音机相关": "Recorder",
+    "vivo远控PC相关": "Remote PC",
+    "远控PC相关": "Remote PC",
+    "备份与恢复相关": "Backup and restore",
+    "屏幕扩展相关": "Screen extension",
+    "其他": "Other",
+    "蓝心小V相关": "BlueLM V",
+    "小V Claw相关": "V Claw",
+    "蓝心小V": "BlueLM V",
+    "其他相关": "Other",
+    "生日": "Birthday",
+    "纪念日": "Anniversary",
+    "倒数日": "Countdown",
+    "全天日程": "All-day events",
+    "全天待办": "All-day to-dos",
+    "当天/09:00": "On the day/09:00",
+    "2天前/09:00": "2 days before/09:00",
+    "数据": "data",
+    "录音文件": "recordings",
+    "日程、待办": "events and to-dos",
+    "手机": "phone",
+    "平板": "tablet",
+    "笔记": "Notes",
+    "图片": "photo",
+    "视频": "video",
+    "文档": "document",
+    "音频": "audio",
+    "查看": "view",
+    "复制": "copy",
+    "保存": "save",
+    "访问": "access"
+  }
+}

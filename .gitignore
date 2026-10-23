@@ -1,0 +1,19 @@
+# Vendor app archives, personal data and local build output
+*.asar
+*.asar.*
+*.exe
+*.dll
+*.node
+node_modules/
+out/
+dist/
+profiles/
+test-profile/
+clean leftover/
+*.log
+.env
+.env.*
+*.pem
+*.key
+Thumbs.db
+.DS_Store

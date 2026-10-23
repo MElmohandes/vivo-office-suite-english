@@ -1,0 +1,124 @@
+{
+  "files": [
+    "128.js",
+    "8.js",
+    "22.js"
+  ],
+  "translations": {},
+  "extraEdits": [
+    {
+      "file": "128.js",
+      "start": 373025,
+      "source": "请在平板的“设置”>“多设备互联”>“跨设备使用”>“键鼠协同”中，开启“键鼠协同”开关（若平板“多设备互联”已关闭，请先开启）。",
+      "target": "On your tablet, go to Settings > Multi-device connectivity > Cross-device use > Keyboard and mouse sharing. Enable Keyboard and mouse sharing. If Multi-device connectivity is off, enable it first.",
+      "reason": "Display-only device settings help; version and device selection logic preserved"
+    },
+    {
+      "file": "128.js",
+      "start": 373093,
+      "source": "请在手机的“设置”>“更多连接”>“连接中心”>“跨设备使用”>“键鼠协同”，开启“键鼠协同”开关。（若手机“连接中心”开关已关闭，请先开启）",
+      "target": "On your phone, go to Settings > More connections > Connection Center > Cross-device use > Keyboard and mouse sharing. Enable Keyboard and mouse sharing. If Connection Center is off, enable it first.",
+      "reason": "Display-only device settings help; version and device selection logic preserved"
+    },
+    {
+      "file": "128.js",
+      "start": 373401,
+      "source": "请在平板的“设置”>“连接中心”>“跨设备使用”>“键鼠协同”，开启“键鼠协同”开关（若平板“连接中心”开关已关闭，请先开启）。",
+      "target": "On your tablet, go to Settings > Connection Center > Cross-device use > Keyboard and mouse sharing. Enable Keyboard and mouse sharing. If Connection Center is off, enable it first.",
+      "reason": "Display-only device settings help; version and device selection logic preserved"
+    },
+    {
+      "file": "128.js",
+      "start": 373468,
+      "source": "请在手机的“设置”>“更多连接”>“连接中心”>“跨设备使用”>“键鼠协同”，开启“键鼠协同”开关。（若手机“连接中心”开关已关闭，请先开启）",
+      "target": "On your phone, go to Settings > More connections > Connection Center > Cross-device use > Keyboard and mouse sharing. Enable Keyboard and mouse sharing. If Connection Center is off, enable it first.",
+      "reason": "Display-only device settings help; version and device selection logic preserved"
+    },
+    {
+      "file": "128.js",
+      "start": 373577,
+      "source": "请在平板的“设置”>“多设备互联”>“跨设备使用”>“键鼠协同”中，开启“键鼠协同”开关（若平板“多设备互联”已关闭，请先开启）。",
+      "target": "On your tablet, go to Settings > Multi-device connectivity > Cross-device use > Keyboard and mouse sharing. Enable Keyboard and mouse sharing. If Multi-device connectivity is off, enable it first.",
+      "reason": "Display-only device settings help; version and device selection logic preserved"
+    },
+    {
+      "file": "128.js",
+      "start": 373645,
+      "source": "请在手机的“设置”>“更多连接”>“多设备互联”>“跨设备使用”>“键鼠协同”，开启“键鼠协同”开关（若手机“多设备互联”已关闭，请先开启）。",
+      "target": "On your phone, go to Settings > More connections > Multi-device connectivity > Cross-device use > Keyboard and mouse sharing. Enable Keyboard and mouse sharing. If Multi-device connectivity is off, enable it first.",
+      "reason": "Display-only device settings help; version and device selection logic preserved"
+    },
+    {
+      "file": "128.js",
+      "start": 373804,
+      "source": "请在平板的“设置”>“多设备互联”>“键鼠协同”中，开启“键鼠协同”开关（若平板“多设备互联”已关闭，请先开启）。",
+      "target": "On your tablet, go to Settings > Multi-device connectivity > Keyboard and mouse sharing. Enable Keyboard and mouse sharing. If Multi-device connectivity is off, enable it first.",
+      "reason": "Display-only device settings help; version and device selection logic preserved"
+    },
+    {
+      "file": "128.js",
+      "start": 373864,
+      "source": "请在手机的“设置”>“其他网络与连接”>“多设备互联”>“键鼠协同”，开启“键鼠协同”开关（若手机“多设备互联”已关闭，请先开启）。",
+      "target": "On your phone, go to Settings > Other networks and connections > Multi-device connectivity > Keyboard and mouse sharing. Enable Keyboard and mouse sharing. If Multi-device connectivity is off, enable it first.",
+      "reason": "Display-only device settings help; version and device selection logic preserved"
+    }
+  ],
+  "expressionEdits": [
+    {
+      "file": "8.js",
+      "start": 5074,
+      "end": 5080,
+      "source": "t.text",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(t.text)",
+      "reason": "Translate displayed computed lunar/date/recurrence label while preserving parsed source values"
+    },
+    {
+      "file": "8.js",
+      "start": 20041,
+      "end": 20051,
+      "source": "e.showYear",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.showYear)",
+      "reason": "Translate displayed computed lunar/date/recurrence label while preserving parsed source values"
+    },
+    {
+      "file": "8.js",
+      "start": 25628,
+      "end": 25640,
+      "source": "e.formatRule",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.formatRule)",
+      "reason": "Translate displayed computed lunar/date/recurrence label while preserving parsed source values"
+    },
+    {
+      "file": "8.js",
+      "start": 28227,
+      "end": 28239,
+      "source": "e.formatTime",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.formatTime)",
+      "reason": "Translate displayed computed lunar/date/recurrence label while preserving parsed source values"
+    },
+    {
+      "file": "22.js",
+      "start": 4057,
+      "end": 4074,
+      "source": "e.dateTimeDisplay",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.dateTimeDisplay)",
+      "reason": "Translate displayed computed lunar/date/recurrence label while preserving parsed source values"
+    },
+    {
+      "file": "22.js",
+      "start": 4265,
+      "end": 4285,
+      "source": "e.repeatRuleTextOnly",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.repeatRuleTextOnly)",
+      "reason": "Translate displayed computed lunar/date/recurrence label while preserving parsed source values"
+    },
+    {
+      "file": "22.js",
+      "start": 4608,
+      "end": 4624,
+      "source": "e.repeatRuleText",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.repeatRuleText)",
+      "reason": "Translate displayed computed lunar/date/recurrence label while preserving parsed source values"
+    }
+  ]
+}

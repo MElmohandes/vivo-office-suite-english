@@ -1,0 +1,5152 @@
+{
+  "files": [
+    "125.js",
+    "126.js",
+    "131.js",
+    "140.js",
+    "142.js",
+    "143.js",
+    "144.js",
+    "146.js",
+    "app-modules-note.js",
+    "note-toolbar.js"
+  ],
+  "translations": {
+    "提升录音管理效率,开启录音内容搜索、标记智能命名。": "Manage recordings more efficiently with content search and smart naming for markers.",
+    "一键开启": "Enable",
+    "导入电脑音频": "Import audio from computer",
+    "无内容": "No content",
+    "正在同步": "Syncing",
+    "文件信息": "File information",
+    "录音模式：": "Recording mode: ",
+    "类型：": "Type: ",
+    "大小：": "Size: ",
+    "修改时间：": "Modified: ",
+    "位置：": "Location: ",
+    "智能命名正在进行中，是否放弃生成的内容？": "Smart naming is in progress. Discard the generated content?",
+    "放弃生成": "Discard",
+    "继续生成": "Continue generating",
+    "重命名": "Rename",
+    "取消": "Cancel",
+    "确定": "OK",
+    "主题": "Topic",
+    "总结当前录音内容的主题": "Summarize the topic of this recording",
+    "概要": "Overview",
+    "一句话总结全文内容，涵盖观点碰撞、论据支撑及决策方向，完整呈现讨论背景、过程及关键结论，为后续行动提供全面信息支撑。": "Summarize the content in one sentence, covering different views, supporting evidence, decisions, discussion context, and key conclusions to inform next steps.",
+    "要点": "Key points",
+    "议题 1": "Topic 1",
+    "对录音文件中的全部对话内容进行系统性梳理，精准提炼其中的核心议题，按照逻辑层次分点分段展示，确保关键讨论要点清晰明了。": "Organize the recorded discussion into clear sections and identify its main topics and key points.",
+    "待办事项": "Action items",
+    "根据议题得出具体待办任务列表": "List specific action items based on the discussion",
+    "明确会议的核心议题或名称。": "Identify the main topic or name of the meeting.",
+    "提炼会议的核心目的及核心议程，便于快速了解会议全貌。": "Outline the main purpose and agenda for a quick overview of the meeting.",
+    "会议结论": "Meeting conclusions",
+    "汇总会议达成的最终共识、决策结果。": "Summarize the agreements and decisions reached at the meeting.",
+    "讨论要点": "Discussion points",
+    "要点 1": "Key point 1",
+    "分点梳理会议过程中的关键发言，还原核心讨论场景。": "Organize the main contributions and key discussions into bullet points.",
+    "各要点下的具体内容，涵盖与会人员的核心发言、观点分歧、关键论据及补充说明。": "Include the main contributions, differing views, key evidence, and supporting details under each point.",
+    "明确会议结束后需推进的任务及相关要求。": "Identify follow-up tasks and their requirements.",
+    "明确通话的核心议题": "Identify the main topic of the call",
+    "提炼通话的核心信息，帮助快速总结通话内容。": "Extract the main information for a quick summary of the call.",
+    "通话要点": "Call highlights",
+    "通话主题：总结通话核心要点": "Call topic: Summarize the main points of the call",
+    "通话讨论内容：涵盖通话过程中的关键发言、信息传递、疑问澄清及观点交换，清晰还原通话的核心沟通脉络。": "Call discussion: Cover key statements, shared information, clarifications, and exchanges of views to clearly present the conversation.",
+    "梳理通话内容中的具体待办事项": "List specific action items from the call",
+    "明确讲座的核心议题。 ": "Identify the main topic of the lecture. ",
+    "提炼讲座的背景、主讲人核心诉求及整体脉络，帮助快速把握讲座全貌。 ": "Summarize the lecture background, speaker's main purpose, and overall structure. ",
+    "核心观点": "Main ideas",
+    "梳理主讲人围绕主题提出的核心观点、理论、见解，梳理讲座的核心知识体系。": "Organize the speaker's main ideas, theories, and insights into a clear knowledge framework.",
+    "提炼讲座中具有指导性、总结性的关键结论，呈现分享的核心价值。": "Highlight the lecture's key conclusions and practical takeaways.",
+    "知识拓展": "Further learning",
+    "补充讲座中延伸的相关知识点、案例解析或应用建议，丰富内容维度。": "Add related concepts, case studies, or practical suggestions mentioned in the lecture.",
+    "明确课堂的核心主题。": "Identify the main topic of the lesson.",
+    "总结本堂课的知识框架及核心脉络。  ": "Summarize the lesson's knowledge framework and main structure.  ",
+    "课堂知识": "Lesson content",
+    "知识点：梳理本堂课的基础概念、理论要点及核心公式，搭建知识体系基础。": "Concepts: Organize the basic concepts, main theories, and key formulas covered in the lesson.",
+    "讲解：记录老师对知识点的详细阐释、逻辑推导及关键补充，理解知识内涵。": "Explanations: Record the teacher's detailed explanations, reasoning, and key additions.",
+    "例题：整理课堂配套的典型例题、解题思路及步骤解析，助力知识落地应用。": "Examples: Organize typical exercises, solution approaches, and step-by-step explanations.",
+    "重点标记": "Highlights",
+    "标注课堂上老师强调的核心考点、易错点及关键结论，突出学习重点。": "Highlight key exam topics, common mistakes, and important conclusions emphasized by the teacher.",
+    "明确访谈的核心议题。": "Identify the main topic of the interview.",
+    "总结访谈的背景、目的及核心内容。 ": "Summarize the interview background, purpose, and main content. ",
+    "访谈对象": "Interviewee",
+    "记录受访人的基本信息、身份背景。": "Record the interviewee's basic information and background.",
+    "访谈记录": "Interview transcript",
+    "完整呈现访谈过程中的对话内容，涵盖提问、回答及关键细节。": "Present the complete interview conversation, including questions, answers, and key details.",
+    "问题：采访者的问题": "Question: The interviewer's question",
+    "答：受访者的回答内容": "Answer: The interviewee's response",
+    "访谈总结": "Interview summary",
+    "梳理访谈中的核心观点、关键信息及有价值的反馈，提炼本次访谈的核心成果。": "Summarize the interview's main views, key information, useful feedback, and findings.",
+    "指定说话人": "Select speakers",
+    "基于选中说话人的内容生成AI总结": "Generate an AI summary from the selected speakers",
+    "所有人": "Everyone",
+    "重新生成": "Regenerate",
+    "要点关联原文中，是否要编辑AI总结？": "Key points are being linked to the transcript. Edit the AI summary?",
+    "编辑过程中，若修改总结中的要点，可能会导致要点关联原文失败。": "Changing key points while editing may prevent them from being linked to the transcript.",
+    "编辑AI总结": "Edit AI summary",
+    "标记内容": "Marker content",
+    "无标记": "No markers",
+    "可下载客户端添加标记": "Download the desktop app to add markers",
+    "下载客户端": "Download desktop app",
+    "可前往电脑下载客户端添加标记": "Download the desktop app on your computer to add markers",
+    "记录想法": "Record an idea",
+    "查看更新": "Check for updates",
+    "重试": "Retry",
+    "\n                以上内容由AI大模型生成，仅供参考。\n              ": "\n                This content is AI-generated and is for reference only.\n              ",
+    "已到最后一处": "Last match reached",
+    "下一处": "Next match",
+    "无文本": "No transcript",
+    "生成转文本": "Generate transcript",
+    "大纲": "Outline",
+    "\n                        生成大纲需要登录vivo账号。": "\n                        Sign in to your vivo account to generate an outline.",
+    "登录vivo账号": "Sign in to vivo account",
+    "\n                        文本内容较多，可下载客户端生成大纲。": "\n                        The transcript is too long. Download the desktop app to generate an outline.",
+    "录音内容较少，无需生成大纲。": "The recording is too short to need an outline.",
+    "原文": "Transcript",
+    "文本整理": "Clean up transcript",
+    "\n                    以上内容由AI大模型生成，仅供参考。\n                ": "\n                    This content is AI-generated and is for reference only.\n                ",
+    "无文本整理": "No cleaned-up transcript",
+    "点击\"文本整理\"开启录音文本整理": "Click \"Clean up transcript\" to organize the recording transcript",
+    "AI洞察": "AI insights",
+    "AI洞察内容不完整，建议重新生成": "AI insights are incomplete. Try regenerating them.",
+    "生成洞察需要几分钟，请稍候...": "Generating insights may take a few minutes. Please wait...",
+    "\n        以上内容由AI大模型生成，仅供参考。\n      ": "\n        This content is AI-generated and is for reference only.\n      ",
+    "正在等候···": "Waiting...",
+    "正在生成···": "Generating...",
+    "停止等候": "Stop waiting",
+    "停止生成": "Stop generating",
+    "无AI洞察": "No AI insights",
+    "可下载客户端生成洞察": "Download the desktop app to generate insights",
+    "可前往电脑下载客户端生成洞察": "Download the desktop app on your computer to generate insights",
+    "录音内容较少，无需生成AI洞察。": "The recording is too short to need AI insights.",
+    "生成洞察": "Generate insights",
+    "\r\n            要点关联失败。": "\r\n            Could not link key points.",
+    "重新关联": "Link again",
+    "\r\n            可进行要点关联原文，查看要点对应的原文内容。": "\r\n            Link key points to the transcript to view their original context.",
+    "要点关联原文": "Link key points to transcript",
+    "生成总结需要几分钟，请稍候...": "Generating a summary may take a few minutes. Please wait...",
+    "\r\n        以上内容由AI大模型生成，仅供参考。\r\n      ": "\r\n        This content is AI-generated and is for reference only.\r\n      ",
+    "正在生成要点关联原文 ": "Linking key points to transcript ",
+    "停止关联": "Stop linking",
+    "无AI总结": "No AI summary",
+    "可下载客户端生成总结": "Download the desktop app to generate a summary",
+    "可前往电脑下载客户端生成总结": "Download the desktop app on your computer to generate a summary",
+    "录音内容较少，无需生成AI总结。": "The recording is too short to need an AI summary.",
+    "生成总结": "Generate summary",
+    "图片正在加载": "Loading image",
+    "收起": "Collapse",
+    "展开": "Expand",
+    "筛选角色": "Filter speakers",
+    "编辑": "Edit",
+    "复制": "Copy",
+    "以上内容由AI大模型生成，仅供参考。": "This content is AI-generated and is for reference only.",
+    "总结要点对应原文": "Transcript for summary key points",
+    "可切换要点对应原文内容": "Switch between transcript passages for each key point",
+    "\n                          生成大纲需要登录vivo账号。": "\n                          Sign in to your vivo account to generate an outline.",
+    "\n                          文本内容较多，可下载客户端生成大纲。": "\n                          The transcript is too long. Download the desktop app to generate an outline.",
+    "修改名称": "Change name",
+    "输入名称": "Enter name",
+    "仅替换当前": "Replace current",
+    "全部替换": "Replace all",
+    "重新转文本": "Regenerate transcript",
+    "文件无效，请上传有效的录音文件": "Invalid file. Upload a valid recording.",
+    "网络未连接": "No network connection",
+    "最多支持3条录音同时智能命名": "Smart naming supports up to 3 recordings at a time",
+    "录音时长超过4小时，无法进行智能命名": "Smart naming is unavailable for recordings longer than 4 hours",
+    "内容无法处理，智能命名失败": "The content could not be processed. Smart naming failed.",
+    "请输入名称": "Enter a name",
+    "文件路径不存在": "File path does not exist",
+    "下载失败": "Download failed",
+    "智能命名失败": "Smart naming failed",
+    "停止失败，请重试": "Could not stop. Try again.",
+    "暂无洞察内容": "No insights yet",
+    "暂无文本整理内容": "No cleaned-up transcript yet",
+    "导出失败，请稍后再试": "Export failed. Try again later.",
+    "至少选择一个内容": "Select at least one item",
+    "当前时间点已有标记": "A marker already exists at this point",
+    "等待转文本的数量已到达上限": "The transcription queue is full",
+    "本月转文本上限已达到上限75小时": "The monthly transcription limit of 75 hours has been reached",
+    "服务异常，请稍后再试": "Service unavailable. Try again later.",
+    "正在转文本，请稍后": "Transcribing. Please wait.",
+    "正在文本整理，请稍后": "Cleaning up transcript. Please wait.",
+    "已复制到剪切板": "Copied to clipboard",
+    "已复制": "Copied",
+    "音频加载失败": "Could not load audio",
+    "已标记": "Marker added",
+    "该文件格式暂不支持播放": "Playback is unavailable for this file format",
+    "下载失败，未找到音频信息": "Download failed. Audio information was not found.",
+    "录音内容较少，智能命名失败": "The recording is too short. Smart naming failed.",
+    "待办及数据已迁移至\"日历\"": "Your to-dos and data have moved to \"Calendar\"",
+    "\n          数据自动迁移，多设备同步\n        ": "\n          Automatic migration and sync across devices\n        ",
+    "\n          您的所有待办数据已自动迁移至“日历”，包含提醒、分组、颜色等设置，还支持通过云同步，在多设备间自动保持一致。\n        ": "\n          All your to-dos have automatically moved to Calendar, including reminders, groups, and colors. Cloud sync keeps them up to date across your devices.\n        ",
+    "\n          更智能高效的待办\n        ": "\n          Smarter, more efficient to-dos\n        ",
+    "\n          现在可在\"日历\"中更集中的管理日程和待办任务，智能安排更高效。\n        ": "\n          Manage events and to-dos together in Calendar for more efficient planning.\n        ",
+    "确认不再提示？": "Stop showing this reminder?",
+    "\n      后续可在日历-待办使用此功能。\n    ": "\n      You can use this feature in Calendar > To-dos.\n    ",
+    "云端及所有同步设备": "Cloud and all synced devices",
+    "修改笔记数据后，需要找回旧版本的内容时，可使用历史版本功能，该功能支持记录最近30天内，至多10条历史编辑版本。": "Use version history to recover earlier note content. Up to 10 edited versions from the last 30 days are saved.",
+    "（涂鸦和小V帮记/电话助手原文内容暂不支持记录编辑历史，始终按最新版本显示）": "(Drawings and original transcripts from V Assistant Notes/Call Assistant do not support version history and always show the latest version.)",
+    "\n              云空间将满，暂停同步历史版本。": "\n              Cloud storage is almost full. Version history sync is paused.",
+    "\n              另存为新笔记\n            ": "\n              Save as new note\n            ",
+    "正在保存": "Saving",
+    "正在还原": "Restoring",
+    "目标文件夹": "Destination folder",
+    "保存失败": "Save failed",
+    "恢复失败": "Restore failed",
+    "删除失败": "Delete failed",
+    "文档名称": "Document name",
+    "文档大小": "Document size",
+    "修改时间": "Modified",
+    "同步完成": "Sync complete",
+    "请输入文档名称": "Enter a document name",
+    "无文档": "No documents",
+    "重命名失败，请稍后再试": "Rename failed. Try again later.",
+    "创建失败，请稍后再试": "Creation failed. Try again later.",
+    "删除失败，请稍后再试": "Delete failed. Try again later.",
+    "加载中...": "Loading...",
+    "\n              当日暂无日程\n            ": "\n              No events for this day\n            ",
+    "新建日程": "New event",
+    "\n    加入会议\n  ": "\n    Join meeting\n  ",
+    "标记未完成": "Mark incomplete",
+    "完成": "Complete",
+    "\n        已选择 ": "\n        Selected ",
+    " 项\n      ": "  items\n      ",
+    "无结果": "No results",
+    "全部": "All",
+    "\n        0 张图片\n        ": "\n        0 photos\n        ",
+    "\n        无图片和视频\n      ": "\n        No photos or videos\n      ",
+    "欢迎使用“相册”": "Welcome to Albums",
+    "登录账号并": "Sign in and ",
+    "开启云相册，可查看云端图片和视频，\n      ": "enable Cloud Albums to view your photos and videos in the cloud.\n      ",
+    "开启云相册，可查看云端图片和视频\n      ": "enable Cloud Albums to view your photos and videos in the cloud\n      ",
+    "您也可将电脑中的图片和视频直接拖到此处": "You can also drag photos and videos here from your computer",
+    "\n    立即开启\n  ": "\n    Enable now\n  ",
+    " 导入\n              ": " Import\n              ",
+    "最近删除": "Recently deleted",
+    "\n        无最近删除\n      ": "\n        No recently deleted items\n      ",
+    "\n      恢复\n    ": "\n      Restore\n    ",
+    "删除": "Delete",
+    "项": " items",
+    "全部删除": "Delete all",
+    "\n      永久删除\n    ": "\n      Delete permanently\n    ",
+    "已恢复至原处": "Restored to original location",
+    "恢复": "Restore",
+    "去开启\n            ": "Enable\n            ",
+    "响应操时，请稍后再试": "Response timed out. Try again later.",
+    "个文件恢复失败": " files could not be restored",
+    "正文": "Body text",
+    "最多支持30条笔记的批量操作": "Select up to 30 notes for a batch operation"
+  },
+  "extraEdits": [
+    {
+      "file": "125.js",
+      "start": 10771,
+      "source": "内容无法处理，智能命名失败",
+      "target": "The content could not be processed. Smart naming failed.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 11787,
+      "source": "录音内容较少",
+      "target": "The recording is too short",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 11815,
+      "source": "录音内容较少",
+      "target": "The recording is too short",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 11842,
+      "source": "内容无法处理，智能命名失败",
+      "target": "The content could not be processed. Smart naming failed.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 11874,
+      "source": "智能命名失败",
+      "target": "Smart naming failed",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 23050,
+      "source": "内容无法处理，智能命名失败",
+      "target": "The content could not be processed. Smart naming failed.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 24288,
+      "source": "录音内容较少",
+      "target": "The recording is too short",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 24316,
+      "source": "录音内容较少",
+      "target": "The recording is too short",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 24343,
+      "source": "内容无法处理，智能命名失败",
+      "target": "The content could not be processed. Smart naming failed.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 24375,
+      "source": "智能命名失败",
+      "target": "Smart naming failed",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 50717,
+      "source": "录音内容较少，AI总结生成失败",
+      "target": "The recording is too short to generate an AI summary",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 50752,
+      "source": "用户token过期",
+      "target": "Your session has expired",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 50783,
+      "source": "服务端超时",
+      "target": "Server timed out",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 50810,
+      "source": "请求超时",
+      "target": "Request timed out",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 50832,
+      "source": "输入内容审核不通过",
+      "target": "The input could not pass content review",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 50865,
+      "source": "输出内容审核不通过",
+      "target": "The output could not pass content review",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 50897,
+      "source": "主题不明确，AI总结生成失败",
+      "target": "The topic is unclear. AI summary failed.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 50930,
+      "source": "软件版本过低",
+      "target": "Update the app to continue",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 66678,
+      "source": "录音内容较少，AI总结生成失败",
+      "target": "The recording is too short to generate an AI summary",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 66713,
+      "source": "用户token过期",
+      "target": "Your session has expired",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 66744,
+      "source": "服务端超时",
+      "target": "Server timed out",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 66771,
+      "source": "请求超时",
+      "target": "Request timed out",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 66793,
+      "source": "输入内容审核不通过",
+      "target": "The input could not pass content review",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 66826,
+      "source": "输出内容审核不通过",
+      "target": "The output could not pass content review",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 66858,
+      "source": "主题不明确，AI总结生成失败",
+      "target": "The topic is unclear. AI summary failed.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 66891,
+      "source": "软件版本过低",
+      "target": "Update the app to continue",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 951573,
+      "source": "录音内容较少，无需生成AI洞察。",
+      "target": "The recording is too short to need AI insights.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 951609,
+      "source": "用户token过期",
+      "target": "Your session has expired",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 951640,
+      "source": "服务端超时，请稍后再试",
+      "target": "Server timed out. Try again later.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 951673,
+      "source": "请求超时，请稍后再试",
+      "target": "Request timed out. Try again later.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 951701,
+      "source": "内容无法处理",
+      "target": "The content could not be processed",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 951731,
+      "source": "抱歉，生成异常，暂时无法输出",
+      "target": "Generation failed. No output is available.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 951761,
+      "source": "网络异常，请检查网络连接",
+      "target": "Network error. Check your connection.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 951792,
+      "source": "软件版本过低",
+      "target": "Update the app to continue",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 961673,
+      "source": "录音内容较少，无需生成AI洞察。",
+      "target": "The recording is too short to need AI insights.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 961709,
+      "source": "用户token过期",
+      "target": "Your session has expired",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 961740,
+      "source": "服务端超时，请稍后再试",
+      "target": "Server timed out. Try again later.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 961773,
+      "source": "请求超时，请稍后再试",
+      "target": "Request timed out. Try again later.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 961801,
+      "source": "内容无法处理",
+      "target": "The content could not be processed",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 961831,
+      "source": "抱歉，生成异常，暂时无法输出",
+      "target": "Generation failed. No output is available.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 961861,
+      "source": "网络异常，请检查网络连接",
+      "target": "Network error. Check your connection.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 961892,
+      "source": "软件版本过低",
+      "target": "Update the app to continue",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1060862,
+      "source": "录音内容较少，AI总结生成失败",
+      "target": "The recording is too short to generate an AI summary",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1060897,
+      "source": "用户token过期",
+      "target": "Your session has expired",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1060928,
+      "source": "服务端超时",
+      "target": "Server timed out",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1060955,
+      "source": "请求超时",
+      "target": "Request timed out",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1060977,
+      "source": "输入内容审核不通过",
+      "target": "The input could not pass content review",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1061010,
+      "source": "输出内容审核不通过",
+      "target": "The output could not pass content review",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1061042,
+      "source": "主题不明确，AI总结生成失败",
+      "target": "The topic is unclear. AI summary failed.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1061075,
+      "source": "软件版本过低",
+      "target": "Update the app to continue",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1073041,
+      "source": "录音内容较少，AI总结生成失败",
+      "target": "The recording is too short to generate an AI summary",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1073076,
+      "source": "用户token过期",
+      "target": "Your session has expired",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1073107,
+      "source": "服务端超时",
+      "target": "Server timed out",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1073134,
+      "source": "请求超时",
+      "target": "Request timed out",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1073156,
+      "source": "输入内容审核不通过",
+      "target": "The input could not pass content review",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1073189,
+      "source": "输出内容审核不通过",
+      "target": "The output could not pass content review",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1073221,
+      "source": "主题不明确，AI总结生成失败",
+      "target": "The topic is unclear. AI summary failed.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1073254,
+      "source": "软件版本过低",
+      "target": "Update the app to continue",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1088893,
+      "source": "录音内容较少，要点生成失败",
+      "target": "The recording is too short to generate key points",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1088926,
+      "source": "用户token过期",
+      "target": "Your session has expired",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1088957,
+      "source": "服务端超时",
+      "target": "Server timed out",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1088984,
+      "source": "请求超时",
+      "target": "Request timed out",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1089006,
+      "source": "输入内容审核不通过",
+      "target": "The input could not pass content review",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1089039,
+      "source": "输出内容审核不通过",
+      "target": "The output could not pass content review",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1089071,
+      "source": "主题不明确，要点生成失败",
+      "target": "The topic is unclear. Could not generate key points.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1089102,
+      "source": "软件版本过低",
+      "target": "Update the app to continue",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1104060,
+      "source": "通用模版",
+      "target": "General template",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1104069,
+      "source": "会议总结",
+      "target": "Meeting summary",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1104078,
+      "source": "通话总结",
+      "target": "Call summary",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1104087,
+      "source": "讲座记录",
+      "target": "Lecture notes",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1104096,
+      "source": "课堂笔记",
+      "target": "Class notes",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1104105,
+      "source": "访谈总结",
+      "target": "Interview summary",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1276568,
+      "source": "正在生成大纲 ",
+      "target": "Generating outline ",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1282723,
+      "source": "正在生成文本整理 ",
+      "target": "Cleaning up transcript ",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1321938,
+      "source": "正在生成大纲 ",
+      "target": "Generating outline ",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1361424,
+      "source": "文件名过长",
+      "target": "File name is too long",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1379628,
+      "source": "未设置",
+      "target": "Not set",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1384857,
+      "source": "网络异常，请检查网络连接",
+      "target": "Network error. Check your connection.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1398988,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1399010,
+      "source": "确定",
+      "target": "OK",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1495764,
+      "source": "AI总结正在进行中，是否放弃生成的内容？",
+      "target": "An AI summary is being generated. Discard the generated content?",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1495798,
+      "source": "放弃并退出",
+      "target": "Discard and exit",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1495818,
+      "source": "继续生成",
+      "target": "Continue generating",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1496486,
+      "source": "AI洞察正在进行中， 是否放弃生成的内容？",
+      "target": "AI insights are being generated. Discard the generated content?",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1496521,
+      "source": "放弃并退出",
+      "target": "Discard and exit",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1496541,
+      "source": "继续进行",
+      "target": "Continue",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1496789,
+      "source": "转文本正在进行中，是否放弃生成？",
+      "target": "Transcription is in progress. Cancel it?",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1496819,
+      "source": "放弃并退出",
+      "target": "Discard and exit",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1496839,
+      "source": "继续生成",
+      "target": "Continue generating",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1505685,
+      "source": "无电话录音",
+      "target": "No call recordings",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1505695,
+      "source": "无应用通话录音",
+      "target": "No app call recordings",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1505743,
+      "source": "无录音",
+      "target": "No recordings",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1518655,
+      "source": "导入中...",
+      "target": "Importing...",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1523180,
+      "source": "录音文件",
+      "target": "Audio files",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1532578,
+      "source": "命名失败",
+      "target": "Naming failed",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1539129,
+      "source": "按名称：A到Z",
+      "target": "Name: A to Z",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1539155,
+      "source": "按创建时间：新到旧",
+      "target": "Created: newest first",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1539183,
+      "source": "按创建时间：旧到新",
+      "target": "Created: oldest first",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1539228,
+      "source": "全部",
+      "target": "All",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1539272,
+      "source": "全部",
+      "target": "All",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1539298,
+      "source": "录音机",
+      "target": "Recorder",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1539323,
+      "source": "电话",
+      "target": "Calls",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1539347,
+      "source": "应用",
+      "target": "Apps",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1542409,
+      "source": "等待智能命名",
+      "target": "Waiting for smart naming",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1542428,
+      "source": "正在智能命名",
+      "target": "Smart naming in progress",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1542438,
+      "source": "正在智能命名",
+      "target": "Smart naming in progress",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1544718,
+      "source": "文件名不能以 . 开头",
+      "target": "File names cannot start with a period",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1544864,
+      "source": "文件名过长",
+      "target": "File name is too long",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1545098,
+      "source": "修改失败，文件名不能为空",
+      "target": "Rename failed. The file name cannot be empty.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1545184,
+      "source": "修改失败，文件名不为纯空格",
+      "target": "Rename failed. The file name cannot contain only spaces.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1545442,
+      "source": "修改失败，文件名已存在",
+      "target": "Rename failed. A file with this name already exists.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1551531,
+      "source": "音频",
+      "target": "Audio",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1551680,
+      "source": "标准模式",
+      "target": "Standard mode",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1551689,
+      "source": "讲座模式",
+      "target": "Lecture mode",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1551698,
+      "source": "采访模式",
+      "target": "Interview mode",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1554316,
+      "source": "音频",
+      "target": "Audio",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1554465,
+      "source": "标准模式",
+      "target": "Standard mode",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1554474,
+      "source": "讲座模式",
+      "target": "Lecture mode",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1554483,
+      "source": "采访模式",
+      "target": "Interview mode",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1557242,
+      "source": "文件名不能以 . 开头",
+      "target": "File names cannot start with a period",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1557364,
+      "source": "文件名过长",
+      "target": "File name is too long",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1557448,
+      "source": "修改失败，文件名不为纯空格",
+      "target": "Rename failed. The file name cannot contain only spaces.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1557637,
+      "source": "修改失败，文件名不能为空",
+      "target": "Rename failed. The file name cannot be empty.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1557695,
+      "source": "修改失败，文件名不能为空",
+      "target": "Rename failed. The file name cannot be empty.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1558257,
+      "source": "修改失败，文件名不能为空",
+      "target": "Rename failed. The file name cannot be empty.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1558322,
+      "source": "修改失败，文件名不为纯空格",
+      "target": "Rename failed. The file name cannot contain only spaces.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1559818,
+      "source": "修改失败，请重试",
+      "target": "Could not rename. Try again.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1561918,
+      "source": "标记",
+      "target": "Markers",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1561950,
+      "source": "转写",
+      "target": "Transcript",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1561982,
+      "source": "洞察",
+      "target": "Insights",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1562017,
+      "source": "总结",
+      "target": "Summary",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1566292,
+      "source": "录音",
+      "target": "Recording",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1569384,
+      "source": "标准模式",
+      "target": "Standard mode",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1569393,
+      "source": "讲座模式",
+      "target": "Lecture mode",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1569402,
+      "source": "采访模式",
+      "target": "Interview mode",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1570123,
+      "source": "等待智能命名",
+      "target": "Waiting for smart naming",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1570142,
+      "source": "正在智能命名",
+      "target": "Smart naming in progress",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1570152,
+      "source": "正在智能命名",
+      "target": "Smart naming in progress",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1574497,
+      "source": "录音文件",
+      "target": "Audio files",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1577361,
+      "source": "修改失败，文件名不能为空",
+      "target": "Rename failed. The file name cannot be empty.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1577447,
+      "source": "修改失败，文件名不为纯空格",
+      "target": "Rename failed. The file name cannot contain only spaces.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1577687,
+      "source": "修改失败，文件名已存在",
+      "target": "Rename failed. A file with this name already exists.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1584964,
+      "source": "命名失败",
+      "target": "Naming failed",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1595782,
+      "source": "未命名音频",
+      "target": "Untitled audio",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1597551,
+      "source": "未命名录音",
+      "target": "Untitled recording",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1598272,
+      "source": "说话人",
+      "target": "Speaker",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1598405,
+      "source": "说话人",
+      "target": "Speaker",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1636451,
+      "source": "名称不能为空",
+      "target": "Name cannot be empty",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1636616,
+      "source": "名称包含非法字符",
+      "target": "Name contains invalid characters",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1646854,
+      "source": "标记 ",
+      "target": "Marker ",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1649688,
+      "source": "智能命名失败",
+      "target": "Smart naming failed",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1669765,
+      "source": "已达到最大字符",
+      "target": "Character limit reached",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1669848,
+      "source": "不能以\".\"开头",
+      "target": "Cannot start with a period",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1670163,
+      "source": "已达到最大字符",
+      "target": "Character limit reached",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1670254,
+      "source": "不能以\".\"开头",
+      "target": "Cannot start with a period",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1670505,
+      "source": "已达到最大字符",
+      "target": "Character limit reached",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1670730,
+      "source": "已达到最大字符",
+      "target": "Character limit reached",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1671035,
+      "source": "不能以\".\"开头",
+      "target": "Cannot start with a period",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1672993,
+      "source": "修改失败，文件名不为纯空格",
+      "target": "Rename failed. The file name cannot contain only spaces.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1673052,
+      "source": "修改失败，文件名不能为空",
+      "target": "Rename failed. The file name cannot be empty.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1677580,
+      "source": "收起",
+      "target": "Collapse",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1677611,
+      "source": "展开",
+      "target": "Expand",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1684008,
+      "source": "其他文件正在转文本，请稍候",
+      "target": "Another file is being transcribed. Please wait.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1684024,
+      "source": "其他文件正在转文本、文本整理，请稍候",
+      "target": "Another file is being transcribed or cleaned up. Please wait.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1689128,
+      "source": "转文本已完成。",
+      "target": "Transcription complete.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1689168,
+      "source": "文本整理已完成。",
+      "target": "Transcript cleanup complete.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1689224,
+      "source": "转文本失败。",
+      "target": "Transcription failed.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1689254,
+      "source": "文本整理失败。",
+      "target": "Transcript cleanup failed.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1689264,
+      "source": "生成失败。",
+      "target": "Generation failed.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1689293,
+      "source": "其他文件正在转文本，请稍候。",
+      "target": "Another file is being transcribed. Please wait.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1690039,
+      "source": "服务异常，请稍候再试。",
+      "target": "Service unavailable. Try again later.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1690116,
+      "source": "请求超时，请稍候再试。",
+      "target": "Request timed out. Try again later.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1690175,
+      "source": "服务繁忙，请稍候再试。",
+      "target": "Service busy. Try again later.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1690261,
+      "source": "内容无法处理",
+      "target": "The content could not be processed",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1690367,
+      "source": "文本内容较多，可下载客户端生成大纲",
+      "target": "The transcript is too long. Download the desktop app to generate an outline.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1690419,
+      "source": "服务异常，请稍候再试。",
+      "target": "Service unavailable. Try again later.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1709431,
+      "source": "说话人",
+      "target": "Speaker",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1715588,
+      "source": "最多支持4小时录音",
+      "target": "Supports recordings up to 4 hours",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1723006,
+      "source": "转文本失败。",
+      "target": "Transcription failed.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1723155,
+      "source": "网络异常，转文本失败。",
+      "target": "Network error. Transcription failed.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1723208,
+      "source": "本月转文本上限已达到上限75小时。",
+      "target": "The monthly transcription limit of 75 hours has been reached.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1726226,
+      "source": "录音原文转写内容有更新",
+      "target": "The recording transcript has been updated",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1726245,
+      "source": "是否需要基于最新转写内容，更新文本整理？",
+      "target": "Update the cleaned-up text using the latest transcript?",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1726279,
+      "source": "不更新",
+      "target": "Keep current",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1726297,
+      "source": "更新",
+      "target": "Update",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1727555,
+      "source": "录音原文转写不完整",
+      "target": "The recording transcript is incomplete",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1727572,
+      "source": "生成文本整理将重新生成原文，完成后将进行文本整理。",
+      "target": "The transcript will be regenerated before the text is cleaned up.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1727611,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1727628,
+      "source": "继续",
+      "target": "Continue",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1734127,
+      "source": "说话人",
+      "target": "Speaker",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1740069,
+      "source": "网络异常，文本整理失败。",
+      "target": "Network error. Transcript cleanup failed.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1740087,
+      "source": "文本整理失败。",
+      "target": "Transcript cleanup failed.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1747999,
+      "source": "说话人",
+      "target": "Speaker",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1749355,
+      "source": "说话人",
+      "target": "Speaker",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1767420,
+      "source": "请求超时，请稍候再试",
+      "target": "Request timed out. Try again later.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1767492,
+      "source": "服务异常，请稍候再试",
+      "target": "Service unavailable. Try again later.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1767530,
+      "source": "服务繁忙，请稍候再试",
+      "target": "Service busy. Try again later.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1807048,
+      "source": "复制",
+      "target": "Copy",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1807074,
+      "source": "剪切",
+      "target": "Cut",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1807099,
+      "source": "粘贴",
+      "target": "Paste",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1807126,
+      "source": "删除",
+      "target": "Delete",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1818920,
+      "source": "定位到最后",
+      "target": "Go to end",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1819236,
+      "source": "复制失败",
+      "target": "Copy failed",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1819281,
+      "source": "复制失败：内容为空",
+      "target": "Copy failed: content is empty",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1828109,
+      "source": "说话人",
+      "target": "Speaker",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1832929,
+      "source": "说话人",
+      "target": "Speaker",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1833517,
+      "source": "说话人",
+      "target": "Speaker",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1849026,
+      "source": "重新生成",
+      "target": "Regenerate",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1849033,
+      "source": "重新转文本",
+      "target": "Regenerate transcript",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1854965,
+      "source": "不能为空",
+      "target": "Cannot be empty",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1855027,
+      "source": "不支持emoji",
+      "target": "Emoji are not supported",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1856644,
+      "source": "此录音存在部分内容未完成转写。",
+      "target": "Part of this recording has not been transcribed.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1856685,
+      "source": "的录音未完成转写。",
+      "target": "'s recording has not been fully transcribed.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1856757,
+      "source": "此录音存在部分内容未完成AI洞察。",
+      "target": "AI insights are incomplete for part of this recording.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1856800,
+      "source": "的录音未完成AI洞察。",
+      "target": "'s recording has incomplete AI insights.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1860674,
+      "source": "说话人",
+      "target": "Speaker",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1860719,
+      "source": "说话人",
+      "target": "Speaker",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1861734,
+      "source": "说话人",
+      "target": "Speaker",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1862257,
+      "source": "说话人",
+      "target": "Speaker",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1865220,
+      "source": "说话人",
+      "target": "Speaker",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1865324,
+      "source": "说话人",
+      "target": "Speaker",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1882574,
+      "source": "AI洞察正在进行中，是否放弃生成的内容？",
+      "target": "AI insights are being generated. Discard the generated content?",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1882630,
+      "source": "放弃并退出",
+      "target": "Discard and exit",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1882650,
+      "source": "继续进行",
+      "target": "Continue",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1883506,
+      "source": "AI洞察失败",
+      "target": "AI insights failed",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1883915,
+      "source": "正在生成AI总结，生成完成后开始生成AI洞察...",
+      "target": "Generating an AI summary. AI insights will start afterward...",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1884910,
+      "source": "录音内容较少，无需生成AI洞察",
+      "target": "The recording is too short to need AI insights",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1885412,
+      "source": "AI洞察失败",
+      "target": "AI insights failed",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1885426,
+      "source": "最多支持4小时录音",
+      "target": "Supports recordings up to 4 hours",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1885450,
+      "source": "知道了",
+      "target": "Got it",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1885612,
+      "source": "网络未连接",
+      "target": "No network connection",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1886715,
+      "source": "转文本完成，但未获取到文本内容",
+      "target": "Transcription finished, but no text was received",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1887415,
+      "source": "AI洞察失败",
+      "target": "AI insights failed",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1887429,
+      "source": "最多支持4小时录音",
+      "target": "Supports recordings up to 4 hours",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1887453,
+      "source": "知道了",
+      "target": "Got it",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1887570,
+      "source": "转文本失败，无法进行AI洞察",
+      "target": "Transcription failed. AI insights cannot be generated.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1887732,
+      "source": "说话人",
+      "target": "Speaker",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1890960,
+      "source": "录音内容较少，无需生成AI洞察",
+      "target": "The recording is too short to need AI insights",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1891078,
+      "source": "服务异常，请稍后再试",
+      "target": "Service unavailable. Try again later.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1891139,
+      "source": "请求超时，请稍后再试",
+      "target": "Request timed out. Try again later.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1891196,
+      "source": "内容无法处理",
+      "target": "The content could not be processed",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1891255,
+      "source": "抱歉，生成异常，暂时无法输出",
+      "target": "Generation failed. No output is available.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1891397,
+      "source": "软件版本过低",
+      "target": "Update the app to continue",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1891411,
+      "source": "请前往\"设置>版本信息\"点击检测更新，更新后可使用\"AI洞察\"功能",
+      "target": "Go to Settings > Version information and check for updates to use AI insights",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1891459,
+      "source": "知道了",
+      "target": "Got it",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1891501,
+      "source": "服务异常，请稍后再试",
+      "target": "Service unavailable. Try again later.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1900566,
+      "source": "说话人",
+      "target": "Speaker",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1909669,
+      "source": "复制",
+      "target": "Copy",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1909695,
+      "source": "剪切",
+      "target": "Cut",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1909720,
+      "source": "粘贴",
+      "target": "Paste",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1909747,
+      "source": "删除",
+      "target": "Delete",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1910289,
+      "source": "通用模版",
+      "target": "General template",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1911445,
+      "source": "说话人",
+      "target": "Speaker",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1923018,
+      "source": "网络未连接",
+      "target": "No network connection",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1923329,
+      "source": "正在生成AI洞察，生成完成后开始生成AI总结...",
+      "target": "Generating AI insights. The AI summary will start afterward...",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1925312,
+      "source": "AI总结失败",
+      "target": "AI summary failed",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1925326,
+      "source": "最多支持4小时录音",
+      "target": "Supports recordings up to 4 hours",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1925350,
+      "source": "知道了",
+      "target": "Got it",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1925406,
+      "source": "转文本失败，无法进行AI总结",
+      "target": "Transcription failed. An AI summary cannot be generated.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1925924,
+      "source": "说话人",
+      "target": "Speaker",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1926013,
+      "source": "所选说话人无文本内容",
+      "target": "No transcript for the selected speakers",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1926171,
+      "source": "录音内容较少，无需生成AI总结。",
+      "target": "The recording is too short to need an AI summary.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1926509,
+      "source": "说话人",
+      "target": "Speaker",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1930665,
+      "source": "服务异常",
+      "target": "Service unavailable",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1931623,
+      "source": "录音内容较少，AI总结生成失败",
+      "target": "The recording is too short to generate an AI summary",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1931740,
+      "source": "服务异常，请稍后再试",
+      "target": "Service unavailable. Try again later.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1931807,
+      "source": "服务异常，请稍后再试",
+      "target": "Service unavailable. Try again later.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1931868,
+      "source": "请求超时，请稍后再试",
+      "target": "Request timed out. Try again later.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1931925,
+      "source": "内容无法处理",
+      "target": "The content could not be processed",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1931984,
+      "source": "抱歉，生成异常，暂时无法输出",
+      "target": "Generation failed. No output is available.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1932054,
+      "source": "暂不支持该类型操作",
+      "target": "This operation is currently unavailable",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1932115,
+      "source": "主题不明确，AI总结生成失败",
+      "target": "The topic is unclear. AI summary failed.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1932206,
+      "source": "软件版本过低",
+      "target": "Update the app to continue",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1932220,
+      "source": "请前往\"设置>版本信息\"点击检测更新，更新后可使用\"AI总结\"功能",
+      "target": "Go to Settings > Version information and check for updates to use AI summaries",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1932268,
+      "source": "知道了",
+      "target": "Got it",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1932346,
+      "source": "使用提醒",
+      "target": "Notice",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1932377,
+      "source": "知道了",
+      "target": "Got it",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1932417,
+      "source": "服务异常，请稍后再试",
+      "target": "Service unavailable. Try again later.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1946419,
+      "source": "录音内容较少，要点关联失败",
+      "target": "The recording is too short to link key points",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1946534,
+      "source": "服务异常，请稍后再试",
+      "target": "Service unavailable. Try again later.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1946601,
+      "source": "服务异常，请稍后再试",
+      "target": "Service unavailable. Try again later.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1946662,
+      "source": "请求超时，请稍后再试",
+      "target": "Request timed out. Try again later.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1946719,
+      "source": "内容无法处理",
+      "target": "The content could not be processed",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1946778,
+      "source": "抱歉，生成异常，暂时无法输出",
+      "target": "Generation failed. No output is available.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1946848,
+      "source": "暂不支持该类型操作",
+      "target": "This operation is currently unavailable",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1946909,
+      "source": "主题不明确，要点关联失败",
+      "target": "The topic is unclear. Could not link key points.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1946998,
+      "source": "软件版本过低",
+      "target": "Update the app to continue",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1947012,
+      "source": "请前往\"设置>版本信息\"点击检测更新，更新后可使用\"AI总结\"功能",
+      "target": "Go to Settings > Version information and check for updates to use AI summaries",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1947060,
+      "source": "知道了",
+      "target": "Got it",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1947138,
+      "source": "使用提醒",
+      "target": "Notice",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1947169,
+      "source": "知道了",
+      "target": "Got it",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1947209,
+      "source": "服务异常，请稍后再试",
+      "target": "Service unavailable. Try again later.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1951863,
+      "source": "暂无转写文本，无法关联原文",
+      "target": "No transcript is available to link",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1951980,
+      "source": "说话人",
+      "target": "Speaker",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1952086,
+      "source": "所选说话人无文本内容",
+      "target": "No transcript for the selected speakers",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 1952182,
+      "source": "说话人",
+      "target": "Speaker",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2012176,
+      "source": "当前录音文件过大不支持播放",
+      "target": "This recording is too large to play",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2012268,
+      "source": "当前录音文件过大不支持播放，可下载录音文件进行播放。",
+      "target": "This recording is too large to play here. Download it to play it locally.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2012309,
+      "source": "下载",
+      "target": "Download",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2012325,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2013904,
+      "source": "音频加载失败",
+      "target": "Could not load audio",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2013913,
+      "source": "网络异常",
+      "target": "Network error",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2022422,
+      "source": "当前录音文件格式不支持播放，可下载录音文件进行播放。",
+      "target": "This recording format cannot be played here. Download it to play it locally.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2022463,
+      "source": "下载",
+      "target": "Download",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2022479,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2023284,
+      "source": "当前录音文件过大不支持播放",
+      "target": "This recording is too large to play",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2023376,
+      "source": "当前录音文件过大不支持播放，可下载录音文件进行播放。",
+      "target": "This recording is too large to play here. Download it to play it locally.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2023417,
+      "source": "下载",
+      "target": "Download",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2023433,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2023962,
+      "source": "音频加载失败",
+      "target": "Could not load audio",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2023971,
+      "source": "网络异常",
+      "target": "Network error",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2024798,
+      "source": "音频加载失败",
+      "target": "Could not load audio",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2024807,
+      "source": "网络异常",
+      "target": "Network error",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2026527,
+      "source": "当前录音文件格式不支持播放",
+      "target": "This recording format cannot be played here",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2026614,
+      "source": "当前录音文件格式不支持播放，可下载录音文件进行播放。",
+      "target": "This recording format cannot be played here. Download it to play it locally.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2026655,
+      "source": "下载",
+      "target": "Download",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2026671,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2027796,
+      "source": "当前录音文件过大不支持播放",
+      "target": "This recording is too large to play",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2027888,
+      "source": "当前录音文件过大不支持播放，可下载录音文件进行播放。",
+      "target": "This recording is too large to play here. Download it to play it locally.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2027929,
+      "source": "下载",
+      "target": "Download",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2027945,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2028708,
+      "source": "音频加载失败",
+      "target": "Could not load audio",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2028717,
+      "source": "网络异常",
+      "target": "Network error",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2029175,
+      "source": "音频加载失败",
+      "target": "Could not load audio",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2029184,
+      "source": "网络异常",
+      "target": "Network error",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2064679,
+      "source": "所有人",
+      "target": "Everyone",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2064685,
+      "source": "部分说话人",
+      "target": "Selected speakers",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2070680,
+      "source": "确定重新生成AI洞察吗？",
+      "target": "Regenerate AI insights?",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2070726,
+      "source": "确定重新生成转文本吗？",
+      "target": "Regenerate the transcript?",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2070771,
+      "source": "确定重新生成文本整理吗？",
+      "target": "Regenerate the cleaned-up transcript?",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2070786,
+      "source": "确定重新生成AI总结吗？",
+      "target": "Regenerate the AI summary?",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2070854,
+      "source": "重新生成的AI洞察会替换当前内容。",
+      "target": "The regenerated AI insights will replace the current content.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2070905,
+      "source": "重新生成的转文本会替换当前内容。",
+      "target": "The regenerated transcript will replace the current content.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2070955,
+      "source": "重新生成的文本整理会替换当前内容。",
+      "target": "The regenerated cleaned-up transcript will replace the current content.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2070975,
+      "source": "重新生成的AI总结会替换当前内容。",
+      "target": "The regenerated AI summary will replace the current content.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2085629,
+      "source": "正在恢复...",
+      "target": "Restoring...",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2087755,
+      "source": "录音文件",
+      "target": "Audio files",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2088890,
+      "source": "正在永久删除...",
+      "target": "Deleting permanently...",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2092000,
+      "source": "按名称：A到Z",
+      "target": "Name: A to Z",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2092026,
+      "source": "按创建时间：新到旧",
+      "target": "Created: newest first",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2092054,
+      "source": "按创建时间：旧到新",
+      "target": "Created: oldest first",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2092099,
+      "source": "最近删除",
+      "target": "Recently deleted",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2095909,
+      "source": "当前录音文件过大不支持播放，可下载录音文件进行播放。",
+      "target": "This recording is too large to play here. Download it to play it locally.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2095950,
+      "source": "下载",
+      "target": "Download",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2095966,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2096485,
+      "source": "未命名音频",
+      "target": "Untitled audio",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2109701,
+      "source": "当前录音文件格式不支持播放，可下载录音文件进行播放。",
+      "target": "This recording format cannot be played here. Download it to play it locally.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2109742,
+      "source": "下载",
+      "target": "Download",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2109758,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2110186,
+      "source": "当前录音文件过大不支持播放，可下载录音文件进行播放。",
+      "target": "This recording is too large to play here. Download it to play it locally.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2110227,
+      "source": "下载",
+      "target": "Download",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2110243,
+      "source": "取消",
+      "target": "Cancel",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2110843,
+      "source": "未命名音频",
+      "target": "Untitled audio",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2115690,
+      "source": "标记 ",
+      "target": "Marker ",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2120666,
+      "source": "智能命名失败",
+      "target": "Smart naming failed",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2124127,
+      "source": "修改失败，文件名不为纯空格",
+      "target": "Rename failed. The file name cannot contain only spaces.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2124229,
+      "source": "修改失败，文件名不能为空",
+      "target": "Rename failed. The file name cannot be empty.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2133516,
+      "source": "录音内容较少",
+      "target": "The recording is too short",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2133788,
+      "source": "最多支持3条录音同时智能命名",
+      "target": "Smart naming supports up to 3 recordings at a time",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2134686,
+      "source": "智能命名失败",
+      "target": "Smart naming failed",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2136350,
+      "source": "无法定位云端音频，请先同步",
+      "target": "Cloud audio was not found. Sync first.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "125.js",
+      "start": 2184898,
+      "source": "智能命名失败",
+      "target": "Smart naming failed",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "126.js",
+      "start": 142767,
+      "source": "重试",
+      "target": "Retry",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "126.js",
+      "start": 146717,
+      "source": "重试",
+      "target": "Retry",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "126.js",
+      "start": 148089,
+      "source": "重试",
+      "target": "Retry",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "126.js",
+      "start": 152605,
+      "source": "重试",
+      "target": "Retry",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "126.js",
+      "start": 163726,
+      "source": "同步开关未开启",
+      "target": " sync is turned off",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "126.js",
+      "start": 164015,
+      "source": "笔记",
+      "target": "Notes",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "126.js",
+      "start": 164045,
+      "source": "日历",
+      "target": "Calendar",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "126.js",
+      "start": 164072,
+      "source": "相册",
+      "target": "Albums",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "126.js",
+      "start": 164100,
+      "source": "录音机",
+      "target": "Recorder",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "126.js",
+      "start": 390554,
+      "source": "笔记",
+      "target": "Notes",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "126.js",
+      "start": 427959,
+      "source": "点击圆点设置重要度",
+      "target": "Click a dot to set the priority",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "126.js",
+      "start": 428355,
+      "source": "点击圆点设置重要度",
+      "target": "Click a dot to set the priority",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "126.js",
+      "start": 493929,
+      "source": "云端",
+      "target": "Cloud",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "126.js",
+      "start": 620176,
+      "source": "内容加载失败",
+      "target": "Could not load content",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "126.js",
+      "start": 641613,
+      "source": "内容加载失败",
+      "target": "Could not load content",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "126.js",
+      "start": 659715,
+      "source": "修改时间",
+      "target": "Modified",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "126.js",
+      "start": 659825,
+      "source": "字",
+      "target": " characters",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "126.js",
+      "start": 659836,
+      "source": "所属文件夹",
+      "target": "Folder",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 64960,
+      "source": "复制成功",
+      "target": "Copied",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 64983,
+      "source": "所选文档未在设备上未找到，无法复制",
+      "target": "The selected document was not found on this device and cannot be copied",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 65703,
+      "source": "剪切成功",
+      "target": "Cut successfully",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 65726,
+      "source": "所选文档未在设备上未找到，无法剪切",
+      "target": "The selected document was not found on this device and cannot be cut",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 89797,
+      "source": "新建Word",
+      "target": "New Word document",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 89832,
+      "source": "输入Word名称",
+      "target": "Enter Word document name",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 103948,
+      "source": "新建Excel",
+      "target": "New Excel workbook",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 103984,
+      "source": "输入Excel名称",
+      "target": "Enter Excel workbook name",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 142831,
+      "source": "新建PPT",
+      "target": "New PowerPoint presentation",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 142851,
+      "source": "输入PPT名称",
+      "target": "Enter PowerPoint presentation name",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 151601,
+      "source": "新建Word",
+      "target": "New Word document",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 151640,
+      "source": "新建Excel",
+      "target": "New Excel workbook",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 151680,
+      "source": "新建PPT",
+      "target": "New PowerPoint presentation",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 151721,
+      "source": "导入本地文件",
+      "target": "Import local files",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 153066,
+      "source": "全部",
+      "target": "All",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 157640,
+      "source": "下载文档",
+      "target": "Download document",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 157813,
+      "source": "打开文档",
+      "target": "Open document",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 158022,
+      "source": "复制文档",
+      "target": "Copy document",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 158120,
+      "source": "重命名",
+      "target": "Rename",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 158749,
+      "source": "下载文档",
+      "target": "Download document",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 173132,
+      "source": "一次最多只可同时拖拽20个文件进入！",
+      "target": "You can drag in up to 20 files at a time",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 194350,
+      "source": "请输入文档名称",
+      "target": "Enter a document name",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 196052,
+      "source": "新名称包含非法字符",
+      "target": "The new name contains invalid characters",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 196084,
+      "source": "请输入文档名称",
+      "target": "Enter a document name",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 197517,
+      "source": "已重命名",
+      "target": "Renamed",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 198667,
+      "source": "请输入文档名称",
+      "target": "Enter a document name",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 199689,
+      "source": "新名称包含非法字符",
+      "target": "The new name contains invalid characters",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 199721,
+      "source": "请输入文档名称",
+      "target": "Enter a document name",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 202298,
+      "source": "文档",
+      "target": "Documents",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 204346,
+      "source": "云空间不足",
+      "target": "Not enough cloud storage",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 204359,
+      "source": "云空间不足，无法完成本次数据同步。",
+      "target": "Not enough cloud storage to complete this sync.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 204409,
+      "source": "该文档仅保存在云端，请等待文档同步至本地后再重试。",
+      "target": "This document is stored only in the cloud. Wait for it to sync to this computer, then try again.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 204511,
+      "source": "未检测到Office软件",
+      "target": "Office software not found",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 204531,
+      "source": "未从您的电脑上检测到Office软件，请您正确安装Office软件后再尝试打开文档。",
+      "target": "No Office software was detected on your computer. Install Office software, then try opening the document again.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 204650,
+      "source": "您最多只能同时打开3个文档，请先关闭当前已打开文档页面。",
+      "target": "You can open up to 3 documents at once. Close an open document first.",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 206173,
+      "source": "上传中",
+      "target": "Uploading",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 206231,
+      "source": "上传成功",
+      "target": "Uploaded",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 206327,
+      "source": "云空间不足",
+      "target": "Not enough cloud storage",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 206345,
+      "source": "不能为空文件",
+      "target": "The file cannot be empty",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 206363,
+      "source": "超过200M上限",
+      "target": "Exceeds the 200 MB limit",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 206408,
+      "source": "上传失败",
+      "target": "Upload failed",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 208070,
+      "source": "下载中",
+      "target": "Downloading",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 208128,
+      "source": "下载成功",
+      "target": "Downloaded",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 208158,
+      "source": "下载失败",
+      "target": "Download failed",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "131.js",
+      "start": 209668,
+      "source": "云端",
+      "target": "Cloud",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "140.js",
+      "start": 9766,
+      "source": "日程",
+      "target": "Events",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "140.js",
+      "start": 9869,
+      "source": "新建日程",
+      "target": "New event",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "140.js",
+      "start": 10376,
+      "source": "全天",
+      "target": "All day",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "140.js",
+      "start": 10383,
+      "source": "上午",
+      "target": "AM",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "140.js",
+      "start": 10390,
+      "source": "上午",
+      "target": "AM",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "140.js",
+      "start": 10414,
+      "source": "下午",
+      "target": "PM",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "140.js",
+      "start": 10432,
+      "source": "下午",
+      "target": "PM",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "140.js",
+      "start": 11233,
+      "source": "明天",
+      "target": "Tomorrow",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "140.js",
+      "start": 11249,
+      "source": "后天",
+      "target": "Day after tomorrow",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "140.js",
+      "start": 11588,
+      "source": "YYYY年MM月DD日",
+      "target": "YYYY-MM-DD",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "140.js",
+      "start": 64491,
+      "source": "今天",
+      "target": "Today",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "140.js",
+      "start": 64498,
+      "source": "天后",
+      "target": " days later",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "140.js",
+      "start": 64557,
+      "source": "今天",
+      "target": "Today",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "140.js",
+      "start": 64699,
+      "source": "全天",
+      "target": "All day",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "140.js",
+      "start": 65195,
+      "source": "已接受",
+      "target": "Accepted",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "140.js",
+      "start": 65210,
+      "source": "已拒绝",
+      "target": "Declined",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "140.js",
+      "start": 65226,
+      "source": "待定",
+      "target": "Tentative",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "140.js",
+      "start": 65241,
+      "source": "已确认",
+      "target": "Confirmed",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "140.js",
+      "start": 66899,
+      "source": "全天",
+      "target": "All day",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "142.js",
+      "start": 12234,
+      "source": "今天",
+      "target": "Today",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "142.js",
+      "start": 12301,
+      "source": "昨天",
+      "target": "Yesterday",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "143.js",
+      "start": 21624,
+      "source": "确定永久删除全部项目？",
+      "target": "Permanently delete all items?",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "143.js",
+      "start": 23708,
+      "source": "从套件、云端及其他同步设备中永久删除全部项目？",
+      "target": "Permanently delete all items from the suite, cloud, and other synced devices?",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "143.js",
+      "start": 23734,
+      "source": "永久删除全部项目？",
+      "target": "Permanently delete all items?",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "143.js",
+      "start": 24022,
+      "source": "从套件、云端及其他同步设备中永久删除此图片？",
+      "target": "Permanently delete this photo from the suite, cloud, and other synced devices?",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "143.js",
+      "start": 24047,
+      "source": "永久删除此图片？",
+      "target": "Permanently delete this photo?",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "143.js",
+      "start": 24079,
+      "source": "从套件、云端及其他同步设备中永久删除此视频？",
+      "target": "Permanently delete this video from the suite, cloud, and other synced devices?",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "143.js",
+      "start": 24104,
+      "source": "永久删除此视频？",
+      "target": "Permanently delete this video?",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "143.js",
+      "start": 24138,
+      "source": "从套件、云端及其他同步设备中永久删除全部项目？",
+      "target": "Permanently delete all items from the suite, cloud, and other synced devices?",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "143.js",
+      "start": 24164,
+      "source": "永久删除全部项目？",
+      "target": "Permanently delete all items?",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "146.js",
+      "start": 9125,
+      "source": "复制成功",
+      "target": "Copied",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "146.js",
+      "start": 9148,
+      "source": "所选文档未在设备上未找到，无法复制",
+      "target": "The selected document was not found on this device and cannot be copied",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "146.js",
+      "start": 9868,
+      "source": "剪切成功",
+      "target": "Cut successfully",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "146.js",
+      "start": 9891,
+      "source": "所选文档未在设备上未找到，无法剪切",
+      "target": "The selected document was not found on this device and cannot be cut",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "146.js",
+      "start": 33686,
+      "source": "新建Word",
+      "target": "New Word document",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "146.js",
+      "start": 33721,
+      "source": "输入Word名称",
+      "target": "Enter Word document name",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "146.js",
+      "start": 47837,
+      "source": "新建Excel",
+      "target": "New Excel workbook",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "146.js",
+      "start": 47873,
+      "source": "输入Excel名称",
+      "target": "Enter Excel workbook name",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "146.js",
+      "start": 86720,
+      "source": "新建PPT",
+      "target": "New PowerPoint presentation",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "146.js",
+      "start": 86740,
+      "source": "输入PPT名称",
+      "target": "Enter PowerPoint presentation name",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 54367,
+      "source": "正文",
+      "target": "Body text",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 54375,
+      "source": "标题1",
+      "target": "Heading 1",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 54384,
+      "source": "标题2",
+      "target": "Heading 2",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 54393,
+      "source": "标题3",
+      "target": "Heading 3",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 54402,
+      "source": "标题4",
+      "target": "Heading 4",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 54464,
+      "source": "正文",
+      "target": "Body text",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 54480,
+      "source": "增加缩进",
+      "target": "Increase indent",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 54499,
+      "source": "减少缩进",
+      "target": "Decrease indent",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 231947,
+      "source": "重试",
+      "target": "Retry",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 235897,
+      "source": "重试",
+      "target": "Retry",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 237269,
+      "source": "重试",
+      "target": "Retry",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 241785,
+      "source": "重试",
+      "target": "Retry",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 261607,
+      "source": "复制成功",
+      "target": "Copied",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 261630,
+      "source": "所选文档未在设备上未找到，无法复制",
+      "target": "The selected document was not found on this device and cannot be copied",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 262350,
+      "source": "剪切成功",
+      "target": "Cut successfully",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 262373,
+      "source": "所选文档未在设备上未找到，无法剪切",
+      "target": "The selected document was not found on this device and cannot be cut",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 340352,
+      "source": "语篇规整",
+      "target": "Organize text",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 340470,
+      "source": "输入语篇规整的要求",
+      "target": "Enter requirements for organizing the text",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 340646,
+      "source": "根据所选文字创作",
+      "target": "Create from selected text",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 340805,
+      "source": "续写",
+      "target": "Continue writing",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 340903,
+      "source": "可输入要求或直接发送",
+      "target": "Enter requirements or send directly",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 341182,
+      "source": "润色",
+      "target": "Polish",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 341284,
+      "source": "可输入润色风格等要求",
+      "target": "Enter a style or other requirements",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 341521,
+      "source": "简化篇幅",
+      "target": "Shorten",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 341639,
+      "source": "可输入要求或直接发送",
+      "target": "Enter requirements or send directly",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 341926,
+      "source": "扩充篇幅",
+      "target": "Expand",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 342044,
+      "source": "可输入要求或直接发送",
+      "target": "Enter requirements or send directly",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 342435,
+      "source": "修正语法",
+      "target": "Correct grammar",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 342558,
+      "source": "修改语法、语句逻辑等",
+      "target": "Correct grammar and sentence structure",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 342981,
+      "source": "改写语气",
+      "target": "Change tone",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 343104,
+      "source": "可输入改写语气的要求",
+      "target": "Enter the desired tone",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 343533,
+      "source": "总结",
+      "target": "Summary",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 343631,
+      "source": "可输入要求或直接发送",
+      "target": "Enter requirements or send directly",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 344188,
+      "source": "待办提取",
+      "target": "Extract action items",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 344306,
+      "source": "提取待办清单",
+      "target": "Extract a to-do list",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 344750,
+      "source": "创作指定格式内容",
+      "target": "Create content in a specific format",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 344889,
+      "source": "朋友圈文案",
+      "target": "WeChat Moments post",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 344999,
+      "source": "输入分享主题等",
+      "target": "Enter a topic to share",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 345287,
+      "source": "小红书文案",
+      "target": "Xiaohongshu post",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 345397,
+      "source": "输入分享主题等",
+      "target": "Enter a topic to share",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 345685,
+      "source": "写诗",
+      "target": "Write a poem",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 345783,
+      "source": "输入诗歌主题",
+      "target": "Enter a topic for the poem",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 346025,
+      "source": "评价",
+      "target": "Review",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 346123,
+      "source": "输入评价对象等",
+      "target": "Enter what to review",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 346403,
+      "source": "头脑风暴",
+      "target": "Brainstorm",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 346521,
+      "source": "输入发散的话题、想法等",
+      "target": "Enter a topic or ideas to explore",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 346849,
+      "source": "日报/周报",
+      "target": "Daily/weekly report",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 346968,
+      "source": "输入工作内容、成果等",
+      "target": "Enter your work and achievements",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 347287,
+      "source": "工作总结",
+      "target": "Work summary",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 347405,
+      "source": "输入工作表现等",
+      "target": "Enter your work performance",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 348382,
+      "source": "待办清单",
+      "target": "To-do list",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 348500,
+      "source": "输入主题事项等",
+      "target": "Enter a topic or tasks",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 349423,
+      "source": "简历",
+      "target": "Resume",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 349526,
+      "source": "输入工作岗位、经历等",
+      "target": "Enter your role and experience",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 349806,
+      "source": "演讲稿",
+      "target": "Speech",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 349914,
+      "source": "输入演讲主题等",
+      "target": "Enter a speech topic",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 350196,
+      "source": "文章大纲",
+      "target": "Article outline",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 350314,
+      "source": "输入文章主题等",
+      "target": "Enter an article topic",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 350605,
+      "source": "请假条",
+      "target": "Leave request",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 350718,
+      "source": "输入请假事由、时间等",
+      "target": "Enter the reason and dates for leave",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 350970,
+      "source": "心得体会",
+      "target": "Reflection",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 351093,
+      "source": "输入心得体会等",
+      "target": "Enter your reflections",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 351514,
+      "source": "自我介绍",
+      "target": "Self-introduction",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 351637,
+      "source": "输入个人的基本信息",
+      "target": "Enter your basic information",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 352010,
+      "source": "文章",
+      "target": "Article",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 352108,
+      "source": "输入文章主题等",
+      "target": "Enter an article topic",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 352580,
+      "source": "申请",
+      "target": "Application",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 352683,
+      "source": "输入申请要求等",
+      "target": "Enter application requirements",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 353189,
+      "source": "会议通知",
+      "target": "Meeting notice",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 353289,
+      "source": "输入会议信息",
+      "target": "Enter meeting details",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 353602,
+      "source": "活动方案",
+      "target": "Event plan",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 353720,
+      "source": "输入活动主题、内容等",
+      "target": "Enter the event topic and details",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 354043,
+      "source": "宣传方案",
+      "target": "Promotion plan",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 354161,
+      "source": "输入宣传主题等",
+      "target": "Enter a promotion topic",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 354443,
+      "source": "新闻稿",
+      "target": "Press release",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 354556,
+      "source": "输入事件、时间和地点等",
+      "target": "Enter the event, time, and place",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 354849,
+      "source": "职位描述",
+      "target": "Job description",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 354972,
+      "source": "输入职位标题、职责等",
+      "target": "Enter the job title and duties",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 355266,
+      "source": "邀请函",
+      "target": "Invitation",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 355379,
+      "source": "输入邀请事由、时间等",
+      "target": "Enter the occasion and time",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 355677,
+      "source": "SWOT分析",
+      "target": "SWOT analysis",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 355783,
+      "source": "输入对象后分析优劣势",
+      "target": "Enter a subject to analyze strengths and weaknesses",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 356108,
+      "source": "波特五力分析",
+      "target": "Porter's Five Forces analysis",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 356246,
+      "source": "输入对象后分析行业",
+      "target": "Enter a subject for industry analysis",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 356570,
+      "source": "PEST分析",
+      "target": "PEST analysis",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 356676,
+      "source": "输入对象后分析宏观环境",
+      "target": "Enter a subject for macro-environment analysis",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 356997,
+      "source": "通用",
+      "target": "General",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 357014,
+      "source": "输入要求",
+      "target": "Enter requirements",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 358988,
+      "source": "根据所选文字创作",
+      "target": "Create from selected text",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 359147,
+      "source": "续写",
+      "target": "Continue writing",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 359245,
+      "source": "可输入要求或直接发送",
+      "target": "Enter requirements or send directly",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 359662,
+      "source": "润色",
+      "target": "Polish",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 359764,
+      "source": "可输入润色风格等要求",
+      "target": "Enter a style or other requirements",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 360217,
+      "source": "缩写",
+      "target": "Shorten",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 360793,
+      "source": "扩写",
+      "target": "Expand",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 360909,
+      "source": "可输入要求或直接发送",
+      "target": "Enter requirements or send directly",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 361646,
+      "source": "修正语法",
+      "target": "Correct grammar",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 361769,
+      "source": "修改语法、语句逻辑等",
+      "target": "Correct grammar and sentence structure",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 362408,
+      "source": "总结",
+      "target": "Summary",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 362506,
+      "source": "可输入要求或直接发送",
+      "target": "Enter requirements or send directly",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 362790,
+      "source": "智能排版",
+      "target": "Smart formatting",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 363338,
+      "source": "创作指定格式内容",
+      "target": "Create content in a specific format",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 363800,
+      "source": "朋友圈文案",
+      "target": "WeChat Moments post",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 363910,
+      "source": "输入分享主题等",
+      "target": "Enter a topic to share",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 364849,
+      "source": "小红书文案",
+      "target": "Xiaohongshu post",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 364959,
+      "source": "输入分享主题等",
+      "target": "Enter a topic to share",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 365779,
+      "source": "写诗",
+      "target": "Write a poem",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 365877,
+      "source": "输入诗歌主题",
+      "target": "Enter a topic for the poem",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 366515,
+      "source": "头脑风暴",
+      "target": "Brainstorm",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 366633,
+      "source": "输入发散的主题，话题等",
+      "target": "Enter a topic to explore",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 367455,
+      "source": "周报",
+      "target": "Weekly report",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 367571,
+      "source": "输入工作内容、成果等",
+      "target": "Enter your work and achievements",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 368172,
+      "source": "工作总结",
+      "target": "Work summary",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 368290,
+      "source": "输入工作职责，成果等",
+      "target": "Enter duties and achievements",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 369208,
+      "source": "待办清单",
+      "target": "To-do list",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 369326,
+      "source": "输入任务，目标等",
+      "target": "Enter tasks and goals",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 370273,
+      "source": "简历",
+      "target": "Resume",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 370376,
+      "source": "输入工作岗位、经历等",
+      "target": "Enter your role and experience",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 370690,
+      "source": "演讲稿",
+      "target": "Speech",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 370798,
+      "source": "输入演讲主题等",
+      "target": "Enter a speech topic",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 371123,
+      "source": "文章大纲",
+      "target": "Article outline",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 371241,
+      "source": "输入文章主题等",
+      "target": "Enter an article topic",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 371567,
+      "source": "请假条",
+      "target": "Leave request",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 371680,
+      "source": "输入请假事由、时间等",
+      "target": "Enter the reason and dates for leave",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 371974,
+      "source": "心得体会",
+      "target": "Reflection",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 372097,
+      "source": "输入心得体会等",
+      "target": "Enter your reflections",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 372400,
+      "source": "自我介绍",
+      "target": "Self-introduction",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 372523,
+      "source": "输入个人的基本信息",
+      "target": "Enter your basic information",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 372837,
+      "source": "文章",
+      "target": "Article",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 372935,
+      "source": "输入文章主题等",
+      "target": "Enter an article topic",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 373256,
+      "source": "申请",
+      "target": "Application",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 373359,
+      "source": "输入申请要求等",
+      "target": "Enter application requirements",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 373696,
+      "source": "会议通知",
+      "target": "Meeting notice",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 373796,
+      "source": "输入会议信息",
+      "target": "Enter meeting details",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 374133,
+      "source": "活动方案",
+      "target": "Event plan",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 374251,
+      "source": "输入活动目标，主题等",
+      "target": "Enter event goals and topic",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 374604,
+      "source": "宣传方案",
+      "target": "Promotion plan",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 374722,
+      "source": "输入宣传主题等",
+      "target": "Enter a promotion topic",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 375030,
+      "source": "新闻稿",
+      "target": "Press release",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 375143,
+      "source": "输入事件、时间和地点等",
+      "target": "Enter the event, time, and place",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 375485,
+      "source": "职位描述",
+      "target": "Job description",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 375608,
+      "source": "输入职位标题、职责等",
+      "target": "Enter the job title and duties",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 375953,
+      "source": "邀请函",
+      "target": "Invitation",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 376066,
+      "source": "输入邀请事由、时间等",
+      "target": "Enter the occasion and time",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 376398,
+      "source": "SWOT分析",
+      "target": "SWOT analysis",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 376504,
+      "source": "输入对象后分析优劣势",
+      "target": "Enter a subject to analyze strengths and weaknesses",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 376854,
+      "source": "波特五力分析",
+      "target": "Porter's Five Forces analysis",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 376992,
+      "source": "输入对象后分析行业",
+      "target": "Enter a subject for industry analysis",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 377341,
+      "source": "PEST分析",
+      "target": "PEST analysis",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 377447,
+      "source": "输入对象后分析宏观环境",
+      "target": "Enter a subject for macro-environment analysis",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 377793,
+      "source": "通用",
+      "target": "General",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 377810,
+      "source": "输入要求",
+      "target": "Enter requirements",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 386698,
+      "source": "通用",
+      "target": "General",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 426744,
+      "source": "同步失败",
+      "target": "Sync failed",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 426843,
+      "source": "涉密文档，暂无法同步",
+      "target": "Confidential documents cannot be synced",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 454050,
+      "source": "新建Word",
+      "target": "New Word document",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 454085,
+      "source": "输入Word名称",
+      "target": "Enter Word document name",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 468201,
+      "source": "新建Excel",
+      "target": "New Excel workbook",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 468237,
+      "source": "输入Excel名称",
+      "target": "Enter Excel workbook name",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 507084,
+      "source": "新建PPT",
+      "target": "New PowerPoint presentation",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 507104,
+      "source": "输入PPT名称",
+      "target": "Enter PowerPoint presentation name",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 1238280,
+      "source": "同步完成",
+      "target": "Sync complete",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 1238302,
+      "source": "涉密文档，暂无法同步",
+      "target": "Confidential documents cannot be synced",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 1238315,
+      "source": "同步失败",
+      "target": "Sync failed",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 1238504,
+      "source": "同步完成",
+      "target": "Sync complete",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 1238526,
+      "source": "涉密文档，暂无法同步",
+      "target": "Confidential documents cannot be synced",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 1238539,
+      "source": "同步失败",
+      "target": "Sync failed",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 1238853,
+      "source": "涉密文档，暂无法同步",
+      "target": "Confidential documents cannot be synced",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 1238866,
+      "source": "同步失败",
+      "target": "Sync failed",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 1239037,
+      "source": "涉密文档，暂无法同步",
+      "target": "Confidential documents cannot be synced",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 1239050,
+      "source": "同步失败",
+      "target": "Sync failed",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 1239778,
+      "source": "云端",
+      "target": "Cloud",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 1422697,
+      "source": "文件",
+      "target": "file",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 1425425,
+      "source": "请使用",
+      "target": "Please use ",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 1425515,
+      "source": "插入",
+      "target": " to insert ",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 1454087,
+      "source": "来自原子笔记",
+      "target": "From Origin Notes",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 1484087,
+      "source": "笔记",
+      "target": "Notes",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 1502039,
+      "source": "内容加载失败",
+      "target": "Could not load content",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 1521022,
+      "source": "内容加载失败",
+      "target": "Could not load content",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 1550995,
+      "source": "明天",
+      "target": "Tomorrow",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 1551015,
+      "source": "今天",
+      "target": "Today",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 1593001,
+      "source": "修改时间",
+      "target": "Modified",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 1593111,
+      "source": "字",
+      "target": " characters",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 1593122,
+      "source": "所属文件夹",
+      "target": "Folder",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "note-toolbar.js",
+      "start": 496191,
+      "source": "文件",
+      "target": "file",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "note-toolbar.js",
+      "start": 498919,
+      "source": "请使用",
+      "target": "Please use ",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "note-toolbar.js",
+      "start": 499009,
+      "source": "插入",
+      "target": " to insert ",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "note-toolbar.js",
+      "start": 527581,
+      "source": "来自原子笔记",
+      "target": "From Origin Notes",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "note-toolbar.js",
+      "start": 557581,
+      "source": "笔记",
+      "target": "Notes",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "note-toolbar.js",
+      "start": 573289,
+      "source": "明天",
+      "target": "Tomorrow",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "note-toolbar.js",
+      "start": 573309,
+      "source": "今天",
+      "target": "Today",
+      "reason": "Display label, prompt, menu item, or user-facing status/error message"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 198846,
+      "source": "MM月dd日 HH:mm",
+      "target": "MM/dd HH:mm",
+      "reason": "Date picker display format"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 207370,
+      "source": "MM月dd日  HH:mm",
+      "target": "MM/dd  HH:mm",
+      "reason": "Date picker display format"
+    },
+    {
+      "file": "note-toolbar.js",
+      "start": 45687,
+      "source": "MM月dd日 HH:mm",
+      "target": "MM/dd HH:mm",
+      "reason": "Date picker display format"
+    },
+    {
+      "file": "note-toolbar.js",
+      "start": 54211,
+      "source": "MM月dd日  HH:mm",
+      "target": "MM/dd  HH:mm",
+      "reason": "Date picker display format"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 1453718,
+      "source": "<p style=\"border-radius: 1.6vw;background: rgba(0, 0, 0, 0.1);padding:1vw;height:6vw;line-height:5vw;\"><span style=\"font-size:5.3vw;color: #FFF\">AI生成</span></p>",
+      "target": "<p style=\"border-radius: 1.6vw;background: rgba(0, 0, 0, 0.1);padding:1vw;height:6vw;line-height:5vw;\"><span style=\"font-size:5.3vw;color: #FFF\">AI-generated</span></p>",
+      "reason": "Exported note display watermark"
+    },
+    {
+      "file": "note-toolbar.js",
+      "start": 527212,
+      "source": "<p style=\"border-radius: 1.6vw;background: rgba(0, 0, 0, 0.1);padding:1vw;height:6vw;line-height:5vw;\"><span style=\"font-size:5.3vw;color: #FFF\">AI生成</span></p>",
+      "target": "<p style=\"border-radius: 1.6vw;background: rgba(0, 0, 0, 0.1);padding:1vw;height:6vw;line-height:5vw;\"><span style=\"font-size:5.3vw;color: #FFF\">AI-generated</span></p>",
+      "reason": "Exported note display watermark"
+    },
+    {
+      "file": "126.js",
+      "start": 638363,
+      "source": "从<span class=\"delete-dialog-highlight\">云端及其他同步设备</span>中永久删除此版本？",
+      "target": "Permanently delete this version from <span class=\"delete-dialog-highlight\">the cloud and other synced devices</span>?",
+      "reason": "Version history permanent deletion confirmation"
+    },
+    {
+      "file": "126.js",
+      "start": 638430,
+      "source": "从<span class=\"delete-dialog-highlight\">电脑、云端及其他同步设备</span>中永久删除此版本？",
+      "target": "Permanently delete this version from <span class=\"delete-dialog-highlight\">your PC, the cloud and other synced devices</span>?",
+      "reason": "Version history permanent deletion confirmation"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 1517772,
+      "source": "从<span class=\"delete-dialog-highlight\">云端及其他同步设备</span>中永久删除此版本？",
+      "target": "Permanently delete this version from <span class=\"delete-dialog-highlight\">the cloud and other synced devices</span>?",
+      "reason": "Version history permanent deletion confirmation"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 1517839,
+      "source": "从<span class=\"delete-dialog-highlight\">电脑、云端及其他同步设备</span>中永久删除此版本？",
+      "target": "Permanently delete this version from <span class=\"delete-dialog-highlight\">your PC, the cloud and other synced devices</span>?",
+      "reason": "Version history permanent deletion confirmation"
+    }
+  ],
+  "exclusions": [
+    {
+      "file": "125.js",
+      "start": 2065642,
+      "reason": "AI template metadata; localize the render rather than change template data"
+    },
+    {
+      "file": "125.js",
+      "start": 2065672,
+      "reason": "AI template metadata; localize the render rather than change template data"
+    },
+    {
+      "file": "125.js",
+      "start": 2065677,
+      "reason": "AI template metadata; localize the render rather than change template data"
+    },
+    {
+      "file": "125.js",
+      "start": 2065682,
+      "reason": "AI template metadata; localize the render rather than change template data"
+    },
+    {
+      "file": "125.js",
+      "start": 2065810,
+      "reason": "AI template metadata; localize the render rather than change template data"
+    },
+    {
+      "file": "125.js",
+      "start": 2065840,
+      "reason": "AI template metadata; localize the render rather than change template data"
+    },
+    {
+      "file": "125.js",
+      "start": 2065847,
+      "reason": "AI template metadata; localize the render rather than change template data"
+    },
+    {
+      "file": "125.js",
+      "start": 2065974,
+      "reason": "AI template metadata; localize the render rather than change template data"
+    },
+    {
+      "file": "125.js",
+      "start": 2066004,
+      "reason": "AI template metadata; localize the render rather than change template data"
+    },
+    {
+      "file": "125.js",
+      "start": 2066011,
+      "reason": "AI template metadata; localize the render rather than change template data"
+    },
+    {
+      "file": "125.js",
+      "start": 2066134,
+      "reason": "AI template metadata; localize the render rather than change template data"
+    },
+    {
+      "file": "125.js",
+      "start": 2066164,
+      "reason": "AI template metadata; localize the render rather than change template data"
+    },
+    {
+      "file": "125.js",
+      "start": 2066171,
+      "reason": "AI template metadata; localize the render rather than change template data"
+    },
+    {
+      "file": "125.js",
+      "start": 2066299,
+      "reason": "AI template metadata; localize the render rather than change template data"
+    },
+    {
+      "file": "125.js",
+      "start": 2066329,
+      "reason": "AI template metadata; localize the render rather than change template data"
+    },
+    {
+      "file": "125.js",
+      "start": 2066336,
+      "reason": "AI template metadata; localize the render rather than change template data"
+    },
+    {
+      "file": "125.js",
+      "start": 2066464,
+      "reason": "AI template metadata; localize the render rather than change template data"
+    },
+    {
+      "file": "125.js",
+      "start": 2066494,
+      "reason": "AI template metadata; localize the render rather than change template data"
+    },
+    {
+      "file": "125.js",
+      "start": 2066501,
+      "reason": "AI template metadata; localize the render rather than change template data"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 357104,
+      "reason": "Internal language identifier; UI uses the separate translated name getter"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 357247,
+      "reason": "Internal language identifier; UI uses the separate translated name getter"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 357357,
+      "reason": "Internal language identifier; UI uses the separate translated name getter"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 357470,
+      "reason": "Internal language identifier; UI uses the separate translated name getter"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 357577,
+      "reason": "Internal language identifier; UI uses the separate translated name getter"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 357686,
+      "reason": "Internal language identifier; UI uses the separate translated name getter"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 357793,
+      "reason": "Internal language identifier; UI uses the separate translated name getter"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 357903,
+      "reason": "Internal language identifier; UI uses the separate translated name getter"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 358010,
+      "reason": "Internal language identifier; UI uses the separate translated name getter"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 358131,
+      "reason": "Internal language identifier; UI uses the separate translated name getter"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 358232,
+      "reason": "Internal language identifier; UI uses the separate translated name getter"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 358344,
+      "reason": "Internal language identifier; UI uses the separate translated name getter"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 358464,
+      "reason": "Internal language identifier; UI uses the separate translated name getter"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 358569,
+      "reason": "Internal language identifier; UI uses the separate translated name getter"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 358689,
+      "reason": "Internal language identifier; UI uses the separate translated name getter"
+    },
+    {
+      "file": "app-modules-note.js",
+      "start": 358801,
+      "reason": "Internal language identifier; UI uses the separate translated name getter"
+    },
+    {
+      "file": "125.js",
+      "start": 1427889,
+      "reason": "Transcript speakerName is synchronized data and is matched by Chinese speaker-name regex; localize display only"
+    }
+  ],
+  "expressionEdits": [
+    {
+      "file": "125.js",
+      "start": 1219666,
+      "end": 1219680,
+      "source": "t.templateName",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(t.templateName)",
+      "reason": "Translate displayed value while retaining original state and comparisons"
+    },
+    {
+      "file": "142.js",
+      "start": 4589,
+      "end": 4627,
+      "source": "e.getSelectItemName(e.selectItemValue)",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(e.getSelectItemName(e.selectItemValue))",
+      "reason": "Translate displayed value while retaining original state and comparisons"
+    },
+    {
+      "file": "142.js",
+      "start": 5185,
+      "end": 5192,
+      "source": "t.label",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(t.label)",
+      "reason": "Translate displayed value while retaining original state and comparisons"
+    },
+    {
+      "file": "125.js",
+      "start": 1219929,
+      "end": 1219930,
+      "source": "t",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(t)",
+      "reason": "Translate displayed value while retaining original state and comparisons"
+    },
+    {
+      "file": "131.js",
+      "start": 54348,
+      "end": 54354,
+      "source": "e.name",
+      "target": "require(require('path').join(__dirname,'ui-display.cjs')).label(e.name)",
+      "reason": "Translate displayed value while retaining original state and comparisons"
+    }
+  ],
+  "displayLabels": {
+    "打开方式": "Open with",
+    "全部": "All",
+    "图片": "Photos",
+    "视频": "Videos",
+    "通用模版": "General template",
+    "会议总结": "Meeting summary",
+    "通话总结": "Call summary",
+    "讲座记录": "Lecture notes",
+    "课堂笔记": "Class notes",
+    "访谈总结": "Interview summary",
+    "概要": "Overview",
+    "要点": "Key points",
+    "待办": "Action items",
+    "会议结论": "Meeting conclusions",
+    "讨论要点": "Discussion points",
+    "通话要点": "Call highlights",
+    "核心观点": "Main ideas",
+    "知识拓展": "Further learning",
+    "课堂知识": "Lesson content",
+    "重点标记": "Highlights",
+    "访谈记录": "Interview transcript"
+  }
+}
