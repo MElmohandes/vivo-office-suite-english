@@ -1,10 +1,10 @@
 # vivo Office Suite — English localization
 
-Community English localization for **vivo Office Suite 7.0.6 on Windows**, including its hosted cloud service screens and a startup responsiveness fix.
+A community patch that translates the **Chinese interface into English** for **vivo Office Suite 7.0.6 on Windows**, including its hosted cloud service screens and a startup responsiveness fix.
 
 **Patch release:** 1.0.0 · **Tested application:** 7.0.6 · **Test phone:** vivo X300 Pro over Wi-Fi
 
-This is an independent community project, unaffiliated with vivo. Install the official application separately. The source repository provides patch recipes, localization helpers, dictionaries and tests. GitHub Releases also provides a ready-made modified `app.asar`; the official installer, external native binaries and personal profiles are not bundled.
+This is an independent community project, unaffiliated with vivo. Download and install the original Windows application from **[pc.vivo.com](https://pc.vivo.com/)** before applying this patch. The source repository provides patch recipes, localization helpers, dictionaries and tests. GitHub Releases also provides a ready-made modified `app.asar`; the official installer, external native binaries and personal profiles are not bundled.
 
 ## What changes
 
@@ -22,9 +22,23 @@ Cloud localization uses **511 fixed labels**, reviewed selectors and a mutation 
 
 The domestic backend setting remains `IS_EXPORT: false`. Region checks, authentication and device compatibility rules remain in place.
 
+## Screenshots
+
+Real UI captures from localization testing. These show the original Chinese interface and the translated English interface; no generated mockups are used.
+
+| Contacts — original Chinese | Contacts — translated English |
+| --- | --- |
+| ![Contacts in the original Chinese interface](docs/screenshots/contacts-chinese.png) | ![Contacts translated into English, including its create menu](docs/screenshots/contacts-english.png) |
+
+| Browser — translated English | Spam blocking — translated English |
+| --- | --- |
+| ![Browser navigation translated into English](docs/screenshots/browser-english.png) | ![Spam blocking with English Blocklist and Allowlist labels](docs/screenshots/spam-blocking-english.png) |
+
+The Contacts capture retains the known **Loading…** state; localization does not fix the hosted data-loading issue. Empty lists illustrate UI translation, not populated-data or transfer execution tests. Click an image to inspect it at full size. Find Device location captures and account details are excluded.
+
 ## Easy installation — no installer or commands
 
-You need vivo Office Suite **7.0.6 for Windows** already installed. No Node.js or developer tools are needed for the ready-made download.
+First download and install the **Windows software from [pc.vivo.com](https://pc.vivo.com/)**. Check the installed version: this patch is tested only on **7.0.6**. If the website offers a newer version, this release is not validated for it. No Node.js or developer tools are needed for the ready-made download.
 
 1. **[Download app.asar.zip](https://github.com/MElmohandes/vivo-office-suite-english/releases/download/v1.0.0/app.asar.zip)** (about 122 MB). Right-click the downloaded ZIP, choose **Extract All**, and use the `app.asar` inside. Choose this asset, rather than Source code (zip).
 2. Fully exit vivo Office Suite, including its icon beside the Windows clock.

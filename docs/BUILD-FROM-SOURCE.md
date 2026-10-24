@@ -5,7 +5,7 @@ For the ready-made download with no build tools, use [Easy installation](INSTALL
 ## Requirements
 
 - Windows with the official vivo Office Suite **7.0.6** installed and working.
-- The original unmodified archive whose SHA-256 matches the README. Obtain the application through vivo's official distribution. No vendor installer is redistributed here.
+- The original unmodified archive whose SHA-256 matches the README. Download the original Windows software from [pc.vivo.com](https://pc.vivo.com/) and confirm the supported version/hash. The current download may be newer than the tested 7.0.6 build. No vendor installer is redistributed here.
 - Node.js **20+**, a writable working folder, approximately 2 GB free disk space, and administrator access to replace a file under Program Files.
 - Your existing compatible phone/account and network connection for online features. The patch does not add support for unsupported devices or regions.
 

@@ -1,6 +1,6 @@
 # Easy installation — ready-made app.asar
 
-**Tested on vivo Office Suite 7.0.6 for Windows.** No installer, Node.js, Git or commands are required. The official app must already be installed and working; this download is a replacement resource file, not a standalone app.
+**Tested on vivo Office Suite 7.0.6 for Windows.** No installer, Node.js, Git or commands are required. This patch translates the Chinese interface into English. First download and install the original **Windows application from [pc.vivo.com](https://pc.vivo.com/)**. The official app must be installed and working; the patch is a replacement resource file, not a standalone app. If the site offers a version newer than 7.0.6, this patch has not been validated for that version.
 
 ## 1. Check the version
 
