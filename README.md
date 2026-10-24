@@ -24,7 +24,19 @@ The domestic backend setting remains `IS_EXPORT: false`. Region checks, authenti
 
 ## Screenshots
 
-Real UI captures from localization testing. These show the original Chinese interface and the translated English interface; no generated mockups are used.
+Real screenshots from localization testing and user-supplied captures. These show the original Chinese interface and the translated English interface; no generated mockups are used.
+
+### Home screen
+
+![English home screen with device connection and cloud-service shortcuts](docs/screenshots/home-english.png)
+
+### Device connectivity settings
+
+![English device connectivity settings with clipboard and handoff options](docs/screenshots/device-connectivity-english.png)
+
+The two screenshots above were supplied by the user; the account-name redaction is preserved.
+
+### Cloud services and Chinese/English comparison
 
 | Contacts — original Chinese | Contacts — translated English |
 | --- | --- |
