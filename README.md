@@ -1,4 +1,4 @@
-# vivo Office Suite — English localization
+# Chinese vivo Office Suite — English localization
 
 A community patch that translates the **Chinese interface into English** for **vivo Office Suite 7.0.6 on Windows**, including its hosted cloud service screens and a startup responsiveness fix.
 
