@@ -42,10 +42,10 @@ node .\tools\verify-archive.cjs 'C:\vivo-patch\english-7.0.6.asar'
 if ($LASTEXITCODE -ne 0) { throw 'Verification failed; do not install.' }
 ```
 
-The output must be 394,510,622 bytes with SHA-256:
+The output must be 394,512,990 bytes with SHA-256:
 
 ```text
-c68629d20a5ef81eccdb5f46c37422f7d38d9b1a2518c73158ef5ae190a3e9cc
+485091ea92b4c3ce3afa1eb7b5eda4678272f14793f6b204c83de96d7c24fb2b
 ```
 
 Output files are created exclusively: choose a new name if the file already exists. The builder never writes to the source archive or the installation automatically. It checks the complete source hash, each changed file, the complete output hash, and all packed-file/block integrity values. Unpacked entries remain references to the application's existing `app.asar.unpacked` directory.
@@ -59,7 +59,7 @@ $resourceDir = 'C:\Program Files (x86)\pcsuite\resources'
 $installedArchive = Join-Path $resourceDir 'app.asar'
 $backupArchive = Join-Path $resourceDir ('app.asar.backup-' + (Get-Date -Format 'yyyyMMdd-HHmmss-fff'))
 $builtArchive = 'C:\vivo-patch\english-7.0.6.asar'
-$expectedHash = 'c68629d20a5ef81eccdb5f46c37422f7d38d9b1a2518c73158ef5ae190a3e9cc'
+$expectedHash = '485091ea92b4c3ce3afa1eb7b5eda4678272f14793f6b204c83de96d7c24fb2b'
 if ((Get-FileHash -LiteralPath $builtArchive -Algorithm SHA256).Hash.ToLowerInvariant() -ne $expectedHash) { throw 'Incorrect patch archive.' }
 if (Test-Path -LiteralPath $backupArchive) { throw 'Backup already exists; choose a new backup name.' }
 Copy-Item -LiteralPath $installedArchive -Destination $backupArchive -ErrorAction Stop

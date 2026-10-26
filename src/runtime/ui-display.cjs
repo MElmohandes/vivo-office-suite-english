@@ -65,4 +65,34 @@ function calendarLabel(value){
 }
 function weekday(value){return typeof value==='string'?(weekdays[value]||calendarLabel(value)):value;}
 function albumFolder(item){return item.changeable===false&&[1,2,3,5,6,7,8].includes(Number(item.navType))?label(item.folderName):item.folderName;}
-module.exports={label,calendarLabel,weekday,albumFolder};
+
+function reminderLabel(value) {
+  if (typeof value !== 'string') return value;
+  const match=value.match(/^(当天|\d+天前)\/?\s*(\d{1,2}:\d{2})$/);
+  if(match)return calendarLabel(match[1])+' at '+match[2];
+  return calendarLabel(value);
+}
+function calendarCategory(item) {
+  if(!item || typeof item!=='object')return item;
+  const text=item.title??item.displayName??item.name??'';
+  const types={'Local account':['个人','Personal'],'vivo Default':['工作','Work'],'Birthday':['生日','Birthdays'],'bbknotes':['笔记','Notes'],'Vivo Anniversary':['纪念日','Anniversaries'],'Vivo Days Matter':['倒数日','Countdowns']};
+  const type=Object.hasOwn(types,item.accountName)?types[item.accountName]:null;
+  return type && (text===type[0] || text===type[1]) ? type[1] : text;
+}
+function todoCategory(item) {
+  if(!item || typeof item!=='object')return item;
+  const text=item.name??'';
+  if(Number(item.defaultType)===6 && text==='待办列表')return 'To-do list';
+  const colors={'黄色':'Yellow','绿色':'Green','蓝色':'Blue','紫色':'Purple','红色':'Red'};
+  return Number(item.defaultType)>0 && /^vivotodocalendarcolor\d+$/.test(item.guid||item.categoryGuid||'') && Object.hasOwn(colors,text) ? colors[text] : text;
+}
+function timeZoneLabel(item) {
+  if(!item || typeof item!=='object')return item;
+  const original=item.label??'',id=item.timeZoneID;
+  if(typeof id!=='string' || !/^(?:Africa|America|Antarctica|Arctic|Asia|Atlantic|Australia|Europe|Indian|Pacific)\/[A-Za-z0-9_+\/-]+$/.test(id))return original;
+  const city=id==='Asia/Shanghai'?'Beijing':id.split('/').at(-1).replace(/_/g,' ');
+  const offset=String(original).match(/GMT[+-]\d{2}:\d{2}/)?.[0];
+  return offset?city+' ('+offset+')':city;
+}
+
+module.exports={label,calendarLabel,weekday,albumFolder,reminderLabel,calendarCategory,todoCategory,timeZoneLabel};

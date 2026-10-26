@@ -1,0 +1,668 @@
+{
+  "format": 1,
+  "fromVersion": "1.0.0",
+  "toVersion": "1.0.1",
+  "appVersion": "7.0.6",
+  "baseSha256": "c68629d20a5ef81eccdb5f46c37422f7d38d9b1a2518c73158ef5ae190a3e9cc",
+  "targetSha256": "485091ea92b4c3ce3afa1eb7b5eda4678272f14793f6b204c83de96d7c24fb2b",
+  "targetSize": 394512990,
+  "originalDataLength": 357574114,
+  "files": [
+    {
+      "path": "dist/electron/1.js",
+      "beforeSha256": "797131b17c54104e29397b87a1763d067ead3768d6ac9843cb3410507805fc3c",
+      "afterSha256": "797131b17c54104e29397b87a1763d067ead3768d6ac9843cb3410507805fc3c",
+      "size": 83551
+    },
+    {
+      "path": "dist/electron/125.js",
+      "beforeSha256": "a47bbf190c7041e13508aac46c862143e67a5881d8660cfc4130311bf3d96463",
+      "afterSha256": "a47bbf190c7041e13508aac46c862143e67a5881d8660cfc4130311bf3d96463",
+      "size": 2316047
+    },
+    {
+      "path": "dist/electron/126.js",
+      "beforeSha256": "1dbf694c7ac8e9ea2a8f867d48e50466cd82ef8b26a39462a509ffe4bc113f16",
+      "afterSha256": "1dbf694c7ac8e9ea2a8f867d48e50466cd82ef8b26a39462a509ffe4bc113f16",
+      "size": 702886
+    },
+    {
+      "path": "dist/electron/127.js",
+      "beforeSha256": "10048104b8dce49e19681f1d5f03d50c8b59da22a8cb64a44e3b631b0afcd80b",
+      "afterSha256": "10048104b8dce49e19681f1d5f03d50c8b59da22a8cb64a44e3b631b0afcd80b",
+      "size": 714908
+    },
+    {
+      "path": "dist/electron/128.js",
+      "beforeSha256": "3b9d681b42faf0f59acc0d66b08db86a00e0cac28d2336d6ef550a547db878ac",
+      "afterSha256": "f204466e8de7dbb5b483c44b057c78371003c565e60c4277c00fa52b83b0d828",
+      "size": 632856,
+      "ops": [
+        [
+          0,
+          70926
+        ],
+        "cg==",
+        [
+          597856,
+          57
+        ],
+        "dGltZVpvbmVMYWJlbCh7dGltZVpvbmVJRDp0LnRpbQ==",
+        [
+          70912,
+          83
+        ],
+        "fSksZX07Y29uc3QgYT1b",
+        [
+          71008,
+          381568
+        ],
+        "5omL5py65oqV5bGPIl06aT0oZSx0KT0+e3R8fHQ=",
+        [
+          452608,
+          181
+        ],
+        "5bGP5bmV5omp5bGVIl06aT0oZSx0KT0+e3R8fHRoaXMuZGVib3Vu",
+        [
+          452832,
+          180
+        ],
+        "5paH5Lu2566h55CG",
+        [
+          453024,
+          392
+        ],
+        "6ZSu6byg5Y2P5ZCMIl06aT0oZT0wLHQpPT57dHx8c2V0VGk=",
+        [
+          355296,
+          32
+        ],
+        "dm9pZCAwLA==",
+        [
+          453504,
+          159
+        ],
+        "5Zu+54mH6KeG6aKR5aSH5Lu9Il06aT0oZSx0KT0=",
+        [
+          453696,
+          182
+        ],
+        "55S16ISR5qih5byPIl06aT0oZSx0KT0+e3R8fHRoaXMuZGVib3VuY2VQ",
+        [
+          453920,
+          154586
+        ],
+        "cg==",
+        [
+          597856,
+          65
+        ],
+        "Q2F0ZWdvcnkodCkpKV0pXSl9KSksMQ==",
+        [
+          623680,
+          75
+        ],
+        "TW9yZSxleHBy",
+        [
+          608608,
+          24098
+        ]
+      ]
+    },
+    {
+      "path": "dist/electron/129.js",
+      "beforeSha256": "ecce17cd02d3cc7540aa292727dadf68712cdd8c82017f268b048122e856ae76",
+      "afterSha256": "ecce17cd02d3cc7540aa292727dadf68712cdd8c82017f268b048122e856ae76",
+      "size": 337743
+    },
+    {
+      "path": "dist/electron/130.js",
+      "beforeSha256": "f3db76785ed5582b95fbcc41842a53ce368024fe844cb61f462204fffad9240f",
+      "afterSha256": "a2207ab75fe91994367d5824d3bca8df1a6b9765acf7a7c742c393d9570c2a3d",
+      "size": 219545,
+      "ops": [
+        [
+          0,
+          21618
+        ],
+        "dC5sdW5hcj8iICI6Ii0iKV0pXQ==",
+        [
+          32352,
+          34
+        ],
+        "bW8=",
+        [
+          21664,
+          450
+        ],
+        "dC5sdW5hcj8iICI6Ii0iKV0pXQ==",
+        [
+          32352,
+          34
+        ],
+        "ZGF5In0sWw==",
+        [
+          21184,
+          68
+        ],
+        "RGF0ZSxl",
+        [
+          22240,
+          414
+        ],
+        "ICIpXSldKSx0Ll92",
+        [
+          217632,
+          65
+        ],
+        "c2hvd1Zpc2libGUsZXhwcmVzcw==",
+        [
+          22752,
+          23804
+        ],
+        "cmU=",
+        [
+          200576,
+          56
+        ],
+        "dGltZVpvbmVMYWJlbCh7dGk=",
+        [
+          46528,
+          97
+        ],
+        "fQ==",
+        [
+          46624,
+          161693
+        ],
+        "cmU=",
+        [
+          200576,
+          64
+        ],
+        "Q2F0ZWdvcnkoZSkpKV0pXSl9KSksMSksdC5fdg==",
+        [
+          217632,
+          65
+        ],
+        "c2hvd01vcmUsZQ==",
+        [
+          208416,
+          10939
+        ]
+      ]
+    },
+    {
+      "path": "dist/electron/131.js",
+      "beforeSha256": "da31133ea64d0267de25bc2b35f19a7754ceb5d01447b4086695f84fa949606c",
+      "afterSha256": "da31133ea64d0267de25bc2b35f19a7754ceb5d01447b4086695f84fa949606c",
+      "size": 217430
+    },
+    {
+      "path": "dist/electron/132.js",
+      "beforeSha256": "b73519c30d291b2ddbdd78c57c0f4ebaee5c284fad8afd3cf7be5931baafda0a",
+      "afterSha256": "b73519c30d291b2ddbdd78c57c0f4ebaee5c284fad8afd3cf7be5931baafda0a",
+      "size": 271812
+    },
+    {
+      "path": "dist/electron/133.js",
+      "beforeSha256": "dcfabcda5189c32563021247b92a50a9f33157ea53ea80ad35353a584a3bb343",
+      "afterSha256": "dcfabcda5189c32563021247b92a50a9f33157ea53ea80ad35353a584a3bb343",
+      "size": 296391
+    },
+    {
+      "path": "dist/electron/134.js",
+      "beforeSha256": "ec601efdbbbd1c9461f2e9de2a88ac932803b91e3de1a9c255daa03c1b294445",
+      "afterSha256": "ec601efdbbbd1c9461f2e9de2a88ac932803b91e3de1a9c255daa03c1b294445",
+      "size": 228267
+    },
+    {
+      "path": "dist/electron/135.js",
+      "beforeSha256": "ff1d70fb6bf5ede99b5e92d0ec0a5e1caa2001df33fd08e2107ebbc63c528fc6",
+      "afterSha256": "ff1d70fb6bf5ede99b5e92d0ec0a5e1caa2001df33fd08e2107ebbc63c528fc6",
+      "size": 179896
+    },
+    {
+      "path": "dist/electron/136.js",
+      "beforeSha256": "27ea3aaa73bab7376034ff785759a5586bdb9c1c1934924d41b45d0469dd4c9a",
+      "afterSha256": "27ea3aaa73bab7376034ff785759a5586bdb9c1c1934924d41b45d0469dd4c9a",
+      "size": 129608
+    },
+    {
+      "path": "dist/electron/137.js",
+      "beforeSha256": "00c514232384eb4e00eebe83e995dccddc5cf2c703c4a325057b5730722802ab",
+      "afterSha256": "00c514232384eb4e00eebe83e995dccddc5cf2c703c4a325057b5730722802ab",
+      "size": 143905
+    },
+    {
+      "path": "dist/electron/140.js",
+      "beforeSha256": "4b365cafdf69a97d2a9262ca5ab54529108be9b68d134f0295d5f2937d5a100b",
+      "afterSha256": "4b365cafdf69a97d2a9262ca5ab54529108be9b68d134f0295d5f2937d5a100b",
+      "size": 69425
+    },
+    {
+      "path": "dist/electron/142.js",
+      "beforeSha256": "13125043c02cd145d4d37e2082b5bdbef14ec7ec7a2fe6386b669c056d241b26",
+      "afterSha256": "13125043c02cd145d4d37e2082b5bdbef14ec7ec7a2fe6386b669c056d241b26",
+      "size": 27907
+    },
+    {
+      "path": "dist/electron/143.js",
+      "beforeSha256": "cfba23dadacf2f37e24c85cb5ca46264d21d5dfeef521dfc0da985eb816dbf55",
+      "afterSha256": "cfba23dadacf2f37e24c85cb5ca46264d21d5dfeef521dfc0da985eb816dbf55",
+      "size": 32687
+    },
+    {
+      "path": "dist/electron/144.js",
+      "beforeSha256": "ba6bbf9779425ffed7c442079c870bda61d88d82c83d334afd354a1c85ee1def",
+      "afterSha256": "ba6bbf9779425ffed7c442079c870bda61d88d82c83d334afd354a1c85ee1def",
+      "size": 67213
+    },
+    {
+      "path": "dist/electron/146.js",
+      "beforeSha256": "ed6175da13e601e1490690540db4c0f251934582b0bbee4cd543b26b008b1dae",
+      "afterSha256": "ed6175da13e601e1490690540db4c0f251934582b0bbee4cd543b26b008b1dae",
+      "size": 106242
+    },
+    {
+      "path": "dist/electron/147.js",
+      "beforeSha256": "6495e5430cc9ae1600ca480665893d13a30bf6d60e3335c92048b63466e113cc",
+      "afterSha256": "6495e5430cc9ae1600ca480665893d13a30bf6d60e3335c92048b63466e113cc",
+      "size": 39563
+    },
+    {
+      "path": "dist/electron/151.js",
+      "beforeSha256": "d219ef540800d73d0f91927003e89dd3a01f819fe8c7a35e19f9825b07a1a8e3",
+      "afterSha256": "d219ef540800d73d0f91927003e89dd3a01f819fe8c7a35e19f9825b07a1a8e3",
+      "size": 16339
+    },
+    {
+      "path": "dist/electron/152.js",
+      "beforeSha256": "518cf2db04ce1e4585ad1b5fc9043bfa23b99e387b7fd2abb347333a032306bb",
+      "afterSha256": "518cf2db04ce1e4585ad1b5fc9043bfa23b99e387b7fd2abb347333a032306bb",
+      "size": 8408
+    },
+    {
+      "path": "dist/electron/153.js",
+      "beforeSha256": "447508a7ea978c2adcc8627687ccf93c12eebf7f813c634818a4dc2a63c3d55b",
+      "afterSha256": "447508a7ea978c2adcc8627687ccf93c12eebf7f813c634818a4dc2a63c3d55b",
+      "size": 12770
+    },
+    {
+      "path": "dist/electron/154.js",
+      "beforeSha256": "7ded2d2d0d2fb42b2fef89c3710ef44f2879081034c2ccb116dbd48896ed6b3a",
+      "afterSha256": "7ded2d2d0d2fb42b2fef89c3710ef44f2879081034c2ccb116dbd48896ed6b3a",
+      "size": 8247
+    },
+    {
+      "path": "dist/electron/155.js",
+      "beforeSha256": "f29c07bf58cba8c68ff8bac0a2654afe69a49f0a050cdaf9f0d878a34ba6f30c",
+      "afterSha256": "f29c07bf58cba8c68ff8bac0a2654afe69a49f0a050cdaf9f0d878a34ba6f30c",
+      "size": 8367
+    },
+    {
+      "path": "dist/electron/156.js",
+      "beforeSha256": "51ab35f4fdb45cbfd47cc33ea3a9131d52ffb593d7913c6f3bd65422e4c7bff8",
+      "afterSha256": "51ab35f4fdb45cbfd47cc33ea3a9131d52ffb593d7913c6f3bd65422e4c7bff8",
+      "size": 8321
+    },
+    {
+      "path": "dist/electron/157.js",
+      "beforeSha256": "b59dc8009e26700da1eedbc6fcc405d3f816da834a4fabfc70c50e04146af58f",
+      "afterSha256": "b59dc8009e26700da1eedbc6fcc405d3f816da834a4fabfc70c50e04146af58f",
+      "size": 9247
+    },
+    {
+      "path": "dist/electron/158.js",
+      "beforeSha256": "b13037bace24d50d785cff5a1bceaa220d1d849538a1b6921be352b6b1674a3a",
+      "afterSha256": "b13037bace24d50d785cff5a1bceaa220d1d849538a1b6921be352b6b1674a3a",
+      "size": 32642
+    },
+    {
+      "path": "dist/electron/163.js",
+      "beforeSha256": "32af2e8cdbc9c8857be1a79c1eeffa410f321f00e9351affa43388de04a5320a",
+      "afterSha256": "32af2e8cdbc9c8857be1a79c1eeffa410f321f00e9351affa43388de04a5320a",
+      "size": 20190
+    },
+    {
+      "path": "dist/electron/164.js",
+      "beforeSha256": "43537f5cfafaf83937c47649afd2505b1b6bd4bfecd6a615f0c55e6f19e012f7",
+      "afterSha256": "43537f5cfafaf83937c47649afd2505b1b6bd4bfecd6a615f0c55e6f19e012f7",
+      "size": 12060
+    },
+    {
+      "path": "dist/electron/165.js",
+      "beforeSha256": "eba0fabd6b812632f39e02ca707ea4b3ad5831b917892d0181d1e9d00a7520ca",
+      "afterSha256": "eba0fabd6b812632f39e02ca707ea4b3ad5831b917892d0181d1e9d00a7520ca",
+      "size": 15374
+    },
+    {
+      "path": "dist/electron/177.js",
+      "beforeSha256": "d4b76d4923cead3ccde0371c7b69feb4cd8a05b3e34c7c18b14dccd93c485f02",
+      "afterSha256": "d4b76d4923cead3ccde0371c7b69feb4cd8a05b3e34c7c18b14dccd93c485f02",
+      "size": 1788
+    },
+    {
+      "path": "dist/electron/180.js",
+      "beforeSha256": "b96680147c545d64b32b82ecc6ea406eceef4e66b133b33027a003c7004906f4",
+      "afterSha256": "b96680147c545d64b32b82ecc6ea406eceef4e66b133b33027a003c7004906f4",
+      "size": 3038
+    },
+    {
+      "path": "dist/electron/185.js",
+      "beforeSha256": "9143eb7a92277134319c5d990ee28cea7819804ac83a6bdda85e9e25cb27545f",
+      "afterSha256": "9143eb7a92277134319c5d990ee28cea7819804ac83a6bdda85e9e25cb27545f",
+      "size": 3097
+    },
+    {
+      "path": "dist/electron/2.js",
+      "beforeSha256": "a5feaa55505ab7fa108ae40e7a59693054d218e8059a421415574feb5594a9cb",
+      "afterSha256": "a5feaa55505ab7fa108ae40e7a59693054d218e8059a421415574feb5594a9cb",
+      "size": 32438
+    },
+    {
+      "path": "dist/electron/20.js",
+      "beforeSha256": "4d683f655aaaebc0242fa3acc28f17f4add000d37782feb7b351016b0bbb6992",
+      "afterSha256": "4d683f655aaaebc0242fa3acc28f17f4add000d37782feb7b351016b0bbb6992",
+      "size": 57624
+    },
+    {
+      "path": "dist/electron/21.js",
+      "beforeSha256": "ba886767c3e0ff36b7d3b7d25e342ff2811260bac5d5c43562e5e74c1b841661",
+      "afterSha256": "ba886767c3e0ff36b7d3b7d25e342ff2811260bac5d5c43562e5e74c1b841661",
+      "size": 14585
+    },
+    {
+      "path": "dist/electron/22.js",
+      "beforeSha256": "8c1886716253eae9551e6fd3e26a6612bc64454d1e9a021d4457a8b1c38a632b",
+      "afterSha256": "8c1886716253eae9551e6fd3e26a6612bc64454d1e9a021d4457a8b1c38a632b",
+      "size": 33929
+    },
+    {
+      "path": "dist/electron/23.js",
+      "beforeSha256": "a826b719caf3ae4b90f307628089d1ef5b425623efc70a254fb7d3d8d417d18b",
+      "afterSha256": "a826b719caf3ae4b90f307628089d1ef5b425623efc70a254fb7d3d8d417d18b",
+      "size": 22164
+    },
+    {
+      "path": "dist/electron/27.js",
+      "beforeSha256": "d0a8ebbb107864563f626ccd1e020d9caaf525b4d2bed05723a93a4ea1269bb9",
+      "afterSha256": "d0a8ebbb107864563f626ccd1e020d9caaf525b4d2bed05723a93a4ea1269bb9",
+      "size": 289846
+    },
+    {
+      "path": "dist/electron/28.js",
+      "beforeSha256": "9432ea80679ffd8d8075fa45032afd8d951604ec6bcca2cb5a153391381a7805",
+      "afterSha256": "9432ea80679ffd8d8075fa45032afd8d951604ec6bcca2cb5a153391381a7805",
+      "size": 21055
+    },
+    {
+      "path": "dist/electron/3.js",
+      "beforeSha256": "f512191448c00643fec71249dd6db507348edd485ae9dbc134873291465b3c83",
+      "afterSha256": "f512191448c00643fec71249dd6db507348edd485ae9dbc134873291465b3c83",
+      "size": 15636
+    },
+    {
+      "path": "dist/electron/32.js",
+      "beforeSha256": "6531f919980daca8aadd6cddcadecbd415d5ebd294fd18682a500a5da34b7bfa",
+      "afterSha256": "6531f919980daca8aadd6cddcadecbd415d5ebd294fd18682a500a5da34b7bfa",
+      "size": 300465
+    },
+    {
+      "path": "dist/electron/4.js",
+      "beforeSha256": "95bbbf5e03702013ddda5b17f880238efd4a0e3fde8004db372a32f000816db6",
+      "afterSha256": "95bbbf5e03702013ddda5b17f880238efd4a0e3fde8004db372a32f000816db6",
+      "size": 46003
+    },
+    {
+      "path": "dist/electron/7.js",
+      "beforeSha256": "d98ec64d8c9f69a0b2a45a834d6bf0be0bb84eb89abbad46de3dc7351214c9b6",
+      "afterSha256": "d98ec64d8c9f69a0b2a45a834d6bf0be0bb84eb89abbad46de3dc7351214c9b6",
+      "size": 72554
+    },
+    {
+      "path": "dist/electron/8.js",
+      "beforeSha256": "3e760222235ca63d5f8d05d5a751e13e46da89e427a1da566ed6745bb2ed9eff",
+      "afterSha256": "b5eeb8e9501e998fb6699642697e76cd487ab3aada177603158411da236bc9e0",
+      "size": 81902,
+      "ops": [
+        [
+          0,
+          18208
+        ],
+        "ZS5sdW5hcj8iICI6Ii0iKV0pLGUuX3YoIiAiKSxhKCJpbnB1",
+        [
+          18784,
+          61
+        ],
+        "TW9udGgsZQ==",
+        [
+          18304,
+          452
+        ],
+        "LSIpXSksZS5fdigiICIpLGEoImlucHU=",
+        [
+          18784,
+          481
+        ],
+        "IildKSxlLl92KCI=",
+        [
+          20384,
+          62
+        ],
+        "IWUubHVuYXImJmUuJHBhcmVudA==",
+        [
+          19360,
+          8563
+        ],
+        "cmVtaW5kZXJMYWJlbA==",
+        [
+          27936,
+          118
+        ],
+        "cmVxdQ==",
+        [
+          28864,
+          54
+        ],
+        "cmVtaW5kZXJMYWJlbChlLnZhbHVlLmhhc0FsYXJtJiZlLm5hbWV8fCJObyByZW1pbmRlciIpfX0p",
+        [
+          28096,
+          46369
+        ],
+        "cmVxdQ==",
+        [
+          28864,
+          54
+        ],
+        "dG9kb0NhdGVnb3J5KGUpLHZhbHVlOmUuZ3VpZCxjb2xvclZh",
+        [
+          74496,
+          7270
+        ]
+      ]
+    },
+    {
+      "path": "dist/electron/app-components.js",
+      "beforeSha256": "fcae3bd3817bda2793e079d15a8bfa103bee4449deb1fd2da868aa28be8c1457",
+      "afterSha256": "fcae3bd3817bda2793e079d15a8bfa103bee4449deb1fd2da868aa28be8c1457",
+      "size": 889989
+    },
+    {
+      "path": "dist/electron/app-connection.js",
+      "beforeSha256": "6ea89e4c8402b0bc5abbe3dfc3458cba558194864c5745c972607ec47d036408",
+      "afterSha256": "6ea89e4c8402b0bc5abbe3dfc3458cba558194864c5745c972607ec47d036408",
+      "size": 917195
+    },
+    {
+      "path": "dist/electron/app-modules-note.js",
+      "beforeSha256": "1b555082f0cf85f6ef56a23e5041ef03a167287b0df6ee2121a56e4e64eb3feb",
+      "afterSha256": "1b555082f0cf85f6ef56a23e5041ef03a167287b0df6ee2121a56e4e64eb3feb",
+      "size": 1673899
+    },
+    {
+      "path": "dist/electron/app-modules.js",
+      "beforeSha256": "28620cd7c43042c8e0415358c6a6630e52c6cc35f99f1d9bafae97acf7526506",
+      "afterSha256": "6d8fc5e98b496db4cf48fd338956482868abaf627f1c565944131cb5e0d47630",
+      "size": 1314266,
+      "ops": [
+        [
+          0,
+          157781
+        ],
+        "cmVx",
+        [
+          490208,
+          55
+        ],
+        "dGltZVpvbmVMYWJlbCh7dGltZVpvbmVJ",
+        [
+          157760,
+          90
+        ],
+        "fSksZX07Y28=",
+        [
+          157856,
+          1156305
+        ]
+      ]
+    },
+    {
+      "path": "dist/electron/child-window.html",
+      "beforeSha256": "c95cf3a2da534749b65dac589606cba2477af4cd12442dac619c6d1c43e5ccb2",
+      "afterSha256": "c95cf3a2da534749b65dac589606cba2477af4cd12442dac619c6d1c43e5ccb2",
+      "size": 2024
+    },
+    {
+      "path": "dist/electron/child-window.js",
+      "beforeSha256": "ce7d113c90cfb0d87a255a54606a4f475b972ea7d89d2e9a6507446834dbc61d",
+      "afterSha256": "ce7d113c90cfb0d87a255a54606a4f475b972ea7d89d2e9a6507446834dbc61d",
+      "size": 1377586
+    },
+    {
+      "path": "dist/electron/components-connection.js",
+      "beforeSha256": "4073af28e385a1e8c4a776ca1442e8f0951cb0ff558e470652ac19119302ead3",
+      "afterSha256": "4073af28e385a1e8c4a776ca1442e8f0951cb0ff558e470652ac19119302ead3",
+      "size": 558161
+    },
+    {
+      "path": "dist/electron/index.html",
+      "beforeSha256": "ea2910e732e6c702a78748ad4f11c99fc9d5c37f6b5b2d852f6221f97394c0f7",
+      "afterSha256": "ea2910e732e6c702a78748ad4f11c99fc9d5c37f6b5b2d852f6221f97394c0f7",
+      "size": 1969
+    },
+    {
+      "path": "dist/electron/locales-zh_CN.js",
+      "beforeSha256": "259700a0e6580f734d72e2b6168543611edab777cc587019a4241f2148be148c",
+      "afterSha256": "259700a0e6580f734d72e2b6168543611edab777cc587019a4241f2148be148c",
+      "size": 199750
+    },
+    {
+      "path": "dist/electron/locales/zh_CN/framework.json",
+      "beforeSha256": "6ef3a57f0b5f675a7679669979a8a0c323a57795dbc4b83e76b583f75b88d03a",
+      "afterSha256": "6ef3a57f0b5f675a7679669979a8a0c323a57795dbc4b83e76b583f75b88d03a",
+      "size": 23395
+    },
+    {
+      "path": "dist/electron/main.js",
+      "beforeSha256": "4623fe5f7115d0bd0be80d50c9162cd83de9e590fe96ce63780e195425d13f7f",
+      "afterSha256": "4623fe5f7115d0bd0be80d50c9162cd83de9e590fe96ce63780e195425d13f7f",
+      "size": 4846541
+    },
+    {
+      "path": "dist/electron/module-share-preview.html",
+      "beforeSha256": "34066704f63674e6a9bbfe35411cc12850c2a9cc4c4eeb6e0fc57e5df1e729e6",
+      "afterSha256": "34066704f63674e6a9bbfe35411cc12850c2a9cc4c4eeb6e0fc57e5df1e729e6",
+      "size": 2402
+    },
+    {
+      "path": "dist/electron/module-share-preview.js",
+      "beforeSha256": "faf45984fed697eaaf0b4783f100da5199fecfd4d5b2a22529ae9bd15ef015d3",
+      "afterSha256": "faf45984fed697eaaf0b4783f100da5199fecfd4d5b2a22529ae9bd15ef015d3",
+      "size": 1099896
+    },
+    {
+      "path": "dist/electron/note-toolbar.js",
+      "beforeSha256": "9cfda00f6f2d5f7d596bfef7acf6dbac34f1ef234996f4fbcad020a5494a9afc",
+      "afterSha256": "9cfda00f6f2d5f7d596bfef7acf6dbac34f1ef234996f4fbcad020a5494a9afc",
+      "size": 616360
+    },
+    {
+      "path": "dist/electron/renderer.js",
+      "beforeSha256": "2a035bf87f5b07255ca50332e27a8dec1078dd495aa4425c1086c9d861025d4f",
+      "afterSha256": "2a035bf87f5b07255ca50332e27a8dec1078dd495aa4425c1086c9d861025d4f",
+      "size": 7026388
+    },
+    {
+      "path": "dist/electron/static/html/load.html",
+      "beforeSha256": "b791be002f3bc4be47adeb41863246c546dfd9a94fd301ae2ac7b67d80e373d8",
+      "afterSha256": "b791be002f3bc4be47adeb41863246c546dfd9a94fd301ae2ac7b67d80e373d8",
+      "size": 2076
+    },
+    {
+      "path": "dist/electron/static/html/pdf.html",
+      "beforeSha256": "9093f0788b8c7218ccb7e0c6a3b33e534d52b52985aac245402811411cae91ed",
+      "afterSha256": "9093f0788b8c7218ccb7e0c6a3b33e534d52b52985aac245402811411cae91ed",
+      "size": 312
+    },
+    {
+      "path": "dist/electron/static/tinymce/202609111200/langs/zh_CN.js",
+      "beforeSha256": "ed70788de5b58579bc01e08e876b62ae147edf83260acfb55a1694f18b7699d4",
+      "afterSha256": "ed70788de5b58579bc01e08e876b62ae147edf83260acfb55a1694f18b7699d4",
+      "size": 16684
+    },
+    {
+      "path": "dist/electron/static/tinymce/202609111200/langs/zh_CN_in.js",
+      "beforeSha256": "89eebe19c426edad1ecb3e6effc8774f78a781aea21694355934376d12c0159d",
+      "afterSha256": "89eebe19c426edad1ecb3e6effc8774f78a781aea21694355934376d12c0159d",
+      "size": 16687
+    },
+    {
+      "path": "dist/electron/static/tinymce/202609111200/plugins/vnoteaipanel/plugin.min.js",
+      "beforeSha256": "df3d1aaea1cda7bfcd09874914971524350b321156d7d3e0f432f337a6c4169e",
+      "afterSha256": "df3d1aaea1cda7bfcd09874914971524350b321156d7d3e0f432f337a6c4169e",
+      "size": 633492
+    },
+    {
+      "path": "dist/electron/webviewPreload.js",
+      "beforeSha256": "6c27db1c141d6e4b199e1ec9742a72d63a0b07e9f3beae6eb555a28eea54c0b4",
+      "afterSha256": "6c27db1c141d6e4b199e1ec9742a72d63a0b07e9f3beae6eb555a28eea54c0b4",
+      "size": 78782
+    },
+    {
+      "path": "dist/electron/startup-os-info.cjs",
+      "beforeSha256": "9eb1bf024a88e9e6b3067fb83c50b2d71d7260fa83856237cc00446ab7e4c4d1",
+      "afterSha256": "9eb1bf024a88e9e6b3067fb83c50b2d71d7260fa83856237cc00446ab7e4c4d1",
+      "size": 1795
+    },
+    {
+      "path": "dist/electron/ui-display.cjs",
+      "beforeSha256": "da5855b3e2fd624ae719444030b1b6c0c80b13f760fa60c5710afabe6d8574c3",
+      "afterSha256": "9d68347ef7c9a12a8202c4dddad1ff19371031498a4d54854ee236b13513e654",
+      "size": 77264,
+      "ops": [
+        [
+          0,
+          75419
+        ],
+        "CmZ1bmN0aW9uIHJlbWluZGVyTGFiZWwodmFsdWUpIHsKICBpZiAodHlwZW9mIHZhbA==",
+        [
+          69344,
+          33
+        ],
+        "Y29uc3QgbWF0Y2g9dmFsdWUubWF0Y2goL14o5b2T5aSpfFxkK+WkqeWJjSlcLz9ccyooXGR7MSwyfTpcZHsyfSkkLyk7CiAgaWYobWF0Y2gpcmV0dXJuIGNhbGVuZGFyTGFiZWwobWF0Y2hbMV0pKycgYXQgJyttYXRjaFsyXTsKICByZXR1cm4gY2FsZW5kYXJMYWJlbCh2YWx1ZSk7Cn0KZnVuY3Rpb24gY2FsZW5kYXJDYXRlZ29yeShpdGVtKSB7CiAgaWYoIWl0ZW0gfHwgdHlwZW9mIGl0ZW0hPT0nb2JqZWN0JylyZXR1cm4gaXRlbTsKICBjb25zdCB0ZXh0PWl0ZW0udGl0bGU/P2l0ZW0uZGlzcGxheU5hbWU/P2l0ZW0ubmFtZT8/Jyc7CiAgY29uc3QgdHlwZXM9eydMb2NhbCBhY2NvdW50JzpbJ+S4quS6uicsJ1BlcnNvbmFsJ10sJ3Zpdm8gRGVmYXVsdCc6Wyflt6XkvZwnLCdXb3JrJ10sJ0JpcnRoZGF5JzpbJ+eUn+aXpScsJ0JpcnRoZGF5cyddLCdiYmtub3Rlcyc6WyfnrJTorrAnLCdOb3RlcyddLCdWaXZvIEFubml2ZXJzYXJ5JzpbJ+e6quW/teaXpScsJ0Fubml2ZXJzYXJpZXMnXSwnVml2byBEYXlzIE1hdHRlcic6WyflgJLmlbDml6UnLCdDb3VudGRvd25zJ119OwogIGNvbnN0IHR5cGU9T2JqZWN0Lmhhc093bih0eXBlcyxpdGVtLmFjY291bnROYW1lKT90eXBlc1tpdGVtLmFjY291bnROYW1lXTpudWxsOwogIHJldHVybiB0eXBlICYmICh0ZXh0PT09dHlwZVswXSB8fCB0ZXh0PT09dHlwZVsxXSkgPyB0eXBlWzFdIDogdGV4dDsKfQpmdW5jdGlvbiB0b2RvQ2F0ZWdvcnkoaXRlbSkgewogIGlmKCFpdGVtIHx8IHR5cGVvZiBpdGVtIT09J29iamVjdCcpcmV0dXJuIGl0ZW07CiAgY29uc3QgdGV4dD1pdGVtLm5hbWU/PycnOwogIGlmKE51bWJlcihpdGVtLmRlZmF1bHRUeXBlKT09PTYgJiYgdGV4dD09PSflvoXlip7liJfooagnKXJldHVybiAnVG8tZG8gbGlzdCc7CiAgY29uc3QgY29sb3JzPXsn6buE6ImyJzonWWVsbG93Jywn57u/6ImyJzonR3JlZW4nLCfok53oibInOidCbHVlJywn57Sr6ImyJzonUHVycGxlJywn57qi6ImyJzonUmVkJ307CiAgcmV0dXJuIE51bWJlcihpdGVtLmRlZmF1bHRUeXBlKT4wICYmIC9edml2b3RvZG9jYWxlbmRhcmNvbG9yXGQrJC8udGVzdChpdGVtLmd1aWR8fGl0ZW0uY2F0ZWdvcnlHdWlkfHwnJykgJiYgT2JqZWN0Lmhhc093bihjb2xvcnMsdGV4dCkgPyBjb2xvcnNbdGV4dF0gOiB0ZXh0Owp9CmZ1bmN0aW9uIHRpbWVab25lTGFiZWwoaXRlbSkgewogIGlmKCFpdGVtIHx8IHR5cGVvZiBpdGVtIT09J29iamVjdCcpcmV0dXJuIGl0ZW07CiAgY29uc3Qgb3JpZ2luYWw9aXRlbS5sYWJlbD8/JycsaWQ9aXRlbS50aW1lWm9uZUlEOwogIGlmKHR5cGVvZiBpZCE9PSdzdHJpbmcnIHx8ICEvXig/OkFmcmljYXxBbWVyaWNhfEFudGFyY3RpY2F8QXJjdGljfEFzaWF8QXRsYW50aWN8QXVzdHJhbGlhfEV1cm9wZXxJbmRpYW58UGFjaWZpYylcL1tBLVphLXowLTlfK1wvLV0rJC8udGVzdChpZCkpcmV0dXJuIG9yaWdpbmFsOwogIGNvbnN0IGNpdHk9aWQ9PT0nQXNpYS9TaGFuZ2hhaSc/J0JlaWppbmcnOmlkLnNwbGl0KCcvJykuYXQoLTEpLnJlcGxhY2UoL18vZywnICcpOwogIGNvbnN0IG9mZnNldD1TdHJpbmcob3JpZ2luYWwpLm1hdGNoKC9HTVRbKy1dXGR7Mn06XGR7Mn0vKT8uWzBdOwogIHJldHVybiBvZmZzZXQ/Y2l0eSsnICgnK29mZnNldCsnKSc6Y2l0eTsKfQoKbW9kdWw=",
+        [
+          75424,
+          50
+        ],
+        "LHJlbWluZGVyTGFiZWwsY2FsZW5kYXJDYXRlZ29yeSx0b2RvQ2F0ZWdvcnksdGltZVpvbmVMYWJlbH07Cg=="
+      ]
+    },
+    {
+      "path": "dist/electron/cloud-ui-english.cjs",
+      "beforeSha256": "0f4226731e8bbdd6146ce7fbf151ef8f1aa2eda5672a127453bda39999fb685e",
+      "afterSha256": "0f4226731e8bbdd6146ce7fbf151ef8f1aa2eda5672a127453bda39999fb685e",
+      "size": 80988
+    }
+  ]
+}

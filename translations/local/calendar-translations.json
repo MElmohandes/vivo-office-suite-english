@@ -1149,48 +1149,6 @@
     },
     {
       "file": "128.js",
-      "start": 446699,
-      "source": "手机投屏",
-      "target": "Phone mirroring",
-      "reason": "Reviewed display-only label, message, menu item, or date formatting"
-    },
-    {
-      "file": "128.js",
-      "start": 446901,
-      "source": "屏幕扩展",
-      "target": "Screen extension",
-      "reason": "Reviewed display-only label, message, menu item, or date formatting"
-    },
-    {
-      "file": "128.js",
-      "start": 447112,
-      "source": "文件管理",
-      "target": "File manager",
-      "reason": "Reviewed display-only label, message, menu item, or date formatting"
-    },
-    {
-      "file": "128.js",
-      "start": 447508,
-      "source": "键鼠协同",
-      "target": "Keyboard and mouse sharing",
-      "reason": "Reviewed display-only label, message, menu item, or date formatting"
-    },
-    {
-      "file": "128.js",
-      "start": 447733,
-      "source": "图片视频备份",
-      "target": "Photo and video backup",
-      "reason": "Reviewed display-only label, message, menu item, or date formatting"
-    },
-    {
-      "file": "128.js",
-      "start": 447932,
-      "source": "电脑模式",
-      "target": "Desktop mode",
-      "reason": "Reviewed display-only label, message, menu item, or date formatting"
-    },
-    {
-      "file": "128.js",
       "start": 462204,
       "source": "日程暂不支持在移动设备网页查看",
       "target": "Events cannot yet be viewed in a mobile browser",
@@ -4546,6 +4504,38 @@
       "source": "e.reminderText||e.formattedReminderTime",
       "target": "require(require('path').join(__dirname,'ui-display.cjs')).calendarLabel(e.reminderText||e.formattedReminderTime)",
       "reason": "Translate rendered recurrence, weekday and lunar labels only"
+    }
+  ],
+  "internalKeyExclusions": [
+    {
+      "file": "128.js",
+      "start": 446699,
+      "reason": "Internal APPLY_NAME enum key, not display text"
+    },
+    {
+      "file": "128.js",
+      "start": 446901,
+      "reason": "Internal APPLY_NAME enum key, not display text"
+    },
+    {
+      "file": "128.js",
+      "start": 447112,
+      "reason": "Internal APPLY_NAME enum key, not display text"
+    },
+    {
+      "file": "128.js",
+      "start": 447508,
+      "reason": "Internal APPLY_NAME enum key, not display text"
+    },
+    {
+      "file": "128.js",
+      "start": 447733,
+      "reason": "Internal APPLY_NAME enum key, not display text"
+    },
+    {
+      "file": "128.js",
+      "start": 447932,
+      "reason": "Internal APPLY_NAME enum key, not display text"
     }
   ]
 }

@@ -2,9 +2,18 @@
 
 A community patch that translates the **Chinese interface into English** for **vivo Office Suite 7.0.6 on Windows**, including its hosted cloud service screens and a startup responsiveness fix.
 
-**Patch release:** 1.0.0 · **Tested application:** 7.0.6 · **Test phone:** vivo X300 Pro over Wi-Fi
+**Patch release:** 1.0.1 · **Tested application:** 7.0.6 · **Test phone:** vivo X300 Pro over Wi-Fi
 
 This is an independent community project, unaffiliated with vivo. Download and install the original Windows application from **[pc.vivo.com](https://pc.vivo.com/)** before applying this patch. The source repository provides patch recipes, localization helpers, dictionaries and tests. GitHub Releases also provides a ready-made modified `app.asar`; the official installer, external native binaries and personal profiles are not bundled.
+
+## Version 1.0.1 update
+
+- Fixed the silent no-op when clicking Phone Mirroring or File Manager. Six internal action keys are restored; a translation guard now protects internal property names.
+- Translated the selected Calendar/To-dos reminders, built-in category labels, default To-do list name and time-zone display labels.
+- Replaced the run-together year/month/day words in the form date pickers with numeric separators.
+- Preserved category GUIDs, time-zone IDs, offsets, saved values and custom names.
+
+The public suite now has **50 passing tests**. Source checks exercise the actual compiled handler/form expressions with stubbed native boundaries; a new live phone/visual check has not been confirmed. See the [1.0.1 validation record](docs/VALIDATION-1.0.1.md).
 
 ## What changes
 
@@ -52,7 +61,7 @@ The Contacts capture retains the known **Loading…** state; localization does n
 
 First download and install the **Windows software from [pc.vivo.com](https://pc.vivo.com/)**. Check the installed version: this patch is tested only on **7.0.6**. If the website offers a newer version, this release is not validated for it. No Node.js or developer tools are needed for the ready-made download.
 
-1. **[Download app.asar.zip](https://github.com/MElmohandes/vivo-office-suite-english/releases/download/v1.0.0/app.asar.zip)** (about 122 MB). Right-click the downloaded ZIP, choose **Extract All**, and use the `app.asar` inside. Choose this asset, rather than Source code (zip).
+1. **[Download app.asar.zip](https://github.com/MElmohandes/vivo-office-suite-english/releases/download/v1.0.1/app.asar.zip)** (about 122 MB). Right-click the downloaded ZIP, choose **Extract All**, and use the `app.asar` inside. Choose this asset, rather than Source code (zip).
 2. Fully exit vivo Office Suite, including its icon beside the Windows clock.
 3. Open `C:\Program Files (x86)\pcsuite\resources` in File Explorer (or your actual installation folder).
 4. Rename the existing `app.asar` to `app.asar.backup`. If that backup name already exists, keep it and choose a new backup name.
@@ -70,7 +79,7 @@ The ready-made file was tested with the original archive below. The optional sou
 | Archive | Size (bytes) | SHA-256 |
 | --- | ---: | --- |
 | Original 7.0.6 input | 365,088,330 | `35ffb46ab7979ddc5250c66393dd6fb35210739dab4fd125a94462f72a7f96e0` |
-| Tested English output | 394,510,622 | `c68629d20a5ef81eccdb5f46c37422f7d38d9b1a2518c73158ef5ae190a3e9cc` |
+| Tested English output | 394,512,990 | `485091ea92b4c3ce3afa1eb7b5eda4678272f14793f6b204c83de96d7c24fb2b` |
 
 Other vivo versions, macOS, Linux, other phone models and other original 7.0.6 builds have not been validated. An app update can replace the patched archive; do not apply this recipe to a different build.
 
@@ -78,7 +87,7 @@ Other vivo versions, macOS, Linux, other phone models and other original 7.0.6 b
 
 The tested output contains **23,374 verified packed files**, with **5,485 external unpacked entries retained**. The patch reconstructs the exact tested output and checks every packed file and integrity block before writing it.
 
-The localization regression suite contains 15 tests covering startup, local display formatting, cloud URL boundaries, labels and placeholders. Additional prior browser checks exercised five service fixtures, preservation of dictionary-equal user names, existing event listeners and quiet observer behavior. Three real reload checks covered Contacts, Browser and Find Device. See [validation](docs/VALIDATION.md) for the distinction between live checks and fixtures.
+The original localization suite contains 15 startup, local-display and cloud checks. Version 1.0.1 adds 30 dispatch/form regressions; together with five archive checks, the public suite contains 50 tests. Additional prior browser checks exercised five service fixtures, preservation of dictionary-equal user names, existing event listeners and quiet observer behavior. Three real reload checks covered Contacts, Browser and Find Device. See [validation](docs/VALIDATION.md) for the distinction between live checks and fixtures.
 
 - Contacts retained a pre-existing persistent **Loading…** state during the live check. This patch translates it; it does not fix the hosted data-loading problem.
 - Real cloud lists were empty in the test account. Populated content protection was checked with temporary DOM fixtures, not real contact/file mutations.

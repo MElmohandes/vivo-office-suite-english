@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.0.1 — 2026-10-26
+
+- Restore six internal action enum lookups so mirroring/file-manager buttons reach the original vendor dispatch paths.
+- Protect computed property and object keys from literal translation.
+- Translate calendar form selected reminders, built-in event/to-do categories and time-zone labels at the display boundary.
+- Fix the date pickers displaying concatenated year/month/day words.
+- Add 30 regression tests and regenerate the hash-locked patch and upgrade recipes.
+- Preserve custom names, serialized reminder values, category GUIDs and time-zone IDs/offsets.
+
+The actual dispatch method matches the original vendor method. New native feature execution and visual layout checks remain pending; automated fixtures do not establish live phone operation.
+
 ## 1.0.0 — 2026-10-23
 
 Initial public patch release, tested on vivo Office Suite **7.0.6** for Windows.

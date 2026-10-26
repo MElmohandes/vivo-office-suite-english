@@ -41,6 +41,7 @@ function delta(before, after) {
   if (!rebuilt.equals(after)) throw Error('Recipe round-trip failed');
   return ops;
 }
+if (require.main === module) {
 const [source, target, destination] = process.argv.slice(2);
 if (!source || !target || !destination) throw Error('Usage: node tools/generate-recipes.cjs ORIGINAL.asar TESTED.asar OUTPUT.json');
 const original = archive(source), final = archive(target), files = [];
@@ -49,7 +50,10 @@ for (const [name, bytes] of final.files) {
   if (before && before.equals(bytes)) continue;
   files.push({path:name, beforeSha256:before ? hash(before) : null, afterSha256:hash(bytes), size:bytes.length, ops:delta(before || Buffer.alloc(0), bytes)});
 }
-const result = {format:1, appVersion:'7.0.6', patchVersion:'1.0.0', sourceSha256:hash(original.bytes), targetSha256:hash(final.bytes), targetSize:final.bytes.length, files};
+const result = {format:1, appVersion:'7.0.6', patchVersion:require('../package.json').version, sourceSha256:hash(original.bytes), targetSha256:hash(final.bytes), targetSize:final.bytes.length, files};
 fs.mkdirSync(path.dirname(destination), {recursive:true});
 fs.writeFileSync(destination, JSON.stringify(result, null, 2) + '\n');
 console.log(JSON.stringify({changedFiles:files.length, recipeBytes:fs.statSync(destination).size, sourceSha256:result.sourceSha256, targetSha256:result.targetSha256}));
+
+}
+module.exports = {archive, delta, hash};

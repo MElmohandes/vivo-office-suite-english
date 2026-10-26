@@ -1,0 +1,510 @@
+{
+  "fixedSource": "clickAppBtn(e){var t;let i=(e,t)=>{};if(window._log.info(`[DeviceInfoCard.vue][clickAppBtn] appEnum: ${e}, ${D.APPLY_NAME[e]}`),this.btnDisabled)return void window._log.info(\"[DeviceInfoCard.vue][clickAppBtn] btnDisabled: \"+this.btnDisabled);if(this.isAutoConnecting(this.phoneReadytoConnect,this.deviceInfo.pre))return void window._log.info(\"[DeviceInfoCard.vue][clickAppBtn] device is connecting\");let o=\"2\",r=!1,l=\"\",c=\"\";switch(e){case D.APPLY_NAME[\"手机投屏\"]:i=(e,t)=>{t||this.debounceMirrorScreenClick(\"2\")},o=\"2\",l=\"\"+this.$t(\"connection.clickAppBtnTipsTitle1\"),c=\"\"+this.$t(\"connection.clickAppBtnTipsMsg1\",[this.deviceDesc]);break;case D.APPLY_NAME[\"屏幕扩展\"]:i=(e,t)=>{t||this.debounceExtendedScreenClick(\"6\",!1,\"1\")},o=\"6\",l=\"\"+this.$t(\"connection.clickAppBtnTipsTitle2\"),c=\"\"+this.$t(\"connection.clickAppBtnTipsMsg2\",[this.deviceDesc]);break;case D.APPLY_NAME[\"文件管理\"]:i=(e,t)=>{t||this.toFileManager()},n.sendTask({eventId:a.CONNECT_DATA_ANALYTICS_SINGLE_EVENT.DEVICE_APP_PAGE_CLICK,params:{button:\"12\",page_type:this.deviceInfo.deviceType,page:\"2\",connection_type:this.deviceInfo.connectFlag||\"unknown\"}}),o=\"5\",r=!0,l=\"\"+this.$t(\"connection.clickAppBtnTipsTitle3\"),c=\"\"+this.$t(\"connection.clickAppBtnTipsMsg3\",[this.deviceDesc]);break;case D.APPLY_NAME[\"键鼠协同\"]:i=(e=0,t)=>{t||setTimeout(()=>{this.clickStartRelay(void 0,\"2\")},1e3*e)},o=\"3\",l=\"\"+this.$t(\"connection.clickAppBtnTipsTitle4\"),c=\"\"+this.$t(\"connection.clickAppBtnTipsMsg4\",[this.deviceDesc]);break;case D.APPLY_NAME[\"图片视频备份\"]:i=(e,t)=>{t||this.albumCardClickHandle(\"2\")},o=\"4\",l=\"\"+this.$t(\"connection.clickAppBtnTipsTitle5\"),c=\"\"+this.$t(\"connection.clickAppBtnTipsMsg5\",[this.deviceDesc]);break;case D.APPLY_NAME[\"电脑模式\"]:i=(e,t)=>{t||this.debouncePCModeClick(\"2\")},o=\"4\",l=\"\"+this.$t(\"connection.kai-qi-dian-nao-mo-shi\"),c=\"\"+this.$t(\"connection.clickAppBtnTipsMsg6\",[this.deviceDesc]);break;default:return void window._log.info(\"[DeviceInfoCard.vue][clickAppBtn] not found app, appEnum: \"+e)}if(this.device.connectState===s.CONNECT_STATE.SUCCESS)i();else{n.sendTask({eventId:a.CONNECT_DATA_ANALYTICS_SINGLE_EVENT.DEVICE_CARD_APP_BTN_CLICK,params:{button_name:o}});const s=(null===(t=D.APPLY_NAME_DESC[e])||void 0===t?void 0:t.call(D.APPLY_NAME_DESC))||\"\";if(!s)return void window._log.info(\"[ConnectionModule][DeviceInfoCard.vue][clickAppBtn] tipName: \"+s);if(I.getStorageItem(localStorage,\"clickHomeAppBtn\"))return void this.startConnect(r,i);n.sendTask({eventId:a.CONNECT_DATA_ANALYTICS_SINGLE_EVENT.DEVICE_OFF_APP_DIALOG_SHOW,params:{type:(Number(o)-1).toString()}}),c=`<div style=\"word-break: break-word;\">${c}</div>`,A.default.renderSimple(l,c,{btns:[{text:\"\"+this.$t(\"common.cancelBtn\"),click:()=>{n.sendTask({eventId:a.CONNECT_DATA_ANALYTICS_SINGLE_EVENT.DEVICE_OFF_APP_DIALOG_CLICK,params:{type:(Number(o)-1).toString(),button_name:\"2\"}})}},{text:\"\"+this.$t(\"connection.lian-jie\"),type:\"primary\",bindEnter:!0,click:()=>{n.sendTask({eventId:a.CONNECT_DATA_ANALYTICS_SINGLE_EVENT.DEVICE_OFF_APP_DIALOG_CLICK,params:{type:(Number(o)-1).toString(),button_name:\"1\"}}),I.setStorageItem(localStorage,\"clickHomeAppBtn\",!0),this.startConnect(r,i)}}],descAlign:\"justify\"})}}",
+  "brokenSource": "clickAppBtn(e){var t;let i=(e,t)=>{};if(window._log.info(`[DeviceInfoCard.vue][clickAppBtn] appEnum: ${e}, ${D.APPLY_NAME[e]}`),this.btnDisabled)return void window._log.info(\"[DeviceInfoCard.vue][clickAppBtn] btnDisabled: \"+this.btnDisabled);if(this.isAutoConnecting(this.phoneReadytoConnect,this.deviceInfo.pre))return void window._log.info(\"[DeviceInfoCard.vue][clickAppBtn] device is connecting\");let o=\"2\",r=!1,l=\"\",c=\"\";switch(e){case D.APPLY_NAME[\"Phone mirroring\"]:i=(e,t)=>{t||this.debounceMirrorScreenClick(\"2\")},o=\"2\",l=\"\"+this.$t(\"connection.clickAppBtnTipsTitle1\"),c=\"\"+this.$t(\"connection.clickAppBtnTipsMsg1\",[this.deviceDesc]);break;case D.APPLY_NAME[\"Screen extension\"]:i=(e,t)=>{t||this.debounceExtendedScreenClick(\"6\",!1,\"1\")},o=\"6\",l=\"\"+this.$t(\"connection.clickAppBtnTipsTitle2\"),c=\"\"+this.$t(\"connection.clickAppBtnTipsMsg2\",[this.deviceDesc]);break;case D.APPLY_NAME[\"File manager\"]:i=(e,t)=>{t||this.toFileManager()},n.sendTask({eventId:a.CONNECT_DATA_ANALYTICS_SINGLE_EVENT.DEVICE_APP_PAGE_CLICK,params:{button:\"12\",page_type:this.deviceInfo.deviceType,page:\"2\",connection_type:this.deviceInfo.connectFlag||\"unknown\"}}),o=\"5\",r=!0,l=\"\"+this.$t(\"connection.clickAppBtnTipsTitle3\"),c=\"\"+this.$t(\"connection.clickAppBtnTipsMsg3\",[this.deviceDesc]);break;case D.APPLY_NAME[\"Keyboard and mouse sharing\"]:i=(e=0,t)=>{t||setTimeout(()=>{this.clickStartRelay(void 0,\"2\")},1e3*e)},o=\"3\",l=\"\"+this.$t(\"connection.clickAppBtnTipsTitle4\"),c=\"\"+this.$t(\"connection.clickAppBtnTipsMsg4\",[this.deviceDesc]);break;case D.APPLY_NAME[\"Photo and video backup\"]:i=(e,t)=>{t||this.albumCardClickHandle(\"2\")},o=\"4\",l=\"\"+this.$t(\"connection.clickAppBtnTipsTitle5\"),c=\"\"+this.$t(\"connection.clickAppBtnTipsMsg5\",[this.deviceDesc]);break;case D.APPLY_NAME[\"Desktop mode\"]:i=(e,t)=>{t||this.debouncePCModeClick(\"2\")},o=\"4\",l=\"\"+this.$t(\"connection.kai-qi-dian-nao-mo-shi\"),c=\"\"+this.$t(\"connection.clickAppBtnTipsMsg6\",[this.deviceDesc]);break;default:return void window._log.info(\"[DeviceInfoCard.vue][clickAppBtn] not found app, appEnum: \"+e)}if(this.device.connectState===s.CONNECT_STATE.SUCCESS)i();else{n.sendTask({eventId:a.CONNECT_DATA_ANALYTICS_SINGLE_EVENT.DEVICE_CARD_APP_BTN_CLICK,params:{button_name:o}});const s=(null===(t=D.APPLY_NAME_DESC[e])||void 0===t?void 0:t.call(D.APPLY_NAME_DESC))||\"\";if(!s)return void window._log.info(\"[ConnectionModule][DeviceInfoCard.vue][clickAppBtn] tipName: \"+s);if(I.getStorageItem(localStorage,\"clickHomeAppBtn\"))return void this.startConnect(r,i);n.sendTask({eventId:a.CONNECT_DATA_ANALYTICS_SINGLE_EVENT.DEVICE_OFF_APP_DIALOG_SHOW,params:{type:(Number(o)-1).toString()}}),c=`<div style=\"word-break: break-word;\">${c}</div>`,A.default.renderSimple(l,c,{btns:[{text:\"\"+this.$t(\"common.cancelBtn\"),click:()=>{n.sendTask({eventId:a.CONNECT_DATA_ANALYTICS_SINGLE_EVENT.DEVICE_OFF_APP_DIALOG_CLICK,params:{type:(Number(o)-1).toString(),button_name:\"2\"}})}},{text:\"\"+this.$t(\"connection.lian-jie\"),type:\"primary\",bindEnter:!0,click:()=>{n.sendTask({eventId:a.CONNECT_DATA_ANALYTICS_SINGLE_EVENT.DEVICE_OFF_APP_DIALOG_CLICK,params:{type:(Number(o)-1).toString(),button_name:\"1\"}}),I.setStorageItem(localStorage,\"clickHomeAppBtn\",!0),this.startConnect(r,i)}}],descAlign:\"justify\"})}}",
+  "stockSource": "clickAppBtn(e){var t;let i=(e,t)=>{};if(window._log.info(`[DeviceInfoCard.vue][clickAppBtn] appEnum: ${e}, ${D.APPLY_NAME[e]}`),this.btnDisabled)return void window._log.info(\"[DeviceInfoCard.vue][clickAppBtn] btnDisabled: \"+this.btnDisabled);if(this.isAutoConnecting(this.phoneReadytoConnect,this.deviceInfo.pre))return void window._log.info(\"[DeviceInfoCard.vue][clickAppBtn] device is connecting\");let o=\"2\",r=!1,l=\"\",c=\"\";switch(e){case D.APPLY_NAME[\"手机投屏\"]:i=(e,t)=>{t||this.debounceMirrorScreenClick(\"2\")},o=\"2\",l=\"\"+this.$t(\"connection.clickAppBtnTipsTitle1\"),c=\"\"+this.$t(\"connection.clickAppBtnTipsMsg1\",[this.deviceDesc]);break;case D.APPLY_NAME[\"屏幕扩展\"]:i=(e,t)=>{t||this.debounceExtendedScreenClick(\"6\",!1,\"1\")},o=\"6\",l=\"\"+this.$t(\"connection.clickAppBtnTipsTitle2\"),c=\"\"+this.$t(\"connection.clickAppBtnTipsMsg2\",[this.deviceDesc]);break;case D.APPLY_NAME[\"文件管理\"]:i=(e,t)=>{t||this.toFileManager()},n.sendTask({eventId:a.CONNECT_DATA_ANALYTICS_SINGLE_EVENT.DEVICE_APP_PAGE_CLICK,params:{button:\"12\",page_type:this.deviceInfo.deviceType,page:\"2\",connection_type:this.deviceInfo.connectFlag||\"unknown\"}}),o=\"5\",r=!0,l=\"\"+this.$t(\"connection.clickAppBtnTipsTitle3\"),c=\"\"+this.$t(\"connection.clickAppBtnTipsMsg3\",[this.deviceDesc]);break;case D.APPLY_NAME[\"键鼠协同\"]:i=(e=0,t)=>{t||setTimeout(()=>{this.clickStartRelay(void 0,\"2\")},1e3*e)},o=\"3\",l=\"\"+this.$t(\"connection.clickAppBtnTipsTitle4\"),c=\"\"+this.$t(\"connection.clickAppBtnTipsMsg4\",[this.deviceDesc]);break;case D.APPLY_NAME[\"图片视频备份\"]:i=(e,t)=>{t||this.albumCardClickHandle(\"2\")},o=\"4\",l=\"\"+this.$t(\"connection.clickAppBtnTipsTitle5\"),c=\"\"+this.$t(\"connection.clickAppBtnTipsMsg5\",[this.deviceDesc]);break;case D.APPLY_NAME[\"电脑模式\"]:i=(e,t)=>{t||this.debouncePCModeClick(\"2\")},o=\"4\",l=\"\"+this.$t(\"connection.kai-qi-dian-nao-mo-shi\"),c=\"\"+this.$t(\"connection.clickAppBtnTipsMsg6\",[this.deviceDesc]);break;default:return void window._log.info(\"[DeviceInfoCard.vue][clickAppBtn] not found app, appEnum: \"+e)}if(this.device.connectState===s.CONNECT_STATE.SUCCESS)i();else{n.sendTask({eventId:a.CONNECT_DATA_ANALYTICS_SINGLE_EVENT.DEVICE_CARD_APP_BTN_CLICK,params:{button_name:o}});const s=(null===(t=D.APPLY_NAME_DESC[e])||void 0===t?void 0:t.call(D.APPLY_NAME_DESC))||\"\";if(!s)return void window._log.info(\"[ConnectionModule][DeviceInfoCard.vue][clickAppBtn] tipName: \"+s);if(I.getStorageItem(localStorage,\"clickHomeAppBtn\"))return void this.startConnect(r,i);n.sendTask({eventId:a.CONNECT_DATA_ANALYTICS_SINGLE_EVENT.DEVICE_OFF_APP_DIALOG_SHOW,params:{type:(Number(o)-1).toString()}}),c=`<div style=\"word-break: break-word;\">${c}</div>`,A.default.renderSimple(l,c,{btns:[{text:\"\"+this.$t(\"common.cancelBtn\"),click:()=>{n.sendTask({eventId:a.CONNECT_DATA_ANALYTICS_SINGLE_EVENT.DEVICE_OFF_APP_DIALOG_CLICK,params:{type:(Number(o)-1).toString(),button_name:\"2\"}})}},{text:\"\"+this.$t(\"connection.lian-jie\"),type:\"primary\",bindEnter:!0,click:()=>{n.sendTask({eventId:a.CONNECT_DATA_ANALYTICS_SINGLE_EVENT.DEVICE_OFF_APP_DIALOG_CLICK,params:{type:(Number(o)-1).toString(),button_name:\"1\"}}),I.setStorageItem(localStorage,\"clickHomeAppBtn\",!0),this.startConnect(r,i)}}],descAlign:\"justify\"})}}",
+  "actionEnum": {
+    "1": "手机投屏",
+    "2": "键鼠协同",
+    "3": "图片视频备份",
+    "4": "UNKNOWN",
+    "5": "文件管理",
+    "6": "屏幕扩展",
+    "7": "电脑模式",
+    "手机投屏": 1,
+    "键鼠协同": 2,
+    "图片视频备份": 3,
+    "UNKNOWN": 4,
+    "文件管理": 5,
+    "屏幕扩展": 6,
+    "电脑模式": 7
+  },
+  "guardAst": {
+    "type": "File",
+    "start": 0,
+    "end": 72,
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0,
+        "index": 0
+      },
+      "end": {
+        "line": 1,
+        "column": 72,
+        "index": 72
+      }
+    },
+    "errors": [],
+    "program": {
+      "type": "Program",
+      "start": 0,
+      "end": 72,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0,
+          "index": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 72,
+          "index": 72
+        }
+      },
+      "sourceType": "script",
+      "interpreter": null,
+      "body": [
+        {
+          "type": "VariableDeclaration",
+          "start": 0,
+          "end": 23,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0,
+              "index": 0
+            },
+            "end": {
+              "line": 1,
+              "column": 23,
+              "index": 23
+            }
+          },
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 6,
+              "end": 22,
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 6,
+                  "index": 6
+                },
+                "end": {
+                  "line": 1,
+                  "column": 22,
+                  "index": 22
+                }
+              },
+              "id": {
+                "type": "Identifier",
+                "start": 6,
+                "end": 7,
+                "loc": {
+                  "start": {
+                    "line": 1,
+                    "column": 6,
+                    "index": 6
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 7,
+                    "index": 7
+                  },
+                  "identifierName": "x"
+                },
+                "name": "x"
+              },
+              "init": {
+                "type": "ObjectExpression",
+                "start": 8,
+                "end": 22,
+                "loc": {
+                  "start": {
+                    "line": 1,
+                    "column": 8,
+                    "index": 8
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 22,
+                    "index": 22
+                  }
+                },
+                "properties": [
+                  {
+                    "type": "ObjectProperty",
+                    "start": 9,
+                    "end": 21,
+                    "loc": {
+                      "start": {
+                        "line": 1,
+                        "column": 9,
+                        "index": 9
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 21,
+                        "index": 21
+                      }
+                    },
+                    "method": false,
+                    "key": {
+                      "type": "StringLiteral",
+                      "start": 9,
+                      "end": 14,
+                      "loc": {
+                        "start": {
+                          "line": 1,
+                          "column": 9,
+                          "index": 9
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 14,
+                          "index": 14
+                        }
+                      },
+                      "extra": {
+                        "rawValue": "内部键",
+                        "raw": "\"内部键\""
+                      },
+                      "value": "内部键"
+                    },
+                    "computed": false,
+                    "shorthand": false,
+                    "value": {
+                      "type": "StringLiteral",
+                      "start": 15,
+                      "end": 21,
+                      "loc": {
+                        "start": {
+                          "line": 1,
+                          "column": 15,
+                          "index": 15
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 21,
+                          "index": 21
+                        }
+                      },
+                      "extra": {
+                        "rawValue": "显示文字",
+                        "raw": "\"显示文字\""
+                      },
+                      "value": "显示文字"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "kind": "const"
+        },
+        {
+          "type": "VariableDeclaration",
+          "start": 23,
+          "end": 40,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 23,
+              "index": 23
+            },
+            "end": {
+              "line": 1,
+              "column": 40,
+              "index": 40
+            }
+          },
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 29,
+              "end": 39,
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 29,
+                  "index": 29
+                },
+                "end": {
+                  "line": 1,
+                  "column": 39,
+                  "index": 39
+                }
+              },
+              "id": {
+                "type": "Identifier",
+                "start": 29,
+                "end": 30,
+                "loc": {
+                  "start": {
+                    "line": 1,
+                    "column": 29,
+                    "index": 29
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 30,
+                    "index": 30
+                  },
+                  "identifierName": "y"
+                },
+                "name": "y"
+              },
+              "init": {
+                "type": "MemberExpression",
+                "start": 31,
+                "end": 39,
+                "loc": {
+                  "start": {
+                    "line": 1,
+                    "column": 31,
+                    "index": 31
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 39,
+                    "index": 39
+                  }
+                },
+                "object": {
+                  "type": "Identifier",
+                  "start": 31,
+                  "end": 32,
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 31,
+                      "index": 31
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 32,
+                      "index": 32
+                    },
+                    "identifierName": "x"
+                  },
+                  "name": "x"
+                },
+                "computed": true,
+                "property": {
+                  "type": "StringLiteral",
+                  "start": 33,
+                  "end": 38,
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 33,
+                      "index": 33
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 38,
+                      "index": 38
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "内部键",
+                    "raw": "\"内部键\""
+                  },
+                  "value": "内部键"
+                }
+              }
+            }
+          ],
+          "kind": "const"
+        },
+        {
+          "type": "VariableDeclaration",
+          "start": 40,
+          "end": 59,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 40,
+              "index": 40
+            },
+            "end": {
+              "line": 1,
+              "column": 59,
+              "index": 59
+            }
+          },
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 46,
+              "end": 58,
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 46,
+                  "index": 46
+                },
+                "end": {
+                  "line": 1,
+                  "column": 58,
+                  "index": 58
+                }
+              },
+              "id": {
+                "type": "Identifier",
+                "start": 46,
+                "end": 47,
+                "loc": {
+                  "start": {
+                    "line": 1,
+                    "column": 46,
+                    "index": 46
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 47,
+                    "index": 47
+                  },
+                  "identifierName": "z"
+                },
+                "name": "z"
+              },
+              "init": {
+                "type": "OptionalMemberExpression",
+                "start": 48,
+                "end": 58,
+                "loc": {
+                  "start": {
+                    "line": 1,
+                    "column": 48,
+                    "index": 48
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 58,
+                    "index": 58
+                  }
+                },
+                "object": {
+                  "type": "Identifier",
+                  "start": 48,
+                  "end": 49,
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 48,
+                      "index": 48
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 49,
+                      "index": 49
+                    },
+                    "identifierName": "x"
+                  },
+                  "name": "x"
+                },
+                "computed": true,
+                "property": {
+                  "type": "StringLiteral",
+                  "start": 52,
+                  "end": 57,
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 52,
+                      "index": 52
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 57,
+                      "index": 57
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "内部键",
+                    "raw": "\"内部键\""
+                  },
+                  "value": "内部键"
+                },
+                "optional": true
+              }
+            }
+          ],
+          "kind": "const"
+        },
+        {
+          "type": "ExpressionStatement",
+          "start": 59,
+          "end": 72,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 59,
+              "index": 59
+            },
+            "end": {
+              "line": 1,
+              "column": 72,
+              "index": 72
+            }
+          },
+          "expression": {
+            "type": "CallExpression",
+            "start": 59,
+            "end": 71,
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 59,
+                "index": 59
+              },
+              "end": {
+                "line": 1,
+                "column": 71,
+                "index": 71
+              }
+            },
+            "callee": {
+              "type": "Identifier",
+              "start": 59,
+              "end": 63,
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 59,
+                  "index": 59
+                },
+                "end": {
+                  "line": 1,
+                  "column": 63,
+                  "index": 63
+                },
+                "identifierName": "show"
+              },
+              "name": "show"
+            },
+            "arguments": [
+              {
+                "type": "StringLiteral",
+                "start": 64,
+                "end": 70,
+                "loc": {
+                  "start": {
+                    "line": 1,
+                    "column": 64,
+                    "index": 64
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 70,
+                    "index": 70
+                  }
+                },
+                "extra": {
+                  "rawValue": "显示文字",
+                  "raw": "\"显示文字\""
+                },
+                "value": "显示文字"
+              }
+            ]
+          }
+        }
+      ],
+      "directives": []
+    },
+    "comments": []
+  },
+  "guardSource": "const x={\"内部键\":\"显示文字\"};const y=x[\"内部键\"];const z=x?.[\"内部键\"];show(\"显示文字\");"
+}

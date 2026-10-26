@@ -1,0 +1,13 @@
+{
+  "reminderInput": "require(require('path').join(__dirname,'ui-display.cjs')).reminderLabel(e.value.hasAlarm&&e.name||\"No reminder\")",
+  "categoryOptionsGetter": "get categoryOptions(){return this.todoCategories.filter(e=>0!==e.visible).filter(e=>!e.defaultType||6===e.defaultType||p.hasTodoForCategory(e.guid,f.getBgColorByCategoryGuid(e.guid))).map(e=>({label:require(require('path').join(__dirname,'ui-display.cjs')).todoCategory(e),value:e.guid,colorValue:e.colorValue}))}",
+  "timeZoneBindings": {
+    "128.js": "require(require('path').join(__dirname,'ui-display.cjs')).timeZoneLabel({timeZoneID:t.timeZoneID,label:t.cityTimeZone?`${t.cityTimeZone}/(${t.summerTime})`:t.summerTime})",
+    "130.js": "require(require('path').join(__dirname,'ui-display.cjs')).timeZoneLabel({timeZoneID:e.timeZoneID,label:e.cityTimeZone?`${e.cityTimeZone}/(${e.summerTime})`:e.summerTime})",
+    "app-modules.js": "require(require('path').join(__dirname,'ui-display.cjs')).timeZoneLabel({timeZoneID:t.timeZoneID,label:t.cityTimeZone?`${t.cityTimeZone}/(${t.summerTime})`:t.summerTime})"
+  },
+  "calendarCategoryBindings": {
+    "128.js": "require(require('path').join(__dirname,'ui-display.cjs')).calendarCategory(t)",
+    "130.js": "require(require('path').join(__dirname,'ui-display.cjs')).calendarCategory(e)"
+  }
+}

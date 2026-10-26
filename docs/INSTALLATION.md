@@ -8,7 +8,7 @@ Open vivo Office Suite and check its About/version screen. This release was test
 
 ## 2. Download
 
-**[Download app.asar.zip](https://github.com/MElmohandes/vivo-office-suite-english/releases/download/v1.0.0/app.asar.zip)** from [release v1.0.0](https://github.com/MElmohandes/vivo-office-suite-english/releases/tag/v1.0.0).
+**[Download app.asar.zip](https://github.com/MElmohandes/vivo-office-suite-english/releases/download/v1.0.1/app.asar.zip)** from [release v1.0.0](https://github.com/MElmohandes/vivo-office-suite-english/releases/tag/v1.0.1).
 
 Under **Assets**, choose **app.asar.zip** (about 122 MB). Right-click the downloaded ZIP, choose **Extract All**, then open the extracted folder to find `app.asar`. The automatically generated **Source code (zip)** and **Source code (tar.gz)** files are developer downloads, not the ready-made app file.
 
@@ -66,13 +66,13 @@ This restores the file you backed up. No account/profile deletion is needed. Kee
 
 ## Optional download verification
 
-The extracted **app.asar** is **394,510,622 bytes**. Its SHA-256 (not the ZIP hash) is:
+The extracted **app.asar** is **394,512,990 bytes**. Its SHA-256 (not the ZIP hash) is:
 
 ```text
-c68629d20a5ef81eccdb5f46c37422f7d38d9b1a2518c73158ef5ae190a3e9cc
+485091ea92b4c3ce3afa1eb7b5eda4678272f14793f6b204c83de96d7c24fb2b
 ```
 
-The release's `SHA256SUMS.txt` contains the same value for the extracted file. The ZIP is 121,485,070 bytes with SHA-256 `65ec3a6136d4a1a3b59bbca62f90142c5de19a49a5c06b6ee806d6242ded48e4`. You can compare it with a checksum utility. Advanced users can optionally run this PowerShell command, substituting the actual download path:
+The release's `SHA256SUMS.txt` contains the same value for the extracted file. The checksum file also lists the ZIP hash. Compare the extracted archive against the app.asar line, and the ZIP against the app.asar.zip line. You can compare it with a checksum utility. Advanced users can optionally run this PowerShell command, substituting the actual download path:
 
 ```powershell
 Get-FileHash -LiteralPath "$env:USERPROFILE\Downloads\app.asar" -Algorithm SHA256

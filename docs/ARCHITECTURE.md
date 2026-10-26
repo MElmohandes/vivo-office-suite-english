@@ -41,3 +41,7 @@ The cloud localization pass retained the previous startup/main-process helper be
 The repository contains no complete vendor application, native dependencies, signed-in profiles, cookies, access tokens, precise-location captures or raw runtime dumps. Those are not needed to reproduce the archive from a user's own matching original installation. Public CI uses synthetic archive fixtures; full compatibility verification is local and requires the proprietary original.
 
 GitHub Releases separately provides the tested modified app.asar and its checksum for manual installation. The asset contains vendor code/assets and requires the matching official installation and external unpacked resources. Personal profiles are not included.
+
+## Version 1.0.1 safeguards
+
+Internal computed property/object keys are protected in the source translation pass. The guard is published as tools/protected-localization-nodes.cjs. Reviewed runtime dispatch/form excerpts in test/fixtures retain the regression cases without bundling complete vendor modules. The current release recipes target 1.0.1; the v1.0.0 Git tag preserves the previous recipes. An optional tools/upgrade-1.0.0-to-1.0.1.cjs utility uses the exact public English 1.0.0 archive and a small hash-locked upgrade recipe to reproduce the fixed output without an original stock archive.

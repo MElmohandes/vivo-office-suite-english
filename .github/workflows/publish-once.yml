@@ -1,0 +1,78 @@
+name: Publish 1.0.1 once
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  publish:
+    if: github.repository == 'MElmohandes/vivo-office-suite-english' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+      - name: Refuse an existing release
+        shell: bash
+        run: |
+          if gh release view v1.0.1 >/dev/null 2>&1; then
+            echo 'v1.0.1 already exists; refusing to overwrite it.' >&2
+            exit 1
+          fi
+      - name: Run the regression suite
+        run: npm test
+      - name: Download the existing public 1.0.0 archive
+        run: gh release download v1.0.0 --pattern app.asar.zip --dir work
+      - name: Extract the known old archive
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import pathlib, shutil, zipfile
+          with zipfile.ZipFile('work/app.asar.zip') as archive:
+              assert archive.namelist() == ['app.asar'], 'Unexpected old ZIP members'
+              assert archive.getinfo('app.asar').file_size == 394510622, 'Unexpected old archive size'
+              with archive.open('app.asar') as source, open('work/old-app.asar', 'xb') as out:
+                  shutil.copyfileobj(source, out)
+          pathlib.Path('work/app.asar.zip').unlink()
+          PY
+      - name: Reconstruct and verify the exact fixed archive
+        run: |
+          node tools/upgrade-1.0.0-to-1.0.1.cjs work/old-app.asar work/app.asar
+          node tools/verify-archive.cjs work/app.asar
+      - name: Package the ready-made download and checksums
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import hashlib, pathlib, shutil, zipfile
+          root = pathlib.Path('work')
+          with zipfile.ZipFile(root/'app.asar.zip', 'x', compression=zipfile.ZIP_DEFLATED, compresslevel=6) as archive:
+              info = zipfile.ZipInfo('app.asar', (2026, 10, 26, 0, 0, 0))
+              info.compress_type = zipfile.ZIP_DEFLATED
+              info.external_attr = 0o644 << 16
+              with archive.open(info, 'w', force_zip64=True) as out, (root/'app.asar').open('rb') as source:
+                  shutil.copyfileobj(source, out)
+          lines = []
+          for name in ['app.asar', 'app.asar.zip']:
+              with (root/name).open('rb') as source:
+                  digest = hashlib.file_digest(source, 'sha256').hexdigest()
+              if name == 'app.asar':
+                  assert digest == '485091ea92b4c3ce3afa1eb7b5eda4678272f14793f6b204c83de96d7c24fb2b'
+              lines.append(digest + '  ' + name)
+          (root/'SHA256SUMS.txt').write_text('\n'.join(lines) + '\n', encoding='ascii')
+          print('\n'.join(lines))
+          PY
+      - name: Publish v1.0.1
+        run: >-
+          gh release create v1.0.1
+          --target "$GITHUB_SHA"
+          --title 'v1.0.1 — Chinese vivo Office Suite — English localization'
+          --notes-file docs/releases/v1.0.1.md
+          work/app.asar.zip work/SHA256SUMS.txt

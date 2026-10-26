@@ -1,9 +1,11 @@
 {
   "name": "vivo-office-suite-english",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Community English localization patch tested on vivo Office Suite 7.0.6 for Windows",
-  "engines": {"node": ">=20"},
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "test": "node --test",
     "build": "node src/patch.cjs",
